@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "f501c46c-f929-49da-a839-67e146cc96ac",
+    "name": "Quang",
+    "created": "2019-08-16 21:47:28 -0400",
+    "source": "Azift",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "984b39e3-c45a-483f-a7f6-2d6516187f47",
+    "name": "Trevor",
+    "created": "2019-08-16 21:51:28 -0400",
+    "source": "Azift",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "f78a4d8d-d51b-4b39-98a3-230f2de0c670",
+    "name": "CONSOLE",
+    "created": "2019-08-16 23:10:00 -0400",
+    "source": "Azift",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
