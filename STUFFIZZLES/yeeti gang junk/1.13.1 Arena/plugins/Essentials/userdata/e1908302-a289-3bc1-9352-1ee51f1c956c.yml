@@ -1,0 +1,25 @@
+geolocation: N/A
+lastAccountName: SirElbow123
+timestamps:
+  login: 1539102929779
+  kits:
+    sniper: 1539102976773
+    soldier: 1539103766746
+    heavyduty: 1539103714735
+  lastteleport: 1539103733188
+  logout: 1539103781154
+ipAddress: 10.146.65.200
+lastlocation:
+  world: world
+  x: 20.767621719968574
+  y: 75.0
+  z: -22.922675920321804
+  yaw: 237.22742
+  pitch: 13.202225
+logoutlocation:
+  world: world
+  x: 113.07118674710752
+  y: 63.0
+  z: 48.82829941974942
+  yaw: 184.51794
+  pitch: -46.17634

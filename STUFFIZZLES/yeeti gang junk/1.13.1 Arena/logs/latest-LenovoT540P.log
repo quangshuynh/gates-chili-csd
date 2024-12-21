@@ -1,0 +1,360 @@
+[16:35:58] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:35:58] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:35:58] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:35:58] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:35:58] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:35:59] [main/INFO]: Loaded 0 recipes
+[16:35:59] [Server thread/INFO]: Starting minecraft server version 1.13.1
+[16:35:59] [Server thread/INFO]: Loading properties
+[16:35:59] [Server thread/INFO]: Default game type: ADVENTURE
+[16:35:59] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-2440e18-4228a56 (MC: 1.13.1) (Implementing API version 1.13.1-R0.1-SNAPSHOT)
+[16:36:00] [Server thread/INFO]: Debug logging is disabled
+[16:36:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:36:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:36:00] [Server thread/INFO]: Generating keypair
+[16:36:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:36:00] [Server thread/INFO]: Using default channel type
+[16:36:00] [Server thread/ERROR]: Could not load 'plugins\worldedit-core-7.0.0-SNAPSHOT-dist.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:154) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.loadPlugins(CraftServer.java:316) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.init(DedicatedServer.java:213) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:698) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[16:36:00] [Server thread/ERROR]: Could not load 'plugins\worldedit-forge-mc1.12.1-7.0.0-SNAPSHOT-dev.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:154) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.loadPlugins(CraftServer.java:316) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.init(DedicatedServer.java:213) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:698) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[16:36:00] [Server thread/ERROR]: Ambiguous plugin name `WorldGuard' for files `plugins\worldguard-legacy-7.0.0-SNAPSHOT-dist.jar' and `plugins\worldguard-bukkit-6.2.2.jar' in `plugins'
+[16:36:03] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[16:36:03] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.0-SNAPSHOT;3874-6b33f08
+[16:36:03] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.12.1
+[16:36:03] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.9.7
+[16:36:03] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.98.9
+[16:36:03] [Server thread/INFO]: [Vault] Loading Vault v1.6.7-b${env.TRAVIS_BUILD_NUMBER}
+[16:36:03] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.0-SNAPSHOT;1749-a6261b9
+[16:36:03] [Server thread/INFO]: [Essentials] Loading Essentials v2.15.0.45
+[16:36:03] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[16:36:03] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP vTeamCity
+[16:36:03] [Server thread/INFO]: [EnchantmentsEnhance] Loading EnchantmentsEnhance v6.5.0
+[16:36:03] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild vTeamCity
+[16:36:03] [Server thread/INFO]: [EpicRename] Loading EpicRename v3.4
+[16:36:03] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vTeamCity
+[16:36:03] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP vTeamCity
+[16:36:03] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vTeamCity
+[16:36:03] [Server thread/INFO]: [Vault] Enabling Vault v1.6.7-b${env.TRAVIS_BUILD_NUMBER}
+[16:36:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:36:03] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:36:03] [Server thread/INFO]: [Vault] Enabled Version 1.6.7-b${env.TRAVIS_BUILD_NUMBER}
+[16:36:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:36:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:36:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:36:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:36:03] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:36:03] [Server thread/INFO]: Preparing level "world"
+[16:36:04] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[16:36:05] [Server thread/INFO]: Loaded 524 recipes
+[16:36:06] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:36:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:36:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:36:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:36:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:36:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:36:06] [Server thread/INFO]: View Distance: 10
+[16:36:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:36:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:36:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[16:36:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:36:06] [Server thread/INFO]: Mob Spawn Range: 6
+[16:36:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:36:06] [Server thread/INFO]: Max TNT Explosions: 100
+[16:36:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:36:06] [Server thread/INFO]: Random Lighting Updates: false
+[16:36:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:36:06] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:36:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:36:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:36:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:36:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:36:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:36:06] [Server thread/INFO]: View Distance: 10
+[16:36:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:36:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:36:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[16:36:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:36:06] [Server thread/INFO]: Mob Spawn Range: 6
+[16:36:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:36:06] [Server thread/INFO]: Max TNT Explosions: 100
+[16:36:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:36:06] [Server thread/INFO]: Random Lighting Updates: false
+[16:36:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:36:06] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:36:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:36:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:36:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:36:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:36:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:36:06] [Server thread/INFO]: View Distance: 10
+[16:36:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:36:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:36:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[16:36:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:36:06] [Server thread/INFO]: Mob Spawn Range: 6
+[16:36:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:36:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:36:06] [Server thread/INFO]: Max TNT Explosions: 100
+[16:36:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:36:06] [Server thread/INFO]: Random Lighting Updates: false
+[16:36:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:36:07] [Server thread/INFO]: Preparing start region for level minecraft:the_end (Seed: -8352270219320563686)
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 4%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 8%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 12%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 16%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 20%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 24%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 28%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 32%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 36%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 40%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 44%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 48%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 52%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 56%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 60%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 64%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 68%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 72%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 76%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 80%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 84%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 88%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 92%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 96%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 100%
+[16:36:07] [Server thread/INFO]: Preparing start region for level minecraft:overworld (Seed: -6082769972913563204)
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 4%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 8%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 12%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 16%
+[16:36:07] [Server thread/INFO]: Preparing spawn area: 20%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 24%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 28%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 32%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 36%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 40%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 44%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 48%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 52%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 56%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 60%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 64%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 68%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 72%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 76%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 80%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 84%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 88%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 92%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 96%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 100%
+[16:36:08] [Server thread/INFO]: Preparing start region for level minecraft:the_nether (Seed: -8352270219320563686)
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 4%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 8%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 12%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 16%
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 20%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 24%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 28%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 32%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 36%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 40%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 44%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 48%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 52%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 56%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 60%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 64%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 68%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 72%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 76%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 80%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 84%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 88%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 92%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 96%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 100%
+[16:36:09] [Server thread/INFO]: Time elapsed: 2693 ms
+[16:36:09] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.0-SNAPSHOT;3874-6b33f08
+[16:36:09] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_13_R2 as the Bukkit adapter
+[16:36:10] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:36:10] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.12.1
+[16:36:10] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.9.7
+[16:36:10] [Server thread/INFO]: [ClearLag] Loading modules...
+[16:36:10] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[16:36:10] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[16:36:10] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[16:36:10] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.9
+[16:36:10] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.13]...
+[16:36:10] [Server thread/INFO]: [CrackShot] Gun-mode activated. Boop!
+[16:36:10] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.0-SNAPSHOT;1749-a6261b9
+[16:36:11] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:36:11] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:36:11] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[16:36:11] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:36:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:36:11] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[16:36:11] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[16:36:11] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[16:36:11] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[16:36:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[16:36:11] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[16:36:11] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[16:36:11] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[16:36:11] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[16:36:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[16:36:11] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:36:11] [Server thread/INFO]: [Essentials] Enabling Essentials v2.15.0.45
+[16:36:11] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[16:36:11] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsGeoIP to the same version.
+[16:36:11] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsAntiBuild to the same version.
+[16:36:11] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsSpawn to the same version.
+[16:36:11] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsXMPP to the same version.
+[16:36:11] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsProtect to the same version.
+[16:36:11] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[16:36:11] [Server thread/INFO]: No kits found to migrate.
+[16:36:12] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[16:36:12] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[16:36:12] [Thread-10/INFO]: [ClearLag] No updates found!
+[16:36:12] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[16:36:12] [Server thread/INFO]: Using locale en_US
+[16:36:12] [Server thread/INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
+[16:36:12] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:36:12] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[16:36:12] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[16:36:12] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
+[16:36:12] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[16:36:12] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP vTeamCity
+[16:36:12] [Server thread/WARN]: [EssentialsGeoIP] §4Version mismatch! Please update all Essentials jars to the same version.
+[16:36:12] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite data created by MaxMind, available from http://www.maxmind.com/.
+[16:36:12] [Server thread/INFO]: [EnchantmentsEnhance] Enabling EnchantmentsEnhance v6.5.0
+[16:36:12] [Server thread/INFO]: [m
+[16:36:12] [Server thread/INFO]:                                                   -.                                                 [m
+[16:36:12] [Server thread/INFO]:                                                  +/                                                 [m
+[16:36:12] [Server thread/INFO]:           `o+                                    ys                                    /o.          [m
+[16:36:12] [Server thread/INFO]:          /m+                                     Nd                                     :m+         [m
+[16:36:12] [Server thread/INFO]:         oM+                                     .MM`                                     /Ms        [m
+[16:36:12] [Server thread/INFO]:        /Mh                                      /MM:                                      sMo       [m
+[16:36:12] [Server thread/INFO]:       `NM:                                  `   yMMo   `                                  .MN.      [m
+[16:36:12] [Server thread/INFO]:       +MM`                                  -o  mMMd  +:                                   NMs      [m
+[16:36:12] [Server thread/INFO]:       yMM-                                  .N-.MMMN`.N-                                  `NMd      [m
+[16:36:12] [Server thread/INFO]:       sMMy                                  -Ms/MMMM-oM:                                  sMMh      [m
+[16:36:12] [Server thread/INFO]:       -MMMs`                                sMssMMMM+oMy                                `oMMM/      [m
+[16:36:12] [Server thread/INFO]:        oMMMd:                              /NN-hMMMMy.NM+                              :hMMMs       [m
+[16:36:12] [Server thread/INFO]:         +mMMNd/.         `.-..`          `oNMd.:NMMN-.dMNs`          `..-..         `/hNMMNo`       [m
+[16:36:12] [Server thread/INFO]:    .++`  -yMMMMmy/-` ./ydmNNNmmho-        .omMm:+MN/-mMms-        -+hmmNNNmmy+. `-/ymMMMMh-  `++.   [m
+[16:36:12] [Server thread/INFO]:  `oms`./ymNMNmNMMMNmhmMMmhsooyhmMNh-        .yMN:o+-NMy.        .yNMmhysosydMMmhmNMMMNmNMNmh+.`oNs` [m
+[16:36:12] [Server thread/INFO]: `hMd.smMMms/-.-+hNMMMMd/`      .:smm.      ./dMMm``dMMd+.      `dms:.`     `:hMMMMNho-../sdMMNy-yMd.[m
+[16:36:12] [Server thread/INFO]: oMMsmMMh:`       :MMMy`   ```     `++    -smMMmsd/:domMMmy:    :o.     ```   `sMMM/`      `:yNMmsMMy[m
+[16:36:12] [Server thread/INFO]: NMMNMm/`         +MMN`    `-/oo+:-` `    /NMMh. .so- .yMMN+    ` `-:+oo/-`    `mMMs          :dMNMMN[m
+[16:36:12] [Server thread/INFO]: MMMMd.           +MMm       ``.:shdho:.   :dMm/  //  :mMm/   .:ohdhs/.``       dMMs           `hMMMM[m
+[16:36:12] [Server thread/INFO]: NMMm.            .NMM+      -ohs+::+hmmh+. .sNNo````oNNs. ./hmNh+::+sho-      /MMN-            `hMMM[m
+[16:36:12] [Server thread/INFO]: dMM-              -dMMy.      :hMMmy/:+dNNy:`-smd::dmy-`:ymMdo:/ymMMd:      .sNMd:              .NMm[m
+[16:36:12] [Server thread/INFO]: oMy                `:ydds:`    `sMmmMd+.:hNMh: -ymmh- -hNMd/.+dMmmMy`    `:sdmy/`                sMy[m
+[16:36:12] [Server thread/INFO]: .N/                   `.:/:-`   `d/.oNMd-`/mMNy/:..:/sNMm/`-hMNo./d`    -:/:-`                   -N-[m
+[16:36:12] [Server thread/INFO]:  :.                              :. `+MMN/ .hMMh`  `sMMd. /NMM+` `/                              `/ [m
+[16:36:12] [Server thread/INFO]:                                   `/hNMmNN: `hMMy  oMMd` :NNmMNh/`                                  [m
+[16:36:12] [Server thread/INFO]:                                  :dMMMo..sm. .NMM:.NMM: .ms.`oMMMd/`                                [m
+[16:36:12] [Server thread/INFO]:                                `yMMMMd    :o  hMMyoMMm  +:    hMMMMy`                               [m
+[16:36:12] [Server thread/INFO]:                                sMMd/dN+-````  sMMhsMMh  ````-+Nd/hMMy                               [m
+[16:36:12] [Server thread/INFO]:                                mMM: `+hmds:   hMMsoMMd   :shmh+` -MMN                               [m
+[16:36:12] [Server thread/INFO]:                                yMM/          :MMM-.NMM/          /MMy                               [m
+[16:36:12] [Server thread/INFO]:                                `dMm`  `./o+-+NMMs  oMMNo-+o/-`  `mMd`                               [m
+[16:36:12] [Server thread/INFO]:                                 `sNh`    .omMMMh`   sMMMmo.    `hNy`                                [m
+[16:36:12] [Server thread/INFO]:                                   -yh.     `oNMd-  -dMNo`     .hy-                                  [m
+[16:36:12] [Server thread/INFO]:                                     ./`      -dMN//NMd-      `/.                                    [m
+[16:36:12] [Server thread/INFO]:                                               `yMNNMy`                                              [m
+[16:36:12] [Server thread/INFO]:                                                 hMMh                                                [m
+[16:36:12] [Server thread/INFO]:                                                 `mm`                                                [m
+[16:36:12] [Server thread/INFO]:                                                  //                                               [m
+[16:36:13] [Server thread/INFO]: [EnchantmentsEnhance] Updating config to the latest...
+[16:36:13] [Server thread/INFO]: [EnchantmentsEnhance] Found 476 config settings
+[16:36:13] [Server thread/INFO]: [EnchantmentsEnhance] Added 0 new config settings
+[16:36:13] [Server thread/INFO]: [EnchantmentsEnhance] Updating enchantments to the latest...
+[16:36:13] [Server thread/INFO]: [EnchantmentsEnhance] Found 290 enchantment settings
+[16:36:13] [Server thread/INFO]: [EnchantmentsEnhance] Added 0 new enchantment settings
+[16:36:13] [Server thread/WARN]: [EnchantmentsEnhance] &cEnchantmentsEnhance is OUTDATED!
+[16:36:13] [Server thread/INFO]: [EnchantmentsEnhance] Your server is running version v1_13_R2
+[16:36:13] [Server thread/INFO]: [EnchantmentsEnhance] Your server is running on Windows 10
+[16:36:13] [Server thread/INFO]: [EnchantmentsEnhance] Enhancement Glower setup was successful!
+[16:36:13] [Server thread/INFO]: [EnchantmentsEnhance] Enhancement Sound setup was successful!
+[16:36:13] [Server thread/INFO]: [EnchantmentsEnhance] Enhancement Firework setup was successful!
+[16:36:14] [Server thread/INFO]: [EnchantmentsEnhance] Loading player data...
+[16:36:14] [Server thread/INFO]: [EnchantmentsEnhance] [NBTAPI] Found Spigot: v1_13_R2! Trying to find NMS support
+[16:36:14] [Server thread/WARN]: [EnchantmentsEnhance] [NBTAPI] Wasn't able to find NMS Support! Some functions will not work!
+[16:36:14] [Server thread/INFO]: [EnchantmentsEnhance] EnchantmentsEnhance is enabled!
+[16:36:14] [Server thread/INFO]: [EnchantmentsEnhance] EnchantmentsEnhance took 1077ms to setup.
+[16:36:14] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild vTeamCity
+[16:36:14] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[16:36:14] [Server thread/INFO]: [EpicRename] Enabling EpicRename v3.4
+[16:36:14] [Server thread/INFO]: [0;30;1m[[0;36;1mEpic[0;37;1mRename[0;30;1m] [0;37;1m[0;36;1mVersion: [0;31;1m3.4 [0;36;1mMC Version: [0;31;1mNEWER_THAN_ONE_DOT_EIGHT[m
+[16:36:14] [Server thread/INFO]: [0;30;1m[[0;36;1mEpic[0;37;1mRename[0;30;1m] [0;37;1m[0;31;1mThis plugin is Copyright (c) 2018 Justin "JustBru00" Brubaker. This plugin is licensed under the MPL v2.0. You can view a copy of it at: http://bit.ly/2eMknxx[m
+[16:36:14] [Server thread/INFO]: [0;30;1m[[0;36;1mEpic[0;37;1mRename[0;30;1m] [0;37;1m[0;32;1mStarting plugin enable...[m
+[16:36:14] [Server thread/INFO]: [0;30;1m[[0;36;1mEpic[0;37;1mRename[0;30;1m] [0;37;1m[0;32;1mPrefix set to: '[0;30;1m[[0;36;1mEpic[0;37;1mRename[0;30;1m] [0;37;1m[0;32;1m'[m
+[16:36:14] [Server thread/INFO]: [0;30;1m[[0;36;1mEpic[0;37;1mRename[0;30;1m] [0;37;1m[0;32;1mPlugin Enabled![m
+[16:36:14] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vTeamCity
+[16:36:14] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[16:36:14] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP vTeamCity
+[16:36:14] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[16:36:14] [Server thread/WARN]: config broken for xmpp
+[16:36:14] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vTeamCity
+[16:36:14] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[16:36:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:36:14] [Server thread/INFO]: Done (10.492s)! For help, type "help"
+[16:36:14] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[16:36:14] [Craft Scheduler Thread - 6/WARN]: [Vault] Stable Version: 1.7.1 is out! You are still running version: 1.6.7
+[16:36:14] [Craft Scheduler Thread - 6/WARN]: [Vault] Update at: https://dev.bukkit.org/projects/vault
+[16:42:56] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[16:43:36] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[16:43:57] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[16:50:37] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[16:51:17] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[16:51:37] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m

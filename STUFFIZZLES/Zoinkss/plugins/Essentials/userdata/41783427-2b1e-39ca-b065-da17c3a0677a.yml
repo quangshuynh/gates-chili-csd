@@ -1,0 +1,30 @@
+geolocation: N/A
+lastAccountName: Oof_scar
+timestamps:
+  login: 1542381134992
+  logout: 1542381171627
+  lastteleport: 1542066808452
+ipAddress: 10.146.65.110
+lastlocation:
+  world: world
+  x: 71.16791620138596
+  y: 61.0625
+  z: 179.33490139138803
+  yaw: -75.295044
+  pitch: -68.84999
+logoutlocation:
+  world: world
+  x: 76.1052173870011
+  y: 61.0
+  z: 177.51018012929882
+  yaw: -68.99933
+  pitch: 20.699984
+afk: false
+homes:
+  home:
+    world: world
+    x: 70.14070335501549
+    y: 61.0625
+    z: 177.81924047857945
+    yaw: -51.600037
+    pitch: 20.699982

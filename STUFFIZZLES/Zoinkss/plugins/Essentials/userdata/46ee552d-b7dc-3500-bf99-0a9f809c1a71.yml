@@ -1,0 +1,26 @@
+geolocation: United States
+lastAccountName: GoodBoiNo1
+timestamps:
+  login: 1542487366872
+  logout: 1542488478050
+  lastteleport: 1542405792441
+ipAddress: 172.101.147.149
+logoutlocation:
+  world: world
+  x: -5.207675351402692
+  y: 72.0
+  z: 250.30000001192093
+  yaw: 78.139084
+  pitch: 52.499954
+lastlocation:
+  world: world_nether
+  x: -8.388248764966038
+  y: 32.0
+  z: 18.934185567627964
+  yaw: 271.57495
+  pitch: 45.0
+afk: false
+powertools:
+  '322':
+  - kittycannon
+godmode: false

@@ -1,0 +1,21 @@
+geolocation: United States
+lastAccountName: doden2005
+timestamps:
+  login: 1542477543826
+  logout: 1542480009651
+ipAddress: 50.108.189.90
+lastlocation:
+  world: world
+  x: -53.860295518046875
+  y: 64.0
+  z: 302.0843023928764
+  yaw: 14.550934
+  pitch: -16.650005
+afk: false
+logoutlocation:
+  world: world
+  x: 16.154804768529072
+  y: 85.0
+  z: -5.776690878469456
+  yaw: 14.550934
+  pitch: -16.650005

@@ -1,0 +1,1725 @@
+[12:29:57] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:29:57] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:29:57] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:29:57] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:29:57] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:29:57] [main/INFO]: Loaded 0 recipes
+[12:29:57] [Server thread/INFO]: Starting minecraft server version 1.13.1
+[12:29:57] [Server thread/INFO]: Loading properties
+[12:29:57] [Server thread/INFO]: Default game type: ADVENTURE
+[12:29:58] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-2440e18-4228a56 (MC: 1.13.1) (Implementing API version 1.13.1-R0.1-SNAPSHOT)
+[12:29:58] [Server thread/INFO]: Debug logging is disabled
+[12:29:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:29:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:29:58] [Server thread/INFO]: Generating keypair
+[12:29:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:29:58] [Server thread/INFO]: Using default channel type
+[12:29:59] [Server thread/ERROR]: Could not load 'plugins\worldedit-core-7.0.0-SNAPSHOT-dist.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:154) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.loadPlugins(CraftServer.java:316) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.init(DedicatedServer.java:213) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:698) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[12:29:59] [Server thread/ERROR]: Could not load 'plugins\worldedit-forge-mc1.12.1-7.0.0-SNAPSHOT-dev.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:154) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.loadPlugins(CraftServer.java:316) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.init(DedicatedServer.java:213) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:698) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[12:29:59] [Server thread/ERROR]: Ambiguous plugin name `WorldGuard' for files `plugins\worldguard-legacy-7.0.0-SNAPSHOT-dist.jar' and `plugins\worldguard-bukkit-6.2.2.jar' in `plugins'
+[12:30:02] [User Authenticator #1/INFO]: UUID of player SpudGamer168 is 4d714c40-3e16-35cc-b032-f6b8bd7b1115
+[12:30:09] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:30:09] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.0-SNAPSHOT;3874-6b33f08
+[12:30:09] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.12.1
+[12:30:09] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.9.7
+[12:30:09] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.98.9
+[12:30:09] [Server thread/INFO]: [Vault] Loading Vault v1.6.7-b${env.TRAVIS_BUILD_NUMBER}
+[12:30:09] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.0-SNAPSHOT;1749-a6261b9
+[12:30:09] [Server thread/INFO]: [Essentials] Loading Essentials v2.15.0.45
+[12:30:09] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[12:30:09] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP vTeamCity
+[12:30:09] [Server thread/INFO]: [EnchantmentsEnhance] Loading EnchantmentsEnhance v6.5.0
+[12:30:09] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild vTeamCity
+[12:30:09] [Server thread/INFO]: [EpicRename] Loading EpicRename v3.4
+[12:30:09] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vTeamCity
+[12:30:09] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP vTeamCity
+[12:30:09] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vTeamCity
+[12:30:09] [Server thread/INFO]: [Vault] Enabling Vault v1.6.7-b${env.TRAVIS_BUILD_NUMBER}
+[12:30:09] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[12:30:10] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[12:30:10] [Server thread/INFO]: [Vault] Enabled Version 1.6.7-b${env.TRAVIS_BUILD_NUMBER}
+[12:30:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:30:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:30:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:30:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:30:10] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:30:10] [Server thread/INFO]: Preparing level "world"
+[12:30:10] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[12:30:13] [Server thread/INFO]: Loaded 524 recipes
+[12:30:16] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:30:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:30:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:30:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:30:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:30:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:30:16] [Server thread/INFO]: View Distance: 10
+[12:30:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:30:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:30:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:30:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:30:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:30:16] [Server thread/INFO]: Random Lighting Updates: false
+[12:30:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Mob Spawn Range: 6
+[12:30:16] [Server thread/INFO]: Max TNT Explosions: 100
+[12:30:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:30:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:30:16] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:30:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:30:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:30:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:30:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:30:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:30:16] [Server thread/INFO]: View Distance: 10
+[12:30:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:30:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:30:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:30:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:30:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:30:16] [Server thread/INFO]: Random Lighting Updates: false
+[12:30:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Mob Spawn Range: 6
+[12:30:16] [Server thread/INFO]: Max TNT Explosions: 100
+[12:30:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:30:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:30:16] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:30:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:30:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:30:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:30:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:30:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:30:16] [Server thread/INFO]: View Distance: 10
+[12:30:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:30:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:30:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:30:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:30:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:30:16] [Server thread/INFO]: Random Lighting Updates: false
+[12:30:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:30:16] [Server thread/INFO]: Mob Spawn Range: 6
+[12:30:16] [Server thread/INFO]: Max TNT Explosions: 100
+[12:30:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:30:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:30:16] [Server thread/INFO]: Preparing start region for level minecraft:the_end (Seed: -8352270219320563686)
+[12:30:16] [Server thread/INFO]: Preparing spawn area: 4%
+[12:30:16] [Server thread/INFO]: Preparing spawn area: 8%
+[12:30:16] [Server thread/INFO]: Preparing spawn area: 12%
+[12:30:16] [Server thread/INFO]: Preparing spawn area: 16%
+[12:30:16] [Server thread/INFO]: Preparing spawn area: 20%
+[12:30:16] [Server thread/INFO]: Preparing spawn area: 24%
+[12:30:16] [Server thread/INFO]: Preparing spawn area: 28%
+[12:30:16] [Server thread/INFO]: Preparing spawn area: 32%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 36%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 40%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 44%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 48%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 52%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 56%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 60%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 64%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 68%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 72%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 76%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 80%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 84%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 88%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 92%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 96%
+[12:30:17] [Server thread/INFO]: Preparing spawn area: 100%
+[12:30:17] [Server thread/INFO]: Preparing start region for level minecraft:the_nether (Seed: -8352270219320563686)
+[12:30:18] [Server thread/INFO]: Preparing spawn area: 4%
+[12:30:18] [Server thread/INFO]: Preparing spawn area: 8%
+[12:30:18] [Server thread/INFO]: Preparing spawn area: 12%
+[12:30:18] [Server thread/INFO]: Preparing spawn area: 16%
+[12:30:18] [Server thread/INFO]: Preparing spawn area: 20%
+[12:30:19] [Server thread/INFO]: Preparing spawn area: 24%
+[12:30:19] [Server thread/INFO]: Preparing spawn area: 28%
+[12:30:20] [Server thread/INFO]: Preparing spawn area: 32%
+[12:30:20] [Server thread/INFO]: Preparing spawn area: 36%
+[12:30:20] [Server thread/INFO]: Preparing spawn area: 40%
+[12:30:20] [Server thread/INFO]: Preparing spawn area: 44%
+[12:30:20] [Server thread/INFO]: Preparing spawn area: 48%
+[12:30:21] [Server thread/INFO]: Preparing spawn area: 52%
+[12:30:21] [Server thread/INFO]: Preparing spawn area: 56%
+[12:30:21] [Server thread/INFO]: Preparing spawn area: 60%
+[12:30:21] [Server thread/INFO]: Preparing spawn area: 64%
+[12:30:21] [Server thread/INFO]: Preparing spawn area: 68%
+[12:30:21] [Server thread/INFO]: Preparing spawn area: 72%
+[12:30:21] [Server thread/INFO]: Preparing spawn area: 76%
+[12:30:22] [Server thread/INFO]: Preparing spawn area: 80%
+[12:30:22] [Server thread/INFO]: Preparing spawn area: 84%
+[12:30:22] [Server thread/INFO]: Preparing spawn area: 88%
+[12:30:22] [Server thread/INFO]: Preparing spawn area: 92%
+[12:30:22] [Server thread/INFO]: Preparing spawn area: 96%
+[12:30:22] [Server thread/INFO]: Preparing spawn area: 100%
+[12:30:22] [Server thread/INFO]: Preparing start region for level minecraft:overworld (Seed: -6082769972913563204)
+[12:30:23] [Server thread/INFO]: Preparing spawn area: 4%
+[12:30:23] [Server thread/INFO]: Preparing spawn area: 8%
+[12:30:23] [Server thread/INFO]: Preparing spawn area: 12%
+[12:30:23] [Server thread/INFO]: Preparing spawn area: 16%
+[12:30:23] [Server thread/INFO]: Preparing spawn area: 20%
+[12:30:23] [Server thread/INFO]: Preparing spawn area: 24%
+[12:30:23] [Server thread/INFO]: Preparing spawn area: 28%
+[12:30:23] [Server thread/INFO]: Preparing spawn area: 32%
+[12:30:24] [Server thread/INFO]: Preparing spawn area: 36%
+[12:30:24] [Server thread/INFO]: Preparing spawn area: 40%
+[12:30:24] [Server thread/INFO]: Preparing spawn area: 44%
+[12:30:24] [Server thread/INFO]: Preparing spawn area: 48%
+[12:30:24] [Server thread/INFO]: Preparing spawn area: 52%
+[12:30:24] [Server thread/INFO]: Preparing spawn area: 56%
+[12:30:24] [Server thread/INFO]: Preparing spawn area: 60%
+[12:30:24] [Server thread/INFO]: Preparing spawn area: 64%
+[12:30:25] [Server thread/INFO]: Preparing spawn area: 68%
+[12:30:25] [Server thread/INFO]: Preparing spawn area: 72%
+[12:30:25] [Server thread/INFO]: Preparing spawn area: 76%
+[12:30:25] [Server thread/INFO]: Preparing spawn area: 80%
+[12:30:25] [Server thread/INFO]: Preparing spawn area: 84%
+[12:30:25] [Server thread/INFO]: Preparing spawn area: 88%
+[12:30:25] [Server thread/INFO]: Preparing spawn area: 92%
+[12:30:25] [Server thread/INFO]: Preparing spawn area: 96%
+[12:30:26] [Server thread/INFO]: Preparing spawn area: 100%
+[12:30:26] [Server thread/INFO]: Time elapsed: 9567 ms
+[12:30:26] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.0-SNAPSHOT;3874-6b33f08
+[12:30:26] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_13_R2 as the Bukkit adapter
+[12:30:27] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:30:27] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.12.1
+[12:30:27] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.9.7
+[12:30:28] [Server thread/INFO]: [ClearLag] Loading modules...
+[12:30:28] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[12:30:28] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[12:30:28] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[12:30:28] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.9
+[12:30:28] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.13]...
+[12:30:28] [Server thread/INFO]: [CrackShot] Gun-mode activated. Boop!
+[12:30:28] [Thread-10/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[12:30:28] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.0-SNAPSHOT;1749-a6261b9
+[12:30:28] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[12:30:28] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[12:30:28] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[12:30:28] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[12:30:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[12:30:28] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[12:30:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[12:30:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[12:30:28] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[12:30:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[12:30:28] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[12:30:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[12:30:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[12:30:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[12:30:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[12:30:28] [Server thread/INFO]: [WorldGuard] Loading region data...
+[12:30:28] [Server thread/INFO]: [Essentials] Enabling Essentials v2.15.0.45
+[12:30:29] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[12:30:29] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsGeoIP to the same version.
+[12:30:29] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsAntiBuild to the same version.
+[12:30:29] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsSpawn to the same version.
+[12:30:29] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsXMPP to the same version.
+[12:30:29] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsProtect to the same version.
+[12:30:29] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[12:30:29] [Server thread/INFO]: No kits found to migrate.
+[12:30:29] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[12:30:30] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[12:30:31] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[12:30:31] [Server thread/INFO]: Using locale en_US
+[12:30:31] [Server thread/INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
+[12:30:31] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[12:30:31] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[12:30:31] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[12:30:31] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
+[12:30:31] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[12:30:31] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP vTeamCity
+[12:30:31] [Server thread/WARN]: [EssentialsGeoIP] §4Version mismatch! Please update all Essentials jars to the same version.
+[12:30:31] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite data created by MaxMind, available from http://www.maxmind.com/.
+[12:30:31] [Server thread/INFO]: [EnchantmentsEnhance] Enabling EnchantmentsEnhance v6.5.0
+[12:30:31] [Server thread/INFO]: [m
+[12:30:31] [Server thread/INFO]:                                                   -.                                                 [m
+[12:30:31] [Server thread/INFO]:                                                  +/                                                 [m
+[12:30:31] [Server thread/INFO]:           `o+                                    ys                                    /o.          [m
+[12:30:31] [Server thread/INFO]:          /m+                                     Nd                                     :m+         [m
+[12:30:31] [Server thread/INFO]:         oM+                                     .MM`                                     /Ms        [m
+[12:30:31] [Server thread/INFO]:        /Mh                                      /MM:                                      sMo       [m
+[12:30:31] [Server thread/INFO]:       `NM:                                  `   yMMo   `                                  .MN.      [m
+[12:30:31] [Server thread/INFO]:       +MM`                                  -o  mMMd  +:                                   NMs      [m
+[12:30:31] [Server thread/INFO]:       yMM-                                  .N-.MMMN`.N-                                  `NMd      [m
+[12:30:31] [Server thread/INFO]:       sMMy                                  -Ms/MMMM-oM:                                  sMMh      [m
+[12:30:31] [Server thread/INFO]:       -MMMs`                                sMssMMMM+oMy                                `oMMM/      [m
+[12:30:31] [Server thread/INFO]:        oMMMd:                              /NN-hMMMMy.NM+                              :hMMMs       [m
+[12:30:31] [Server thread/INFO]:         +mMMNd/.         `.-..`          `oNMd.:NMMN-.dMNs`          `..-..         `/hNMMNo`       [m
+[12:30:31] [Server thread/INFO]:    .++`  -yMMMMmy/-` ./ydmNNNmmho-        .omMm:+MN/-mMms-        -+hmmNNNmmy+. `-/ymMMMMh-  `++.   [m
+[12:30:31] [Server thread/INFO]:  `oms`./ymNMNmNMMMNmhmMMmhsooyhmMNh-        .yMN:o+-NMy.        .yNMmhysosydMMmhmNMMMNmNMNmh+.`oNs` [m
+[12:30:31] [Server thread/INFO]: `hMd.smMMms/-.-+hNMMMMd/`      .:smm.      ./dMMm``dMMd+.      `dms:.`     `:hMMMMNho-../sdMMNy-yMd.[m
+[12:30:31] [Server thread/INFO]: oMMsmMMh:`       :MMMy`   ```     `++    -smMMmsd/:domMMmy:    :o.     ```   `sMMM/`      `:yNMmsMMy[m
+[12:30:31] [Server thread/INFO]: NMMNMm/`         +MMN`    `-/oo+:-` `    /NMMh. .so- .yMMN+    ` `-:+oo/-`    `mMMs          :dMNMMN[m
+[12:30:31] [Server thread/INFO]: MMMMd.           +MMm       ``.:shdho:.   :dMm/  //  :mMm/   .:ohdhs/.``       dMMs           `hMMMM[m
+[12:30:31] [Server thread/INFO]: NMMm.            .NMM+      -ohs+::+hmmh+. .sNNo````oNNs. ./hmNh+::+sho-      /MMN-            `hMMM[m
+[12:30:31] [Server thread/INFO]: dMM-              -dMMy.      :hMMmy/:+dNNy:`-smd::dmy-`:ymMdo:/ymMMd:      .sNMd:              .NMm[m
+[12:30:31] [Server thread/INFO]: oMy                `:ydds:`    `sMmmMd+.:hNMh: -ymmh- -hNMd/.+dMmmMy`    `:sdmy/`                sMy[m
+[12:30:31] [Server thread/INFO]: .N/                   `.:/:-`   `d/.oNMd-`/mMNy/:..:/sNMm/`-hMNo./d`    -:/:-`                   -N-[m
+[12:30:31] [Server thread/INFO]:  :.                              :. `+MMN/ .hMMh`  `sMMd. /NMM+` `/                              `/ [m
+[12:30:31] [Server thread/INFO]:                                   `/hNMmNN: `hMMy  oMMd` :NNmMNh/`                                  [m
+[12:30:31] [Server thread/INFO]:                                  :dMMMo..sm. .NMM:.NMM: .ms.`oMMMd/`                                [m
+[12:30:31] [Server thread/INFO]:                                `yMMMMd    :o  hMMyoMMm  +:    hMMMMy`                               [m
+[12:30:31] [Server thread/INFO]:                                sMMd/dN+-````  sMMhsMMh  ````-+Nd/hMMy                               [m
+[12:30:31] [Server thread/INFO]:                                mMM: `+hmds:   hMMsoMMd   :shmh+` -MMN                               [m
+[12:30:31] [Server thread/INFO]:                                yMM/          :MMM-.NMM/          /MMy                               [m
+[12:30:31] [Server thread/INFO]:                                `dMm`  `./o+-+NMMs  oMMNo-+o/-`  `mMd`                               [m
+[12:30:31] [Server thread/INFO]:                                 `sNh`    .omMMMh`   sMMMmo.    `hNy`                                [m
+[12:30:31] [Server thread/INFO]:                                   -yh.     `oNMd-  -dMNo`     .hy-                                  [m
+[12:30:31] [Server thread/INFO]:                                     ./`      -dMN//NMd-      `/.                                    [m
+[12:30:31] [Server thread/INFO]:                                               `yMNNMy`                                              [m
+[12:30:31] [Server thread/INFO]:                                                 hMMh                                                [m
+[12:30:31] [Server thread/INFO]:                                                 `mm`                                                [m
+[12:30:31] [Server thread/INFO]:                                                  //                                               [m
+[12:30:31] [Server thread/INFO]: [EnchantmentsEnhance] Updating config to the latest...
+[12:30:31] [Server thread/INFO]: [EnchantmentsEnhance] Found 476 config settings
+[12:30:31] [Server thread/INFO]: [EnchantmentsEnhance] Added 0 new config settings
+[12:30:31] [Server thread/INFO]: [EnchantmentsEnhance] Updating enchantments to the latest...
+[12:30:31] [Server thread/INFO]: [EnchantmentsEnhance] Found 290 enchantment settings
+[12:30:31] [Server thread/INFO]: [EnchantmentsEnhance] Added 0 new enchantment settings
+[12:30:31] [Server thread/ERROR]: Error occurred while enabling EnchantmentsEnhance v6.5.0 (Is it up to date?)
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_181]
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_181]
+	at sun.security.ssl.InputRecord.readFully(Unknown Source) ~[?:1.8.0_181]
+	at sun.security.ssl.InputRecord.read(Unknown Source) ~[?:1.8.0_181]
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source) ~[?:1.8.0_181]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source) ~[?:1.8.0_181]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source) ~[?:1.8.0_181]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source) ~[?:1.8.0_181]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source) ~[?:1.8.0_181]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(Unknown Source) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(Unknown Source) ~[?:1.8.0_181]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.version.VersionManager$Companion.getLatestVersion(VersionManager.kt:41) ~[?:?]
+	at org.pixeltime.enchantmentsenhance.version.VersionManager$Companion.isUpToDate(VersionManager.kt:47) ~[?:?]
+	at org.pixeltime.enchantmentsenhance.version.VersionManager.isUpToDate(VersionManager.kt) ~[?:?]
+	at org.pixeltime.enchantmentsenhance.Main.onEnable(Main.java:177) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:339) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugin(CraftServer.java:427) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugins(CraftServer.java:341) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.l(MinecraftServer.java:582) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:545) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:423) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.init(DedicatedServer.java:288) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:698) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:30:31] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild vTeamCity
+[12:30:31] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[12:30:31] [Server thread/INFO]: [EpicRename] Enabling EpicRename v3.4
+[12:30:31] [Server thread/INFO]: [0;30;1m[[0;36;1mEpic[0;37;1mRename[0;30;1m] [0;37;1m[0;36;1mVersion: [0;31;1m3.4 [0;36;1mMC Version: [0;31;1mNEWER_THAN_ONE_DOT_EIGHT[m
+[12:30:31] [Server thread/INFO]: [0;30;1m[[0;36;1mEpic[0;37;1mRename[0;30;1m] [0;37;1m[0;31;1mThis plugin is Copyright (c) 2018 Justin "JustBru00" Brubaker. This plugin is licensed under the MPL v2.0. You can view a copy of it at: http://bit.ly/2eMknxx[m
+[12:30:31] [Server thread/INFO]: [0;30;1m[[0;36;1mEpic[0;37;1mRename[0;30;1m] [0;37;1m[0;32;1mStarting plugin enable...[m
+[12:30:31] [Server thread/INFO]: [0;30;1m[[0;36;1mEpic[0;37;1mRename[0;30;1m] [0;37;1m[0;32;1mPrefix set to: '[0;30;1m[[0;36;1mEpic[0;37;1mRename[0;30;1m] [0;37;1m[0;32;1m'[m
+[12:30:31] [Server thread/INFO]: [0;30;1m[[0;36;1mEpic[0;37;1mRename[0;30;1m] [0;37;1m[0;32;1mPlugin Enabled![m
+[12:30:31] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vTeamCity
+[12:30:31] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[12:30:31] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP vTeamCity
+[12:30:31] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[12:30:31] [Server thread/WARN]: config broken for xmpp
+[12:30:31] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vTeamCity
+[12:30:31] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[12:30:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:30:33] [Server thread/INFO]: Done (22.719s)! For help, type "help"
+[12:30:33] [Craft Scheduler Thread - 1/INFO]: [0;37;22m[[0;33;1mJump Pads[0;37;22m] [0;37;1mUpdate checker failed![m
+[12:30:33] [Craft Scheduler Thread - 7/INFO]: [Vault] Checking for Updates ... 
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: java.net.SocketException: Connection reset
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at java.net.SocketInputStream.read(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at java.net.SocketInputStream.read(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at sun.security.ssl.InputRecord.read(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at com.live.bemmamin.jumppads.UpdateChecker.lambda$checkForUpdate$1(UpdateChecker.java:36)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:30:33] [Craft Scheduler Thread - 7/INFO]: [Vault] There was an issue attempting to check for the latest version.
+[12:30:33] [Craft Scheduler Thread - 7/INFO]: [Vault] No new version available
+[12:30:34] [Server thread/INFO]: com.mojang.authlib.GameProfile@e4e8e4[id=4d714c40-3e16-35cc-b032-f6b8bd7b1115,name=SpudGamer168,properties={},legacy=false] (/10.146.67.219:52282) lost connection: Disconnected
+[12:30:56] [User Authenticator #2/INFO]: UUID of player SpudGamer168 is 4d714c40-3e16-35cc-b032-f6b8bd7b1115
+[12:30:59] [Server thread/INFO]: SpudGamer168[/10.146.67.219:52289] logged in with entity id 16 at ([world]117.14835679803514, 63.0, 48.26109157888398)
+[12:31:00] [Server thread/WARN]: [Essentials] Task #24 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:176) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:31:01] [Craft Scheduler Thread - 6/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 23
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:31:12] [User Authenticator #3/INFO]: UUID of player Ever_Tree is a483b685-a3f7-3fe1-a9a7-ff54539929f8
+[12:31:14] [Server thread/INFO]: Ever_Tree[/10.146.67.86:53281] logged in with entity id 17 at ([world]7.5598360045790605, 64.0, -20.648867152393358)
+[12:31:14] [Server thread/WARN]: [Essentials] Task #31 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:31:14] [Craft Scheduler Thread - 6/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 30
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:31:34] [User Authenticator #4/INFO]: UUID of player Ever_Tree is a483b685-a3f7-3fe1-a9a7-ff54539929f8
+[12:31:34] [Server thread/INFO]: Ever_Tree lost connection: You logged in from another location
+[12:31:34] [Server thread/INFO]: Ever_Tree left the game
+[12:31:35] [Server thread/INFO]: Ever_Tree[/10.146.67.86:53314] logged in with entity id 18 at ([world]7.5598360045790605, 64.0, -20.648867152393358)
+[12:31:35] [Server thread/WARN]: [Essentials] Task #36 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:31:35] [Server thread/WARN]: [Essentials] Task #41 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:31:35] [Craft Scheduler Thread - 7/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 40
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:31:35] [Server thread/WARN]: handleDisconnection() called twice
+[12:31:35] [Server thread/WARN]: java.lang.NullPointerException
+[12:31:35] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.mysql.DataStorage.saveStats(DataStorage.java:70)
+[12:31:35] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.listener.PlayerStreamListener$1.run(PlayerStreamListener.java:80)
+[12:31:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[12:31:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361)
+[12:31:35] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889)
+[12:31:35] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411)
+[12:31:35] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[12:31:35] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[12:31:35] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:31:39] [Server thread/WARN]: SpudGamer168 moved too quickly! -66.88096625577231,5.0,38.19999998807907
+[12:31:49] [Server thread/WARN]: SpudGamer168 moved too quickly! -28.804398209501684,4.0,-84.87799042718747
+[12:31:54] [Server thread/INFO]: Ever_Tree lost connection: Disconnected
+[12:31:54] [Server thread/INFO]: Ever_Tree left the game
+[12:31:54] [Server thread/WARN]: [Essentials] Task #83 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:176) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:32:17] [Server thread/ERROR]: Could not pass event EntityChangeBlockEvent to WorldGuard v7.0.0-SNAPSHOT;1749-a6261b9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:308) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.event.CraftEventFactory.callEntityChangeBlockEvent(CraftEventFactory.java:713) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.event.CraftEventFactory.callEntityChangeBlockEvent(CraftEventFactory.java:705) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.EntityFallingBlock.tick(EntityFallingBlock.java:128) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.World.entityJoinedWorld(World.java:1373) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.World.g(World.java:1340) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.World.tickEntities(World.java:1174) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.WorldServer.tickEntities(WorldServer.java:601) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:968) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.lang.IllegalArgumentException: Cannot drop air
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.EntityItem.setItemStack(EntityItem.java:375) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.EntityItem.<init>(EntityItem.java:40) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftWorld.dropItem(CraftWorld.java:279) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onEntityChangeBlock(EventAbstractionListener.java:305) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_181]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:304) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	... 15 more
+[12:34:32] [User Authenticator #5/INFO]: UUID of player Ever_Tree is a483b685-a3f7-3fe1-a9a7-ff54539929f8
+[12:34:33] [Server thread/INFO]: Ever_Tree[/10.146.67.86:53622] logged in with entity id 78 at ([world]7.5598360045790605, 64.0, -20.648867152393358)
+[12:34:33] [Server thread/WARN]: [Essentials] Task #248 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:34:33] [Craft Scheduler Thread - 11/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 247
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:34:50] [Server thread/INFO]: Ever_Tree lost connection: Disconnected
+[12:34:50] [Server thread/INFO]: Ever_Tree left the game
+[12:34:50] [Server thread/WARN]: [Essentials] Task #266 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:176) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:34:51] [Server thread/WARN]: java.lang.NullPointerException
+[12:34:51] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.mysql.DataStorage.saveStats(DataStorage.java:70)
+[12:34:51] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.listener.PlayerStreamListener$1.run(PlayerStreamListener.java:80)
+[12:34:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[12:34:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361)
+[12:34:51] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889)
+[12:34:51] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411)
+[12:34:51] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[12:34:51] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[12:34:51] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:37:24] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[12:37:51] [User Authenticator #6/INFO]: UUID of player Ever_Tree is a483b685-a3f7-3fe1-a9a7-ff54539929f8
+[12:37:52] [Server thread/INFO]: Ever_Tree[/10.146.67.86:49981] logged in with entity id 123 at ([world]7.5598360045790605, 64.0, -20.648867152393358)
+[12:37:52] [Server thread/WARN]: [Essentials] Task #346 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:37:52] [Craft Scheduler Thread - 15/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 345
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:38:03] [Server thread/INFO]: Ever_Tree lost connection: Disconnected
+[12:38:03] [Server thread/INFO]: Ever_Tree left the game
+[12:38:03] [Server thread/WARN]: [Essentials] Task #350 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:176) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:38:04] [Server thread/WARN]: java.lang.NullPointerException
+[12:38:04] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.mysql.DataStorage.saveStats(DataStorage.java:70)
+[12:38:04] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.listener.PlayerStreamListener$1.run(PlayerStreamListener.java:80)
+[12:38:04] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[12:38:04] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361)
+[12:38:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889)
+[12:38:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411)
+[12:38:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[12:38:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[12:38:04] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:38:04] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[12:38:24] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[12:38:50] [User Authenticator #7/INFO]: UUID of player SirElbow420 is 6c846a0f-b552-3771-a161-b9d315ff38b7
+[12:38:52] [Server thread/INFO]: SirElbow420[/10.146.65.160:52885] logged in with entity id 125 at ([world]115.5, 63.0, 62.5)
+[12:38:52] [Server thread/WARN]: [Essentials] Task #357 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:38:52] [Craft Scheduler Thread - 14/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 356
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:39:54] [User Authenticator #8/INFO]: UUID of player Ever_Tree is a483b685-a3f7-3fe1-a9a7-ff54539929f8
+[12:39:55] [Server thread/INFO]: Ever_Tree[/10.146.67.86:50054] logged in with entity id 146 at ([world]7.5598360045790605, 64.0, -20.648867152393358)
+[12:39:55] [Server thread/WARN]: [Essentials] Task #420 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:39:55] [Craft Scheduler Thread - 16/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 419
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:40:16] [Server thread/WARN]: SirElbow420 moved too quickly! -67.23842979719487,5.0,37.40083119093854
+[12:40:19] [Server thread/INFO]: Ever_Tree lost connection: Disconnected
+[12:40:19] [Server thread/INFO]: Ever_Tree left the game
+[12:40:19] [Server thread/WARN]: [Essentials] Task #442 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:40:20] [Server thread/WARN]: java.lang.NullPointerException
+[12:40:20] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.mysql.DataStorage.saveStats(DataStorage.java:70)
+[12:40:20] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.listener.PlayerStreamListener$1.run(PlayerStreamListener.java:80)
+[12:40:20] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[12:40:20] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361)
+[12:40:20] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889)
+[12:40:20] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411)
+[12:40:20] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[12:40:20] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[12:40:20] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:40:28] [Server thread/WARN]: SirElbow420 moved too quickly! -28.879346550611544,4.0,-84.4623385531064
+[12:40:33] [User Authenticator #9/INFO]: UUID of player GoodBoiNo1 is 46ee552d-b7dc-3500-bf99-0a9f809c1a71
+[12:40:34] [Server thread/INFO]: GoodBoiNo1[/10.146.66.186:64149] logged in with entity id 153 at ([world]115.5, 63.034276275776634, 62.5)
+[12:40:34] [Server thread/WARN]: [Essentials] Task #485 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:40:34] [Craft Scheduler Thread - 19/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 484
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:40:44] [Server thread/INFO]: SpudGamer168 was sniped by SirElbow420's Hunting Rifle!
+[12:41:01] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -66.9615783436639,5.0,37.69468697098246
+[12:41:02] [Server thread/WARN]: SpudGamer168 moved too quickly! -67.36232103960769,5.0,37.7594343098134
+[12:41:06] [Server thread/WARN]: SpudGamer168 moved too quickly! -29.204821122944296,4.0,-84.68389903139236
+[12:41:13] [Server thread/INFO]: SpudGamer168 was sniped by SirElbow420's Hunting Rifle!
+[12:41:46] [Server thread/INFO]: SirElbow420 issued server command: /shot reload
+[12:41:51] [Server thread/WARN]: SpudGamer168 moved too quickly! -66.69305934004517,5.0,37.32102478827674
+[12:41:57] [Server thread/WARN]: SpudGamer168 moved too quickly! -28.999526140747093,4.0,-84.22637630377955
+[12:42:01] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -30.001272408746317,4.0,-84.47057646616067
+[12:42:04] [Server thread/INFO]: SpudGamer168 was slain by GoodBoiNo1 using [Python / Knife ]
+[12:42:08] [Server thread/WARN]: GoodBoiNo1 moved too quickly! 10.140976217784644,0.0,-1.2508335134561293
+[12:42:21] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:21] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:23] [Server thread/WARN]: SpudGamer168 moved too quickly! -66.80579823727307,5.0,37.60019745140554
+[12:42:23] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:23] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:23] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:23] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:23] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:23] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:23] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:23] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:24] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:24] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:24] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:24] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:24] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:24] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:24] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:24] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:25] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:25] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:25] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:25] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:25] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:25] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:26] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:26] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:26] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:26] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:26] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:26] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:27] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:27] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:27] [Server thread/WARN]: SpudGamer168 moved too quickly! -28.934033047729237,4.0,-84.30652389657507
+[12:42:27] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:27] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:27] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:27] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:27] [Server thread/INFO]: GoodBoiNo1 was sniped by SirElbow420's Hunting Rifle!
+[12:42:27] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:27] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:28] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:28] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:28] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:28] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:28] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:28] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:28] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:28] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:31] [Server thread/WARN]: SpudGamer168 moved too quickly! 1.42398134567717,-4.5,-9.00980203617888
+[12:42:31] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:31] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:31] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:31] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:31] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:31] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:31] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:31] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:31] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:31] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:31] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:31] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:31] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:31] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:31] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:31] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:32] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:32] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:32] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:32] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:36] [Async Chat Thread - #0/INFO]: [m<GoodBoiNo1[m> ligma[m
+[12:42:43] [Server thread/INFO]: CONSOLE issued server command: /me whoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned
+[12:42:43] [Server thread/INFO]: [0;35;22m* @ [0;35;22mwhoever doesnt say LIGMA out loud in 4 seconds  irl then they get banned[m
+[12:42:48] [Server thread/INFO]: CONSOLE issued server command: /ban ever_tree ligma touch
+[12:42:48] [Server thread/INFO]: §6Player§c Console §6banned§c Ever_Tree §6for: §c§cYou have been banned:
+§rligma touch§6.
+[12:43:01] [Server thread/INFO]: CONSOLE issued server command: /pardon ever_tree
+[12:43:01] [Server thread/INFO]: §6Player§c Console §6unbanned§c Ever_Tree.
+[12:43:02] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -67.31413131929874,5.0,37.06769499253021
+[12:43:05] [Server thread/INFO]: SirElbow420 was slain by SpudGamer168 using [Python / Knife ]
+[12:43:07] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -29.157454128293047,4.0,-85.12575108056564
+[12:43:11] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -0.031780992439014,-2.2565859791121454,-9.772373335681799
+[12:43:12] [User Authenticator #10/INFO]: UUID of player Ever_Tree is a483b685-a3f7-3fe1-a9a7-ff54539929f8
+[12:43:14] [Server thread/INFO]: Ever_Tree[/10.146.67.86:54764] logged in with entity id 300 at ([world]7.5598360045790605, 64.0, -20.648867152393358)
+[12:43:14] [Server thread/WARN]: [Essentials] Task #1043 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:43:14] [User Authenticator #11/INFO]: UUID of player CreeperZ585 is ea89974b-77ad-3c41-8273-6072be99af20
+[12:43:14] [Craft Scheduler Thread - 23/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 1042
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:43:16] [Server thread/WARN]: SpudGamer168 moved too quickly! 8.65886036777675,1.0244240882136921,-5.013439069404129
+[12:43:18] [Server thread/INFO]: CreeperZ585[/127.0.0.1:52204] logged in with entity id 301 at ([world]115.18817444424826, 63.0, 46.69046066730881)
+[12:43:18] [Server thread/WARN]: [Essentials] Task #1051 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:43:18] [Craft Scheduler Thread - 22/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 1050
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:43:21] [Server thread/WARN]: GoodBoiNo1 moved too quickly! 7.501026137513062,0.0,6.769670795216982
+[12:43:23] [Server thread/INFO]: Ever_Tree lost connection: Disconnected
+[12:43:24] [Server thread/INFO]: Ever_Tree left the game
+[12:43:24] [Server thread/WARN]: [Essentials] Task #1106 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:43:25] [Server thread/WARN]: java.lang.NullPointerException
+[12:43:25] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.mysql.DataStorage.saveStats(DataStorage.java:70)
+[12:43:25] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.listener.PlayerStreamListener$1.run(PlayerStreamListener.java:80)
+[12:43:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[12:43:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361)
+[12:43:25] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889)
+[12:43:25] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411)
+[12:43:25] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[12:43:25] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[12:43:25] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:43:30] [Server thread/WARN]: CreeperZ585 moved too quickly! -66.68817444424826,5.0,37.80953933269119
+[12:43:35] [Server thread/WARN]: CreeperZ585 moved too quickly! -28.82289944827322,4.0,-84.55152772064109
+[12:43:38] [Server thread/WARN]: SirElbow420 moved too quickly! -66.73983231146279,5.0,38.09642513399938
+[12:43:49] [Server thread/WARN]: SirElbow420 moved too quickly! -29.325786964477764,4.0,-83.80000001192093
+[12:44:10] [Server thread/INFO]: CreeperZ585 was slain by SpudGamer168 using [Python / Knife ]
+[12:44:18] [Server thread/INFO]: SirElbow420 was slain by SpudGamer168 using [Python / Knife ]
+[12:44:20] [Server thread/INFO]: SpudGamer168 was sniped by GoodBoiNo1's Hunting Rifle!
+[12:44:27] [Server thread/WARN]: CreeperZ585 moved too quickly! -66.7177340357123,5.0,37.0341006182889
+[12:44:38] [Server thread/INFO]: CreeperZ585 issued server command: /kit
+[12:44:39] [Server thread/INFO]: CreeperZ585 issued server command: /kit sniper
+[12:44:40] [Server thread/INFO]: CreeperZ585 issued server command: /god
+[12:44:43] [Server thread/WARN]: CreeperZ585 moved too quickly! -29.223266060418496,4.0,-85.34673679002204
+[12:44:47] [Server thread/WARN]: SpudGamer168 moved too quickly! -67.30696622386485,5.0,38.19999998807907
+[12:44:48] [Server thread/INFO]: CreeperZ585 issued server command: /gma SirElbow420
+[12:44:52] [Server thread/INFO]: GoodBoiNo1 issued server command: /ban SirElbow420 breaking doodoo
+[12:44:52] [Server thread/INFO]: GoodBoiNo1 was sniped by CreeperZ585's Hunting Rifle!
+[12:44:52] [Server thread/WARN]: SpudGamer168 moved too quickly! -28.963458240180373,4.0,-84.65935427786654
+[12:45:05] [Server thread/INFO]: GoodBoiNo1 issued server command: /ban SirElbow420 breaking doodoo
+[12:45:06] [Server thread/INFO]: SpudGamer168 was sniped by CreeperZ585's Hunting Rifle!
+[12:45:24] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[12:45:29] [Server thread/WARN]: SpudGamer168 moved too quickly! -66.8596304157369,5.0,38.13962971298533
+[12:45:33] [Server thread/WARN]: SpudGamer168 moved too quickly! -29.210931476987398,4.0,-85.35358730303864
+[12:45:34] [Server thread/INFO]: SirElbow420 issued server command: /give SirElbow420 minecraft:oak
+[12:45:38] [Server thread/INFO]: SpudGamer168 was sniped by CreeperZ585's Hunting Rifle!
+[12:45:49] [Server thread/WARN]: SirElbow420 moved too quickly! -67.03973790788426,5.0,38.19999998807907
+[12:45:51] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -28.80000001192093,4.0,-85.0136049233813
+[12:45:56] [Server thread/WARN]: SirElbow420 moved too quickly! -28.80000001192093,4.0,-84.73744811544171
+[12:45:58] [Server thread/WARN]: SpudGamer168 moved too quickly! -67.42643999004201,5.0,37.28565901119601
+[12:45:59] [Server thread/WARN]: SpudGamer168 moved too quickly! -67.42643999004201,5.0,37.28565901119601
+[12:46:04] [Server thread/WARN]: SpudGamer168 moved too quickly! -29.181992976593946,4.0,-84.53323684599455
+[12:46:07] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[12:46:27] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[12:46:35] [Server thread/INFO]: SpudGamer168 was pummeled by CreeperZ585 using [Carbine ]
+[12:46:51] [Server thread/INFO]: SirElbow420 issued server command: /shot reload
+[12:46:52] [Server thread/INFO]: CreeperZ585 issued server command: /gmc
+[12:47:00] [Server thread/WARN]: SpudGamer168 moved too quickly! -66.69914924625066,5.0,37.872606338472636
+[12:47:03] [Server thread/INFO]: CreeperZ585 issued server command: /god
+[12:47:04] [Server thread/WARN]: SpudGamer168 moved too quickly! -28.80000001192093,4.0,-83.82660626047718
+[12:47:05] [Server thread/INFO]: CreeperZ585 issued server command: /gms
+[12:47:05] [Server thread/INFO]: GoodBoiNo1 issued server command: /gms CreeperZ585
+[12:47:06] [Server thread/INFO]: CreeperZ585 was slain by GoodBoiNo1 using [Python / Knife ]
+[12:47:06] [Server thread/INFO]: GoodBoiNo1 was burnt to a crisp whilst fighting SirElbow420
+[12:47:21] [Server thread/INFO]: GoodBoiNo1 issued server command: /kill SirElbow420
+[12:47:21] [Server thread/INFO]: SirElbow420 died
+[12:47:24] [Server thread/WARN]: CreeperZ585 moved too quickly! -66.54663505993125,5.0,37.401662891755564
+[12:47:26] [Server thread/INFO]: CreeperZ585 issued server command: /god
+[12:47:29] [Server thread/WARN]: CreeperZ585 moved too quickly! -29.350294434996528,4.0,-85.33730513693192
+[12:47:35] [Server thread/INFO]: SpudGamer168 was sniped by CreeperZ585's Hunting Rifle!
+[12:47:41] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -67.46437061298789,5.0,37.22407849088659
+[12:47:41] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -67.46437061298789,5.0,37.22407849088659
+[12:47:44] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -29.285266487932176,4.0,-84.96201699647929
+[12:47:49] [Server thread/INFO]: GoodBoiNo1 was sniped by CreeperZ585's Hunting Rifle!
+[12:47:50] [User Authenticator #12/INFO]: UUID of player Ever_Tree is a483b685-a3f7-3fe1-a9a7-ff54539929f8
+[12:47:54] [Server thread/INFO]: Ever_Tree[/10.146.67.86:54966] logged in with entity id 690 at ([world]7.5598360045790605, 64.0, -20.648867152393358)
+[12:47:54] [Server thread/WARN]: [Essentials] Task #2554 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:47:54] [Craft Scheduler Thread - 27/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 2553
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:47:55] [Server thread/WARN]: SpudGamer168 moved too quickly! -66.9887438782692,5.0,37.3427972887783
+[12:48:00] [Server thread/INFO]: Ever_Tree was sniped by CreeperZ585's Hunting Rifle!
+[12:48:00] [Server thread/WARN]: SpudGamer168 moved too quickly! -29.31802155474424,4.0,-84.24482271930526
+[12:48:01] [Server thread/INFO]: GoodBoiNo1 issued server command: /kill SirElbow420
+[12:48:01] [Server thread/INFO]: SirElbow420 died
+[12:48:04] [Server thread/INFO]: Ever_Tree lost connection: Disconnected
+[12:48:04] [Server thread/INFO]: Ever_Tree left the game
+[12:48:04] [Server thread/WARN]: [Essentials] Task #2586 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:48:05] [Server thread/WARN]: java.lang.NullPointerException
+[12:48:05] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.mysql.DataStorage.saveStats(DataStorage.java:70)
+[12:48:05] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.listener.PlayerStreamListener$1.run(PlayerStreamListener.java:80)
+[12:48:05] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[12:48:05] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361)
+[12:48:05] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889)
+[12:48:05] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411)
+[12:48:05] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[12:48:05] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[12:48:05] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:48:14] [Server thread/INFO]: CONSOLE issued server command: /kill creeperz585
+[12:48:14] [Server thread/INFO]: CreeperZ585 died
+[12:48:14] [Server thread/INFO]: [0;33;22mKilled[0;31;1m CreeperZ585[m[0;33;22m.[m
+[12:48:18] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -66.87194648627485,5.0,36.82059234806287
+[12:48:20] [Server thread/INFO]: CreeperZ585 lost connection: Disconnected
+[12:48:20] [Server thread/INFO]: CreeperZ585 left the game
+[12:48:20] [Server thread/WARN]: [Essentials] Task #2642 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:48:21] [Server thread/WARN]: java.lang.NullPointerException
+[12:48:21] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.mysql.DataStorage.saveStats(DataStorage.java:70)
+[12:48:21] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.listener.PlayerStreamListener$1.run(PlayerStreamListener.java:80)
+[12:48:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[12:48:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361)
+[12:48:21] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889)
+[12:48:21] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411)
+[12:48:21] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[12:48:21] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[12:48:21] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:48:24] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -28.80000001192093,4.0,-84.23969473480899
+[12:48:35] [Server thread/INFO]: CONSOLE issued server command: /me if you dont scream ligma irl, you get banned
+[12:48:35] [Server thread/INFO]: [0;35;22m* @ [0;35;22mif you dont scream ligma irl, you get banned[m
+[12:48:46] [Server thread/WARN]: SirElbow420 moved too quickly! -67.05320070617307,5.0,38.19266535452334
+[12:49:06] [Server thread/WARN]: SirElbow420 moved too quickly! -29.420015922862007,4.0,-84.52831799807458
+[12:49:06] [Server thread/INFO]: CONSOLE issued server command: /ban SirElbow420 Mean behaviour towards Jevaco
+[12:49:06] [Server thread/INFO]: SirElbow420 lost connection: §cYou have been banned:
+§rMean behaviour towards Jevaco
+[12:49:06] [Server thread/INFO]: SirElbow420 left the game
+[12:49:06] [Server thread/INFO]: §6Player§c Console §6banned§c SirElbow420 §6for: §c§cYou have been banned:
+§rMean behaviour towards Jevaco§6.
+[12:49:06] [Server thread/WARN]: [Essentials] Task #2805 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:49:06] [Server thread/WARN]: handleDisconnection() called twice
+[12:49:07] [Server thread/WARN]: java.lang.NullPointerException
+[12:49:07] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.mysql.DataStorage.saveStats(DataStorage.java:70)
+[12:49:07] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.listener.PlayerStreamListener$1.run(PlayerStreamListener.java:80)
+[12:49:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[12:49:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361)
+[12:49:07] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889)
+[12:49:07] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411)
+[12:49:07] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[12:49:07] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[12:49:07] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:49:12] [Server thread/INFO]: GoodBoiNo1 lost connection: Disconnected
+[12:49:12] [Server thread/INFO]: GoodBoiNo1 left the game
+[12:49:12] [Server thread/WARN]: [Essentials] Task #2816 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:176) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:49:13] [Server thread/WARN]: java.lang.NullPointerException
+[12:49:13] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.mysql.DataStorage.saveStats(DataStorage.java:70)
+[12:49:13] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.listener.PlayerStreamListener$1.run(PlayerStreamListener.java:80)
+[12:49:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[12:49:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361)
+[12:49:13] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889)
+[12:49:13] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411)
+[12:49:13] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[12:49:13] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[12:49:13] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:49:31] [Server thread/INFO]: CONSOLE issued server command: /pardon sirelbow420
+[12:49:31] [Server thread/INFO]: §6Player§c Console §6unbanned§c SirElbow420.
+[12:50:07] [Server thread/INFO]: SpudGamer168 lost connection: Disconnected
+[12:50:07] [Server thread/INFO]: SpudGamer168 left the game
+[12:50:07] [Server thread/WARN]: [Essentials] Task #2831 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:171) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[12:50:08] [Server thread/WARN]: java.lang.NullPointerException
+[12:50:08] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.mysql.DataStorage.saveStats(DataStorage.java:70)
+[12:50:08] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.listener.PlayerStreamListener$1.run(PlayerStreamListener.java:80)
+[12:50:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[12:50:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361)
+[12:50:08] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889)
+[12:50:08] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411)
+[12:50:08] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[12:50:08] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[12:50:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:52:33] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[12:52:34] [Server thread/INFO]: CONSOLE issued server command: /list 
+[12:52:34] [Server thread/INFO]: [0;33;22mThere are [0;31;1m0[0;33;22m out of maximum [0;31;1m20[0;33;22m players online.[m
+[12:53:21] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[12:54:01] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[12:54:21] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[13:01:07] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[13:01:47] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[13:02:07] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[13:08:48] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[13:09:29] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[13:09:49] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[13:16:30] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[13:17:10] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[13:17:30] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[13:24:12] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[13:24:52] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[13:25:12] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[13:31:54] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[13:32:34] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[13:32:54] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[13:39:35] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[13:40:16] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[13:40:36] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[13:47:17] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[13:47:57] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[13:48:17] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[13:54:59] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[13:55:39] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[13:55:59] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[14:02:42] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[14:03:23] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[14:03:43] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[14:04:31] [User Authenticator #13/INFO]: UUID of player SpudGamer168 is 4d714c40-3e16-35cc-b032-f6b8bd7b1115
+[14:04:33] [Server thread/INFO]: SpudGamer168[/10.146.67.219:55815] logged in with entity id 825 at ([world]14.495253328673876, 72.0, -16.080111631998516)
+[14:04:33] [Server thread/WARN]: [Essentials] Task #2838 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:176) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[14:04:33] [Craft Scheduler Thread - 41/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 2837
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[14:05:49] [Server thread/INFO]: SpudGamer168 drowned
+[14:10:26] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[14:11:07] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[14:11:27] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[14:18:10] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[14:18:50] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[14:19:10] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[14:25:52] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[14:26:32] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[14:26:52] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[14:30:18] [User Authenticator #14/INFO]: UUID of player GoodBoiNo1 is 46ee552d-b7dc-3500-bf99-0a9f809c1a71
+[14:30:20] [Server thread/INFO]: GoodBoiNo1[/10.146.66.186:63259] logged in with entity id 840 at ([world]25.769736928136457, 80.54588753063297, -18.69586821500894)
+[14:30:20] [Server thread/WARN]: [Essentials] Task #2860 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[14:30:20] [Craft Scheduler Thread - 44/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 2859
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[14:30:44] [Async Chat Thread - #1/INFO]: [m<GoodBoiNo1[m> benny[m
+[14:30:50] [Async Chat Thread - #1/INFO]: [m<GoodBoiNo1[m> ligma balls[m
+[14:30:57] [Server thread/INFO]: GoodBoiNo1 issued server command: /tp SpudGamer168
+[14:30:57] [Server thread/WARN]: GoodBoiNo1 moved too quickly! 90.29500904020607,-18.0,44.494876278151345
+[14:31:12] [Server thread/INFO]: GoodBoiNo1 issued server command: /gmc
+[14:31:20] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -67.9360237459743,5.0,37.33097659256365
+[14:31:30] [Server thread/WARN]: GoodBoiNo1 moved too quickly! 144.71440380546608,119.0,-13.299630309153414
+[14:32:05] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 10 1
+[14:32:13] [Server thread/ERROR]: Could not pass event EntityChangeBlockEvent to WorldGuard v7.0.0-SNAPSHOT;1749-a6261b9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:308) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.event.CraftEventFactory.callEntityChangeBlockEvent(CraftEventFactory.java:713) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.event.CraftEventFactory.callEntityChangeBlockEvent(CraftEventFactory.java:705) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.EntityFallingBlock.tick(EntityFallingBlock.java:128) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.World.entityJoinedWorld(World.java:1373) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.World.g(World.java:1340) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.World.tickEntities(World.java:1174) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.WorldServer.tickEntities(WorldServer.java:601) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:968) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.lang.IllegalArgumentException: Cannot drop air
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.EntityItem.setItemStack(EntityItem.java:375) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.EntityItem.<init>(EntityItem.java:40) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftWorld.dropItem(CraftWorld.java:279) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onEntityChangeBlock(EventAbstractionListener.java:305) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_181]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:304) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	... 15 more
+[14:32:18] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 10
+[14:32:21] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 10
+[14:32:25] [Server thread/ERROR]: Could not pass event EntityChangeBlockEvent to WorldGuard v7.0.0-SNAPSHOT;1749-a6261b9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:308) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.event.CraftEventFactory.callEntityChangeBlockEvent(CraftEventFactory.java:713) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.event.CraftEventFactory.callEntityChangeBlockEvent(CraftEventFactory.java:705) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.EntityFallingBlock.tick(EntityFallingBlock.java:128) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.World.entityJoinedWorld(World.java:1373) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.World.g(World.java:1340) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.World.tickEntities(World.java:1174) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.WorldServer.tickEntities(WorldServer.java:601) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:968) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.lang.IllegalArgumentException: Cannot drop air
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.EntityItem.setItemStack(EntityItem.java:375) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.EntityItem.<init>(EntityItem.java:40) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftWorld.dropItem(CraftWorld.java:279) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onEntityChangeBlock(EventAbstractionListener.java:305) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_181]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:304) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	... 15 more
+[14:32:28] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 10
+[14:32:32] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 10
+[14:32:35] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 10
+[14:32:43] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 15
+[14:32:50] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 12
+[14:32:58] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 12
+[14:33:15] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 12
+[14:33:24] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 10
+[14:33:27] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 10
+[14:33:36] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[14:33:44] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 11
+[14:34:17] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[14:34:37] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[14:35:11] [Server thread/INFO]: GoodBoiNo1 issued server command: /scoreboard players remove SirElbow123 Kills
+[14:35:25] [Server thread/INFO]: GoodBoiNo1 issued server command: /scoreboard players remove Kills Sirelbow123
+[14:35:30] [User Authenticator #15/INFO]: UUID of player SirElbow420 is 6c846a0f-b552-3771-a161-b9d315ff38b7
+[14:35:32] [Server thread/INFO]: SirElbow420[/10.146.65.160:50514] logged in with entity id 864 at ([world]17.5, 72.0, -13.5)
+[14:35:32] [Server thread/WARN]: [Essentials] Task #2909 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[14:35:32] [Craft Scheduler Thread - 52/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 2908
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[14:36:20] [Server thread/INFO]: SirElbow420 issued server command: /gmc
+[14:36:25] [Server thread/INFO]: SirElbow420 issued server command: /clear
+[14:36:39] [Server thread/INFO]: SirElbow420 issued server command: /tp SpudGamer168
+[14:36:39] [Server thread/WARN]: SirElbow420 moved too quickly! 93.93856240076315,0.0,63.871820762618064
+[14:36:49] [Server thread/INFO]: SirElbow420 issued server command: /tp GoodBoiNo1
+[14:37:53] [Server thread/INFO]: SirElbow420 issued server command: /tp SpudGamer168
+[14:39:09] [Server thread/INFO]: SirElbow420 issued server command: /clear
+[14:40:30] [Server thread/INFO]: SirElbow420 issued server command: /tp GoodBoiNo1
+[14:41:21] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[14:42:01] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[14:42:21] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[14:43:27] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 15
+[14:43:37] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 25
+[14:43:43] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 20
+[14:43:46] [Server thread/INFO]: GoodBoiNo1 issued server command: /jp create 1 20
+[14:46:54] [Server thread/INFO]: GoodBoiNo1 issued server command: /give GoodBoiNo1 commandblock
+[14:47:53] [Server thread/INFO]: GoodBoiNo1 issued server command: /spawn
+[14:47:56] [Server thread/INFO]: SirElbow420 issued server command: /sapwn
+[14:47:58] [Server thread/INFO]: SirElbow420 issued server command: /spawn
+[14:47:58] [Server thread/WARN]: SirElbow420 moved too quickly! -80.24392490970544,-154.0,14.815385481417124
+[14:48:01] [Server thread/INFO]: GoodBoiNo1 lost connection: Disconnected
+[14:48:02] [Server thread/INFO]: GoodBoiNo1 left the game
+[14:48:02] [Server thread/WARN]: [Essentials] Task #3066 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[14:48:02] [Server thread/INFO]: SirElbow420 issued server command: /clear
+[14:48:03] [Server thread/WARN]: java.lang.NullPointerException
+[14:48:03] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.mysql.DataStorage.saveStats(DataStorage.java:70)
+[14:48:03] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.listener.PlayerStreamListener$1.run(PlayerStreamListener.java:80)
+[14:48:03] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[14:48:03] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361)
+[14:48:03] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889)
+[14:48:03] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411)
+[14:48:03] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[14:48:03] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[14:48:03] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[14:48:05] [User Authenticator #16/INFO]: UUID of player GoodBoiNo1 is 46ee552d-b7dc-3500-bf99-0a9f809c1a71
+[14:48:06] [Server thread/INFO]: GoodBoiNo1[/10.146.66.186:57390] logged in with entity id 952 at ([world]113.57535307570583, 63.0, 48.13834762459787)
+[14:48:06] [Server thread/WARN]: [Essentials] Task #3071 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:35) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[14:48:06] [Craft Scheduler Thread - 53/WARN]: [EnchantmentsEnhance] Plugin EnchantmentsEnhance v6.5.0 generated an exception while executing task 3070
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.ReferencePipeline$4$1.accept(Unknown Source) ~[?:1.8.0_181]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(Unknown Source) ~[?:1.8.0_181]
+	at java.util.stream.IntPipeline.toArray(Unknown Source) ~[?:1.8.0_181]
+	at org.pixeltime.enchantmentsenhance.mysql.DataStorage$1.run(DataStorage.java:204) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[14:48:16] [Server thread/INFO]: SirElbow420 issued server command: /gms
+[14:48:17] [Server thread/INFO]: GoodBoiNo1 issued server command: /gms
+[14:48:30] [Async Chat Thread - #2/INFO]: [m<GoodBoiNo1[m> hey benny go on arena 2[m
+[14:48:32] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -66.94598443469685,5.0,37.53925738205639
+[14:48:35] [Server thread/WARN]: GoodBoiNo1 moved too quickly! 144.51451914696483,119.0,-14.571609619046896
+[14:48:36] [Async Chat Thread - #2/INFO]: [m<SpudGamer168[m> alright[m
+[14:48:38] [Server thread/WARN]: SpudGamer168 moved too quickly! -67.57771469641706,5.0,37.34691442607425
+[14:48:43] [Server thread/WARN]: SirElbow420 moved too quickly! 144.881755336935,119.0,-12.610020563524003
+[14:48:56] [Server thread/INFO]: GoodBoiNo1 issued server command: /spawn
+[14:48:56] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -63.85540675459757,-45.0,-4.820530197068962
+[14:49:00] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -66.81157452030791,5.0,36.86581499231538
+[14:49:02] [Server thread/INFO]: SpudGamer168 was sniped by SirElbow420's Hunting Rifle!
+[14:49:04] [Server thread/WARN]: GoodBoiNo1 moved too quickly! 145.11211873584233,119.0,-13.460635002982386
+[14:49:06] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[14:49:19] [Server thread/INFO]: GoodBoiNo1 was sniped by SirElbow420's Hunting Rifle!
+[14:49:22] [Server thread/WARN]: SpudGamer168 moved too quickly! -68.0603673216606,5.0,37.10743081783327
+[14:49:22] [Server thread/WARN]: SpudGamer168 moved too quickly! -68.0603673216606,5.0,37.10743081783327
+[14:49:26] [Server thread/WARN]: SpudGamer168 moved too quickly! 144.6228892355002,119.0,-11.877804676014563
+[14:49:33] [Server thread/INFO]: SpudGamer168 was sniped by SirElbow420's Hunting Rifle!
+[14:49:34] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -66.99090623874754,5.0,36.7021882049662
+[14:49:40] [Server thread/WARN]: GoodBoiNo1 moved too quickly! 144.98186284838567,119.0,-13.645326047325142
+[14:49:42] [Server thread/INFO]: SirElbow420 issued server command: /shot reload
+[14:49:47] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[14:49:49] [Server thread/WARN]: SpudGamer168 moved too quickly! -66.89225899152046,5.0,36.5865333727808
+[14:49:54] [Server thread/WARN]: SpudGamer168 moved too quickly! 144.62616212369255,119.0,-12.977682888166498
+[14:50:00] [Server thread/INFO]: SirElbow420 was slain by SpudGamer168 using [Python / Knife ]
+[14:50:08] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[14:50:16] [Server thread/INFO]: GoodBoiNo1 was slain by SpudGamer168 using [Python / Knife ]
+[14:50:23] [Server thread/WARN]: SirElbow420 moved too quickly! -67.20000403401835,5.0,38.19999998807907
+[14:50:27] [Server thread/WARN]: SirElbow420 moved too quickly! 145.00582306030446,119.0,-12.471377678719463
+[14:50:31] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -66.8174109085544,5.0,37.421187362113876
+[14:50:34] [Server thread/WARN]: GoodBoiNo1 moved too quickly! 145.27068878697125,119.0,-14.311127346285218
+[14:50:59] [Server thread/INFO]: SirElbow420 issued server command: /spawn
+[14:51:00] [Server thread/WARN]: SirElbow420 moved too quickly! -82.3057795424215,-45.0,10.588557968279915
+[14:51:05] [Async Chat Thread - #3/INFO]: [m<SpudGamer168[m> what happened[m
+[14:51:05] [Server thread/WARN]: SirElbow420 moved too quickly! -66.72441022422318,5.0,37.13915900265199
+[14:51:09] [Async Chat Thread - #3/INFO]: [m<GoodBoiNo1[m> he fell[m
+[14:51:11] [Server thread/WARN]: SirElbow420 moved too quickly! 144.56089410526243,119.0,-12.328755709438525
+[14:51:16] [Server thread/INFO]: SpudGamer168 was burnt to a crisp whilst fighting SirElbow420
+[14:51:35] [Server thread/INFO]: SpudGamer168 issued server command: /back
+[14:51:35] [Server thread/WARN]: SpudGamer168 moved too quickly! 73.70555032225086,124.0,11.025941218260364
+[14:51:57] [Server thread/INFO]: SirElbow420 was slain by SpudGamer168 using [Python / Knife ]
+[14:52:22] [Server thread/INFO]: SirElbow420 issued server command: /clear
+[14:52:34] [Server thread/INFO]: GoodBoiNo1 was slain by SpudGamer168 using [Python / Knife ]
+[14:52:38] [Server thread/INFO]: SirElbow420 issued server command: /clear effect
+[14:52:50] [Server thread/INFO]: GoodBoiNo1 issued server command: /effect clear
+[14:52:52] [Server thread/INFO]: GoodBoiNo1 issued server command: /effect clear @a
+[14:53:03] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -66.79880700578636,5.0,37.02136267556051
+[14:53:03] [Server thread/INFO]: SirElbow420 issued server command: /clear
+[14:53:09] [Server thread/WARN]: GoodBoiNo1 moved too quickly! 145.2493447847666,119.0,-13.48582252294456
+[14:53:11] [Server thread/WARN]: SirElbow420 moved too quickly! -67.22065442782964,5.0,37.81619000026903
+[14:53:11] [Server thread/WARN]: SirElbow420 moved too quickly! -67.22065442782964,5.0,37.81619000026903
+[14:53:15] [Server thread/WARN]: SirElbow420 moved too quickly! 144.69069371129532,119.0,-13.300739644338478
+[14:53:22] [Server thread/INFO]: SirElbow420 was slain by SpudGamer168 using [Python / Knife ]
+[14:53:29] [Server thread/INFO]: SpudGamer168 was pummeled by GoodBoiNo1 using [AK-47 ]
+[14:53:43] [Server thread/WARN]: SirElbow420 moved too quickly! -67.00200033949966,5.0,38.19999998807907
+[14:53:50] [Server thread/WARN]: SirElbow420 moved too quickly! 144.69688069257916,119.0,-13.322190163507244
+[14:53:53] [Server thread/WARN]: SpudGamer168 moved too quickly! -66.47612361905452,5.0,37.597675594229564
+[14:53:53] [Server thread/WARN]: SpudGamer168 moved too quickly! -66.47612361905452,5.0,37.597675594229564
+[14:53:58] [Server thread/WARN]: SpudGamer168 moved too quickly! 144.9164964952008,119.0,-13.55601322248539
+[14:54:04] [Server thread/INFO]: SpudGamer168 was pummeled by SirElbow420 using [Olympia ]
+[14:54:10] [Server thread/INFO]: GoodBoiNo1 was slain by SirElbow420 using [Python / Knife ]
+[14:54:20] [Server thread/INFO]: SirElbow420 issued server command: /shot reload
+[14:54:25] [Server thread/INFO]: SirElbow420 issued server command: /shot reload
+[14:54:26] [Server thread/WARN]: SpudGamer168 moved too quickly! -66.57829481433339,5.0,37.372497722278176
+[14:54:33] [Server thread/WARN]: GoodBoiNo1 moved too quickly! 145.900639538656,119.0,-13.157094814176617
+[14:54:39] [Server thread/INFO]: SirElbow420 issued server command: /shot reload
+[14:54:43] [Server thread/INFO]: GoodBoiNo1 issued server command: /tp SirElbow420
+[14:54:43] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -9.407950356174268,87.0,-10.512952174423724
+[14:54:53] [Server thread/INFO]: SpudGamer168 was slain by SirElbow420 using [Python / Knife ]
+[14:55:03] [Server thread/INFO]: SirElbow420 was slain by GoodBoiNo1 using [Python / Knife ]
+[14:55:13] [Server thread/WARN]: SpudGamer168 moved too quickly! -66.41566449280107,5.0,37.02720689405377
+[14:55:17] [Server thread/WARN]: SpudGamer168 moved too quickly! 145.23540396411053,119.0,-13.001913264155746
+[14:55:22] [Server thread/INFO]: GoodBoiNo1 issued server command: /tp SirElbow420
+[14:55:22] [Server thread/WARN]: GoodBoiNo1 moved too quickly! -82.80000001192093,-44.0,-4.731167699778915
+[14:55:28] [Server thread/INFO]: GoodBoiNo1 lost connection: Disconnected
+[14:55:28] [Server thread/INFO]: GoodBoiNo1 left the game
+[14:55:28] [Server thread/WARN]: [Essentials] Task #4833 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:181) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[14:55:29] [Server thread/WARN]: java.lang.NullPointerException
+[14:55:29] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.mysql.DataStorage.saveStats(DataStorage.java:70)
+[14:55:29] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.listener.PlayerStreamListener$1.run(PlayerStreamListener.java:80)
+[14:55:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[14:55:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361)
+[14:55:29] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889)
+[14:55:29] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411)
+[14:55:29] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[14:55:29] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[14:55:29] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[14:55:30] [Server thread/INFO]: SirElbow420 lost connection: Disconnected
+[14:55:30] [Server thread/INFO]: SirElbow420 left the game
+[14:55:30] [Server thread/WARN]: [Essentials] Task #4836 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:176) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[14:55:31] [Server thread/WARN]: java.lang.NullPointerException
+[14:55:31] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.mysql.DataStorage.saveStats(DataStorage.java:70)
+[14:55:31] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.listener.PlayerStreamListener$1.run(PlayerStreamListener.java:80)
+[14:55:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[14:55:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361)
+[14:55:31] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889)
+[14:55:31] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411)
+[14:55:31] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[14:55:31] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[14:55:31] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[14:55:49] [Async Chat Thread - #4/INFO]: [m<SpudGamer168[m> yay i am forever alone[m
+[14:56:22] [Server thread/INFO]: SpudGamer168 lost connection: Disconnected
+[14:56:22] [Server thread/INFO]: SpudGamer168 left the game
+[14:56:22] [Server thread/WARN]: [Essentials] Task #4839 for Essentials v2.15.0.45 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:171) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:123) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:59) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.1.jar:git-Spigot-2440e18-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[14:56:23] [Server thread/WARN]: java.lang.NullPointerException
+[14:56:23] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.mysql.DataStorage.saveStats(DataStorage.java:70)
+[14:56:23] [Server thread/WARN]: 	at org.pixeltime.enchantmentsenhance.listener.PlayerStreamListener$1.run(PlayerStreamListener.java:80)
+[14:56:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:76)
+[14:56:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361)
+[14:56:23] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:889)
+[14:56:23] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:411)
+[14:56:23] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[14:56:23] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[14:56:23] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[14:56:57] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[14:57:37] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[14:57:57] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[15:04:39] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[15:05:19] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[15:05:39] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[15:12:21] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[15:13:02] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[15:13:22] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[15:20:04] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[15:20:44] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[15:21:04] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[15:27:46] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[15:28:26] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[15:28:46] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[15:35:28] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[15:36:08] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[15:36:28] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[15:43:10] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[15:43:50] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[15:44:10] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[15:50:52] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[15:51:32] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[15:51:52] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[15:58:34] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[15:59:14] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[15:59:34] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[16:06:16] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[16:06:56] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[16:07:16] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[16:13:58] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[16:14:38] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[16:14:58] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[16:21:40] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[16:22:20] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[16:22:40] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[16:29:22] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[16:30:02] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[16:30:22] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[16:37:04] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[16:37:44] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[16:38:04] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[16:44:46] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[16:45:26] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[16:45:46] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[16:52:28] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[16:53:08] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[16:53:28] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[17:00:10] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[17:00:50] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[17:01:10] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[17:07:52] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[17:08:32] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[17:08:53] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[17:15:34] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[17:16:15] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[17:16:35] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[17:23:17] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[17:23:57] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[17:24:17] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[17:30:58] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[17:31:38] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[17:31:59] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[17:38:40] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[17:39:21] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[17:39:41] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;32;1mRemoved 0 Entities![m
+[17:46:22] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[17:47:02] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m]  [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m

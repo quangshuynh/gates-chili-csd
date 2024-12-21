@@ -1,0 +1,22 @@
+geolocation: N/A
+lastAccountName: Jevaco
+timestamps:
+  login: 1542220081966
+  logout: 1542135293972
+  lastteleport: 1542220157393
+ipAddress: 10.146.68.1
+afk: false
+logoutlocation:
+  world: world
+  x: 66.07035305877669
+  y: 63.0
+  z: 256.38923142580893
+  yaw: 174.11914
+  pitch: 48.450134
+lastlocation:
+  world: world
+  x: 76.48239146740544
+  y: 82.82405208338035
+  z: 263.57499998807907
+  yaw: 359.99994
+  pitch: -68.25002

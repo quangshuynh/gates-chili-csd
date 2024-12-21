@@ -1,0 +1,9 @@
+Reading config file F:\Emulators and Roms\emulators/snes9x.conf.
+Saving	config file	F:\Emulators and Roms\emulators/snes9x.conf
+Sound buffer size: 24832 (6208 samples)
+Found ROM file header (and ignored it).
+Map_HiROMMap
+"FINAL FANTASY 3" [checksum ok] HiROM, 32Mbits, ROM+RAM+BAT, NTSC, SRAM:64Kbits, ID:F6  , CRC32:A27F1C7A
+Sound buffer size: 24832 (6208 samples)
+Saving	config file	F:\Emulators and Roms\emulators/snes9x.conf
+Saving	config file	F:\Emulators and Roms\emulators/snes9x.conf

@@ -1,0 +1,53 @@
+#EpicRename by Justin Brubaker. https://www.spigotmc.org/resources/epicrename.4341/
+#Version 3.0+
+
+#DO NOT CHANGE THIS PLEASE
+config_version: 4
+
+#Plugin Prefix
+prefix: '&8[&bEpic&fRename&8] &f'
+
+#Economy Features
+#You must restart the server after changing the economy settings.
+economy:
+  use: false
+  costs:
+    rename: 100
+    lore: 100
+
+#Blacklists    
+blacklists:
+  material:
+    - 'VAILD_MATERIAL_HERE'
+    -
+  
+  text:
+    - 'some_bad_phrase_here'
+    -
+  
+  #These values are checked without color and are case insensitive.  
+  existingname:
+    - 'a name that is not case sensitive'
+    - 
+  
+  #These values are checked without color and are case insensitive.    
+  existingloreline:
+    - 'a string of text to check for every lore line that is not case sensitive'
+    -
+    
+#Default Character Limit is 30
+character_limit:
+  enabled: false
+  limit: 30  
+  
+#Should underscores be replaced with spaces?
+replace_underscores: false
+
+#Per world plugin enable
+per_world: false
+
+#Enabled worlds
+enabled_worlds:
+  - 'world'
+  - 'world_nether'
+  - 'world_the_end'

@@ -1,0 +1,159 @@
+reload-complete: "\xa76[iDisguise] Reload complete."
+no-permission: "\xa7cYou are not allowed to do this."
+console-use-other-command: "\xa7cUse /odisguise from the server console."
+cannot-find-targets: "\xa7cNo target entities were found."
+wrong-usage-no-name: "\xa7cWrong usage: account name required"
+wrong-usage-two-disguise-types: "\xa7cWrong usage: two disguise types given"
+wrong-usage-unknown-arguments: "\xa7cWrong usage: the following arguments could not\
+  \ be identified"
+wrong-usage-unknown-arguments2: "\xa77 \xa7o%argument%\xa77 -> %message%"
+wrong-usage-see-through: "\xa7cWrong usage: unknown argument \xa7o%argument%"
+invalid-name: "\xa7cThe given account name is invalid."
+event-cancelled: "\xa7cAnother plugin prohibits you to do that."
+disguise-success-self: "\xa76You disguised as a %type%."
+disguise-success-other: "\xa76%player% disguised as a %type%."
+disguise-success-multiple: "\xa76%share% out of %total% selected entities disguised\
+  \ as a %type%."
+status-player-self: "\xa76You are disguised as a %type% called %name%."
+status-player-other: "\xa76%player% is disguised as a %type% called %name%."
+status-self: "\xa76You are disguised as a %type%."
+status-other: "\xa76%player% is disguised as a %type%."
+status-subtypes: "\xa77(%subtypes%)"
+status-not-disguised-self: "\xa76You are not disguised."
+status-not-disguised-other: "\xa76%player% is not disguised."
+outdated-server: "\xa7cYour Minecraft version does not support the given disguise\
+  \ type."
+undisguise-console: "\xa7cYou are not a player so you cannot undisguise."
+undisguise-not-disguised-self: "\xa7cYou are not disguised."
+undisguise-not-disguised-other: "\xa7c%player% is not disguised."
+undisguise-success-self: "\xa76You undisguised."
+undisguise-success-other: "\xa76%player% undisguised."
+undisguise-success-multiple: "\xa76%share% out of %total% selected entities undisguised."
+help-base: "\xa76\xa7o%command% \xa76- %description%"
+help-types: "\xa76%types%"
+help-types-available: '%type%'
+help-types-not-supported: "\xa77\xa7m%type%"
+help-types-no-permission: "\xa77\xa7m%type%"
+help-info: "\xa77Use \xa7o%command% \xa77to read the other pages."
+help-player-self: Disguise yourself as a player
+help-player-other: Disguise a player as a player
+help-random-self: Disguise yourself as a randomly chosen mob
+help-random-other: Disguise a player as a randomly chosen mob
+help-reload: Reload config and language file
+help-see-through-self: Indicate or toggle see-through mode for yourself
+help-see-through-other: Indicate or toggle see-through mode for a player
+help-status-self: Shows your disguise status
+help-status-other: Shows a player's disguise status
+help-undisguise-self: Undisguise yourself
+help-undisguise-all-new: Undisguise everyone (*), all online players (*o), all players (*p) or all entities (*e)
+help-undisguise-other: Undisguise a player
+help-disguise-self: Disguise yourself as a mob with optional subtypes
+help-disguise-other: Disguise a player as a mob with optional subtypes
+help-subtype: Apply one (or multiple) subtypes
+join-disguised: "\xa76You are still disguised. Use \xa7o/disguise status\xa7r\xa7\
+  6 to get more information."
+move-as-shulker: "\xa7cYou must not move while you are disguised as a shulker."
+update-available: "\xa76[iDisguise] An update is available: %version%"
+update-already-downloaded: "\xa76[iDisguise] Update already downloaded. (Restart server\
+  \ to apply update)"
+update-downloading: "\xa76[iDisguise] Downloading update..."
+update-download-succeeded: "\xa76[iDisguise] Download succeeded. (Restart server to\
+  \ apply update)"
+update-download-failed: "\xa7c[iDisguise] Download failed."
+update-option: "\xa76[iDisguise] You can enable automatic updates in the config file."
+easter-egg-birthday: "\xa7eYAAAY!!! Today is my birthday! I'm %age% years old now."
+see-through-status-on-self: "\xa76See-through mode is currently \xa7aenabled \xa7\
+  6for you."
+see-through-status-on-other: "\xa76See-through mode is currently \xa7aenabled \xa7\
+  6for %player%."
+see-through-status-off-self: "\xa76See-through mode is currently \xa7cdisabled \xa7\
+  6for you."
+see-through-status-off-other: "\xa76See-through mode is currently \xa7cdisabled \xa7\
+  6for %player%."
+see-through-enable-self: "\xa76See-through mode is now \xa7aenabled \xa76for you."
+see-through-enable-other: "\xa76See-through mode is now \xa7aenabled \xa76for %player%."
+see-through-disable-self: "\xa76See-through mode is now \xa7cdisabled \xa76for you."
+see-through-disable-other: "\xa76See-through mode is now \xa7cdisabled \xa76for %player%."
+see-through-entity: "\xa7cSee-through mode is only for players."
+help-target-uid: "\xa76<account-id> - Select a player by account id"
+help-target-eid: "\xa76[entity-id] - Select an entity/player by entity id"
+help-target-vanilla: "\xa76@p/@r/@a/@e/@s[...] - Select entities/players with vanilla\
+  \ selector"
+help-target-name-exact: "\xa76\"player-name\" - Select a player by EXACT account name"
+help-target-name-match: "\xa76player-name - Match an ONLINE player"
+help-target-vanilla-tip: "\xa77Tip: You can use vanilla target selectors in command\
+  \ blocks like this \xa7o#p/#r/#a/#e/#s[...]"
+help-title: "\xa77==== \xa7l%name% \xa77%version% ==== \xa7l%title% \xa77(%page%/%total%)\
+  \ ===="
+help-title-disguise: Disguise
+help-title-undisguise: Undisguise
+help-title-types: Types
+help-title-features: Features
+help-title-targets: Targets
+help-undisguise-tip: "\xa77Tip: Append \xa7oignore\xa77 to the end of the command\
+  \ to bypass the plugin's API."
+disguise-alias-bat: ''
+disguise-alias-blaze: ''
+disguise-alias-cave-spider: cavespider, bluespider, blue-spider
+disguise-alias-chicken: chick
+disguise-alias-cod: ''
+disguise-alias-cow: cattle, ox
+disguise-alias-creeper: ''
+disguise-alias-dolphin: ''
+disguise-alias-donkey: ''
+disguise-alias-drowned: ''
+disguise-alias-elder-guardian: ''
+disguise-alias-ender-dragon: ''
+disguise-alias-enderman: endermen
+disguise-alias-endermite: ''
+disguise-alias-evoker: ''
+disguise-alias-ghast: ''
+disguise-alias-giant: ''
+disguise-alias-guardian: ''
+disguise-alias-horse: ''
+disguise-alias-husk: ''
+disguise-alias-illusioner: ''
+disguise-alias-iron-golem: golem
+disguise-alias-llama: ''
+disguise-alias-magma-cube: magmacube, magma-slime, magmaslime, lava-slime, lavaslime, lava-cube, lavacube
+disguise-alias-mule: ''
+disguise-alias-mushroom-cow: mushroom-cow, mooshroom
+disguise-alias-ocelot: cat
+disguise-alias-parrot: ''
+disguise-alias-phantom: ''
+disguise-alias-pig: ''
+disguise-alias-pig-zombie: pigzombie, pigman, pigmen
+disguise-alias-polar-bear: polarbear, bear
+disguise-alias-pufferfish: puffer-fish
+disguise-alias-rabbit: bunny
+disguise-alias-salmon: ''
+disguise-alias-sheep: ''
+disguise-alias-shulker: ''
+disguise-alias-silverfish: ''
+disguise-alias-skeletal-horse: ''
+disguise-alias-skeleton: ''
+disguise-alias-slime: ''
+disguise-alias-snowman: ''
+disguise-alias-spider: ''
+disguise-alias-squid: ''
+disguise-alias-stray: ''
+disguise-alias-tropical-fish: tropicalfish
+disguise-alias-turtle: ''
+disguise-alias-undead-horse: undeadhorse, zombie-horse, zombiehorse
+disguise-alias-vex: ''
+disguise-alias-villager: ''
+disguise-alias-vindicator: ''
+disguise-alias-witch: ''
+disguise-alias-wither: witherboss
+disguise-alias-wither-skeleton: ''
+disguise-alias-wolf: dog
+disguise-alias-zombie: ''
+disguise-alias-zombie-villager: zombievillager, infected-villager, infectedvillager
+disguise-alias-area-effect-cloud: areaeffectcloud, effect-cloud, effectcloud
+disguise-alias-armor-stand: armorstand
+disguise-alias-boat: ''
+disguise-alias-ender-crystal: endercrystal, crystal
+disguise-alias-falling-block: fallingblock, block
+disguise-alias-item: item-stack, itemstack
+disguise-alias-minecart: cart
+version: iDisguise 5.8.1

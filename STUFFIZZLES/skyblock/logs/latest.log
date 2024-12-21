@@ -1,0 +1,40 @@
+[12:43:00] [Server thread/INFO]: Starting minecraft server version 1.8.9
+[12:43:00] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[12:43:00] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_201]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_201]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_201]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_201]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_201]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_201]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_201]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_201]
+	at ko$2.run(SourceFile:81) [minecraft_server.1.8.9.jar:?]
+[12:43:00] [Server thread/INFO]: Loading properties
+[12:43:00] [Server thread/INFO]: Default game type: SURVIVAL
+[12:43:00] [Server thread/INFO]: Generating keypair
+[12:43:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:43:01] [Server thread/INFO]: Using default channel type
+[12:43:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:43:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:43:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:43:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:43:02] [Server thread/INFO]: Preparing level "world"
+[12:43:02] [Server thread/INFO]: Preparing start region for level 0
+[12:43:03] [Server thread/INFO]: Preparing spawn area: 53%
+[12:43:03] [Server thread/INFO]: Done (1.328s)! For help, type "help" or "?"
+[12:43:50] [Server thread/INFO]: Added SirElbow420 to the whitelist
+[12:43:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3644ms behind, skipping 72 tick(s)
+[12:44:02] [Server thread/INFO]: Added BigPeePee to the whitelist
+[12:51:58] [Server thread/INFO]: Stopping the server
+[12:51:58] [Server thread/INFO]: Stopping server
+[12:51:58] [Server thread/INFO]: Saving players
+[12:51:58] [Server thread/INFO]: Saving worlds
+[12:51:58] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[12:51:58] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[12:51:58] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[12:51:58] [Server Shutdown Thread/INFO]: Stopping server

@@ -1,0 +1,27 @@
+geolocation: United States
+lastAccountName: GoodBoiNo1
+timestamps:
+  login: 1542395374575
+  logout: 1542346111750
+  lastteleport: 1542344370307
+ipAddress: 10.146.66.236
+logoutlocation:
+  world: world
+  x: 26.14766181461311
+  y: 67.0
+  z: 224.94980199338934
+  yaw: -303.04913
+  pitch: 30.04606
+lastlocation:
+  world: world
+  x: -89.6795644735079
+  y: 76.40581936901577
+  z: 308.3818212106727
+  yaw: 302.63086
+  pitch: 20.400007
+afk: false
+powertools:
+  '322':
+  - kittycannon
+  '5':
+  - give CreeperZ585 saddle

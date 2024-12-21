@@ -1,0 +1,505 @@
+[20:14:09] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:14:09] [Server thread/INFO]: Loading properties
+[20:14:09] [Server thread/INFO]: Default game type: SURVIVAL
+[20:14:09] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:14:10] [Server thread/INFO]: Debug logging is disabled
+[20:14:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:14:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:14:10] [Server thread/INFO]: Generating keypair
+[20:14:10] [Server thread/INFO]: Starting Minecraft server on *:42069
+[20:14:10] [Server thread/INFO]: Using default channel type
+[20:14:10] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:14:10] [Server thread/ERROR]: ebean.properties not found
+[20:14:10] [Server thread/INFO]: DataSourcePool [LoginSecurity] autoCommit[false] transIsolation[SERIALIZABLE] min[2] max[20]
+[20:14:10] [Server thread/INFO]: SubClassFactory parent ClassLoader [org.bukkit.plugin.java.PluginClassLoader]
+[20:14:10] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.Migration but not supported by DB Platform - ignored
+[20:14:10] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerProfile but not supported by DB Platform - ignored
+[20:14:10] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerLocation but not supported by DB Platform - ignored
+[20:14:10] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerInventory but not supported by DB Platform - ignored
+[20:14:10] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.ActionEntry but not supported by DB Platform - ignored
+[20:14:11] [Server thread/INFO]: Entities enhanced[0] subclassed[5]
+[20:14:11] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[20:14:11] [Server thread/INFO]: [iDisguise] Loading iDisguise v5.8.1
+[20:14:11] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v2.1.7
+[20:14:11] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.9.7
+[20:14:11] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[20:14:11] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[20:14:11] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.5.04-SNAPSHOT-b${BUILD_NUMBER}
+[20:14:11] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.3.0
+[20:14:11] [Server thread/INFO]: [ViaVersion] ViaVersion 1.3.0 is now loaded, injecting!
+[20:14:11] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[20:14:11] [Server thread/INFO]: [EasyBackup] Loading EasyBackup v1.1.4
+[20:14:11] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1
+[20:14:11] [Server thread/INFO]: [LockettePro] Loading LockettePro v2.9.0
+[20:14:11] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b496
+[20:14:11] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.0.1-b496
+[20:14:11] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.0.1-b496
+[20:14:11] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.0.1-b496
+[20:14:11] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v5.4.1
+[20:14:11] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.0.1-b496
+[20:14:11] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.0.1-b496
+[20:14:11] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.5.04-SNAPSHOT-b${BUILD_NUMBER}
+[20:14:12] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[20:14:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[20:14:12] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[20:14:12] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:14:12] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[20:14:12] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[20:14:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:14:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:14:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:14:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:14:12] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:14:12] [Server thread/INFO]: Preparing level "world"
+[20:14:12] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:14:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:14:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:14:12] [Server thread/INFO]: View Distance: 10
+[20:14:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:14:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:14:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:14:12] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:14:12] [Server thread/INFO]: Clear tick list: false
+[20:14:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:14:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:14:12] [Server thread/INFO]: Structure Info Saving: true
+[20:14:12] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:14:12] [Server thread/INFO]: Max TNT Explosions: 100
+[20:14:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:14:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:14:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:14:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:14:12] [Server thread/INFO]: Random Lighting Updates: false
+[20:14:12] [Server thread/INFO]: Anti X-Ray: true
+[20:14:12] [Server thread/INFO]: 	Engine Mode: 1
+[20:14:12] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:14:12] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:14:12] [Server thread/INFO]: Mob Spawn Range: 4
+[20:14:12] [Server thread/INFO]: Max Entity Collisions: 8
+[20:14:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:14:12] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:14:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:14:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:14:12] [Server thread/INFO]: View Distance: 10
+[20:14:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:14:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:14:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:14:12] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:14:12] [Server thread/INFO]: Clear tick list: false
+[20:14:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:14:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:14:12] [Server thread/INFO]: Structure Info Saving: true
+[20:14:12] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:14:12] [Server thread/INFO]: Max TNT Explosions: 100
+[20:14:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:14:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:14:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:14:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:14:12] [Server thread/INFO]: Random Lighting Updates: false
+[20:14:12] [Server thread/INFO]: Anti X-Ray: true
+[20:14:12] [Server thread/INFO]: 	Engine Mode: 1
+[20:14:12] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:14:12] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:14:12] [Server thread/INFO]: Mob Spawn Range: 4
+[20:14:12] [Server thread/INFO]: Max Entity Collisions: 8
+[20:14:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:14:12] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:14:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:14:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:14:12] [Server thread/INFO]: View Distance: 10
+[20:14:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:14:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:14:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:14:12] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:14:12] [Server thread/INFO]: Clear tick list: false
+[20:14:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:14:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:14:12] [Server thread/INFO]: Structure Info Saving: true
+[20:14:12] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:14:12] [Server thread/INFO]: Max TNT Explosions: 100
+[20:14:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:14:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:14:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:14:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:14:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:14:12] [Server thread/INFO]: Random Lighting Updates: false
+[20:14:12] [Server thread/INFO]: Anti X-Ray: true
+[20:14:12] [Server thread/INFO]: 	Engine Mode: 1
+[20:14:12] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:14:12] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:14:12] [Server thread/INFO]: Mob Spawn Range: 4
+[20:14:12] [Server thread/INFO]: Max Entity Collisions: 8
+[20:14:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:14:12] [Server thread/INFO]: Preparing start region for level 0 (Seed: 376786508)
+[20:14:13] [Server thread/INFO]: Preparing spawn area: 46%
+[20:14:14] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4664712093828578505)
+[20:14:15] [Server thread/INFO]: Preparing spawn area: 48%
+[20:14:15] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4664712093828578505)
+[20:14:15] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[20:14:16] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:14:16] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[20:14:16] [Server thread/INFO]: [iDisguise] Enabling iDisguise v5.8.1
+[20:14:16] [Server thread/INFO]: [iDisguise] iDisguise 5.8.1 enabled!
+[20:14:17] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v2.1.7
+[20:14:17] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[20:14:17] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[20:14:17] [Server thread/INFO]: [LoginSecurity] Connection to database....
+[20:14:17] [Server thread/INFO]: DataSourcePool [LoginSecurityDB] autoCommit[false] transIsolation[SERIALIZABLE] min[2] max[20]
+[20:14:17] [Server thread/INFO]: SubClassFactory parent ClassLoader [org.bukkit.plugin.java.PluginClassLoader]
+[20:14:17] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.Migration but not supported by DB Platform - ignored
+[20:14:17] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerProfile but not supported by DB Platform - ignored
+[20:14:17] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerLocation but not supported by DB Platform - ignored
+[20:14:17] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerInventory but not supported by DB Platform - ignored
+[20:14:17] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.ActionEntry but not supported by DB Platform - ignored
+[20:14:17] [Server thread/INFO]: Entities enhanced[0] subclassed[5]
+[20:14:17] [Server thread/INFO]: [LoginSecurity] Checking database version...
+[20:14:17] [Server thread/INFO]: [LoginSecurity] Applied 0 missing database upgrades.
+[20:14:17] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[20:14:17] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[20:14:17] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.9.7
+[20:14:17] [Server thread/INFO]: [ClearLag] Loading modules...
+[20:14:17] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[20:14:17] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[20:14:17] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[20:14:17] [Thread-16/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.8]...
+[20:14:17] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[20:14:17] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[20:14:17] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[20:14:17] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[20:14:17] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[20:14:17] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[20:14:17] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.3.0
+[20:14:17] [Server thread/INFO]: [EasyBackup] Enabling EasyBackup v1.1.4
+[20:14:17] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1
+[20:14:17] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:14:17] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:14:17] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[20:14:17] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:14:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:14:17] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:14:17] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:14:17] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[20:14:17] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:14:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:14:17] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:14:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:14:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[20:14:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:14:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:14:17] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:14:18] [Server thread/INFO]: [LockettePro] Enabling LockettePro v2.9.0
+[20:14:18] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b496
+[20:14:18] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[20:14:18] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[20:14:18] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[20:14:18] [Server thread/INFO]: Using locale en_US
+[20:14:18] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:14:18] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[20:14:18] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[20:14:19] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.0.1-b496
+[20:14:19] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.0.1-b496
+[20:14:19] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.0.1-b496
+[20:14:19] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite data created by MaxMind, available from http://www.maxmind.com/.
+[20:14:19] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v5.4.1
+[20:14:19] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.0.1-b496
+[20:14:19] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.0.1-b496
+[20:14:19] [Server thread/WARN]: config broken for xmpp
+[20:14:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:14:19] [Server thread/INFO]: Done (7.063s)! For help, type "help" or "?"
+[20:14:19] [Server thread/INFO]: Starting remote control listener
+[20:14:19] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:42079
+[20:14:19] [Thread-16/INFO]: [ClearLag] No updates found!
+[20:14:19] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x(47)
+[20:14:19] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 9 of 15 files.
+[20:14:19] [Craft Scheduler Thread - 46/INFO]: [Vault] Checking for Updates ... 
+[20:14:19] [Craft Scheduler Thread - 7/WARN]: java.io.IOException: Server returned HTTP response code: 500 for URL: http://coremod.com/pluginMetrics/pluginMetrics.php?plugin=EasyBackup&ip=42069&players=0
+[20:14:19] [Craft Scheduler Thread - 7/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[20:14:19] [Craft Scheduler Thread - 7/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[20:14:19] [Craft Scheduler Thread - 7/WARN]: 	at me.forseth11.EasyBackup.PluginMetrics.update(PluginMetrics.java:32)
+[20:14:19] [Craft Scheduler Thread - 7/WARN]: 	at me.forseth11.EasyBackup.PluginMetrics$1.run(PluginMetrics.java:51)
+[20:14:19] [Craft Scheduler Thread - 7/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[20:14:19] [Craft Scheduler Thread - 7/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[20:14:19] [Craft Scheduler Thread - 7/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[20:14:19] [Craft Scheduler Thread - 7/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[20:14:19] [Craft Scheduler Thread - 7/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[20:14:19] [Server thread/WARN]: [ViaVersion] There is a newer version available: 1.6.0, you're on: 1.3.0
+[20:14:20] [Craft Scheduler Thread - 46/WARN]: [Vault] Stable Version: 1.7.1 is out! You are still running version: 1.5.6
+[20:14:20] [Craft Scheduler Thread - 46/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[20:14:20] [Craft Scheduler Thread - 46/INFO]: [0;33;22m[iDisguise] An update is available: iDisguise 5.8.2[m
+[20:14:20] [Craft Scheduler Thread - 46/INFO]: [0;33;22m[iDisguise] You can enable automatic updates in the config file.[m
+[20:14:44] [Thread-20/INFO]: [0;32;1m[EasyBackup] Starting server backup from: C:\Users\20378\OneDrive - Gates Chili CSD\STUFFIZZLES\Zoinkss\.[m
+[20:14:44] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 0% 0/105 MB Saved.[m
+[20:14:45] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 2% 2/105 MB Saved.[m
+[20:14:46] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 3% 3/105 MB Saved.[m
+[20:14:46] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 4% 5/105 MB Saved.[m
+[20:14:46] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 5% 5/105 MB Saved.[m
+[20:14:46] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 6% 6/105 MB Saved.[m
+[20:14:46] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 11% 11/105 MB Saved.[m
+[20:14:47] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 12% 13/105 MB Saved.[m
+[20:14:47] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 13% 13/105 MB Saved.[m
+[20:14:47] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 15% 15/105 MB Saved.[m
+[20:14:47] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 16% 17/105 MB Saved.[m
+[20:14:47] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 17% 18/105 MB Saved.[m
+[20:14:47] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 35% 37/105 MB Saved.[m
+[20:14:49] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 36% 38/105 MB Saved.[m
+[20:14:49] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 38% 40/105 MB Saved.[m
+[20:14:50] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 39% 41/105 MB Saved.[m
+[20:14:50] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 41% 43/105 MB Saved.[m
+[20:14:50] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 44% 47/105 MB Saved.[m
+[20:14:50] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 47% 50/105 MB Saved.[m
+[20:14:50] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 50% 53/105 MB Saved.[m
+[20:14:50] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 53% 56/105 MB Saved.[m
+[20:14:51] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 54% 57/105 MB Saved.[m
+[20:14:51] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 57% 61/105 MB Saved.[m
+[20:14:51] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 60% 63/105 MB Saved.[m
+[20:14:51] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 62% 65/105 MB Saved.[m
+[20:14:51] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 66% 70/105 MB Saved.[m
+[20:14:52] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 71% 74/105 MB Saved.[m
+[20:14:52] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 76% 80/105 MB Saved.[m
+[20:14:52] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 77% 81/105 MB Saved.[m
+[20:14:52] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 78% 82/105 MB Saved.[m
+[20:14:52] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 80% 84/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 81% 85/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 82% 87/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 83% 87/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 84% 88/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 85% 90/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 86% 90/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 87% 92/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 88% 92/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 89% 94/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 90% 94/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 91% 96/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 92% 96/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 93% 98/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 94% 99/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 95% 100/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 96% 101/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 97% 102/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 98% 103/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 99% 104/105 MB Saved.[m
+[20:14:53] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup: 100% 105/105 MB Saved.[m
+[20:14:54] [Thread-20/INFO]: [0;32;1m[EasyBackup] Backup saved![m
+[20:16:49] [Thread-21/INFO]: UUID of player CreeperZ585 is ea89974b-77ad-3c41-8273-6072be99af20
+[20:16:50] [Server thread/INFO]: CreeperZ585[/127.0.0.1:59248] logged in with entity id 647 at ([world]-49.47501063447325, 64.875, 298.31338584471393)
+[20:16:50] [Server thread/WARN]: [Essentials] Task #1740 for Essentials v2.0.1-b496 generated an exception
+java.lang.NullPointerException
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:148) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:109) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:31) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:723) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[20:17:03] [Server thread/INFO]: CreeperZ585 lost connection: Disconnected
+[20:17:03] [Server thread/INFO]: CreeperZ585 left the game.
+[20:17:03] [Server thread/WARN]: [Essentials] Task #1799 for Essentials v2.0.1-b496 generated an exception
+java.lang.NullPointerException
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:144) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:109) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:51) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:723) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[20:21:01] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[20:21:41] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[20:22:01] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;32;1mRemoved 7 Entities![m
+[20:28:42] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[20:29:22] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[20:29:42] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;32;1mRemoved 12 Entities![m
+[20:36:23] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[20:37:03] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[20:37:23] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;32;1mRemoved 8 Entities![m
+[20:44:06] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[20:44:26] [Craft Scheduler Thread - 58/WARN]: java.io.IOException: Server returned HTTP response code: 500 for URL: http://coremod.com/pluginMetrics/pluginMetrics.php?plugin=EasyBackup&ip=42069&players=0
+[20:44:26] [Craft Scheduler Thread - 58/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[20:44:26] [Craft Scheduler Thread - 58/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[20:44:26] [Craft Scheduler Thread - 58/WARN]: 	at me.forseth11.EasyBackup.PluginMetrics.update(PluginMetrics.java:32)
+[20:44:26] [Craft Scheduler Thread - 58/WARN]: 	at me.forseth11.EasyBackup.PluginMetrics$1.run(PluginMetrics.java:51)
+[20:44:26] [Craft Scheduler Thread - 58/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[20:44:26] [Craft Scheduler Thread - 58/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[20:44:26] [Craft Scheduler Thread - 58/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[20:44:26] [Craft Scheduler Thread - 58/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[20:44:26] [Craft Scheduler Thread - 58/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[20:44:46] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[20:45:06] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;32;1mRemoved 14 Entities![m
+[20:51:51] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[20:52:31] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[20:52:51] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;32;1mRemoved 3 Entities![m
+[20:59:33] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[21:00:14] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[21:00:34] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;32;1mRemoved 4 Entities![m
+[21:07:17] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[21:07:58] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[21:08:18] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;32;1mRemoved 7 Entities![m
+[21:14:41] [Craft Scheduler Thread - 62/WARN]: java.io.IOException: Server returned HTTP response code: 500 for URL: http://coremod.com/pluginMetrics/pluginMetrics.php?plugin=EasyBackup&ip=42069&players=0
+[21:14:41] [Craft Scheduler Thread - 62/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[21:14:41] [Craft Scheduler Thread - 62/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[21:14:41] [Craft Scheduler Thread - 62/WARN]: 	at me.forseth11.EasyBackup.PluginMetrics.update(PluginMetrics.java:32)
+[21:14:41] [Craft Scheduler Thread - 62/WARN]: 	at me.forseth11.EasyBackup.PluginMetrics$1.run(PluginMetrics.java:51)
+[21:14:41] [Craft Scheduler Thread - 62/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[21:14:41] [Craft Scheduler Thread - 62/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[21:14:41] [Craft Scheduler Thread - 62/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[21:14:41] [Craft Scheduler Thread - 62/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[21:14:41] [Craft Scheduler Thread - 62/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[21:15:01] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[21:15:06] [Thread-24/INFO]: [0;32;1m[EasyBackup] Starting server backup from: C:\Users\20378\OneDrive - Gates Chili CSD\STUFFIZZLES\Zoinkss\.[m
+[21:15:06] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 0% 0/105 MB Saved.[m
+[21:15:07] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 2% 2/105 MB Saved.[m
+[21:15:08] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 3% 3/105 MB Saved.[m
+[21:15:08] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 4% 5/105 MB Saved.[m
+[21:15:08] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 5% 5/105 MB Saved.[m
+[21:15:08] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 6% 6/105 MB Saved.[m
+[21:15:08] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 11% 11/105 MB Saved.[m
+[21:15:09] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 12% 13/105 MB Saved.[m
+[21:15:09] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 13% 13/105 MB Saved.[m
+[21:15:09] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 15% 15/105 MB Saved.[m
+[21:15:09] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 16% 17/105 MB Saved.[m
+[21:15:09] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 17% 18/105 MB Saved.[m
+[21:15:09] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 35% 37/105 MB Saved.[m
+[21:15:11] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 36% 38/105 MB Saved.[m
+[21:15:11] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 38% 40/105 MB Saved.[m
+[21:15:12] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 39% 41/105 MB Saved.[m
+[21:15:12] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 41% 43/105 MB Saved.[m
+[21:15:12] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 44% 47/105 MB Saved.[m
+[21:15:12] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 47% 50/105 MB Saved.[m
+[21:15:12] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 50% 53/105 MB Saved.[m
+[21:15:12] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 53% 56/105 MB Saved.[m
+[21:15:13] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 54% 57/105 MB Saved.[m
+[21:15:13] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 57% 61/105 MB Saved.[m
+[21:15:13] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 60% 63/105 MB Saved.[m
+[21:15:13] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 62% 65/105 MB Saved.[m
+[21:15:13] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 66% 70/105 MB Saved.[m
+[21:15:13] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 71% 74/105 MB Saved.[m
+[21:15:14] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 76% 80/105 MB Saved.[m
+[21:15:14] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 77% 81/105 MB Saved.[m
+[21:15:14] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 78% 82/105 MB Saved.[m
+[21:15:14] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 80% 84/105 MB Saved.[m
+[21:15:14] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 81% 85/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 82% 87/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 83% 87/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 84% 88/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 85% 90/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 86% 90/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 87% 92/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 88% 92/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 89% 94/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 90% 94/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 91% 96/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 92% 96/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 93% 98/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 94% 99/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 95% 100/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 96% 101/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 97% 102/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 98% 103/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 99% 104/105 MB Saved.[m
+[21:15:15] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup: 100% 105/105 MB Saved.[m
+[21:15:16] [Thread-24/INFO]: [0;32;1m[EasyBackup] Backup saved![m
+[21:15:41] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[21:16:02] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;32;1mRemoved 8 Entities![m
+[21:22:44] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[21:23:24] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[21:23:44] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;32;1mRemoved 9 Entities![m
+[21:30:29] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[21:31:09] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[21:31:29] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;32;1mRemoved 10 Entities![m
+[21:38:11] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[21:38:51] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[21:39:11] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;32;1mRemoved 5 Entities![m
+[21:44:54] [Craft Scheduler Thread - 69/WARN]: java.io.IOException: Server returned HTTP response code: 500 for URL: http://coremod.com/pluginMetrics/pluginMetrics.php?plugin=EasyBackup&ip=42069&players=0
+[21:44:54] [Craft Scheduler Thread - 69/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[21:44:54] [Craft Scheduler Thread - 69/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[21:44:54] [Craft Scheduler Thread - 69/WARN]: 	at me.forseth11.EasyBackup.PluginMetrics.update(PluginMetrics.java:32)
+[21:44:54] [Craft Scheduler Thread - 69/WARN]: 	at me.forseth11.EasyBackup.PluginMetrics$1.run(PluginMetrics.java:51)
+[21:44:54] [Craft Scheduler Thread - 69/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[21:44:54] [Craft Scheduler Thread - 69/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[21:44:54] [Craft Scheduler Thread - 69/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[21:44:54] [Craft Scheduler Thread - 69/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[21:44:54] [Craft Scheduler Thread - 69/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[21:45:55] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[21:46:35] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[21:46:55] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;32;1mRemoved 9 Entities![m
+[21:53:39] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[21:54:19] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[21:54:39] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;32;1mRemoved 8 Entities![m
+[22:01:21] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m60 [0;31;1mseconds![m
+[22:02:01] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;31;1mWarning: Ground items will be removed in [0;32;1m20 [0;31;1mseconds![m
+[22:02:22] [Server thread/INFO]: [0;30;1m[[0;32;1mLagYeeter[0;30;1m] [0;32;1mRemoved 8 Entities![m
+[22:04:15] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[22:04:16] [Server thread/INFO]: Stopping the server
+[22:04:16] [Server thread/INFO]: Stopping server
+[22:04:16] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.0.1-b496
+[22:04:16] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.0.1-b496
+[22:04:16] [Server thread/INFO]: [SuperVanish] Disabling SuperVanish v5.4.1
+[22:04:16] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.0.1-b496
+[22:04:16] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.0.1-b496
+[22:04:16] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.0.1-b496
+[22:04:16] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b496
+[22:04:16] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[22:04:16] [Server thread/INFO]: [LockettePro] Disabling LockettePro v2.9.0
+[22:04:16] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1
+[22:04:16] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[22:04:16] [Server thread/INFO]: [EasyBackup] Disabling EasyBackup v1.1.4
+[22:04:16] [Server thread/WARN]: java.io.IOException: Server returned HTTP response code: 500 for URL: http://coremod.com/pluginMetrics/pluginMetrics.php?plugin=EasyBackup&ip=42069&players=-1
+[22:04:16] [Server thread/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[22:04:16] [Server thread/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[22:04:16] [Server thread/WARN]: 	at me.forseth11.EasyBackup.PluginMetrics.update(PluginMetrics.java:32)
+[22:04:16] [Server thread/WARN]: 	at me.forseth11.EasyBackup.main.onDisable(main.java:28)
+[22:04:16] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:323)
+[22:04:16] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:364)
+[22:04:16] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:424)
+[22:04:16] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:417)
+[22:04:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.disablePlugins(CraftServer.java:336)
+[22:04:16] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.stop(MinecraftServer.java:460)
+[22:04:16] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:593)
+[22:04:16] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[22:04:16] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[22:04:16] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.3.0
+[22:04:16] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[22:04:16] [Server thread/INFO]: [mcMMO] Disabling mcMMO v1.5.04-SNAPSHOT-b${BUILD_NUMBER}
+[22:04:16] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[22:04:16] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[22:04:16] [Server thread/INFO]: [ClearLag] Disabling ClearLag v2.9.7
+[22:04:16] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[22:04:16] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v2.1.7
+[22:04:16] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[22:04:16] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[22:04:16] [Server thread/INFO]: [iDisguise] Disabling iDisguise v5.8.1
+[22:04:16] [Server thread/INFO]: [iDisguise] iDisguise 5.8.1 disabled!
+[22:04:16] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[22:04:16] [Server thread/INFO]: Saving players
+[22:04:16] [Server thread/INFO]: Saving worlds
+[22:04:16] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:04:17] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[22:04:17] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End

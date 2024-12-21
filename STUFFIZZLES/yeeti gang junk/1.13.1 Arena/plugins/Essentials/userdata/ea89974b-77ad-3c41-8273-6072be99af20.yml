@@ -1,0 +1,35 @@
+lastAccountName: CreeperZ585
+timestamps:
+  login: 1539276198095
+  logout: 1539276500256
+  lastteleport: 1539276448943
+  kits:
+    sniper: 1539276441304
+    color: 1538929977813
+    soldier: 1538931672049
+    explosivesexpert: 1538933503139
+    heavyduty: 1538931635622
+    notch: 1538927824785
+    tools: 1538929720306
+ipAddress: 127.0.0.1
+powertools:
+  '313':
+  - fix all
+  '280':
+  - smite
+logoutlocation:
+  world: world
+  x: -1.699999988079071
+  y: 64.0
+  z: -33.69999998807907
+  yaw: 180.67639
+  pitch: -60.74777
+lastlocation:
+  world: world
+  x: -1.699999988079071
+  y: 64.0
+  z: -33.69999998807907
+  yaw: 180.67639
+  pitch: -60.74777
+godmode: true
+afk: false
