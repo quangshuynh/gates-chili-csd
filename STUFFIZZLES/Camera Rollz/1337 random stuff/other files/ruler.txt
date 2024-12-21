@@ -1,0 +1,3 @@
+1 Pyramitus = 5 Illuminatus
+1 Illuminatus = 2 Tresitus
+1 Tresitus = 2 Egitus

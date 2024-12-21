@@ -1,0 +1,11 @@
+[07:39:56] [Client thread/INFO]: Setting user: CreeperZ585
+[07:40:00] [Client thread/INFO]: LWJGL Version: 2.9.4
+[07:40:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:mercurius_updater, FMLFileResourcePack:MrCrayfish's Furniture Mod, FMLFileResourcePack:Modern Warfare, FMLFileResourcePack:Not Enough Items
+[07:40:04] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[07:40:04] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[07:40:04] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[07:40:04] [Thread-7/INFO]: OpenAL initialized.
+[07:40:05] [Sound Library Loader/INFO]: Sound engine started
+[07:40:12] [Client thread/INFO]: Stopping!
+[07:40:12] [Client thread/INFO]: SoundSystem shutting down...
+[07:40:13] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

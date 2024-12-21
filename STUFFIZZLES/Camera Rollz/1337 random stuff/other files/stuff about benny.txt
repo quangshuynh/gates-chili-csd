@@ -1,0 +1,1170 @@
+<body onclick="PutPositions()" onload="ScrollWindow();" onunload="">
+		<script language="Javascript">
+		    function PutPositions() {
+				top.name = "login";
+				if (document.compatMode == "CSS1Compat" && navigator.userAgent.indexOf(' Safari/') == -1) {
+					document.NewWebForm1.WindowXPos.value = document.documentElement.scrollLeft;
+					document.NewWebForm1.WindowYPos.value = document.documentElement.scrollTop;
+				}
+				else {
+					document.NewWebForm1.WindowXPos.value = document.body.scrollLeft;
+					document.NewWebForm1.WindowYPos.value = document.body.scrollTop;
+	            }
+			}
+
+			function ScrollWindow() {
+				var myWidth, myHeight;
+				if(document.NewWebForm1.WindowYPos.value == '-1')
+				{
+					var pageHeight; 
+					if (typeof document.height != 'undefined') { 
+					pageHeight = document.height; 
+					} 
+					else if (typeof document.compatMode != 'undefined' && 
+							document.compatMode != 'BackCompat' && 
+							typeof document.documentElement.scrollHeight != 'undefined') { 
+					pageHeight = document.documentElement.scrollHeight; 
+					} 
+					else if (typeof document.body.scrollHeight != 'undefined') { 
+					pageHeight = document.body.scrollHeight; 
+					} 
+					if (typeof pageHeight == 'undefined') { 
+					pageHeight = 5000; 
+					}
+
+					window.scrollTo(
+						document.NewWebForm1.WindowXPos.value,
+						pageHeight);
+				}
+				else
+				{
+					window.scrollTo(
+						document.NewWebForm1.WindowXPos.value,
+						document.NewWebForm1.WindowYPos.value );
+				}
+            }
+
+            function overrideOnSubmit() {
+                // If this page uses check for dirty exit check them
+                var e = window.event;
+                if (typeof (DirtyExitOnSubmit) == 'function') {
+                    if (DirtyExitOnSubmit(e) != true) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+            // Return the element that caused the event
+            function getElementFromEvent(event) {
+                var id = '';
+                var name = '';
+
+                if (document['safariActiveElement'] != null) {
+                    id = document.safariActiveElement['id'];
+                    name = document.safariActiveElement['name'];
+                }
+                else if (event != undefined && event.explicitOriginalTarget != undefined) {
+                    id = event.explicitOriginalTarget['id'];
+                    name = event.explicitOriginalTarget['name'];
+                }
+                else if (document.activeElement != undefined) {
+                    id = document.activeElement['id'];
+                    name = document.activeElement['name'];
+                }
+
+                var element = null;
+                if (id != '') {
+                    element = document.getElementById(id);
+                }
+                else if (name != '') {
+                    try {
+                        element = document.getElementsByName(name)[0];
+                    }
+                    catch (exc) {
+                    }
+                }
+                return element;
+            }
+            // Puts a control back to it's original value, used when canceling a postback
+            function revertControl(element) {
+                try {
+                    if (element.tagName == 'SELECT') {
+                        for (var i = 0; i < element.options.length; i++) {
+                            element.options[i].selected = element.options[i].defaultSelected;
+                        }
+                    }
+                    else if (element.tagName == 'INPUT') {
+                        if (element.type == 'text') {
+                            element.value = element.defaultValue;
+                        }
+                        else if (element.type == 'checkbox') {
+                            element.checked = element.defaultChecked;
+                        }
+                        else if (element.type == 'radio') {
+                        }
+                    }
+                }
+                catch (exc) {
+                }
+            }
+   		</script>
+		<form name="NewWebForm1" method="post" action="./" id="NewWebForm1" enctype="multipart/form-data" onsubmit="return overrideOnSubmit();" style="" novalidate="">
+<div>
+<input type="hidden" name="SessionKey" id="SessionKey" value="59b050cc-4136-4163-810b-c516c0a2a4fc">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="ViewStateGuid" id="ViewStateGuid" value="fc8c089f-3d34-4443-96d0-fbfc1e8e63ad">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['NewWebForm1'];
+if (!theForm) {
+    theForm = document.NewWebForm1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/SchoolToolWeb/WebResource.axd?d=9NyPLwR6secve_tHsUociXlm9Vq-nntckE0hJlVV3YXesJPvRrmj1aRD25PQRAfe2dL-sG63vMU3Yz3Rut8MgsjRF7FDGc5Koa_SNvZK3fw1&amp;t=636160660665894255" type="text/javascript"></script>
+
+
+<script language="javascript">
+function getToolTip_ToolTipHelperControl(element)
+{
+	if ((element.getAttributeNode) && (element.getAttributeNode('tooltip')) && (element.getAttributeNode('tooltip').value != ''))
+		return element.getAttributeNode('tooltip').value;
+	if ((element.parentNode) && (element.parentNode.nodeType == 1))
+		return getToolTip_ToolTipHelperControl(element.parentNode);
+	return '';
+}
+function onMouseOver_ToolTipHelperControl(event)
+{
+    var toolTipText = '';
+
+	if (event == null)
+		event = window.event;
+		
+	if (event.srcElement)
+		toolTipText = getToolTip_ToolTipHelperControl(event.srcElement);
+	else
+		toolTipText = getToolTip_ToolTipHelperControl(event.target);
+
+    if (toolTipText == '')
+        return;
+
+    var tooltip = document.getElementById('tooltip');
+	if (!tooltip)
+	{
+		var oDiv=document.createElement('DIV');
+		oDiv.id='tooltip';
+		oDiv.style.backgroundColor='lightyellow';
+		oDiv.style.zindex=1000;
+		oDiv.style.borderStyle='solid';
+		oDiv.style.borderColor='black';
+		oDiv.style.borderWidth='1px';
+        oDiv.style.padding='2';
+		document.body.appendChild(oDiv);
+		tooltip = oDiv;
+	}
+
+    tooltip.innerHTML = toolTipText;
+    var x; var y;
+
+	tooltip.style.display = 'block';
+	tooltip.style.position = 'absolute';
+
+	if (document.all)
+	{
+        if (document.compatMode == 'CSS1Compat') {
+		    x = event.clientX + document.documentElement.scrollLeft;
+		    y = event.clientY + document.documentElement.scrollTop;
+        }
+        else {
+		    x = event.clientX + document.body.scrollLeft;
+		    y = event.clientY + document.body.scrollTop;
+        }
+	}
+	else
+	{
+		x = event.pageX;
+		y = event.pageY;
+	}
+
+	if (document.body.scrollWidth > x + tooltip.clientWidth + 25)
+		tooltip.style.left = (x + 10).toString() + 'px';
+	else
+		tooltip.style.left = (x - tooltip.clientWidth - 10).toString() + 'px';
+	if ((document.body.clientHeight + document.body.scrollTop) > y + tooltip.clientHeight)
+		tooltip.style.top = (y + 10).toString() + 'px';
+	else
+		tooltip.style.top = (y - tooltip.clientHeight - 10).toString() + 'px';
+	tooltip.style.position = 'absolute';
+
+	return;
+}
+function onMouseOut_ToolTipHelperControl(event)
+{
+	var tooltip = document.getElementById('tooltip');
+	if (tooltip)
+		tooltip.style.display = 'none';
+ 
+	return false;
+}
+
+if (document.addEventListener)
+{
+     document.addEventListener(Event.MOUSEOUT, onMouseOut_ToolTipHelperControl, false);
+     document.addEventListener(Event.MOUSEOVER, onMouseOver_ToolTipHelperControl, false);
+}
+else
+{
+     document.attachEvent('mouseout', onMouseOut_ToolTipHelperControl);
+     document.attachEvent('mouseover', onMouseOver_ToolTipHelperControl);
+}
+document.onmouseover=onMouseOver_ToolTipHelperControl;
+document.onmouseout=onMouseOut_ToolTipHelperControl;
+
+</script>
+<script language="javascript">
+    function ShowHidePanelSimulateClick(obj)
+    {
+        var evt = document.createEvent('MouseEvents');
+        evt.initMouseEvent('click', true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+        obj.dispatchEvent(evt);
+    }
+</script>
+<script language="javascript">
+	function ShowHidePanelToggle(myID, imageE, imageC, labelE, labelC) 
+	{
+		panel = document.getElementById(myID + '_ShowHidePanel');
+
+        if (panel != null)
+        {
+			if (panel.style.display == 'block')
+			{
+				panel.style.display = 'none';
+			}
+			else
+			{
+				panel.style.display = 'block';
+			}
+		    hiddenField = document.getElementById(myID + '_ShowHideHiddenField');
+            if (hiddenField != null)
+            {
+			    hiddenField.value = (panel.style.display == 'block');
+            }
+            iconButton = document.getElementById(myID + '_ShowHideExpandIcon');
+            if (iconButton != null)
+            {
+                if (panel.style.display == 'block')
+                {
+                    iconButton.src = '/SchoolToolWeb/Images/Icons/Icon_' + imageC + '.gif';
+                }
+                else
+                {
+                    iconButton.src = '/SchoolToolWeb/Images/Icons/Icon_' + imageE + '.gif';
+                }
+            }
+            iconLabel = document.getElementById(myID + '_ShowHideExpandLabel');
+            if (iconLabel != null)
+            {
+                if (panel.style.display == 'block')
+                {
+                    iconLabel.innerHTML = labelC;
+                }
+                else
+                {
+                    iconLabel.innerHTML = labelE;
+                }
+            }
+        }
+	}
+</script>
+<script language="javascript">
+	function ShowHideAllPanelsToggle(myID, array) 
+	{
+        var cursor;
+        var i;
+        var type;
+
+	    if (typeof(array) != 'undefined')
+	    {
+		    panel = document.getElementById(myID + '_ShowHidePanel');
+
+            if (panel != null)
+            {
+                for (i = 0; i < array.length; i++) 
+                {
+                    iconButton = document.getElementById(array[i] + '_ShowHideExpandIcon');
+                    iconLabel = document.getElementById(array[i] + '_ShowHideExpandLabel');
+                    childPanel = document.getElementById(array[i] + '_ShowHidePanel');
+
+                    if ((iconButton != null) && (childPanel != null) && (childPanel.style.display != panel.style.display))
+                        ShowHidePanelSimulateClick(iconButton);
+                    if ((iconLabel != null) && (childPanel != null) && (childPanel.style.display != panel.style.display))
+                        ShowHidePanelSimulateClick(iconLabel);
+                }
+            }
+        }
+	}
+</script>
+<script type="text/javascript">
+//<![CDATA[
+
+                function dialogBox(isVisible, isModal, ModalDivID, DialogDivID, hiddenField) {
+                    document.getElementById(DialogDivID).style.display = isVisible? 'block' : 'none';
+                    document.getElementById(ModalDivID).style.display = isVisible && isModal ? 'block' : 'none';
+                    document.getElementById(DialogDivID + '_DialogState').setAttribute('value', isVisible ? 'Active' : 'Inactive');
+                    if(document.getElementById(DialogDivID + '_DialogTop').value == '') document.getElementById(DialogDivID).style.marginTop = (document.getElementById(DialogDivID).offsetHeight/2*-1) + 'px';
+                    return false;
+                }
+//*****************************************************************************
+// Do not remove this notice.
+//
+// Copyright 2001 by Mike Hall.
+// See http://www.brainjar.com for terms of use.
+//*****************************************************************************
+
+// Determine browser and version.
+
+function Browser() {
+
+  var ua, s, i;
+
+  this.isIE    = false;
+  this.isNS    = false;
+  this.useEventListener = false;
+  this.version = null;
+
+  ua = navigator.userAgent;
+
+  s = 'MSIE';
+  if ((i = ua.indexOf(s)) >= 0) {
+    this.isIE = true;
+    this.version = parseFloat(ua.substr(i + s.length));
+    return;
+  }
+
+  s = 'Trident';
+  if ((i = ua.indexOf(s)) >= 0) {
+    this.isIE = true;
+    this.useEventListener = true;
+    
+    s = 'rv:'
+    if((i = ua.indexOf(s)) >= 0) {
+        this.version = parseFloat(ua.substr(i + s.length));
+    }
+
+    return;
+  }
+
+  s = 'Netscape6/';
+  if ((i = ua.indexOf(s)) >= 0) {
+    this.isNS = true;
+    this.useEventListener = true;
+    this.version = parseFloat(ua.substr(i + s.length));
+    return;
+  }
+
+  // Treat any other 'Gecko' browser as NS 6.1.
+
+  s = 'Gecko';
+  if ((i = ua.indexOf(s)) >= 0) {
+    this.isNS = true;
+    this.useEventListener = true;
+    this.version = 6.1;
+    return;
+  }
+}
+
+var browser = new Browser();
+
+// Global object to hold drag information.
+
+var dragObj = new Object();
+
+function dragStart(event, id) {
+
+  var el;
+  var x, y;
+
+  // If an element id was given, find it. Otherwise use the element being
+  // clicked on.
+
+  if (id)
+    dragObj.elNode = document.getElementById(id);
+  else {
+    if (browser.isIE)
+      dragObj.elNode = window.event.srcElement;
+    if (browser.isNS)
+      dragObj.elNode = event.target;
+
+    // If this is a text node, use its parent element.
+
+    if (dragObj.elNode.nodeType == 3)
+      dragObj.elNode = dragObj.elNode.parentNode;
+  }
+
+  // Get cursor position with respect to the page.
+
+  if (browser.isIE) {
+    x = window.event.clientX + document.documentElement.scrollLeft
+      + document.body.scrollLeft;
+    y = window.event.clientY + document.documentElement.scrollTop
+      + document.body.scrollTop;
+  }
+  if (browser.isNS) {
+    x = event.clientX + window.scrollX;
+    y = event.clientY + window.scrollY;
+  }
+
+  // Save starting positions of cursor and element.
+
+  dragObj.cursorStartX = x;
+  dragObj.cursorStartY = y;
+  dragObj.elStartLeft  = parseInt(dragObj.elNode.style.left, 10);
+  dragObj.elStartTop   = parseInt(dragObj.elNode.style.top,  10);
+
+    var topMargin = 0;
+if(dragObj.elNode.style.marginTop) topMargin = parseInt(dragObj.elNode.style.marginTop.replace('px',''));
+
+  if (isNaN(dragObj.elStartLeft)) dragObj.elStartLeft = dragObj.elNode.offsetLeft - parseInt(dragObj.elNode.style.marginLeft.replace('px',''));
+  if (isNaN(dragObj.elStartTop))  dragObj.elStartTop  = dragObj.elNode.offsetTop - topMargin;
+
+// Capture mousemove and mouseup events on the page.
+
+  if (!browser.useEventListener) {
+    document.attachEvent('onmousemove', dragGo);
+    document.attachEvent('onmouseup',   dragStop);
+    window.event.cancelBubble = true;
+    window.event.returnValue = false;
+  }
+  if (browser.useEventListener) {
+    document.addEventListener('mousemove', dragGo,   true);
+    document.addEventListener('mouseup',   dragStop, true);
+    event.preventDefault();
+  }
+}
+
+function dragGo(event) {
+
+  var x, y;
+
+  // Get cursor position with respect to the page.
+
+  if (browser.isIE) {
+    x = window.event.clientX + document.documentElement.scrollLeft
+      + document.body.scrollLeft;
+    y = window.event.clientY + document.documentElement.scrollTop
+      + document.body.scrollTop;
+  }
+  if (browser.isNS) {
+    x = event.clientX + window.scrollX;
+    y = event.clientY + window.scrollY;
+  }
+
+  // Move drag element by the same amount the cursor has moved.
+var topMargin = 0;
+if(dragObj.elNode.style.marginTop) topMargin = parseInt(dragObj.elNode.style.marginTop);
+
+var leftMargin = 0;
+if(dragObj.elNode.style.marginLeft) leftMargin = parseInt(dragObj.elNode.style.marginLeft);
+
+var top = (dragObj.elStartTop  + y - dragObj.cursorStartY);
+if (top + topMargin < 0) top = topMargin * -1;
+
+var left= (dragObj.elStartLeft + x - dragObj.cursorStartX);
+if (left + leftMargin < 0) left = leftMargin * -1;
+
+  dragObj.elNode.style.left = left + 'px';
+  dragObj.elNode.style.top  = top + 'px'; // prevent from dragging above the top of the page
+
+document.getElementById(dragObj.elNode.id + '_DialogTop').setAttribute('value', (top + topMargin) + 'px');
+document.getElementById(dragObj.elNode.id + '_DialogLeft').setAttribute('value', dragObj.elNode.style.left);
+
+  if (browser.isIE) {
+    window.event.cancelBubble = true;
+    window.event.returnValue = false;
+  }
+  if (browser.isNS)
+    event.preventDefault();
+}
+
+function dragStop(event) {
+
+  // Stop capturing mousemove and mouseup events.
+
+  if (!browser.useEventListener) {
+    document.detachEvent('onmousemove', dragGo);
+    document.detachEvent('onmouseup',   dragStop);
+  }
+  if (browser.useEventListener) {
+    document.removeEventListener('mousemove', dragGo,   true);
+    document.removeEventListener('mouseup',   dragStop, true);
+  }
+}
+//]]>
+</script>
+<script language="javascript">var setTimeoutWarningId = undefined; function setTimeoutWarning() { setTimeoutWarningId = setTimeout('ShowTimeoutWarning()', 1500000);} function clearTimeoutWarning() { if (setTimeoutWarningId != undefined) { clearTimeout(setTimeoutWarningId); setTimeoutWarningId = undefined; } } function ShowTimeoutWarning() { window.alert('Your session will end in 5 minutes.'); } setTimeoutWarning();</script>
+	
+			<input name="WindowXPos" type="hidden" id="WindowXPos" value="0"> <input name="WindowYPos" type="hidden" id="WindowYPos" value="0">
+			
+  <table ng-app="app" id="body" cellpadding="0" cellspacing="0" border="0" class="ng-scope">
+        <tbody><tr>
+        <td colspan="2">
+            <div id="headerline">
+            </div>
+            <div id="header">
+                <div id="districtlogo">
+			        <img id="Template1_ImageDistrictLogo" src="https://schooltool.gateschili.org/SchoolToolDistrict/Images/DistrictLogo.gif" style="height:49px;width:149px;border-width:0px;">        
+                    <img id="Template1_ImageDistrictLogoSliver" src="https://schooltool.gateschili.org/SchoolToolDistrict/Images/DistrictLogoBottom.gif" style="height:9px;width:149px;border-width:0px;">            
+                </div>
+                <div id="bannerheader" class="standardLinks" style="white-space:normal;">
+                    
+                </div>
+                
+            </div>
+            <div id="navigation" class="dropdownMenu">
+			    <ul>
+        <li class="selected"><a id="Template1_Tabs_control2_DataList_Tabs_ctl01_SchoolToolLink_Tab" href="javascript:__doPostBack('Template1$Tabs_control2$DataList_Tabs$ctl01$SchoolToolLink_Tab','')">Home</a>
+             
+        </li>       
+    
+        <li><a id="Template1_Tabs_control2_DataList_Tabs_ctl02_SchoolToolLink_Tab" href="javascript:__doPostBack('Template1$Tabs_control2$DataList_Tabs$ctl02$SchoolToolLink_Tab','')">Logout</a>
+             
+        </li>       
+    </ul>        
+            </div>
+            <div id="navLower">
+
+                    
+                <div style="width:49%; display:inline-block; vertical-align:top">
+                    
+
+                    <style>
+                        .discussionDropdownMenu li ul { width:auto }
+                        .discussionDropdownMenu li ul.hover { display:inline-table; }
+                    </style>
+                      <span class="badge">                              
+                           
+                           
+                       </span>
+
+
+                    <span id="Template1_LabelFilter" style="display: inline-block; *display:inline;zoom:1; font-size: 11px; color: #006181; text-indent: 3px; padding-top:5px"> 2017-2018</span>
+                      
+
+
+                </div>
+                
+             
+            </div>
+        </td>
+        </tr>
+        <tr>
+            <td id="Template1_sidenav" class="sidenav">
+                <div style="width: 178px">
+                 
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="">
+    <script src="https://apis.google.com/js/platform.js?onload=onLoad" gapi_processed="true"></script>
+<style type="text/css">
+    .sidenav .login {
+        padding-left: 5px;
+    }
+
+        .sidenav .login h1 {
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 14px;
+            padding-top: 30px;
+        }
+
+        .sidenav .login label {
+            color: #FAAF14;
+            text-transform: Uppercase;
+            display: block;
+            text-indent: 15px;
+            padding-bottom: 10px;
+            font-size: 11px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+    .divViewMobile {
+        margin: 4em 0px;
+    }
+
+        .divViewMobile a,
+        .divViewMobile a:hover,
+        .divViewMobile a:active,
+        .divViewMobile a:visited {
+            font-size: 1.5em;
+            border: none;
+            margin: 0px;
+            padding: 0px;
+            text-decoration: underline;
+            background: none;
+            color: #FFFFFF;
+            text-transform: none;
+        }
+</style>
+<table cellspacing="0" cellpadding="0" rules="all" border="0" id="Template1_MenuList1_DataGridMenu" style="border-width:0px;width:100%;border-collapse:collapse;">
+	<tbody><tr class="selected" align="left">
+		<td>
+                <a id="Template1_MenuList1_DataGridMenu_ctl02_SchoolToolLink" href="javascript:__doPostBack('Template1$MenuList1$DataGridMenu$ctl02$SchoolToolLink','')">My Home</a>
+            </td>
+	</tr><tr>
+		<td>
+                <a id="Template1_MenuList1_DataGridMenu_ctl05_SchoolToolLink" href="javascript:__doPostBack('Template1$MenuList1$DataGridMenu$ctl05$SchoolToolLink','')">Preferences</a>
+            </td>
+	</tr>
+</tbody></table>
+
+
+
+<input type="hidden" name="target" id="target" value="">
+<input type="hidden" name="arguments" id="arguments" value="">
+    <script>
+        var auth2;
+        var isSignedin = false;
+         $(document).ready(function () {
+ 
+
+        var gPermission = "False";            
+       
+
+          
+               // $('<iframe />').attr('src', 'https://accounts.google.com/logout').attr('style', 'display: none').appendTo('body');
+             
+
+            if (gPermission != 'True') {
+                $("#gbutton").hide();
+            }
+        });
+
+        function onLoad() {
+            if (gapi.auth2) {
+                signOut();
+            }
+        }
+
+        function signOut() {
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut().then(function () {
+                console.log('User signed out.');
+            });
+        }
+   
+
+        function onSignIn(googleUser) {
+          signOut();
+        // Useful data for your client-side scripts:
+        var profile = googleUser.getBasicProfile();
+        console.log("ID: " + profile.getId()); // Don't send this directly to your server!
+        console.log('Full Name: ' + profile.getName());
+        console.log('Given Name: ' + profile.getGivenName());
+        console.log('Family Name: ' + profile.getFamilyName());
+        console.log("Image URL: " + profile.getImageUrl());
+        console.log("Email: " + profile.getEmail());
+
+       isSignedin != isSignedin;
+
+        // The ID token you need to pass to your backend:
+        var id_token = googleUser.getAuthResponse().id_token;
+        console.log("ID Token: " + id_token);
+
+        if (id_token != null && id_token != "" && isSignedin==false) {
+            isSignedin = true
+            var loginForm = document.forms["NewWebForm1"];
+            loginForm.target.value = 'googleLogin';
+            loginForm.arguments.value = profile.getEmail() + "," + id_token;
+            loginForm.submit();
+        } else {
+            signOut();
+        }
+      };
+    </script>
+
+                </div>
+            </td>
+
+            <td style="width: 80%; min-width: 675px;">
+                <div id="Template1_content" class="content">
+	
+       		        <div id="Template1_Panel_Content" style="width:100%;">
+		<h1 class="Section">Personal Information</h1><div class="icons"><input type="image" name="Template1$Control0$TabHeader1$Icons1$IconButtonDone" id="Template1_Control0_TabHeader1_Icons1_IconButtonDone" title="Done" class=" icon-style" src="/SchoolToolWeb/Images/Icons/Icon_Done.gif" style="border-width:0px;vertical-align:top;"></div>
+<script src="/SchoolToolWeb/bundles/core/mobileMessage?v=Pgy-6Y33EvxsroNIwleEEEZVmGEPihWHMnLCtetz7e41"></script>
+
+<script src="/SchoolToolWeb/bundles/spellchecker?v=eV_mUICj_dQPyfVF0WqZceeXGioYwCb_BLUmTFBlC_s1"></script>
+
+
+    <script id="dxis_1607052990" src="/SchoolToolWeb/DXR.axd?r=1_240,1_137,1_234,1_163,1_140,1_134,1_226,1_224-jpHmf" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="/SchoolToolWeb/DXR.axd?r=100_116,1_28,1_31,100_120-jpHmf"><div id="Template1_Control0_PersonSummaryView_MobileMessageControl_MessageDialog_PW-1" class="dxpcLite_schooltool dxpclW" style="height:100px;width:200px;cursor:default;z-index:10000;display:none;visibility:hidden;">
+			<div class="dxpc-mainDiv dxpc-shadow">
+				<div class="dxpc-header dxpc-withBtn" id="Template1_Control0_PersonSummaryView_MobileMessageControl_MessageDialog_PWH-1">
+					<div class="dxpc-closeBtn" id="Template1_Control0_PersonSummaryView_MobileMessageControl_MessageDialog_HCB-1">
+						<img class="dxWeb_pcCloseButton_schooltool" src="/SchoolToolWeb/DXR.axd?r=1_35-jpHmf" alt="[Close]">
+					</div><div class="dxpc-headerContent">
+						<span class="dxpc-headerText dx-vam" id="Template1_Control0_PersonSummaryView_MobileMessageControl_MessageDialog_PWH-1T"></span>
+					</div><b class="dx-clear"></b>
+				</div><div class="dxpc-contentWrapper">
+					<div class="dxpc-content" id="Template1_Control0_PersonSummaryView_MobileMessageControl_MessageDialog_PWC-1">
+						
+                <div ng-controller="mobileMessageController as mmc" id="mobileMessageController" ng-form="form" class="ng-pristine ng-scope ng-valid-maxlength ng-invalid ng-invalid-required">
+                    <div ng-enter="">
+                        <span class="error-text ng-hide" ng-show="form.$submitted &amp;&amp; form.notificationMessage.$error.required">Message is required</span>
+                        <div class="form-row">
+                            <label for="subject" class="item-label" style="display:block; text-align: left">Title:</label>
+                            <input type="text" id="subject" name="subject" ng-model="mmc.model.title" maxlength="25" style="width: 250px" class="ng-pristine ng-untouched ng-valid ng-valid-maxlength">
+                        </div>
+                        <div class="form-row">
+                            <label for="notificationMessage" class="item-label" style="display:block; text-align: left">Message:</label>
+                            <textarea name="notificationMessage" id="notificationMessage" ng-model="mmc.model.message" maxlength="255" data-ng-maxlength="255" style="width: 250px; height: 7em" data-ng-required="true" required="required" class="ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-maxlength"></textarea>
+                            <div class="ng-binding">
+                                255 Characters Remaining
+                                <input type="image" src="Images/Icons/icon_CheckSpelling.gif" class="overrideIcon ng-isolate-scope" onclick="return false;" title="Spell Check " icon="CheckSpelling" ng-click="mmc.spellCheck('notificationMessage')" style="float: right">
+                            </div>
+                        </div>
+                        <input type="button" ng-click="mmc.sendMessage(form)" value="Send" class="imagebutton" ng-hide="mmc.isSending" style="margin: auto; display: block">
+                        <img src="images/ajax-loader.gif" class="loading-icon ng-hide" width="16" height="16" ng-show="mmc.isSending">
+                    </div>
+                </div>
+            
+					</div>
+				</div>
+			</div>
+		</div><div id="Template1_Control0_PersonSummaryView_MobileMessageControl_MessageDialog_DXPWMB-1" class="dxpcModalBackLite_schooltool" style="z-index:9999;">
+
+		</div><table id="Template1_Control0_PersonSummaryView_MobileMessageControl_MessageDialog_LP" class="dxpcLoadingPanel_schooltool dxlpLoadingPanel_schooltool" style="left:0px;top:0px;z-index:30000;display:none;">
+			<tbody><tr>
+				<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/SchoolToolWeb/DXR.axd?r=1_35-jpHmf" alt="" style="vertical-align:middle;"></td><td class="dx" style="padding-left:0px;"><span id="Template1_Control0_PersonSummaryView_MobileMessageControl_MessageDialog_TL">Loading…</span></td>
+			</tr>
+		</tbody></table><div id="Template1_Control0_PersonSummaryView_MobileMessageControl_MessageDialog_LD" class="dxpcLoadingDiv_schooltool dxlpLoadingDiv_schooltool dx-ft" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+		</div><script id="dxss_105687958" type="text/javascript">
+<!--
+
+var dxo = new ASPxClientPopupControl('Template1_Control0_PersonSummaryView_MobileMessageControl_MessageDialog');
+dxo.InitGlobalVariable('MessageDialog');
+dxo.SetProperties({
+	'callBack':function(arg) { WebForm_DoCallback('Template1$Control0$PersonSummaryView$MobileMessageControl$MessageDialog',arg,ASPx.Callback,'Template1_Control0_PersonSummaryView_MobileMessageControl_MessageDialog',ASPx.CallbackError,true); },
+	'uniqueID':'Template1$Control0$PersonSummaryView$MobileMessageControl$MessageDialog',
+	'popupAnimationType':'fade',
+	'closeAction':'CloseButton',
+	'popupHorizontalAlign':'WindowCenter',
+	'popupVerticalAlign':'WindowCenter',
+	'minHeight':100,
+	'maxHeight':100
+});
+dxo.AfterCreate();
+
+//-->
+</script>
+
+<script type="text/javascript">
+    function showDialog(student) {
+        var scope = angular.element("#mobileMessageController").scope();
+        scope.mmc.init(student, scope.form);
+        scope.$apply();
+    }
+</script>
+
+<span></span>
+
+
+<div id="Template1_Control0_PersonSummaryView_SHPanel" title="Show/Hide">
+			<table width="100%"><tbody><tr width="100%"><td width="0%"><input type="image" name="Template1$Control0$PersonSummaryView$SHPanel$ShowHideExpandIcon" id="Template1_Control0_PersonSummaryView_SHPanel_ShowHideExpandIcon" title="Show/Hide" src="/SchoolToolWeb/Images/Icons/Icon_Up.gif" align="left" onclick="javascript:ShowHidePanelToggle('Template1_Control0_PersonSummaryView_SHPanel','Down','Up','<table width=&quot;96%&quot;><tr><td Width=&quot;25%&quot;><nobr><b>Huynh, Quang</b></nobr></td><td Width=&quot;60%&quot;><b><font color=green>Cycle day F Day, Period Opp 4 (10:09AM to 11:09AM)<br />SCIENCE ACC 7 in Room 116 Teacher: Christopher Drew</font></b></td><td Width=&quot;15%&quot; style=&quot;text-align:right&quot;><b>14042</b></td></tr></table>','<table width=&quot;96%&quot;><tr><td Width=&quot;25%&quot;><nobr><b>Huynh, Quang</b></nobr></td><td Width=&quot;60%&quot;></td><td Width=&quot;15%&quot; style=&quot;text-align:right&quot;><b>14042</b></td></tr></table>');return false;" style="border-width:0px;"><span id="Template1_Control0_PersonSummaryView_SHPanel_ShowHideExpandLabel" title="Show/Hide"><table width="96%"><tbody><tr><td width="25%"><nobr><b>Gorman, Benjamin</b></nobr></td><td width="60%"></td><td width="15%" style="text-align:right"><b>14042</b></td></tr></tbody></table></span><input type="hidden" name="Template1$Control0$PersonSummaryView$SHPanel$ShowHideHiddenField" id="Template1_Control0_PersonSummaryView_SHPanel_ShowHideHiddenField" value="True"></td></tr></tbody></table>
+		</div><div id="Template1_Control0_PersonSummaryView_SHPanel_ShowHidePanel" style="width:100%;display:block;">
+			
+  
+    <table border="0">
+				<tbody><tr>
+					<td valign="top"><table border="0">
+						<tbody><tr>
+							<td></td>
+						</tr><tr>
+							<td><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+								<tbody><tr>
+									<td>
+                                        <nobr>
+										    
+										</nobr>
+									</td><td id="Template1_Control0_PersonSummaryView_SHPanel_tcMobilePush" align="left"></td>
+								</tr>
+							</tbody></table></td>
+						</tr>
+					</tbody></table></td><td valign="top" style="width:50%;"><ul id="Template1_Control0_PersonSummaryView_SHPanel_Ul1" class="item-column nowrap">
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				</ul></td><td valign="top" rowspan="2" style="width:50%;"><ul class="item-column nowrap">
+                
+                
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+                    
+				  
+				  
+				  
+				</ul></td>
+				</tr><tr id="Template1_Control0_PersonSummaryView_SHPanel_TableRow1">
+					<td id="Template1_Control0_PersonSummaryView_SHPanel_TableCell2" valign="top" colspan="2" style="width:50%;">
+		    <b></b><br>
+			  </td>
+				</tr>
+			</tbody></table>
+
+		</div>
+<style type="text/css">
+.item-width-left  { width: 130px}
+.item-width-right { width: 145px }
+.item-width-long  { width: 130px}
+</style>
+<script type="text/javascript">
+    function ToggleClick(icon) {
+        var switchToMailing = (icon == 'Template1_Control0_PersonSummaryView_SHPanel_residenceIcon');
+
+        if (document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_PanelAddress') != null)
+            document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_PanelAddress').style.display = (switchToMailing) ? 'none' : 'inline-block';
+
+        if (document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_PanelMailing') != null)
+            document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_PanelMailing').style.display = (switchToMailing) ? 'inline-block' : 'none';
+
+        if (document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_residenceIcon') != null)
+            document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_residenceIcon').style.display = (switchToMailing) ? 'none' : 'inline-block';
+
+        if (document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_mailingIcon') != null)
+            document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_mailingIcon').style.display = (switchToMailing) ? 'inline-block' : 'none';
+
+        document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_LabelUnknown').style.display = ((switchToMailing && document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_PanelMailing') == null)
+    || (!switchToMailing && document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_PanelAddress') == null)) ? 'block' : 'none';
+
+        document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_hfAddressType').value = (switchToMailing) ? 'Mailing' : 'Residence';
+
+        if (document.getElementById("addressLabel") != null)
+            document.getElementById("addressLabel").innerHTML = document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_hfAddressType').value;
+
+        return false;
+    }
+</script>
+<ul class="MenuTabs"><li><a id="Template1_Control0_TabHeader2_Menutabs1_MenuTabGuardians" href="javascript:__doPostBack('Template1$Control0$TabHeader2$Menutabs1$MenuTabGuardians','')" style="color:Black;">Contacts</a></li><li><a id="Template1_Control0_TabHeader2_Menutabs1_MenuTabAttendance" href="javascript:__doPostBack('Template1$Control0$TabHeader2$Menutabs1$MenuTabAttendance','')">Attendance</a></li><li><a id="Template1_Control0_TabHeader2_Menutabs1_MenuTabDiscipline" href="javascript:__doPostBack('Template1$Control0$TabHeader2$Menutabs1$MenuTabDiscipline','')">Discipline</a></li><li class="selected"><a id="Template1_Control0_TabHeader2_Menutabs1_MenuTabGrades" class="selected" href="javascript:__doPostBack('Template1$Control0$TabHeader2$Menutabs1$MenuTabGrades','')">Grades</a></li><li><a id="Template1_Control0_TabHeader2_Menutabs1_MenuTabAssignments" href="javascript:__doPostBack('Template1$Control0$TabHeader2$Menutabs1$MenuTabAssignments','')">Assignments</a></li></ul><h1 class="Section">Student</h1>
+<div id="Template1_Control0_ValidationSummary" style="color:Red;display:none;">
+
+		</div>
+<span id="Template1_Control0_StudentGradesView1_ToolTipHelperControl1"></span>
+<table cellspacing="3" cellpadding="0" border="0" style="border-width:0px;width:900px;">
+			<tbody><tr valign="top">
+				<td align="left" style="width:100%;">&nbsp;
+            <span>View</span>&nbsp;
+			    <select name="Template1$Control0$StudentGradesView1$ViewDropDownList" onchange="javascript:setTimeout('__doPostBack(\'Template1$Control0$StudentGradesView1$ViewDropDownList\',\'\')', 0)" id="Template1_Control0_StudentGradesView1_ViewDropDownList">
+					<option value="1">Marking Period Grades</option>
+					<option value="2">Progress Report Grades</option>
+					<option selected="selected" value="3">Marking Period Average</option>
+					<option value="5">Final Grades</option>
+
+				</select>&nbsp;
+                <span>for</span>&nbsp;
+                   <select name="Template1$Control0$StudentGradesView1$MarkingPeriodDropDown" onchange="javascript:setTimeout('__doPostBack(\'Template1$Control0$StudentGradesView1$MarkingPeriodDropDown\',\'\')', 0)" id="Template1_Control0_StudentGradesView1_MarkingPeriodDropDown">
+					<option selected="selected" value="261">Quarter 1</option>
+					<option value="260">Quarter 2</option>
+					<option value="263">Quarter 3</option>
+					<option value="262">Quarter 4</option>
+
+				</select></td><td align="right"></td>
+			</tr><tr>
+				<td colspan="2">
+            <hr>
+        </td>
+			</tr>
+		</tbody></table>
+<table cellspacing="0" rules="all" border="1" id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1" style="width:100%;border-collapse:collapse;">
+			<tbody><tr class="DataGridHeaderStyle">
+				<td>Course</td><td>Average</td>
+			</tr><tr class="DataGridItemStyle" valign="top">
+				<td>
+				<span>BAND 2/3 ,&nbsp; Section&nbsp;1
+                    <br>
+                    <table id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl02_ClassSectionFacultyList1_DataListFaculty" cellspacing="0" border="0" style="border-collapse:collapse;">
+					<tbody><tr>
+						<td>
+	    <nobr>
+		    <input type="image" name="Template1$Control0$StudentGradesView1$GradeTypeMultiView$StudentGradesMPAvgView$DataGrid1$ctl02$ClassSectionFacultyList1$DataListFaculty$ctl00$IconButtonEmail" id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl02_ClassSectionFacultyList1_DataListFaculty_ctl00_IconButtonEmail" title="Send Email" src="/SchoolToolWeb/Images/Icons/Icon_Email.gif" style="border-width:0px;vertical-align:top;">
+		    <span>Mr. Carbary<br></span>
+		</nobr>
+	</td>
+					</tr>
+				</tbody></table>
+<span>
+                        Meets:&nbsp;&nbsp;Sem&nbsp;&nbsp;F,S&nbsp;&nbsp; Days&nbsp;&nbsp;A,D,F&nbsp;&nbsp;
+                        Period(s)&nbsp;&nbsp;Opp 2</span></span>
+			</td><td>
+				<span>4.0</span>
+			</td>
+			</tr><tr class="DataGridAlternateItemStyle" valign="top">
+				<td>
+				<span>ENGLISH 1,&nbsp; Section&nbsp;1
+                    <br>
+                    <table id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl03_ClassSectionFacultyList1_DataListFaculty" cellspacing="0" border="0" style="border-collapse:collapse;">
+					<tbody><tr>
+						<td>
+	    <nobr>
+		    <input type="image" name="Template1$Control0$StudentGradesView1$GradeTypeMultiView$StudentGradesMPAvgView$DataGrid1$ctl03$ClassSectionFacultyList1$DataListFaculty$ctl00$IconButtonEmail" id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl03_ClassSectionFacultyList1_DataListFaculty_ctl00_IconButtonEmail" title="Send Email" src="/SchoolToolWeb/Images/Icons/Icon_Email.gif" style="border-width:0px;vertical-align:top;">
+		    <span>Ms. Currin<br></span>
+		</nobr>
+	</td>
+					</tr>
+				</tbody></table>
+<span>
+                        Meets:&nbsp;&nbsp;Sem&nbsp;&nbsp;F,S&nbsp;&nbsp; Days&nbsp;&nbsp;A,B,C,E,F,G&nbsp;&nbsp;
+                        Period(s)&nbsp;&nbsp;Opp 5</span></span>
+			</td><td>
+				<span>3.0</span>
+			</td>
+			</tr><tr class="DataGridItemStyle" valign="top">
+				<td>
+				<span>FACS 6,&nbsp; Section&nbsp;11
+                    <br>
+                    <table id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl04_ClassSectionFacultyList1_DataListFaculty" cellspacing="0" border="0" style="border-collapse:collapse;">
+					<tbody><tr>
+						<td>
+	    <nobr>
+		    <input type="image" name="Template1$Control0$StudentGradesView1$GradeTypeMultiView$StudentGradesMPAvgView$DataGrid1$ctl04$ClassSectionFacultyList1$DataListFaculty$ctl00$IconButtonEmail" id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl04_ClassSectionFacultyList1_DataListFaculty_ctl00_IconButtonEmail" title="Send Email" src="/SchoolToolWeb/Images/Icons/Icon_Email.gif" style="border-width:0px;vertical-align:top;">
+		    <span>Ms. Blaesi<br></span>
+		</nobr>
+	</td>
+					</tr>
+				</tbody></table>
+<span>
+                        Meets:&nbsp;&nbsp;Sem&nbsp;&nbsp;F&nbsp;&nbsp; Days&nbsp;&nbsp;A,B,C,E,F,G&nbsp;&nbsp;
+                        Period(s)&nbsp;&nbsp;Opp 1</span></span>
+			</td><td>
+				<span>5.0</span>
+			</td>
+			</tr><tr class="DataGridAlternateItemStyle" valign="top">
+				<td>
+				<span>MATH ACC 7,&nbsp; Section&nbsp;1
+                    <br>
+                    <table id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl05_ClassSectionFacultyList1_DataListFaculty" cellspacing="0" border="0" style="border-collapse:collapse;">
+					<tbody><tr>
+						<td>
+	    <nobr>
+		    <input type="image" name="Template1$Control0$StudentGradesView1$GradeTypeMultiView$StudentGradesMPAvgView$DataGrid1$ctl05$ClassSectionFacultyList1$DataListFaculty$ctl00$IconButtonEmail" id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl05_ClassSectionFacultyList1_DataListFaculty_ctl00_IconButtonEmail" title="Send Email" src="/SchoolToolWeb/Images/Icons/Icon_Email.gif" style="border-width:0px;vertical-align:top;">
+		    <span>Ms. Serpe<br></span>
+		</nobr>
+	</td>
+					</tr>
+				</tbody></table>
+<span>
+                        Meets:&nbsp;&nbsp;Sem&nbsp;&nbsp;F,S&nbsp;&nbsp; Days&nbsp;&nbsp;B,C,D,F,G,H&nbsp;&nbsp;
+                        Period(s)&nbsp;&nbsp;Opp 8</span></span>
+			</td><td>
+				<span>11.00</span>
+			</td>
+			</tr><tr class="DataGridItemStyle" valign="top">
+				<td>
+				<span>PHYS EDU 7-8,&nbsp; Section&nbsp;10
+                    <br>
+                    <table id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl06_ClassSectionFacultyList1_DataListFaculty" cellspacing="0" border="0" style="border-collapse:collapse;">
+					<tbody><tr>
+						<td>
+	    <nobr>
+		    <input type="image" name="Template1$Control0$StudentGradesView1$GradeTypeMultiView$StudentGradesMPAvgView$DataGrid1$ctl06$ClassSectionFacultyList1$DataListFaculty$ctl00$IconButtonEmail" id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl06_ClassSectionFacultyList1_DataListFaculty_ctl00_IconButtonEmail" title="Send Email" src="/SchoolToolWeb/Images/Icons/Icon_Email.gif" style="border-width:0px;vertical-align:top;">
+		    <span>Ms. Silverman<br></span>
+		</nobr>
+	</td>
+					</tr>
+				</tbody></table>
+<span>
+                        Meets:&nbsp;&nbsp;Sem&nbsp;&nbsp;F,S&nbsp;&nbsp; Days&nbsp;&nbsp;A,D,G&nbsp;&nbsp;
+                        Period(s)&nbsp;&nbsp;Opp 3</span></span>
+			</td><td>
+				<span>71.00</span>
+			</td>
+			</tr><tr class="DataGridAlternateItemStyle" valign="top">
+				<td>
+				<span>SCIENCE ACC 7,&nbsp; Section&nbsp;1
+                    <br>
+                    <table id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl07_ClassSectionFacultyList1_DataListFaculty" cellspacing="0" border="0" style="border-collapse:collapse;">
+					<tbody><tr>
+						<td>
+	    <nobr>
+		    <input type="image" name="Template1$Control0$StudentGradesView1$GradeTypeMultiView$StudentGradesMPAvgView$DataGrid1$ctl07$ClassSectionFacultyList1$DataListFaculty$ctl00$IconButtonEmail" id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl07_ClassSectionFacultyList1_DataListFaculty_ctl00_IconButtonEmail" title="Send Email" src="/SchoolToolWeb/Images/Icons/Icon_Email.gif" style="border-width:0px;vertical-align:top;">
+		    <span>Mr. Drew<br></span>
+		</nobr>
+	</td>
+					</tr>
+				</tbody></table>
+<span>
+                        Meets:&nbsp;&nbsp;Sem&nbsp;&nbsp;F,S&nbsp;&nbsp; Days&nbsp;&nbsp;B,C,D,F,G,H&nbsp;&nbsp;
+                        Period(s)&nbsp;&nbsp;Opp 4</span></span>
+			</td><td>
+				<span>12.00</span>
+			</td>
+			</tr><tr class="DataGridItemStyle" valign="top">
+				<td>
+				<span>SOCIAL STUDIES 1,&nbsp; Section&nbsp;1
+                    <br>
+                    <table id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl08_ClassSectionFacultyList1_DataListFaculty" cellspacing="0" border="0" style="border-collapse:collapse;">
+					<tbody><tr>
+						<td>
+	    <nobr>
+		    <input type="image" name="Template1$Control0$StudentGradesView1$GradeTypeMultiView$StudentGradesMPAvgView$DataGrid1$ctl08$ClassSectionFacultyList1$DataListFaculty$ctl00$IconButtonEmail" id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl08_ClassSectionFacultyList1_DataListFaculty_ctl00_IconButtonEmail" title="Send Email" src="/SchoolToolWeb/Images/Icons/Icon_Email.gif" style="border-width:0px;vertical-align:top;">
+		    <span>Ms. Taylor<br></span>
+		</nobr>
+	</td>
+					</tr>
+				</tbody></table>
+<span>
+                        Meets:&nbsp;&nbsp;Sem&nbsp;&nbsp;F,S&nbsp;&nbsp; Days&nbsp;&nbsp;A,B,D,E,F,H&nbsp;&nbsp;
+                        Period(s)&nbsp;&nbsp;Opp 6</span></span>
+			</td><td>
+				<span>65.00</span>
+			</td>
+			</tr><tr class="DataGridAlternateItemStyle" valign="top">
+				<td>
+				<span>SPANISH IA 7,&nbsp; Section&nbsp;7
+                    <br>
+                    <table id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl09_ClassSectionFacultyList1_DataListFaculty" cellspacing="0" border="0" style="border-collapse:collapse;">
+					<tbody><tr>
+						<td>
+	    <nobr>
+		    <input type="image" name="Template1$Control0$StudentGradesView1$GradeTypeMultiView$StudentGradesMPAvgView$DataGrid1$ctl09$ClassSectionFacultyList1$DataListFaculty$ctl00$IconButtonEmail" id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl09_ClassSectionFacultyList1_DataListFaculty_ctl00_IconButtonEmail" title="Send Email" src="/SchoolToolWeb/Images/Icons/Icon_Email.gif" style="border-width:0px;vertical-align:top;">
+		    <span>Ms. Falletti<br></span>
+		</nobr>
+	</td>
+					</tr>
+				</tbody></table>
+<span>
+                        Meets:&nbsp;&nbsp;Sem&nbsp;&nbsp;F,S&nbsp;&nbsp; Days&nbsp;&nbsp;A,C,D,E,G,H&nbsp;&nbsp;
+                        Period(s)&nbsp;&nbsp;Opp 7</span></span>
+			</td><td>
+				<span>11.00</span>
+			</td>
+			</tr><tr class="DataGridItemStyle" valign="top">
+				<td>
+				<span>STUDY HALL 7-8,&nbsp; Section&nbsp;9
+                    <br>
+                    <table id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl10_ClassSectionFacultyList1_DataListFaculty" cellspacing="0" border="0" style="border-collapse:collapse;">
+					<tbody><tr>
+						<td>
+	    <nobr>
+		    <input type="image" name="Template1$Control0$StudentGradesView1$GradeTypeMultiView$StudentGradesMPAvgView$DataGrid1$ctl10$ClassSectionFacultyList1$DataListFaculty$ctl00$IconButtonEmail" id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl10_ClassSectionFacultyList1_DataListFaculty_ctl00_IconButtonEmail" title="Send Email" src="/SchoolToolWeb/Images/Icons/Icon_Email.gif" style="border-width:0px;vertical-align:top;">
+		    <span>Ms. Falletti<br></span>
+		</nobr>
+	</td>
+					</tr>
+				</tbody></table>
+<span>
+                        Meets:&nbsp;&nbsp;Sem&nbsp;&nbsp;F,S&nbsp;&nbsp; Days&nbsp;&nbsp;B,E,H&nbsp;&nbsp;
+                        Period(s)&nbsp;&nbsp;Opp 2</span></span>
+			</td><td>
+				<span>None</span>
+			</td>
+			</tr><tr class="DataGridAlternateItemStyle" valign="top">
+				<td>
+				<span>STUDY HALL 7-8,&nbsp; Section&nbsp;15
+                    <br>
+                    <table id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl11_ClassSectionFacultyList1_DataListFaculty" cellspacing="0" border="0" style="border-collapse:collapse;">
+					<tbody><tr>
+						<td>
+	    <nobr>
+		    <input type="image" name="Template1$Control0$StudentGradesView1$GradeTypeMultiView$StudentGradesMPAvgView$DataGrid1$ctl11$ClassSectionFacultyList1$DataListFaculty$ctl00$IconButtonEmail" id="Template1_Control0_StudentGradesView1_GradeTypeMultiView_StudentGradesMPAvgView_DataGrid1_ctl11_ClassSectionFacultyList1_DataListFaculty_ctl00_IconButtonEmail" title="Send Email" src="/SchoolToolWeb/Images/Icons/Icon_Email.gif" style="border-width:0px;vertical-align:top;">
+		    <span>Ms. Locke<br></span>
+		</nobr>
+	</td>
+					</tr>
+				</tbody></table>
+<span>
+                        Meets:&nbsp;&nbsp;Sem&nbsp;&nbsp;F,S&nbsp;&nbsp; Days&nbsp;&nbsp;C,E,H&nbsp;&nbsp;
+                        Period(s)&nbsp;&nbsp;Opp 3</span></span>
+			</td><td>
+				<span>None</span>
+			</td>
+			</tr>
+		</tbody></table>
+
+
+
+
+
+	</div><input type="hidden" name="Template1$Panel_ContentDynamicPanel" value="/SchoolToolWeb/Core/Home/StudentInformationGrades.ascx">
+                
+</div>
+            </td>
+        </tr>
+	    <tr>
+        <td colspan="2">
+            <div id="footer">
+			<span>
+                
+            </span>
+            </div>        
+        </td></tr>
+        </tbody></table>
+	<input type="hidden" name="Page_ID" value="7">
+
+<script type="text/javascript">
+    angular.module("app").value("authHeader", "Schooltool-Header");
+</script>
+			<input type="hidden" name="Module_ID" id="Module_ID" value="1">
+<input type="hidden" name="Link_ID" id="Link_ID" value="100">
+<input type="hidden" name="Location" id="Location" value="/SchoolToolWeb/Core/Home/StudentInformationGrades.ascx">
+
+		
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("Template1_Control0_ValidationSummary"));
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+$(document).ready(function() {
+                    if(document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_dlgTransportationPopup_DialogContent_DialogTop') && document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_dlgTransportationPopup_DialogContent_DialogTop').value == '') 
+                    { 
+                        document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_dlgTransportationPopup_DialogContent').style.marginTop = (document.getElementById('Template1_Control0_PersonSummaryView_SHPanel_dlgTransportationPopup_DialogContent').offsetHeight/2*-1) + 'px';
+                    }
+});
+var callBackFrameUrl='/SchoolToolWeb/WebResource.axd?d=BG_8uNougitwiTZRR0GX6M0lGIw1EDQrSVRMWx2-dZs8Ek6TYXkzCsgu1R9FXt8AJxli60kMi_vXwHSDGm3cFBkURXy4leQ-7YSrVsqK7kI1&t=636160660665894255';
+WebForm_InitCallback();//]]>
+</script>
+<input type="hidden" name="DXScript" id="DXScript" value="1_240,1_137,1_234,1_163,1_140,1_134,1_226,1_224"><input type="hidden" name="DXCss" id="DXCss" value="/SchoolToolWeb/bundles/styles?v=CnzfyRp1U4siRcld9CHh6ErGYKdolMkKYr7DsVlL2dI1,schooltool.ico,100_116,1_28,1_31,100_120"></form>
+        <script language="Javascript">
+        	document.NewWebForm1.style.display = "";
+        </script>
+	
+
+</body>
