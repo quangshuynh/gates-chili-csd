@@ -1,0 +1,123 @@
+public class Ghost {
+	                                                      
+	/**
+	 *  @ author Dean Dingee
+	 *
+	 *  This class defines what a ghost object is, and what
+	 *  ghost objects can do.
+	 *  
+	 *  All ghost objects can have the following attributes
+	 *  called fields
+	 */
+
+//                              Fields
+	String name;
+	String color;
+	int xPosition;
+	int yPosition;
+	int speed;
+	boolean isFlashing;
+
+//                           Constructors
+  /**
+   *  Constructs a ghost object and fills in the appropriate 
+   *  fields from the data sent the "main" class.  The only
+   *  field that is not filled in is the isFlashing field.
+   *  It is assigned a value of false by default
+   */	
+   
+	public Ghost(String nameSent, String colorSent, int xSent, int ySent, int speedSent) {
+		name = nameSent;
+		color = colorSent;
+		xPosition = xSent;
+		yPosition = ySent;
+		speed = speedSent;
+	}
+	
+	/**
+   *  Constructs a ghost object and fills in the appropriate 
+   *  fields from the data sent the "main" class.  The only
+   *  fields that are not filled in are the isFlashing field.
+   *  and the speed field.  The speed field is given a default 
+   *  value of 0, and the isFlashing field is set to false.
+   */	
+	
+	public Ghost(String nameSent, String colorSent, int xSent, int ySent) {
+		name = nameSent;
+		color = colorSent;
+		xPosition = xSent;
+		yPosition = ySent;
+	}
+	
+  /**
+   *  Constructs a ghost object and fills in the name and color
+   *  fields from the data sent the "main" class.  The other fields 
+   *  are assigned default values based on their data type.
+   *  Default values are: int = 0, String = null, and boolean = false
+   */	
+	
+	public Ghost(String nameSent, String colorSent) {
+		name = nameSent;
+		color = colorSent;
+	}
+
+  /**
+   *  Constructs a ghost object (allocates memory for every field a 
+   *  ghost object has.  The fields are assigned default values based 
+   *  on their data type. Default values are: int = 0, String = null,
+   *   and boolean = false
+   */	
+	
+	public Ghost() {
+
+	}
+	
+	//                           Methods
+	
+ /**
+  * returns the name of the specific ghost object that calls this method
+  */
+	public String getName() {
+		return name;
+	}
+	
+  /**
+  * returns the xPosition of the specific ghost object that calls this method
+  */
+  
+	public int getXposition() {
+		return xPosition;
+	}
+	
+ /**
+  * returns the yPosition of the specific ghost object that calls this method
+  */
+  
+	public int getYposition() {
+		return yPosition;
+	}
+/**
+  * modifies the xPosition of the specific ghost object by adding 1 to the value
+  */
+  
+	public void moveRight() {
+		xPosition = xPosition + 1;
+	}
+	
+ /**
+  * modifies the xPosition of the specific ghost object by adding the amount sent to the value
+  */
+  
+	public void moveRight(int howFar) {
+		xPosition = xPosition + howFar;
+	} 
+
+ /**
+  * Sets the name of the calling ghost.  This method can also change the calling ghosts name
+  */
+  
+  public void setName(String nameSent) {
+  	name = nameSent;
+  }
+	
+}                     

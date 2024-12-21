@@ -1,0 +1,13 @@
+public class WhileDemo
+{
+   public static void main(String[] args)
+   {
+      int count = 1;    // count is initiliazed
+
+      while (count <= 10)    // count is tested
+      {
+         System.out.print(count + " ");
+         count++;            // count is changed
+      }
+   }
+}

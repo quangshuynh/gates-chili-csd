@@ -1,0 +1,57 @@
+public class Car {
+
+  String make, model;
+  int year;
+  double mpg, gallons, range;
+
+  public Car(String makeSent, String modelSent, int yearSent, double mpgSent, double gallonsSent) {
+    make = makeSent;
+    model = modelSent;
+    year = yearSent;
+    mpg = mpgSent;
+    gallons = gallonsSent;
+}
+
+  public Car(String makeSent, String modelSent, double mpgSent, double gallonsSent, double rangeSent) {
+    make = makeSent;
+    model = modelSent;
+    mpg = mpgSent;
+    gallons = gallonsSent;
+}
+  public Car(String makeSent, String modelSent, double mpgSent) {
+    make = makeSent;
+    model = modelSent;
+    mpg = mpgSent;
+}
+
+  public String getMake() {
+    return make;
+  }
+  public String getModel() {
+    return model;
+  } 
+  public int getYear() {
+    return year;
+  }
+  public double getMPG() {
+    return mpg;
+  }
+  pubiic double getGallons() {
+    return gallons;
+  }
+public void setMake(String makeSent) {
+  make = makeSent;
+}
+public void setModel(String modelSent) {
+  model = modelSent;
+}
+public void setYear(int yearSent) {
+  year = yearSent;
+}
+public void setMPG(double MPGrSent) {
+  mpg = MPGSent;
+}
+public void seGallons(double GallonsSent) {
+  gallons = gallonsSent;
+}  
+}
