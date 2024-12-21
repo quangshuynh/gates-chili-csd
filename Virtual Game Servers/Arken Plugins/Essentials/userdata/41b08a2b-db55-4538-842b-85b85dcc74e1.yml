@@ -1,0 +1,20 @@
+geolocation: United States
+lastAccountName: Ethan_Stealth
+timestamps:
+  login: 1535225013450
+  logout: 1535225103922
+ipAddress: 68.206.29.0
+lastlocation:
+  world: world
+  x: 0.0
+  y: 62.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: Lobby2
+  x: -9.471077077878403
+  y: 95.0
+  z: 11.753729209712665
+  yaw: -39.97851
+  pitch: 10.059338

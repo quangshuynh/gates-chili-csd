@@ -1,0 +1,21 @@
+geolocation: Sweden
+lastAccountName: jeon_bae
+timestamps:
+  login: 1535135659692
+  lastteleport: 1535135664406
+  logout: 1535135681035
+ipAddress: 81.234.53.21
+lastlocation:
+  world: Lobby2
+  x: -69.5226057482505
+  y: 86.0
+  z: -2.5375842483495394
+  yaw: 0.86250395
+  pitch: -3.916392
+logoutlocation:
+  world: SkyblockLobby
+  x: -564.9194384607399
+  y: 145.0
+  z: 928.9764259486449
+  yaw: 111.62411
+  pitch: 10.256292

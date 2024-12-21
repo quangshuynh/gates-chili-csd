@@ -1,0 +1,105 @@
+Settings:
+  GUI-Size: 36 #Must be a factor of 9.
+  Inventory-Name: '&8Serverpvp Kits'
+  GUI-Customization: #This allows you to customize unclickable items into you GUI.
+#    - 'Slot:1, Item:160:8, Name:&r'
+#    - 'Slot:2, Item:160:8, Name:&r'
+#    - 'Slot:3, Item:160:8, Name:&r'
+#    - 'Slot:4, Item:160:8, Name:&r'
+#    - 'Slot:5, Item:160:8, Name:&r'
+#    - 'Slot:6, Item:160:8, Name:&r'
+#    - 'Slot:7, Item:160:8, Name:&r'
+#    - 'Slot:8, Item:160:8, Name:&r'
+#    - 'Slot:9, Item:160:8, Name:&r'
+#    - 'Slot:10, Item:160:8, Name:&r'
+#    - 'Slot:11, Item:160:8, Name:&r'
+#    - 'Slot:12, Item:160:8, Name:&r'
+#    - 'Slot:13, Item:160:8, Name:&r'
+#    - 'Slot:14, Item:160:8, Name:&r'
+#    - 'Slot:15, Item:160:8, Name:&r'
+#    - 'Slot:16, Item:160:8, Name:&r'
+#    - 'Slot:17, Item:160:8, Name:&r'
+#    - 'Slot:18, Item:160:8, Name:&r'
+#    - 'Slot:19, Item:160:8, Name:&r'
+#    - 'Slot:20, Item:160:8, Name:&r'
+#    - 'Slot:21, Item:160:8, Name:&r'
+#    - 'Slot:22, Item:160:8, Name:&r'
+#    - 'Slot:23, Item:160:8, Name:&r'
+#    - 'Slot:24, Item:160:8, Name:&r'
+#    - 'Slot:25, Item:160:8, Name:&r'
+#    - 'Slot:26, Item:160:8, Name:&r'
+#    - 'Slot:27, Item:160:8, Name:&r'
+#    - 'Slot:28, Item:160:8, Name:&r'
+#    - 'Slot:29, Item:160:8, Name:&r'
+#    - 'Slot:30, Item:160:8, Name:&r'
+#    - 'Slot:31, Item:160:8, Name:&r'
+#    - 'Slot:32, Item:160:8, Name:&r'
+#    - 'Slot:33, Item:160:8, Name:&r'
+#    - 'Slot:34, Item:160:8, Name:&r'
+#    - 'Slot:35, Item:160:8, Name:&r'
+#    - 'Slot:36, Item:160:8, Name:&r'
+###################################
+#             Items: Options
+# Item: <ID:MD> - You can choose the item with its id and meta data.
+# Amount: <Number> - Choose how many of the item you get.
+# Name: <Name> - The display name that goes on the item.
+# Lore: <Line 1>,<Line 2>,<Line 3>,<Line 4> - The lore that will go under the enchantments. Split lines with a ','
+# Enchantments:<Enchantment>:<Level> - Choose vanilla enchantments here. Split each enchantment with a ','
+# CustomEnchantments: <Custom Enchantment>:<Level> - Choose crazy/custom enchantments here. Split enchantments with a ','
+# To chose a random level for the crazy/custom enchantments use like this 'CustomEnchantments:<Custom Enchantment>:<Min Level>-<Max Level>'
+# Example of this is shows here.
+# CustomEnchantments:Overload:1-5,Hulk:1-5 << this will add Hulk and Overload and pick a random level from 1-5 and set it as the power.
+###################################
+GKitz: #GKit optons.
+  Fujin:
+    Display:
+      Slot: 14
+      Item: 'NETHER_STAR'
+      Glowing: true
+      Name: '&3&k...&b&n&lArken&3&k...&f&l Fujin Kit'
+      Lore:
+        - ''
+        - '&f&l* &6&lFujin Blade'
+        - '&f&l* &6&lHeroic Fujin Legs'
+        - '&f&l* &6&lHeroic Boots of Fujin'
+        - '&f&l* &eHeroic Fujin Jacket'
+        - '&f&l* &eHeroic Fujin Hat'
+        - ''
+        - '&7The most feared god in the universe.'
+        - '&6* Arken Release'
+        - ''
+        - '&aCooldown: &f%Day%d, %Hour%h, %Minute%m, %Second%s'
+        - '&7Right-Click to preview kit.'
+    Auto-Equip: false
+    Cooldown: '72h'
+    Items:
+      - 'Item:310, Amount:1, Name:&eHeroic Fujin Hat &d[&b&l&n4&d], Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Protection:1-4,Enlightened:1-2,Demonforged:1-3,Frozen:1-3, Lore:&6&oPerfectly stitched with bring embroideries.'
+      - 'Item:311, Amount:1, Name:&eHeroic Fujin Jacket &d[&b&l&n5&d], Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Recover:1-3,Overload:1-3,Deathbringer:1-3,Leadership:1-1,Commander:1-1, Lore:&6&oThe very existence of the medals pinned,&6&oon your jacket ensure your victory.'
+      - 'Item:312, Amount:1, Name:&6&lHeroic Fujin Legs &d[&b&l&n6&d], Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Enlightened:1-3,Armored:1-1,Guardians:1-4,Nutrition:1-1,Cactus:1-2,Fury:1-2, Lore:&6&oWar has taken its toll on you,&6&obut you are not one to surrender.'
+      - 'Item:313, Amount:1, Name:&6&lHeroic Boots of Fujin &d[&b&l&n5&d], Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Destruction:1-2,Gears:1-2,Angelic:1-5,Springs:1-3,UndeadRuse:1-5, Lore:&6&oA spoil of war but something,&6&ois strange about these boots.'
+      - 'Item:276, Amount:1, Name:&6&lFujin Blade &d[&b&l&n8&d], Enchantments:Sharpness:5,Fireaspect:2,Unbreaking:2, CustomEnchantments:DoubleStrike:1-2,Inquisitive:1-4,Lifesteal:1-1,Silence:1-2,Paralyze:1-4,Ravenous:1-4,Featherweight:1-3,Headless:1-2, Lore:&6&oAn electrifyingly twist on an,&6&ootherwise legendary holy blade.'
+    Commands:
+#      - 'ce lostbook legendary 1 %Player%'
+  SkyGuardian:
+    Display:
+      Slot: 23
+      Item: 'DIAMOND_BOOTS'
+      Glowing: true
+      Name: '&3&k...&b&n&lArken&3&k...&f&l SkyGuardian Kit'
+      Lore:
+        - ''
+        - '&f&l* &6&lSkyGuardian Sword'
+        - '&f&l* &6&lFlying Boots of the SkyGuardian'
+        - ''
+        - '&7The protector of skies and lands end.'
+        - '&6* Arken Release'
+        - ''
+        - '&aCooldown: &f%Day%d, %Hour%h, %Minute%m, %Second%s'
+        - '&7Right-Click to preview kit.'
+    Auto-Equip: false
+    Cooldown: '72h'
+    Items:
+      - 'Item:313, Amount:1, Name:&6&lFlying Boots of the SkyGuardian &d[&b&l&n8&d], Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Wings:1,Gears:1-3,Springs:1-3,Enlightened:1-5,Cactus:1-2,Armored:1-4,Demonforged:1-4,Angelic:1-5, Lore:&6&oThese boots were stolen from the skyguardian himself.'
+      - 'Item:276, Amount:1, Name:&6&lSky-Guardian Sword &d[&b&l&n9&d], Enchantments:Sharpness:5,Fireaspect:2,Unbreaking:2, CustomEnchantments:DoubleStrike:1-3,Inversion:1-4,Lifesteal:1-5,Silence:1-4,Nutrition:1-4,Rage:1-6,Featherweight:1-3,Headless:1-2,Execute:1-7, Lore:&6&oA blade crafted so sharp it can cut the sky in half.'
+    Commands:
+#      - 'ce lostbook legendary 1 %Player%'

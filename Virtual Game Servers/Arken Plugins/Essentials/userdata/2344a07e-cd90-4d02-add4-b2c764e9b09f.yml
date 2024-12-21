@@ -1,0 +1,33 @@
+lastAccountName: Pokerule1
+timestamps:
+  login: 1535228857624
+  lastteleport: 1535229010093
+  kits:
+    starter: 1535228944230
+  logout: 1535229086948
+ipAddress: 99.145.237.38
+geolocation: United States
+lastlocation:
+  world: Lobby2
+  x: -69.5006674386074
+  y: 86.0
+  z: -8.474481006582119
+  yaw: -1.1861324E-6
+  pitch: -6.4499993
+money: '46646.99000000001'
+homes:
+  home:
+    world: ASkyBlock
+    x: 801.3492813310213
+    y: 6.0
+    z: 804.4991813395533
+    yaw: -170.3985
+    pitch: 37.049854
+afk: false
+logoutlocation:
+  world: ASkyBlock
+  x: 802.4030389623108
+  y: 7.0
+  z: 802.421428432003
+  yaw: -203.39818
+  pitch: 28.499887

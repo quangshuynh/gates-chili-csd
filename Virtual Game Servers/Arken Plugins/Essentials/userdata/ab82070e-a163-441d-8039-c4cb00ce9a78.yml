@@ -1,0 +1,22 @@
+geolocation: United States
+lastAccountName: Crithax
+timestamps:
+  login: 1535138767451
+  lastteleport: 1535138770241
+  logout: 1535138781418
+ipAddress: 172.101.137.86
+lastlocation:
+  world: Lobby2
+  x: -70.104832351483
+  y: 86.0
+  z: -4.700353823357663
+  yaw: -2.099999
+  pitch: -0.6000038
+godmode: true
+logoutlocation:
+  world: SkyblockLobby
+  x: -535.1882935548477
+  y: 149.0625
+  z: 903.721397538062
+  yaw: -221.40001
+  pitch: 18.90003

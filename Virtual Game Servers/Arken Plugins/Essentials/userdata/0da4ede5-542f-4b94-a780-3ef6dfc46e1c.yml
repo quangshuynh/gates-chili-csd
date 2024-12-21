@@ -1,0 +1,21 @@
+lastAccountName: Connther
+timestamps:
+  login: 1535139206439
+  logout: 1535142473533
+  lastteleport: 1535139228069
+ipAddress: 97.90.85.226
+geolocation: United States
+lastlocation:
+  world: Lobby2
+  x: -70.54780018072587
+  y: 86.0
+  z: -2.8215855489116715
+  yaw: 44.4
+  pitch: 25.950003
+logoutlocation:
+  world: ASkyBlock
+  x: -403.9636614626024
+  y: 118.0
+  z: -801.044937741836
+  yaw: -188.51163
+  pitch: 27.939201

@@ -1,0 +1,6 @@
+Groups:
+  Moderator:
+    Permission: nte.moderator
+    Prefix: '&2'
+    Suffix: '&f'
+    SortPriority: 2

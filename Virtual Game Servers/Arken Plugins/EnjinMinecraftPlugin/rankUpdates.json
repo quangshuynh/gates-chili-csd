@@ -1,0 +1,43 @@
+{
+  "playerPerms": {
+    "CreeperZ585": {
+      "uuid": "d91918a4-49d0-4615-b6a5-2dae429a5e77",
+      "worlds": {
+        "lobby_nether": [
+          "owner"
+        ],
+        "lobby_the_end": [
+          "owner"
+        ],
+        "lobby": [
+          "owner"
+        ],
+        "world": [
+          "Member",
+          "owner"
+        ],
+        "world_the_end": [
+          "owner"
+        ],
+        "world_nether": [
+          "owner"
+        ],
+        "Lobby2": [
+          "owner"
+        ],
+        "ASkyBlock": [
+          "owner"
+        ],
+        "ASkyBlock_nether": [
+          "owner"
+        ],
+        "*": [
+          "owner"
+        ],
+        "SkyblockLobby": [
+          "owner"
+        ]
+      }
+    }
+  }
+}

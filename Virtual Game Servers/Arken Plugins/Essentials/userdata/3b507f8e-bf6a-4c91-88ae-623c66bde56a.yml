@@ -1,0 +1,21 @@
+geolocation: United States
+lastAccountName: Comparible
+timestamps:
+  login: 1535201529589
+  lastteleport: 1535201609427
+  logout: 1535201892034
+ipAddress: 75.139.41.240
+lastlocation:
+  world: Lobby2
+  x: -69.02303930675136
+  y: 86.0
+  z: 6.358881788326983
+  yaw: -183.20906
+  pitch: 6.8126106
+logoutlocation:
+  world: ASkyBlock
+  x: -401.11620308101914
+  y: 121.0
+  z: -1204.71643518831
+  yaw: -66.72844
+  pitch: 37.155254

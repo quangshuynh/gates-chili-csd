@@ -1,0 +1,27 @@
+lastAccountName: CaptainWaffles42
+geolocation: United States
+timestamps:
+  login: 1535221868506
+  lastteleport: 1535222467813
+  kits:
+    arkenblocks: 1535041341051
+    starter: 1534984623560
+    arken: 1535222962377
+  logout: 1535223964550
+ipAddress: 172.101.147.149
+lastlocation:
+  world: ASkyBlock
+  x: -1.237500011920929
+  y: 109.61579432994715
+  z: -400.10844390503655
+  yaw: 235.95026
+  pitch: -3.5999725
+money: '333995.0'
+logoutlocation:
+  world: ASkyBlock
+  x: 8.699999988079071
+  y: 102.58993491912136
+  z: -394.2573952028496
+  yaw: -46.4718
+  pitch: 12.599985
+godmode: false

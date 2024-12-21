@@ -1,0 +1,21 @@
+geolocation: Australia
+lastAccountName: DADDB0T
+timestamps:
+  login: 1535193950970
+  lastteleport: 1535193971862
+  logout: 1535193992663
+ipAddress: 211.30.10.57
+lastlocation:
+  world: Lobby2
+  x: -72.52326740621007
+  y: 86.0
+  z: 5.287086878633177
+  yaw: 110.4
+  pitch: 30.599989
+logoutlocation:
+  world: SkyblockLobby
+  x: -535.5183437179188
+  y: 149.0625
+  z: 903.1222839521625
+  yaw: 165.00009
+  pitch: 29.850004

@@ -1,0 +1,35 @@
+lastAccountName: CreeperZ585
+timestamps:
+  login: 1537748810268
+  logout: 1537748899196
+  lastteleport: 1535386170534
+  kits:
+    arkenblocks: 1535041081709
+    starter: 1535199225120
+    valiant: 1534883204936
+    valiantblocks: 1535041134586
+    mystic: 1534883445291
+    mysticblocks: 1535040269633
+    arken: 1535216830631
+ipAddress: 127.0.0.1
+geolocation: N/A
+logoutlocation:
+  world: Lobby2
+  x: -27.805088566012163
+  y: 95.0
+  z: 81.73609563219145
+  yaw: 64.94983
+  pitch: 43.20003
+lastlocation:
+  world: Lobby2
+  x: -70.00112732092384
+  y: 86.0
+  z: -9.637002179852518
+  yaw: -4.3500004
+  pitch: 11.550001
+powertools: {}
+godmode: false
+afk: false
+money: '86639.34475'
+nickname: CreeperZ585
+socialspy: true

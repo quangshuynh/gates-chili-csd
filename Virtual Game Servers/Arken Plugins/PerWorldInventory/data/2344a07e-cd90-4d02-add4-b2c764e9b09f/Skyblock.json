@@ -1,0 +1,57 @@
+{
+     "ender-chest": [],
+     "stats": {
+          "saturation": 0,
+          "potion-effects": "",
+          "can-fly": false,
+          "level": 6,
+          "flying": false,
+          "exhaustion": 1.1127638816833496,
+          "health": 20,
+          "exp": 0.4926314055919647,
+          "food": 19
+     },
+     "data-format": 1,
+     "inventory": {
+          "armor": [
+               {
+                    "item": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9\r\nPXQABHR5cGV0AAZkYW1hZ2V0AAZhbW91bnR1cQB+AAYAAAAEdAAeb3JnLmJ1a2tpdC5pbnZlbnRv\r\ncnkuSXRlbVN0YWNrdAADQUlSc3IAD2phdmEubGFuZy5TaG9ydGhNNxM0YNpSAgABUwAFdmFsdWV4\r\ncgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHD//3NyABFqYXZhLmxhbmcuSW50ZWdlchLi\r\noKT3gYc4AgABSQAFdmFsdWV4cQB+ABAAAAAA\r\n",
+                    "index": 0
+               },
+               {
+                    "item": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9\r\nPXQABHR5cGV0AAZkYW1hZ2V0AAZhbW91bnR1cQB+AAYAAAAEdAAeb3JnLmJ1a2tpdC5pbnZlbnRv\r\ncnkuSXRlbVN0YWNrdAADQUlSc3IAD2phdmEubGFuZy5TaG9ydGhNNxM0YNpSAgABUwAFdmFsdWV4\r\ncgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHD//3NyABFqYXZhLmxhbmcuSW50ZWdlchLi\r\noKT3gYc4AgABSQAFdmFsdWV4cQB+ABAAAAAA\r\n",
+                    "index": 1
+               },
+               {
+                    "item": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9\r\nPXQABHR5cGV0AAZkYW1hZ2V0AAZhbW91bnR1cQB+AAYAAAAEdAAeb3JnLmJ1a2tpdC5pbnZlbnRv\r\ncnkuSXRlbVN0YWNrdAADQUlSc3IAD2phdmEubGFuZy5TaG9ydGhNNxM0YNpSAgABUwAFdmFsdWV4\r\ncgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHD//3NyABFqYXZhLmxhbmcuSW50ZWdlchLi\r\noKT3gYc4AgABSQAFdmFsdWV4cQB+ABAAAAAA\r\n",
+                    "index": 2
+               },
+               {
+                    "item": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9\r\nPXQABHR5cGV0AAZkYW1hZ2V0AAZhbW91bnR1cQB+AAYAAAAEdAAeb3JnLmJ1a2tpdC5pbnZlbnRv\r\ncnkuSXRlbVN0YWNrdAADQUlSc3IAD2phdmEubGFuZy5TaG9ydGhNNxM0YNpSAgABUwAFdmFsdWV4\r\ncgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHD//3NyABFqYXZhLmxhbmcuSW50ZWdlchLi\r\noKT3gYc4AgABSQAFdmFsdWV4cQB+ABAAAAAA\r\n",
+                    "index": 3
+               }
+          ],
+          "inventory": [
+               {
+                    "item": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAN0AAI9\r\nPXQABHR5cGV0AAZhbW91bnR1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0\r\nYWNrdAADRUdHc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZh\r\nLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAABA=\r\n",
+                    "index": 0
+               },
+               {
+                    "item": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAN0AAI9\r\nPXQABHR5cGV0AARtZXRhdXEAfgAGAAAAA3QAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFj\r\na3QAB0NPTVBBU1NzcQB+AABzcQB+AAN1cQB+AAYAAAAEcQB+AAh0AAltZXRhLXR5cGV0AAxkaXNw\r\nbGF5LW5hbWV0AAlJdGVtRmxhZ3N1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAAU\r\nwqczwqdsQXJrZW4gQ29tcGFzcyFzcgARamF2YS51dGlsLkhhc2hTZXS6RIWVlri3NAMAAHhwdwwA\r\nAAAQP0AAAAAAAAF0AA1ISURFX0VOQ0hBTlRTeA==\r\n",
+                    "index": 1
+               },
+               {
+                    "item": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAN0AAI9\r\nPXQABHR5cGV0AAZhbW91bnR1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0\r\nYWNrdAADRUdHc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZh\r\nLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAo=\r\n",
+                    "index": 2
+               },
+               {
+                    "item": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9\r\nPXQABHR5cGV0AAZkYW1hZ2V0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5\r\nLkl0ZW1TdGFja3QAD0RJQU1PTkRfUElDS0FYRXNyAA9qYXZhLmxhbmcuU2hvcnRoTTcTNGDaUgIA\r\nAVMABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwARZzcQB+AABzcQB+AAN1\r\ncQB+AAYAAAAFcQB+AAh0AAltZXRhLXR5cGV0AAxkaXNwbGF5LW5hbWV0AAhlbmNoYW50c3QAC3Jl\r\ncGFpci1jb3N0dXEAfgAGAAAABXQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QADDNrIWJBcmtlbjNr\r\nIXNxAH4AA3VxAH4ABgAAAAJ0AAlESUdfU1BFRUR0AApEVVJBQklMSVRZdXEAfgAGAAAAAnNyABFq\r\nYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cQB+ABAAAAAFc3EAfgAiAAAAA3Nx\r\nAH4AIgAAAAE=\r\n",
+                    "index": 3
+               },
+               {
+                    "item": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAN0AAI9\r\nPXQABHR5cGV0AAZhbW91bnR1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0\r\nYWNrdAAMQkFLRURfUE9UQVRPc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1\r\nZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAADE=\r\n",
+                    "index": 8
+               }
+          ]
+     }
+}

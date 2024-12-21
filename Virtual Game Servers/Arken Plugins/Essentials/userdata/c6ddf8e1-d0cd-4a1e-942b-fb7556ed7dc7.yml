@@ -1,0 +1,22 @@
+geolocation: Philippines
+lastAccountName: toadmaniac10
+timestamps:
+  login: 1535176009086
+  kits:
+    starter: 1535176022285
+  logout: 1535176050860
+ipAddress: 110.54.233.124
+lastlocation:
+  world: world
+  x: 0.0
+  y: 62.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: Lobby2
+  x: -76.13398418390395
+  y: 95.0
+  z: 46.42839061003977
+  yaw: 219.74997
+  pitch: 1.50001

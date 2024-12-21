@@ -1,0 +1,25 @@
+lastAccountName: Posibility
+timestamps:
+  login: 1535233598104
+  lastteleport: 1535233614641
+  kits:
+    starter: 1535214417620
+  logout: 1535234956766
+ipAddress: 68.184.93.28
+geolocation: United States
+lastlocation:
+  world: Lobby2
+  x: -70.32142043185496
+  y: 86.0
+  z: -4.065042080301837
+  yaw: -0.877768
+  pitch: 16.238762
+money: '39903.125'
+afk: false
+logoutlocation:
+  world: ASkyBlock
+  x: -808.485737769873
+  y: 117.78502770378924
+  z: 5.45530132026859
+  yaw: -254.198
+  pitch: 19.557518

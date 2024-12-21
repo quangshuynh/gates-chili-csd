@@ -1,0 +1,25 @@
+lastAccountName: ABSKrum
+timestamps:
+  login: 1535213700242
+  lastteleport: 1535213718345
+  kits:
+    starter: 1535132428457
+  logout: 1535214258927
+ipAddress: 84.15.189.96
+geolocation: Lithuania
+lastlocation:
+  world: Lobby2
+  x: -70.30881797694956
+  y: 86.0
+  z: -9.278014508657947
+  yaw: 42.00001
+  pitch: 26.250017
+money: '15936.0'
+afk: false
+logoutlocation:
+  world: ASkyBlock
+  x: -398.7797098777259
+  y: 122.0
+  z: 376.47303719717314
+  yaw: -165.74823
+  pitch: -11.250003

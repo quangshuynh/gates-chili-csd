@@ -1,0 +1,21 @@
+geolocation: United Kingdom
+lastAccountName: Jeeb
+timestamps:
+  login: 1535194981928
+  lastteleport: 1535194993201
+  logout: 1535195038073
+ipAddress: 146.90.55.209
+lastlocation:
+  world: Lobby2
+  x: -86.60135719530818
+  y: 86.0
+  z: -12.699999988079071
+  yaw: 108.300026
+  pitch: 2.4000008
+logoutlocation:
+  world: SkyblockLobby
+  x: -524.3621018896456
+  y: 145.0
+  z: 879.4512605895553
+  yaw: 112.35013
+  pitch: 25.799822

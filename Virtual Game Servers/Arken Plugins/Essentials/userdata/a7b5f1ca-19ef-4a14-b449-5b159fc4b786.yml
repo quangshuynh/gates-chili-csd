@@ -1,0 +1,21 @@
+lastAccountName: MCFaps
+timestamps:
+  login: 1535165620232
+  lastteleport: 1535165421759
+  logout: 1535165652161
+ipAddress: 94.194.7.137
+geolocation: United Kingdom
+lastlocation:
+  world: Lobby2
+  x: -72.15194452122397
+  y: 86.0
+  z: -1.603004682715705
+  yaw: 58.96073
+  pitch: -8.515777
+logoutlocation:
+  world: Lobby2
+  x: -70.97310471556544
+  y: 86.0
+  z: 8.606229147657563
+  yaw: -158.01224
+  pitch: 17.023733

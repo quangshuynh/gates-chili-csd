@@ -1,0 +1,25 @@
+lastAccountName: Otis69
+timestamps:
+  login: 1535219092694
+  lastteleport: 1535219095537
+  kits:
+    valiant: 1535134528780
+    valiantblocks: 1535134536939
+  logout: 1535219162123
+ipAddress: 109.155.176.74
+geolocation: United Kingdom
+lastlocation:
+  world: Lobby2
+  x: -70.0
+  y: 86.0
+  z: -9.0
+  yaw: -0.116105504
+  pitch: 0.42572019
+money: '172820.0'
+logoutlocation:
+  world: ASkyBlock
+  x: -400.32343036662303
+  y: 122.0
+  z: 420.61484039500726
+  yaw: 4.17744
+  pitch: 66.92157

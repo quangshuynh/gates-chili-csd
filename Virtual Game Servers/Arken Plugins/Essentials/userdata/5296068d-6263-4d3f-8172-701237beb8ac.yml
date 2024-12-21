@@ -1,0 +1,23 @@
+geolocation: United Kingdom
+lastAccountName: MrMrsMiss
+timestamps:
+  login: 1535216482894
+  lastteleport: 1535216491436
+  kits:
+    starter: 1535162647393
+  logout: 1535216526031
+ipAddress: 86.164.138.134
+lastlocation:
+  world: Lobby2
+  x: -70.00390851823613
+  y: 86.0
+  z: -8.14287321024169
+  yaw: -4.3500004
+  pitch: -8.700001
+logoutlocation:
+  world: SkyblockLobby
+  x: -593.6999999880791
+  y: 146.0
+  z: 918.3217097134507
+  yaw: 83.100105
+  pitch: 26.850016

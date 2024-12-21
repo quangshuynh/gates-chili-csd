@@ -1,0 +1,6 @@
+non-permission: '&bYou dont have permission !'
+anticheat-tag: '&8[&3PAC&8] &b'
+broadcast-msg: '&d<player> &bkicked for using &c<hack>!'
+ascii-msg: '&cASCII Characters are not allowed !'
+spam-msg: '&cSpam is not allowed on this server !'
+warn-msg: '&bTurn off &c<hack> &bhack!'

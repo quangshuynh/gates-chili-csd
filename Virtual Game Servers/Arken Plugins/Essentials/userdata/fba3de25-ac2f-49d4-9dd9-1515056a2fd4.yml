@@ -1,0 +1,21 @@
+geolocation: United States
+lastAccountName: Grimgory
+timestamps:
+  login: 1535137371410
+  lastteleport: 1535137389740
+  logout: 1535137682541
+ipAddress: 69.116.57.131
+lastlocation:
+  world: Lobby2
+  x: -65.15384309234076
+  y: 95.0
+  z: 49.3992748445098
+  yaw: -86.87523
+  pitch: 9.794126
+logoutlocation:
+  world: Lobby2
+  x: -116.6282395242211
+  y: 83.0
+  z: -21.226137014263646
+  yaw: 20.29721
+  pitch: 10.205308

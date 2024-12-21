@@ -1,0 +1,37 @@
+macro-detect-hit: 30
+killaura-hit: 3
+killaura-y: 1.5
+killaura-distance: 2.5
+killaura-visible: true
+npc-name: '[random]'
+report-cooldown: 60
+broadcast: true
+crash-client: false
+noknockback-protect: true
+noslowdown-protect: true
+fastladder-protect: true
+macro-protect: true
+killaura-protect: true
+tracers-protect: true
+reach-protect: false
+fly-protect: false
+speedhack-protect: true
+waterwalk-protect: true
+criticals-protect: false
+autodisconnect-protect: true
+regen-protect: true
+ascii-protect: false
+nofall-protect: true
+fastplace-protect: true
+nuker-protect: true
+anti-bot-protect: true
+spam-protect: true
+max-multiple-accounts: 1
+max-multiple-join-try: 5
+spam-time: 2
+debug-fastplace: 7
+debug-fastladder: 1.62
+debug-speedhack-sprint: 3.25
+debug-speedhack-nosprint: 2
+kick-cmd:
+- kick <player> <tag>&c<hack> &bdetected !

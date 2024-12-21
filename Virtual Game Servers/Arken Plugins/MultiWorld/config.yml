@@ -1,0 +1,76 @@
+# # options.debug: must the debug output be printed?
+# # options.difficulty: what is the server diffeculty?
+# # options.locale: what set of lang files must be used, supported: en_US, nl_NL, de_DE, it_IT
+# # spawnGroup: used to set withs worlds have what spawn, difficult to use. see official site for details
+options:
+  debug: false
+  difficulty: NORMAL
+  usecreativemode: false
+  usecreativemodeinv: true
+  blockEnderChestInCrea: false
+  useEndPortalHandler: false
+  useportalhandler: false
+  useWorldSpawnHandler: false
+  useWorldChatSeperator: false
+  craftbukkitHooks: true
+worlds:
+  ASkyBlock:
+    seed: 6485241112876111378
+    worldgen: NULLGEN
+    options: com.wasteofplastic.askyblock.generators.ChunkGeneratorWorld
+    difficulty: EASY
+    autoload: true
+  ASkyBlock_nether:
+    seed: 5932753734745058802
+    worldgen: NULLGEN
+    options: com.wasteofplastic.askyblock.generators.ChunkGeneratorWorld
+    difficulty: EASY
+    autoload: true
+  Lobby2:
+    seed: 6803345668111515509
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  SkyblockLobby:
+    seed: 5751046430197452109
+    worldgen: Normal
+    options: ''
+    difficulty: EASY
+    autoload: true
+  lobby:
+    seed: 1031001394562739119
+    worldgen: Normal
+    options: ''
+    difficulty: EASY
+    autoload: true
+  lobby_nether:
+    seed: 1031001394562739119
+    worldgen: Nether
+    options: ''
+    difficulty: EASY
+    autoload: true
+  lobby_the_end:
+    seed: 1031001394562739119
+    worldgen: The_End
+    options: ''
+    difficulty: EASY
+    autoload: true
+  world:
+    seed: 1031001394562739119
+    worldgen: Normal
+    options: ''
+    difficulty: EASY
+    autoload: true
+  world_nether:
+    seed: -2195004975121955472
+    worldgen: Nether
+    options: ''
+    difficulty: EASY
+    autoload: true
+  world_the_end:
+    seed: -2195004975121955472
+    worldgen: The_End
+    options: ''
+    difficulty: EASY
+    autoload: true

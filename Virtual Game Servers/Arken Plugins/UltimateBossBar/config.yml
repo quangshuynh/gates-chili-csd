@@ -1,0 +1,28 @@
+Bars:
+- Title:
+    1: '&3&lArken &b&lRelease &3&lSale'
+    2: '&b&lSkyblock &3&lArken &b&lRelease'
+  #Cycles between colors red and blue
+  Color:
+    1: red
+    2: blue
+  #Updates every 100 ticks (= 5 seconds)
+  Update-Delay: 100
+- Title: '&cHealth (%player_health%/%player_max_health%)'
+  #Set the bar's health and max health to that of the player
+  Health: '%player_health%'
+  Max-Health: '%player_max_health%'
+  #Color depending on progress!
+  Color: '25=red, 50=yellow, 100=green'
+  #You can have Enabled-Worlds and Disabled-Worlds on each bar.
+  #If the bar has one of these keys specified, it will not look at the keys in the main config (bottom of this file)
+  #Enabled-Worlds:
+  #- world
+#Use Enabled-Worlds to create a whitelist that will only allow the bars to show in those worlds
+#Enabled-Worlds:
+#- world
+#- world_nether
+#Use Disabled-Worlds to create a blacklist that will hide the bossbar in those worlds
+#If Enabled-Worlds is specified, this does nothing
+#Disabled-Worlds:
+#- world_the_end

@@ -1,0 +1,21 @@
+lastAccountName: Bookclub
+timestamps:
+  login: 1535168297895
+  lastteleport: 1535168308735
+  logout: 1535168569367
+ipAddress: 138.87.27.173
+geolocation: United States
+lastlocation:
+  world: SkyblockLobby
+  x: -524.5
+  y: 148.0
+  z: 900.5
+  yaw: -90.0
+  pitch: 33.690067
+logoutlocation:
+  world: SkyblockLobby
+  x: -508.5
+  y: 145.0
+  z: 873.5
+  yaw: -352.87497
+  pitch: 13.932092

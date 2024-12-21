@@ -1,0 +1,21 @@
+geolocation: Egypt
+lastAccountName: iAbood69
+timestamps:
+  login: 1535212402989
+  lastteleport: 1535212765738
+  logout: 1535213432784
+ipAddress: 62.139.84.171
+lastlocation:
+  world: Lobby2
+  x: -38.22712868181799
+  y: 95.0
+  z: 51.601330540839825
+  yaw: -95.03774
+  pitch: 2.4257812
+logoutlocation:
+  world: SkyblockLobby
+  x: -537.2278271330376
+  y: 146.0
+  z: 880.1993209852471
+  yaw: 72.9949
+  pitch: 7.8318615

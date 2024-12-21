@@ -1,0 +1,1177 @@
+Enchantments:
+  Glowing: #Do not change these lines. If so you will get errors in console.
+    Enabled: True #Wether or not an enchantment is active
+    Name: 'Glowing' #The in-game name of the enchantment
+    Color: '&7' #The color of the enchantment on the item
+    BookColor: '&7&l' #The color of the enchantment on the book
+    MaxPower: 1 #Max lvl the enchantment goes up to
+    Info: #Info for the enchantment
+      Name: '&7&lGlowing &7&l<&fI&7&l>' #Name for the GUI
+      Description: #The description of what it does
+        - '&eGives permanent night vision.'
+        - '&7Helmet Enchant'
+    Categories: #All the categories the Enchantment can be found in
+      - 'Simple'
+  BurnShield:
+    Enabled: True
+    Name: 'Obsidianshield'
+    Color: '&e'
+    BookColor: '&e&l'
+    MaxPower: 1
+    Info:
+      Name: '&e&lObsidianshield &7&l<&eI&7&l>'
+      Description:
+        - '&eGives permanent fire resistance.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Ultimate'
+  Piercing:
+    Enabled: True
+    Name: 'Piercing'
+    Color: '&e'
+    BookColor: '&e&l'
+    MaxPower: 5
+    Info:
+      Name: '&e&lPiercing &7&l<&eI&7-&eV&7&l>' 
+      Description:
+        - '&eHas a chance to deal'
+        - '&edouble damage to your enemy.'
+        - '&7Bow Enchant'
+    Categories:
+      - 'Ultimate'
+  OverLoad:
+    Enabled: True
+    Name: 'Overload'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 5
+    Info:
+      Name: '&6&lOverload &7&l<&6I&7-&6V&7&l>'
+      Description:
+        - '&eGives permanent health boost'
+        - '&ewhen you are wearing it.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Legendary'
+  SelfDestruct:
+    Enabled: True
+    Name: 'SelfDestruct'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 5
+    Info:
+      Name: '&a&lSelfDestruct &7&l<&aI&7-&aV&7&l>'
+      Description:
+        - '&eWhen you die an explosion will occur'
+        - '&eat the spot your corps lies.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Unique'
+  Springs:
+    Enabled: True
+    Name: 'Springs'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 3
+    Info:
+      Name: '&b&lSprings &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eGives you small jump boost'
+        - '&ewhen wearing it.'
+        - '&7Boots Enchant'
+    Categories:
+      - 'Elite'
+  Gears:
+    Enabled: True
+    Name: 'Gears'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 3
+    Info:
+      Name: '&6&lGears &7&l<&6I&7-&6III&7&l>'
+      Description:
+        - '&eGives speed buff when equipped'
+        - '&7Boots Enchant'
+    Categories:
+      - 'Legendary'
+  Hulk:
+    Enabled: True
+    Name: 'Gladiator'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 2
+    Info:
+      Name: '&a&lGladiator &7&l<&aI&7-&aII&7&l>'
+      Description:
+        - '&eGives strength, damage resistance,'
+        - '&eand slowness when wearing it.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Unique'
+  Mermaid:
+    Enabled: True
+    Name: 'Aquatic'
+    Color: '&7'
+    BookColor: '&7&l'
+    MaxPower: 1
+    Info:
+      Name: '&7&lAquatic &7&l<&fI&7&l>'
+      Description:
+        - '&eGives permanent water breathing.'
+        - '&7Helmet Enchant'
+    Categories:
+      - 'Simple'
+  Ninja:
+    Enabled: True
+    Name: 'Shinobi'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 2
+    Info:
+      Name: '&6&lShinobi &7&l<&6I&7-&6II&7&l>'
+      Description:
+        - '&eGives speed and health boost'
+        - '&ewhen you put it on.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Legendary'
+  Vampire:
+    Enabled: True
+    Name: 'Vampire'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 3
+    Info:
+      Name: '&b&lVampire &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eChance to receive half the health of'
+        - '&ethe damage dealt to your opponent.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Elite'
+  LifeSteal:
+    Enabled: True
+    Name: 'Lifesteal'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 5
+    Info:
+      Name: '&6&lLifesteal &7&l<&6I&7-&6V&7&l>'
+      Description:
+        - '&eA chance to regain health whilst'
+        - '&eattacking your opponent.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Legendary'
+  Doctor:
+    Enabled: True
+    Name: 'Doctor'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 3
+    Info:
+      Name: '&a&lDoctor &7&l<&aI&7-&aIII&7&l>'
+      Description:
+        - '&eHas a chance to'
+        - '&eheal a player you hit'
+        - '&7Bow Enchant'
+    Categories:
+      - 'Unique'
+  Boom:
+    Enabled: True
+    Name: 'Explosive'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 5
+    Info:
+      Name: '&a&lExplosive &7&l<&aI&7-&aV&7&l>'
+      Description:
+        - '&eHas a chance to spawn'
+        - '&eTnT where the arrow lands.'
+        - '&7Bow Enchant'
+    Categories:
+      - 'Unique'
+  Venom:
+    Enabled: True
+    Name: 'Venom'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 5
+    Info:
+      Name: '&b&lVenom &7&l<&bI&7-&bV&7&l>'
+      Description:
+        - '&eHas a chance of causing poison'
+        - '&edebuff on your opponent.'
+        - '&7Bow Enchant'
+    Categories:
+      - 'Elite'
+  DoubleDamage:
+    Enabled: True
+    Name: 'DoubleDamage'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 3
+    Info:
+      Name: '&6&lDoubleDamage &7&l<&6I&7-&6III&7&l>'
+      Description:
+        - '&eHas a chance to deal double damage on'
+        - '&eyour opponents with every attack.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Legendary'
+  SlowMo:
+    Enabled: True
+    Name: 'Pummel'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 3
+    Info:
+      Name: '&b&lPummel &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eA chance to inflict slowness on your'
+        - '&eopponent for a short period of time.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Elite'
+  Blindness:
+    Enabled: True
+    Name: 'Blind'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 3
+    Info:
+      Name: '&b&lBlind &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eChance of causing blindness'
+        - '&edebuff on your your enemy.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Elite'
+  Viper:
+    Enabled: True
+    Name: 'ViperStrike'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 3
+    Info:
+      Name: '&b&lViperStrike &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eHas a chance to give your'
+        - '&eenemy poison debuff.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Elite'
+  AntiGravity:
+    Enabled: True
+    Name: 'AntiGravity'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 3
+    Info:
+      Name: '&b&lAntiGravity &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eGives high jump boost'
+        - '&ewhen you put it on.'
+        - '&7Boots Enchant'
+    Categories:
+      - 'Elite'
+  FastTurn:
+    Enabled: True
+    Name: 'Fury'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 2
+    Info:
+      Name: '&a&lFury &7&l<&aI&7-&aII&7&l>'
+      Description:
+        - '&eHas a chance to'
+        - '&edeal more damage.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Unique'
+  LightWeight:
+    Enabled: True
+    Name: 'Featherweight'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 3
+    Info:
+      Name: '&a&lFeatherweight &7&l<&aI&7-&aIII&7&l>'
+      Description:
+        - '&eA chance to give a burst'
+        - '&eof haste when fighting.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Unique'
+  Blessed:
+    Enabled: True
+    Name: 'Blessed'
+    Color: '&e'
+    BookColor: '&e&l'
+    MaxPower: 3
+    Info:
+      Name: '&e&lBlessed &7&l<&eI&7-&eIII&7&l>'
+      Description:
+        - '&eA chance of remove all'
+        - '&enegative debuffs.'
+        - '&7Axe Enchant'
+    Categories:
+      - 'Ultimate'
+  FeedMe:
+    Enabled: True
+    Name: 'Ravenous'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 4
+    Info:
+      Name: '&a&lRavenous &7&l<&aI&7-&aIV&7&l>'
+      Description:
+        - '&eHas a chance to regain'
+        - '&ehunger while fighting.'
+        - '&7Axe Enchant'
+    Categories:
+      - 'Unique'
+  Dizzy:
+    Enabled: True
+    Name: 'Slam'
+    Color: '&7'
+    BookColor: '&7&l'
+    MaxPower: 3
+    Info:
+      Name: '&7&lSlam &7&l<&fI&7-&fIII&7&l>'
+      Description:
+        - '&eHas a chance to give'
+        - '&eyour enemy confusion.'
+        - '&7Axe Enchant'
+    Categories:
+      - 'Simple'
+  Berserk:
+    Enabled: True
+    Name: 'Berserk'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 5
+    Info:
+      Name: '&a&lBerserk &7&l<&aI&7-&aV&7&l>'
+      Description:
+        - '&eA chance to give you strength'
+        - '&eand mining fatigue.'
+        - '&7Axe Enchant'
+    Categories:
+      - 'Unique'
+  Cursed:
+    Enabled: True
+    Name: 'Curse'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 3
+    Info:
+      Name: '&a&lCurse &7&l<&aI&7-&aIII&7&l>'
+      Description:
+        - '&eHas a chance to give'
+        - '&eyour enemy mining fatigue.'
+        - '&7Axe Enchant'
+    Categories:
+      - 'Unique'
+  Rekt:
+    Enabled: True
+    Name: 'Deathbringer'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 3
+    Info:
+      Name: '&6&lDeathbringer &7&l<&6I&7-&6III&7&l>'
+      Description:
+        - '&eChance to deal double damage.'
+        - '&7Axe Enchant'
+    Categories:
+      - 'Legendary'
+  Enlightened:
+    Enabled: True
+    Name: 'Enlightened'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 5
+    Info:
+      Name: '&6&lEnlightened &7&l<&6I&7-&6V&7&l>'
+      Description:
+        - '&eHas a chance to heal you'
+        - '&ewhile taking damage.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Legendary'
+  Freeze:
+    Enabled: True
+    Name: 'Frozen'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 3
+    Info:
+      Name: '&b&lFrozen &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eHas a chance of causing slowness'
+        - '&edebuff on your enemy.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Elite'
+  Fortify:
+    Enabled: True
+    Name: 'Hex'
+    Color: '&e'
+    BookColor: '&e&l'
+    MaxPower: 6
+    Info:
+      Name: '&e&lHex &7&l<&eI&7-&eVI&7&l>'
+      Description:
+        - '&eHas a chance to cast'
+        - '&eweakness on your opponent.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Ultimate'
+  Molten:
+    Enabled: True
+    Name: 'Molten'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 4
+    Info:
+      Name: '&a&lMolten &7&l<&aI&7-&aIV&7&l>'
+      Description:
+        - '&eHas a chance of setting'
+        - '&eyour opponent ablaze.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Unique'
+  PainGiver:
+    Enabled: True
+    Name: 'Poisoned'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 4
+    Info:
+      Name: '&b&lPoisoned &7&l<&bI&7-&bIV&7&l>'
+      Description:
+        - '&eHas a chance to give your'
+        - '&eenemy poison debuff.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Elite'
+  Savior:
+    Enabled: True
+    Name: 'Armored'
+    Color: '&e'
+    BookColor: '&e&l'
+    MaxPower: 4
+    Info:
+      Name: '&e&lArmored &7&l<&eI&7-&eIV&7&l>'
+      Description:
+        - '&eHas a chance to decrease the'
+        - '&ein-coming damage by half.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Ultimate'
+  Nursery:
+    Enabled: True
+    Name: 'Angelic'
+    Color: '&e'
+    BookColor: '&e&l'
+    MaxPower: 5
+    Info:
+      Name: '&e&lAngelic &7&l<&eI&7-&eV&7&l>'
+      Description:
+        - '&eHas a chance to'
+        - '&eheal you while walking.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Ultimate'
+  AutoSmelt:
+    Enabled: True
+    Name: 'AutoSmelt'
+    Color: '&7'
+    BookColor: '&7&l'
+    MaxPower: 5
+    Info:
+      Name: '&7&lAutoSmelt &7&l<&fI&7-&fV&7&l>'
+      Description:
+        - '&eA chance that ores are automatically'
+        - '&esmelted when mined and give more ingots.'
+        - '&7Pickaxe Enchant'
+    Categories:
+      - 'Simple'
+  Experience:
+    Enabled: True
+    Name: 'Experience'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 5
+    Info:
+      Name: '&a&lExperience &7&l<&aI&7-&aV&7&l>'
+      Description:
+        - '&eGives 2x or more EXP when mining ores.'
+        - '&7Pickaxe Enchant'
+    Categories:
+      - 'Unique'
+  Telepathy:
+    Enabled: True
+    Name: 'Telepathy'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 4
+    Info:
+      Name: '&b&lTelepathy &7&l<&bI&7-&bIV&7&l>'
+      Description:
+        - '&eAutomatically places blocks mined'
+        - '&eby tools in your inventory.'
+        - '&7Tool Enchant'
+    Categories:
+      - 'Elite'
+  Haste:
+    Enabled: True
+    Name: 'Haste'
+    Color: '&7'
+    BookColor: '&7&l'
+    MaxPower: 3
+    Info:
+      Name: '&7&lHaste &7&l<&fI&7-&fIII&7&l>'
+      Description:
+        - '&eAllows you to swing your tools faster'
+        - '&ewhen holding the item in your hand.'
+        - '&7Tool Enchant'
+    Categories:
+      - 'Simple'
+  Oxygenate:
+    Enabled: True
+    Name: 'Oxygenate'
+    Color: '&7'
+    BookColor: '&7&l'
+    MaxPower: 1
+    Info:
+      Name: '&7&lOxygenate &7&l<&fI&7&l>'
+      Description:
+        - '&ePermenant water breathing when'
+        - '&eholding the tool in your hand.'
+        - '&7Tool Enchant'
+    Categories:
+      - 'Simple'
+  IceFreeze:
+    Enabled: True
+    Name: 'IceFreeze'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 1
+    Info:
+      Name: '&b&lIceFreeze &7&l<&bI&7&l>'
+      Description:
+        - '&eHas a to freeze your'
+        - '&eopponent in place.'
+        - '&7Bow Enchant'
+    Categories:
+      - 'Elite'
+  Lightning:
+    Enabled: True
+    Name: 'Lightning'
+    Color: '&7'
+    BookColor: '&7&l'
+    MaxPower: 3
+    Info:
+      Name: '&7&lLightning &7&l<&fI&7-&fIII&7&l>'
+      Description:
+        - '&eHas a chance to strike'
+        - '&elightning where the arrow lands.'
+        - '&7Bow Enchant'
+    Categories:
+      - 'Simple'
+  Decapitation:
+    Enabled: True
+    Name: 'Decapitation'
+    Color: '&7'
+    BookColor: '&7&l'
+    MaxPower: 5
+    Info:
+      Name: '&7&lDecapitation &7&l<&fI&7-&fV&7&l>'
+      Description:
+        - '&eOpponent''s have a chance to droping'
+        - '&etheir head on death.'
+        - '&7Axe Enchant'
+    Categories:
+      - 'Simple'
+  Confusion:
+    Enabled: True
+    Name: 'Confusion'
+    Color: '&7'
+    BookColor: '&7&l'
+    MaxPower: 3
+    Info:
+      Name: '&7&lConfusion &7&l<&fI&7-&fIII&7&l>'
+      Description:
+        - '&eHas a chance to give your'
+        - '&eenemy confusion debuff.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Simple'
+  Disarmer:
+    Enabled: True
+    Name: 'Disarmor'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 8
+    Info:
+      Name: '&6&lDisarmor &7&l<&6I&7-&6VIII&7&l>'
+      Description:
+        - '&eHas a slight chance of removing one random'
+        - '&epiece of armor from your opponent.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Legendary'
+  Execute:
+    Enabled: True
+    Name: 'Execute'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 7
+    Info:
+      Name: '&b&lExecute &7&l<&bI&7-&bVII&7&l>'
+      Description:
+        - '&eChance to get damage buff when'
+        - '&eyour opponent is low on HP.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Elite'
+  Headless:
+    Enabled: True
+    Name: 'Headless'
+    Color: '&7'
+    BookColor: '&7&l'
+    MaxPower: 5
+    Info:
+      Name: '&7&lHeadless &7&l<&fI&7-&fV&7&l>'
+      Description:
+        - '&eOpponent''s have a chance to droping'
+        - '&etheir head on death.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Simple'
+  Inquisitive:
+    Enabled: True
+    Name: 'Inquisitive'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 4
+    Info:
+      Name: '&6&lInquisitive &7&l<&6I&7-&6IV&7&l>'
+      Description:
+        - '&eIncreases EXP drops, double or more EXP'
+        - '&ebased on the enchantment level.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Legendary'
+  Insomnia:
+    Enabled: True
+    Name: 'Vex'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 1
+    Info:
+      Name: '&a&lVex &7&l<&aI&7&l>'
+      Description:
+        - '&eGives confusion, mining fatigue, and slowness'
+        - '&ebut has a high chance of doing double the damage.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Unique'
+  Nutrition:
+    Enabled: True
+    Name: 'Nutrition'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 4
+    Info:
+      Name: '&b&lNutrition &7&l<&bI&7-&bIV&7&l>'
+      Description:
+        - '&eHas a chance to regain'
+        - '&ehunger while fighting.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Elite'
+  Obliterate:
+    Enabled: True
+    Name: 'Obliterate'
+    Color: '&7'
+    BookColor: '&7&l'
+    MaxPower: 5
+    Info:
+      Name: '&7&lObliterate &7&l<&fI&7-&fV&7&l>'
+      Description:
+        - '&eExtreme knockback.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Simple'
+  Paralyze:
+    Enabled: True
+    Name: 'Paralyze'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 4
+    Info:
+      Name: '&a&lParalyze &7&l<&aI&7-&aIV&7&l>'
+      Description:
+        - '&eA chance to lightning strike your enemy and'
+        - '&egive them slowness and slow swinging.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Unique'
+  SkillSwipe:
+    Enabled: True
+    Name: 'SkillSwipe'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 5
+    Info:
+      Name: '&b&lSkillSwipe &7&l<&bI&7-&bV&7&l>'
+      Description:
+        - '&eA chance to steal some of your opponent''s'
+        - '&eEXP every time you hit them.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Elite'
+  Snare:
+    Enabled: True
+    Name: 'Snare'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 3
+    Info:
+      Name: '&b&lSnare &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eA chance to inflict on your enemy'
+        - '&eslowness and slow swinging.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Elite'
+  Trap:
+    Enabled: True
+    Name: 'Trap'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 3
+    Info:
+      Name: '&b&lTrap &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eChance to give your enemy'
+        - '&ehigh buffed slowness effect.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Elite'
+  Wither:
+    Enabled: True
+    Name: 'Wither'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 5
+    Info:
+      Name: '&b&lWither &7&l<&bI&7-&bV&7&l>'
+      Description:
+        - '&eA chance of causing your'
+        - '&eopponent high wither debuff.'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Elite'
+  Rage:
+    Enabled: True
+    Name: 'Rage'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 6
+    Info:
+      Name: '&6&lRage &7&l<&6I&7-&6VI&7&l>'
+      Description:
+        - '&eAttacks will get stronger as long'
+        - '&eas you keep fightning.For every'
+        - '&ecombo hit you land, your damage'
+        - '&eis multiplied by 1.1x'
+        - '&7Sword Enchant'
+    Categories:
+      - 'Legendary'
+  Valor:
+    Enabled: True
+    Name: 'Valor'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 3
+    Info:
+      Name: '&b&lValor &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eGives damage resistance'
+        - '&ebased on your enchantment level.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Elite'
+  SmokeBomb:
+    Enabled: True
+    Name: 'SmokeBomb'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 4
+    Info:
+      Name: '&a&lSmokeBomb &7&l<&aI&7-&aIV&7&l>'
+      Description:
+        - '&eHas a chance to blind and'
+        - '&eslow your enemy so you can escape.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Unique'
+  Drunk:
+    Enabled: True
+    Name: 'Drunk'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 4
+    Info:
+      Name: '&6&lDrunk &7&l<&6I&7-&6IV&7&l>'
+      Description:
+        - '&eGives slowness and slow swinging'
+        - '&ebut also gives buffed strength.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Legendary'
+  Voodoo:
+    Enabled: True
+    Name: 'Voodoo'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 3
+    Info:
+      Name: '&b&lVoodoo &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eHas a chance to give'
+        - '&eyour enemy weakness.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Elite'
+  MultiArrow:
+    Enabled: True
+    Name: 'ArrowSplitter'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 10
+    Info:
+      Name: '&6&lArrowSplitter &7&l<&6I&7-&6X&7&l>'
+      Description:
+        - '&eHas a chance to shoot'
+        - '&emultiple arrows at once.'
+        - '&7Bow Enchant'
+    Categories:
+      - 'Legendary'
+  Recover:
+    Enabled: True
+    Name: 'Recover'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 3
+    Info:
+      Name: '&6&lRecover &7&l<&6I&7-&6III&7&l>'
+      Description:
+        - '&eWhen you kill a player'
+        - '&eyou get absorption and regen.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Legendary'
+  Cactus:
+    Enabled: True
+    Name: 'Cactus'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 2
+    Info:
+      Name: '&b&lCactus &7&l<&bI&7-&bII&7&l>'
+      Description:
+        - '&eHas a chance to injure your attacker'
+        - '&ebut does not affect your durability.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Elite'
+  Rocket:
+    Enabled: True
+    Name: 'RocketEscape'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 3
+    Info:
+      Name: '&b&lRocketEscape &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eAt low HP there is a chance that you'
+        - '&ewill get blast off backwards to escape.'
+        - '&7Boots Enchant'
+    Categories:
+      - 'Elite'
+  Angel:
+    Enabled: True
+    Name: 'Protection'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 5
+    Info:
+      Name: '&6&lProtection &7&l<&6I&7-&6V&7&l>'
+      Description:
+        - '&eAutomatically heals all nearby'
+        - '&efaction members and allies.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Legendary'
+  HellForged:
+    Enabled: True
+    Name: 'Demonforged'
+    Color: '&e'
+    BookColor: '&e&l'
+    MaxPower: 4
+    Info:
+      Name: '&e&lDemonforged &7&l<&eI&7-&eIV&7&l>'
+      Description:
+        - '&eHas a chance to fix up'
+        - '&eyour items as you walk.'
+        - '&7Armor, Weapon, and Tool Enchant'
+    Categories:
+      - 'Ultimate'
+  Commander:
+    Enabled: True
+    Name: 'Commander'
+    Color: '&a'
+    BookColor: '&a&l'
+    MaxPower: 5
+    Info:
+      Name: '&a&lCommander &7&l<&aI&7-&aV&7&l>'
+      Description:
+        - '&eGives nearby faction members'
+        - '&ehaste when wearing it.'
+        - '&7Helmet Enchant'
+    Categories:
+      - 'Unique'
+  StormCaller:
+    Enabled: True
+    Name: 'Stormcaller'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 4
+    Info:
+      Name: '&b&lStormcaller &7&l<&bI&7-&bIV&7&l>'
+      Description:
+        - '&eStrikes down lightning on your enemy'
+        - '&ewhen you are under attack.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Elite'
+  Leadership:
+    Enabled: True
+    Name: 'Leadership'
+    Color: '&e'
+    BookColor: '&e&l'
+    MaxPower: 5
+    Info:
+      Name: '&e&lLeadership &7&l<&eI&7-&eV&7&l>'
+      Description:
+        - '&eThe more allies near you, the more damage'
+        - '&eyou deal and your attacks are stronger.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Ultimate'
+  Implants:
+    Enabled: True
+    Name: 'Implants'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 10
+    Info:
+      Name: '&b&lImplants &7&l<&bI&7-&bX&7&l>'
+      Description:
+        - '&eWhile equipped will replenish'
+        - '&eyour hunger when walking/running.'
+        - '&7Helmet Enchant'
+    Categories:
+      - 'Elite'
+  Wings:
+    Enabled: True
+    Name: 'Wings'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 1
+    Info:
+      Name: '&6&lWings &7&l<&6I&7&l>'
+      Description:
+        - '&eAllows you to fly in your'
+        - '&eown faction territory.'
+        - '&7Boots Enchant'
+    Categories:
+      - 'Legendary'
+  Blast:
+    Enabled: True
+    Name: 'Detonate'
+    Color: '&e'
+    BookColor: '&e&l'
+    MaxPower: 6
+    Info:
+      Name: '&e&lDetonate &7&l<&eI&7-&eVI&7&l>'
+      Description:
+        - '&eBreaks a 3 x level x 3 block explosion'
+        - '&earound any blocks you break depending on'
+        - '&ethe power of the enchantment.'
+        - '&7Pickaxe Enchant'
+    Categories:
+      - 'Ultimate'
+  Furnace:
+    Enabled: True
+    Name: 'AutoSmelt'
+    Color: '&7'
+    BookColor: '&7&l'
+    MaxPower: 1
+    Info:
+      Name: '&7&lAutoSmelt &7&l<&fI&7&l>'
+      Description:
+        - '&eOres are automatically smelted when mined.'
+        - '&7Pickaxe Enchant'
+    Categories:
+      - 'Simple'
+  Blizzard:
+    Enabled: True
+    Name: 'Blizzard'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 3
+    Info:
+      Name: '&b&lBlizzard &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eGives enemies within 3'
+        - '&eblocks slowness for a short time.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Elite'
+  AcidRain:
+    Enabled: True
+    Name: 'Destruction'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 5
+    Info:
+      Name: '&6&lDestruction &7&l<&6I&7-&6V&7&l>'
+      Description:
+        - '&eAutomatically damages all nearby opponents'
+        - '&ewithin 3 block radius around you for'
+        - '&eshort time.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Legendary'
+  SandStorm:
+    Enabled: True
+    Name: 'BlackBlizzard'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 1
+    Info:
+      Name: '&b&lBlackBlizzard &7&l<&bI&7&l>'
+      Description:
+        - '&eSummon a Black Blizzard and blind your enemies'
+        - '&ewithin 3 block radius for a short time.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Elite'
+  Radiant:
+    Enabled: True
+    Name: 'Radiant'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 3
+    Info:
+      Name: '&b&lRadiant &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eSets enemies within 3 blocks'
+        - '&eon fire for a short time.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Elite'
+  Intimidate:
+    Enabled: True
+    Name: 'Discourage'
+    Color: '&e'
+    BookColor: '&e&l'
+    MaxPower: 4
+    Info:
+      Name: '&e&lDiscourage &7&l<&eI&7-&eIV&7&l>'
+      Description:
+        - '&eDiscourage your enemies by giving them weakness'
+        - '&ewithin 3 block radius for a short time.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Ultimate'
+  Pull:
+    Enabled: True
+    Name: 'ArrowHook'
+    Color: '&e'
+    BookColor: '&e&l'
+    MaxPower: 6
+    Info:
+      Name: '&e&lArrowHook &7&l<&eI&7-&eVI&7&l>'
+      Description:
+        - '&eHas a chance to send'
+        - '&ethe enemy you hit flying at you.'
+        - '&7Bow Enchant'
+    Categories:
+      - 'Ultimate'
+  Tamer:
+    Enabled: True
+    Name: 'WildHowl'
+    Color: '&e'
+    BookColor: '&e&l'
+    MaxPower: 7
+    Info:
+      Name: '&e&lWildHowl &7&l<&eI&7-&eVII&7&l>'
+      Description:
+        - '&eSummon wolfs to assist you in battle when'
+        - '&eyou are in trouble.+1 wolf per level.'
+        - '&eHas two minutes cooldown.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Ultimate'
+  Guards:
+    Enabled: True
+    Name: 'Guardians'
+    Color: '&6'
+    BookColor: '&6&l'
+    MaxPower: 4
+    Info:
+      Name: '&6&lGuardians &7&l<&6I&7-&6IV&7&l>'
+      Description:
+        - '&eA chance to spawn iron golems to assist you and'
+        - '&ewatch over you.+1 iron golem per level.'
+        - '&eHas two minutes cooldown.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Legendary'
+  Infestation:
+    Enabled: True
+    Name: 'EnderScourge'
+    Color: '&e'
+    BookColor: '&e&l'
+    MaxPower: 2
+    Info:
+      Name: '&e&lEnderScourge &7&l<&eI&7-&eII&7&l>'
+      Description:
+        - '&eCalls upon endermites and silverfish from the'
+        - '&eender when you are in trouble.+3 of each'
+        - '&eper level.Has two minutes cooldown.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Ultimate'
+  Necromancer:
+    Enabled: True
+    Name: 'UndeadRuse'
+    Color: '&b'
+    BookColor: '&b&l'
+    MaxPower: 5
+    Info:
+      Name: '&b&lUndeadRuse &7&l<&bI&7-&bV&7&l>'
+      Description:
+        - '&eSummon the dead to assist you in combat.Zombies will'
+        - '&efight on your side when you are in trouble.+2 zombies'
+        - '&eper level.Has two minutes cooldown.'
+        - '&7Armor Enchant'
+    Categories:
+      - 'Elite'

@@ -1,0 +1,23 @@
+lastAccountName: ufios
+timestamps:
+  login: 1535136768960
+  lastteleport: 1535136879669
+  kits:
+    starter: 1535136289672
+  logout: 1535137405752
+ipAddress: 83.163.161.181
+geolocation: Netherlands
+lastlocation:
+  world: Lobby2
+  x: -67.14108650810773
+  y: 86.0
+  z: -2.4466449820881455
+  yaw: -15.9312315
+  pitch: -3.4530406
+logoutlocation:
+  world: SkyblockLobby
+  x: -532.5341087702665
+  y: 149.0
+  z: 884.3019660361836
+  yaw: 10.740548
+  pitch: 13.009997

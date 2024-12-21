@@ -1,0 +1,11 @@
+Format: '&8[&3Arken&8]&f %sender% &7 &3| &b%command%'
+Enabled-Self: '&aSuccess&f: &7CommandWatcher &aenabled&7!'
+Enabled-Other-Target: '&aSuccess&f: &7CommandWatcher &aenabled &7by: &b%sender%'
+Enabled-Other-Sender: '&aSuccess&f: &7CommandWatcher &aenabled &7for: &b%target%'
+Disabled-Self: '&aSuccess&f: &7CommandWatcher &cdisabled&7!'
+Disabled-Other-Target: '&aSuccess&f: &7CommandWatcher &cdisabled &7by: &b%sender%'
+Disabled-Other-Sender: '&aSuccess&f: &7CommandWatcher &cdisabled &7for: &b%target%'
+No-Permission: '&4Error&f: &7You do not have the correct permission to do this!'
+Enabled:
+  CW-Enabled:
+  - Azift

@@ -1,0 +1,21 @@
+geolocation: United States
+lastAccountName: LlGHTS
+timestamps:
+  login: 1535214174786
+  lastteleport: 1535214266366
+  logout: 1535214335804
+ipAddress: 50.38.212.245
+lastlocation:
+  world: Lobby2
+  x: -70.68156081471194
+  y: 86.0
+  z: -0.04566394253902051
+  yaw: -5.5828857
+  pitch: 3.978384
+logoutlocation:
+  world: ASkyBlock
+  x: -1203.7020972589896
+  y: 120.0
+  z: -399.6231724550763
+  yaw: -355.93622
+  pitch: 32.28648

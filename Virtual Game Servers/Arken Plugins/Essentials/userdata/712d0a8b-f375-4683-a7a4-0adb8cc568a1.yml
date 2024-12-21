@@ -1,0 +1,22 @@
+geolocation: United States
+lastAccountName: IgnisOwl
+timestamps:
+  login: 1535243563986
+  lastteleport: 1535243835813
+  logout: 1535244913475
+ipAddress: 73.8.82.99
+lastlocation:
+  world: Lobby2
+  x: -68.55877363789432
+  y: 90.03264306031436
+  z: -11.462472351276919
+  yaw: -77.24994
+  pitch: 10.049975
+money: '5000'
+logoutlocation:
+  world: Lobby2
+  x: -75.14819299517427
+  y: 88.0
+  z: -49.69498715696679
+  yaw: 337.04987
+  pitch: 32.849995

@@ -1,0 +1,26 @@
+# bottleName: This is a name of bottle you can change this have u want.
+# bottleEnchanter: Here you can add person witch have transfer Xp to Bottle
+# value: Make one free space between like this:"&5 %value% &fXp".
+# adminName: Here you can put Server name if u want this is used when admin give xp bottle /xpbottle <amount> <playername>
+# MinXp: You can set minimum xp witch player can store in bottle.
+# dropPercentage:You can set percentage of xp witch will be droped example player on death have 1000Xp u have set 70% in config he will drop 700Xp.
+XpWithDraw:
+ DisplayName: "&a&lExperience Bottle &7(Throw)"
+ BottleEnchanter: "&dEnchanter:&r %player%"
+ Value: "&dValue:&r %value% XP"
+ AdminName: "&dEnchanter: &rBeastTinkerer"
+ MinXp: 25
+ MaxXp: 10000
+ DropPercentage: 100
+# Change this to "true" if u want player receive xp directly to xp bar.
+ AutoCollect: false
+WithDraw:
+ DisplayName: "&a&lCash Note &7(Right-Click)"
+ CashDepositer: "&dDepositer: &r%player%"
+ Value: "&dCash:&r $%value%"
+ AdminName: "&dDepositer: &rBeastBank"
+ MinCash: 25
+ MaxCash: 100000
+ Item: "PAPER"
+ Data: 0
+Version: 1.5

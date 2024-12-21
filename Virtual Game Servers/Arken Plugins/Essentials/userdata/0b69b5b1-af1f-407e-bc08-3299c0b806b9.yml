@@ -1,0 +1,21 @@
+geolocation: United States
+lastAccountName: SlenderDog
+timestamps:
+  login: 1535178771196
+  lastteleport: 1535178775350
+  logout: 1535178836285
+ipAddress: 75.67.156.67
+lastlocation:
+  world: Lobby2
+  x: -70.0
+  y: 86.0
+  z: 30.69999998807907
+  yaw: -1.277832
+  pitch: 0.0
+logoutlocation:
+  world: Lobby2
+  x: -69.5006674386074
+  y: 111.0
+  z: 60.92473235179817
+  yaw: -28.623434
+  pitch: -35.07343

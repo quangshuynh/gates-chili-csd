@@ -1,0 +1,227 @@
+#Config Version 1 by Yukun
+#Placeholders:
+#- %tier% for tier of spawner that is clicked -- Usable in GUIName.
+#- %mob% for mob that the spawner spawns -- Usable in GUIName.
+#- %cost% for cost of upgrade or amount returned on downgrade -- Usable in Upgrade and Downgrade button lores.
+#MAKE SURE THE CURRENCY IS THE SAME FOR ALL THE DIFFERENT UPGRADE TYPES, UNLESS YOU'RE USING THE UPGRADE ITEMS.
+TieredSpawnerOptions:
+  ###################
+  # Spawner Options #
+  ###################
+  #Whether you want to let players upgrade the spawners with the GUI.
+  GUIUpgrade: true
+  #Whether to prevent clicking when sneaking.
+  NoSneakClick: true
+  #Whether to refund when spawner is broken.
+  Refund: true
+  #List of worlds to disallow spawner upgrading in.
+  WorldBlacklist:
+    - 'world_the_nether'
+    - 'world_the_end'
+  #Settings for spawner tier.
+  Tier:
+    #Maximum tier of spawner.
+    Max: 3
+    #Currency used to upgrade spawner tier. (Accepted: XP, XPLevels, Money)
+    Currency: Money
+    #Cost of upgrading spawner tier. Multiplies by level.
+    Cost: 100000
+  #Settings for spawn amount.
+  Amount:
+    #Whether you want to allow players to upgrade spawn count.
+    #If false, all spawners are set to base value.
+    Toggle: true
+    #Whether you want to upgrade spawn count separately from tier.
+    #If false, upgrading tier upgrades spawn count too.
+    #If false, amount upgrade item will not be displayed.
+    Separate: true
+    #Currency used to upgrade spawn count. (Accepted: XP, XPLevels, Money)
+    Currency: Money
+    #Cost of upgrading spawn count. Multiplies by level.
+    Cost: 100000
+    #Number of mobs spawned at level 1. (Vanilla default = 4)
+    Base: 3
+    #Number of mobs to add per level.
+    Add: 1
+  #Settings for spawn delay.
+  Delay:
+    #Whether you want to allow players to upgrade spawn delay.
+    #If false, all spawners are set to base value.
+    Toggle: true
+    #Whether you want to upgrade delay separately from tier.
+    #If false, upgrading tier upgrades delay too.
+    #If false, delay upgrade item will not be displayed.
+    Separate: true
+    #Currency used to upgrade spawn delay. (Accepted: XP, XPLevels, Money)
+    Currency: Money
+    #Cost of upgrading spawn delay. Multiplies by level.
+    Cost: 100000
+    #Amount of delay at level 1. (Vanilla default = 12.5)
+    Base: 10
+    #Amount of delay to decrease per level in seconds. (Minimum 0.05 seconds.)
+    Add: 0.5
+  #Settings for spawn range. Range refers to how far a player can be for the spawner to spawn mobs.
+  Range:
+    #Whether you want to allow players to upgrade spawn range.
+    #If false, all spawners are set to base value.
+    Toggle: true
+    #Whether you want to upgrade range separately from tier.
+    #If false, upgrading tier upgrades range too.
+    #If false, range upgrade item will not be displayed.
+    Separate: true
+    #Currency used to upgrade spawn range. (Accepted: XP, XPLevels, Money)
+    Currency: Money
+    #Cost of upgrading spawn range. Multiplies by level.
+    Cost: 100000
+    #Spawner range at level 1. (Vanilla default = 16)
+    Base: 16
+    #Spawner range increase per level in blocks.
+    Add: 2
+  
+  ###############
+  # GUI Options #
+  ###############
+  #Size of GUI. (Must be multiples of 9)
+  GUISize: 36
+  #Name of the GUI displayed when a player clicks the spawner.
+  GUIName: "&6&lTier %tier% %mob% Spawner"
+
+  Upgrade:
+    ########################
+    # Upgrade Item Options #
+    ########################
+    ItemType: "EMERALD_BLOCK"
+    Name: "&a&lUpgrade Spawner"
+    Lore:
+      - "&7Click this button to"
+      - "&7upgrade the spawner."
+      - "&7Cost: &2$&a%cost%"
+    #Slot the item is in. (Number from 1 to GUI size)
+    Slot: 16
+    #If you choose to let players upgrade the 2 aspects separately, please use these for the buttons.
+    Delay:
+      ItemType: "WATCH"
+      Name: "&a&lUpgrade Spawner Delay"
+      Lore:
+        - "&7Click this button to"
+        - "&7upgrade the spawner"
+        - "&7and decrease the delay."
+        - "&7Cost: &2$&a%cost%"
+      Slot: 24
+    Amount:
+      ItemType: "HOPPER"
+      Name: "&a&lUpgrade Spawn Amount"
+      Lore:
+        - "&7Click this button to"
+        - "&7upgrade the spawner"
+        - "&7and increase spawn count."
+        - "&7Cost: &2$&a%cost%"
+      Slot: 25
+    Range:
+      ItemType: "COMPASS"
+      Name: "&a&lUpgrade Spawner Range"
+      Lore:
+        - "&7Click this button to"
+        - "&7upgrade the spawner"
+        - "&7and increase spawn range."
+        - "&7Cost: &2$&a%cost%"
+      Slot: 26
+
+  Downgrade:
+    ##########################
+    # Downgrade Item Options #
+    ##########################
+    ItemType: "REDSTONE_BLOCK"
+    Name: "&c&lDowngrade Spawner"
+    Lore:
+      - "&7Click this button to"
+      - "&7downgrade the spawner."
+      - "&7Returns: &2$&a%cost%"
+    Slot: 12
+    #If you choose to let players upgrade the 2 aspects separately, please use these for the button.
+    Delay:
+      ItemType: "WATCH"
+      Name: "&c&lDowngrade Spawner Delay"
+      Lore:
+        - "&7Click this button to"
+        - "&7downgrade the spawner"
+        - "&7and increase the delay."
+        - "&7Returns: &2$&a%cost%"
+      Slot: 20
+    Amount:
+      ItemType: "HOPPER"
+      Name: "&c&lDowngrade Spawn Amount"
+      Lore:
+        - "&7Click this button to"
+        - "&7downgrade the spawner"
+        - "&7and decrease spawn count."
+        - "&7Returns: &2$&a%cost%"
+      Slot: 21
+    Range:
+      ItemType: "COMPASS"
+      Name: "&c&lDowngrade Spawner Range"
+      Lore:
+        - "&7Click this button to"
+        - "&7downgrade the spawner"
+        - "&7and decrease spawn range."
+        - "&7Returns: &2$&a%cost%"
+      Slot: 22
+
+  Close:
+    ##########################
+    # Close GUI Item Options #
+    ##########################
+    ItemType: "WOOD_DOOR"
+    Name: "&b&lClose GUI"
+    Lore:
+      - "&7Close the GUI and"
+      - "&7Return to the game."
+    Slot: 28
+
+  Border:
+    ######################
+    # GUI Border Options #
+    ######################
+    ItemType: "STAINED_GLASS_PANE:7"
+    Name: "&7&lBorder"
+    Lore:
+      - "&7This is the"
+      - "&7border."
+    #Which slots to put the border in.
+    Slots:
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
+      - "9"
+      - "10"
+      - "11"
+      - "12"
+      - "13"
+      - "14"
+      - "15"
+      - "16"
+      - "17"
+      - "18"
+      - "19"
+      - "20"
+      - "21"
+      - "22"
+      - "23"
+      - "24"
+      - "25"
+      - "26"
+      - "27"
+      - "28"
+      - "29"
+      - "30"
+      - "31"
+      - "32"
+      - "33"
+      - "34"
+      - "35"
+      - "36"

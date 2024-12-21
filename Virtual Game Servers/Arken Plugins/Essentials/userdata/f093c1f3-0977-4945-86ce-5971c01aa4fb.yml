@@ -1,0 +1,22 @@
+geolocation: Mexico
+lastAccountName: centurion13
+timestamps:
+  login: 1535217635709
+  lastteleport: 1535217652726
+  logout: 1535217771473
+ipAddress: 201.170.28.84
+lastlocation:
+  world: Lobby2
+  x: -70.6227982217112
+  y: 86.0
+  z: 8.202828712613563
+  yaw: 1.8
+  pitch: 2.5499997
+money: '18487.5625'
+logoutlocation:
+  world: ASkyBlock
+  x: 1198.0618219525368
+  y: 118.0
+  z: 398.82498282224486
+  yaw: -117.15021
+  pitch: 14.099971

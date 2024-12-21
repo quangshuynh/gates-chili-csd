@@ -1,0 +1,21 @@
+lastAccountName: Brbs
+timestamps:
+  login: 1535136025487
+  lastteleport: 1535136033271
+  logout: 1535136046072
+ipAddress: 98.229.104.110
+geolocation: United States
+lastlocation:
+  world: Lobby2
+  x: -69.29943769680457
+  y: 86.0
+  z: -2.4167677595655968
+  yaw: -2.8500016
+  pitch: -2.9999993
+logoutlocation:
+  world: SkyblockLobby
+  x: -534.3635054749623
+  y: 147.0625
+  z: 914.9431890919634
+  yaw: -6.899915
+  pitch: 18.750013

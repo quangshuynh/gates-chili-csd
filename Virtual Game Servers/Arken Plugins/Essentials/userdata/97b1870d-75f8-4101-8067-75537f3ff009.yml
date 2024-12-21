@@ -1,0 +1,23 @@
+geolocation: United Kingdom
+lastAccountName: o0katherine0o
+timestamps:
+  login: 1535168055625
+  lastteleport: 1535168067555
+  kits:
+    starter: 1535168082634
+  logout: 1535168208120
+ipAddress: 81.110.135.191
+lastlocation:
+  world: Lobby2
+  x: -69.5911046625115
+  y: 86.0
+  z: 4.181137078382326
+  yaw: 3.749999
+  pitch: 15.300002
+logoutlocation:
+  world: Lobby2
+  x: -69.46994875068563
+  y: 86.0
+  z: 5.245034734289311
+  yaw: -15.900002
+  pitch: -3.5999992

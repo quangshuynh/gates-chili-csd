@@ -1,0 +1,29 @@
+lastAccountName: Eyo_Zen
+timestamps:
+  login: 1535130690123
+  lastteleport: 1535131674591
+  logout: 1535131702685
+ipAddress: 80.44.168.164
+geolocation: United Kingdom
+lastlocation:
+  world: Lobby2
+  x: -69.5006674386074
+  y: 86.0
+  z: -13.86034018832522
+  yaw: -180.0
+  pitch: 0.0
+homes:
+  home:
+    world: ASkyBlock
+    x: 8.699999988079071
+    y: 118.0
+    z: -394.3718160808214
+    yaw: 216.27917
+    pitch: 1.0832598
+logoutlocation:
+  world: ASkyBlock
+  x: 11.300000011920929
+  y: 116.0
+  z: -399.7303209538724
+  yaw: -184.46172
+  pitch: 17.697523

@@ -1,0 +1,23 @@
+lastAccountName: Unsalt
+timestamps:
+  login: 1535200941190
+  logout: 1535201130437
+  lastteleport: 1535200971911
+  kits:
+    starter: 1535200991595
+ipAddress: 175.156.146.67
+geolocation: Singapore
+lastlocation:
+  world: Lobby2
+  x: -70.10802902640346
+  y: 94.5
+  z: 43.18609025515616
+  yaw: -23.08821
+  pitch: -33.831585
+logoutlocation:
+  world: SkyblockLobby
+  x: -527.9624486820505
+  y: 145.0
+  z: 869.8582786423543
+  yaw: -254.19812
+  pitch: 15.206346

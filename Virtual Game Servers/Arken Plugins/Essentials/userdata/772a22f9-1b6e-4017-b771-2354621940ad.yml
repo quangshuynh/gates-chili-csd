@@ -1,0 +1,21 @@
+geolocation: Sweden
+lastAccountName: LudvigKi1
+timestamps:
+  login: 1535183444892
+  lastteleport: 1535183450657
+  logout: 1535183455385
+ipAddress: 81.234.53.21
+lastlocation:
+  world: Lobby2
+  x: -69.49811899702763
+  y: 86.0
+  z: -6.9540957230391225
+  yaw: -0.25156513
+  pitch: -4.7609277
+logoutlocation:
+  world: SkyblockLobby
+  x: -534.5189909269102
+  y: 149.0
+  z: 902.809316721441
+  yaw: 0.90008545
+  pitch: 4.6500154

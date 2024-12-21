@@ -1,0 +1,21 @@
+geolocation: Canada
+lastAccountName: NGM007
+timestamps:
+  login: 1535133403468
+  lastteleport: 1535133444844
+  logout: 1535134518993
+ipAddress: 66.130.52.98
+lastlocation:
+  world: Lobby2
+  x: -108.69999998807907
+  y: 86.0
+  z: -6.925787108873764
+  yaw: -248.8501
+  pitch: 3.6000054
+logoutlocation:
+  world: SkyblockLobby
+  x: -534.3071345556936
+  y: 149.0
+  z: 884.0914627438898
+  yaw: 296.25018
+  pitch: 33.450027

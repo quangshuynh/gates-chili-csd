@@ -1,0 +1,23 @@
+lastAccountName: m8sonRus
+timestamps:
+  login: 1535153829922
+  lastteleport: 1535153848828
+  kits:
+    starter: 1535153918382
+  logout: 1535153979277
+ipAddress: 45.23.6.73
+geolocation: United States
+lastlocation:
+  world: Lobby2
+  x: -70.79664376941513
+  y: 89.0
+  z: 34.03640509634545
+  yaw: 39.15002
+  pitch: 19.949995
+logoutlocation:
+  world: SkyblockLobby
+  x: -530.005447544359
+  y: 145.0
+  z: 873.8412999412299
+  yaw: 341.84955
+  pitch: 40.050064

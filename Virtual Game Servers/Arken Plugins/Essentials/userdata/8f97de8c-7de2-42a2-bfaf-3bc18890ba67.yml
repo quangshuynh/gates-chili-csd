@@ -1,0 +1,23 @@
+lastAccountName: Psyscicyclic
+timestamps:
+  login: 1535137118635
+  lastteleport: 1535137375914
+  kits:
+    starter: 1535137315734
+  logout: 1535137378279
+ipAddress: 213.119.63.175
+geolocation: Belgium
+lastlocation:
+  world: ASkyBlock
+  x: 802.5
+  y: 118.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: SkyblockLobby
+  x: -534.5
+  y: 149.0
+  z: 898.5
+  yaw: 0.90008545
+  pitch: 4.6500154

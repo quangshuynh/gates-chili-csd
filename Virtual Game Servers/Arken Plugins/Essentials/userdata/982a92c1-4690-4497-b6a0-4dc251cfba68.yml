@@ -1,0 +1,20 @@
+geolocation: United Kingdom
+lastAccountName: Segnam
+timestamps:
+  login: 1535197957631
+  logout: 1535197987048
+ipAddress: 94.7.20.236
+lastlocation:
+  world: world
+  x: 0.0
+  y: 62.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: Lobby2
+  x: -69.3420348773028
+  y: 95.0
+  z: 46.09522305973922
+  yaw: -0.3896431
+  pitch: -4.7940216

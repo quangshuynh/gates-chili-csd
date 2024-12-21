@@ -1,0 +1,24 @@
+geolocation: United States
+lastAccountName: AztarothBal
+timestamps:
+  login: 1535242621991
+  lastteleport: 1535244298789
+  kits:
+    starter: 1535154893159
+  logout: 1535246575898
+ipAddress: 98.209.229.196
+lastlocation:
+  world: Lobby2
+  x: -69.5
+  y: 86.0
+  z: -8.5
+  yaw: -78.450035
+  pitch: -30.300005
+money: '25442.5'
+logoutlocation:
+  world: ASkyBlock
+  x: -785.7891956956639
+  y: 118.0
+  z: 1199.5568735725794
+  yaw: 169.64691
+  pitch: 23.699986

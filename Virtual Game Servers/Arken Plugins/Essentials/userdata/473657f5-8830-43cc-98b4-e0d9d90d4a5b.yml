@@ -1,0 +1,21 @@
+geolocation: United Kingdom
+lastAccountName: RedShieldGuy
+timestamps:
+  login: 1535136265072
+  lastteleport: 1535136503402
+  logout: 1535136507853
+ipAddress: 109.145.209.180
+lastlocation:
+  world: Lobby2
+  x: -69.51304706639863
+  y: 86.0
+  z: -3.5731189248039
+  yaw: 0.29999882
+  pitch: -0.74999875
+logoutlocation:
+  world: SkyblockLobby
+  x: -532.8794802263146
+  y: 149.0
+  z: 902.3354200841627
+  yaw: -127.94992
+  pitch: 14.850016

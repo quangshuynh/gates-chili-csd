@@ -1,0 +1,21 @@
+geolocation: United States
+lastAccountName: Caelon
+timestamps:
+  login: 1535168127381
+  lastteleport: 1535168168407
+  logout: 1535168562505
+ipAddress: 138.87.27.173
+lastlocation:
+  world: SkyblockLobby
+  x: -534.530016651508
+  y: 148.0
+  z: 909.1001065036515
+  yaw: 0.76662755
+  pitch: 8.253376
+logoutlocation:
+  world: SkyblockLobby
+  x: -561.5728991503057
+  y: 144.0
+  z: 934.6999999880791
+  yaw: 29.732666
+  pitch: 24.468437

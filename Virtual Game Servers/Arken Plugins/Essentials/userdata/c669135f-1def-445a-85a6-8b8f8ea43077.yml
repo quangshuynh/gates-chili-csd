@@ -1,0 +1,21 @@
+geolocation: Germany
+lastAccountName: piggyrusso123
+timestamps:
+  login: 1535195702850
+  logout: 1535195698700
+  lastteleport: 1535195707908
+ipAddress: 217.230.114.114
+lastlocation:
+  world: Lobby2
+  x: -70.00795792136341
+  y: 86.0
+  z: -7.744917246745457
+  yaw: 0.58432287
+  pitch: 1.41907
+logoutlocation:
+  world: SkyblockLobby
+  x: -534.5042900478293
+  y: 148.0625
+  z: 910.2043978405751
+  yaw: 0.0834747
+  pitch: -1.5025446

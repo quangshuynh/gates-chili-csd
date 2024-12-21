@@ -1,0 +1,96 @@
+# This config controls what plugins work on certain worlds.
+# Example
+# limit:
+#   WorldEdit:
+#     - world
+#     - world_nether
+#   Essentials: []
+# This will make it so worldedit will only work in world & world_nether, meaning in the end it is not usable.
+# When there is no worlds in the list it will allow it for any worlds, in this example allowing all worlds.
+# Whenever a plugin is added, this config will automatically add it!
+# exempt-login-events is for excluding login events when true, this means if a plugin uses PlayerLogin it will allow it for any world. We advise this to be enabled!
+# blocked-msg is the string displayed to a client when a command is blocked
+exempt-login-events: true
+check-for-updates: true
+blocked-msg: '&c[Error] This command cannot be performed in this world.'
+limit:
+  AnimationLib: []
+  WorldEdit: []
+  PlaceholderAPI: []
+  ClearLag: []
+  AdvancedBan: []
+  Votifier: []
+  CustomJoin:
+  - Lobby2
+  WorldGuard: []
+  MultiWorld: []
+  MVdWPlaceholderAPI: []
+  VoxelSniper: []
+  PermissionsEx: []
+  UltimateBossBar: []
+  ViaVersion: []
+  LobbyCompass:
+  - Lobby2
+  Vault: []
+  ShopGUIPlus:
+  - ASkyBlock
+  - SkyblockLobby
+  ChestShop:
+  - ASkyBlock
+  - SkyblockLobby
+  SpawnerShop:
+  - ASkyBlock
+  - SkyblockLobby
+  MobStacker2:
+  - SkyblockLobby
+  - ASkyBlock
+  Essentials: []
+  BeastWithDraw:
+  - SkyblockLobby
+  - ASkyBlock
+  SimpleRename: []
+  Scoreboard:
+  - Lobby2
+  PerWorldInventory: []
+  KitAdder: []
+  AuctionHouse:
+  - ASkyBlock
+  - SkyblockLobby
+  ASkyBlock:
+  - ASkyBlock
+  - SkyblockLobby
+  EssentialsXMPP: []
+  EssentialsProtect: []
+  EssentialsChat: []
+  EssentialsGeoIP: []
+  EssentialsSpawn: []
+  EnjinMinecraftPlugin: []
+  CrazyEnchantments:
+  - SkyblockLobby
+  - ASkyBlock
+  Multiverse-Core: []
+  Multiverse-Portals: []
+  HubBasics: []
+  HolographicDisplays: []
+  CratesPlus:
+  - ASkyBlock
+  - SkyblockLobby
+  EasyBackup: []
+  NametagEdit: []
+  SuperVanish: []
+  TieredSpawners:
+  - ASkyBlock
+  - Lobby2
+  CommandSpy: []
+  Trading:
+  - ASkyBlock
+  - SkyblockLobby
+  KeepTheWeather: []
+  CommandWatcher: []
+  PhoenixAntiCheat: []
+  ProtocolLib: []
+  ChatItem: []
+  AutoMessage: []
+  SuperbVote: []
+  ConsoleScheduler: []
+  mcMMO: []

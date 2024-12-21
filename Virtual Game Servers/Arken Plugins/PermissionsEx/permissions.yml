@@ -1,0 +1,317 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&8[&7Member&8] &7'
+    permissions:
+    - shopguiplus.sell.hand.all
+    - shopguiplus.sell.hand
+    - -bukkit.command.version
+    - -bukkit.command.plugins
+    - essentials.rules
+    - spawnershop.shop
+    - shopguiplus.shop
+    - spawnershop.use
+    - trading.trade
+    - superbvote.lucky
+    - crazyenchantments.access
+    - cratesplus.open
+    - cratesplus.default
+    - beastwithdraw.drop
+    - beastwithdraw.money
+    - beastwithdraw.bxp
+    - spawnershop.buy.*
+    - chestshop.shop.*
+    - shopguiplus.shops.*
+    - shopguiplus.sellmore
+    - shopguiplus.buymore
+    - essentials.default
+    - modifyworld.*
+    - lobbycompass.use
+    - crazyenchantments.limit.5
+    - essentials.help
+    - essentials.msg
+    - essentials.warp
+    - essentials.warps
+    - essentials.warps.list
+    - essentials.warp.list
+    - essentials.warp.skyblock
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.list
+    - essentials.kit.list
+    - essentials.kits.starter
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.pay
+    - essentials.afk
+    - essentials.helpop
+    - essentials.ignore
+    - essentials.info
+    - essentials.list
+    - essentials.realname
+    - essentials.whois
+    - essentials.spawn
+    - essentials.back
+    - essentials.home
+    - essentials.sethome
+    - essentials.sethome.multiple.3
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - askyblock.island.*
+    - askyblock.team.create
+    - askyblock.team.kick
+    - askyblock.team.makeleader
+    - askyblock.team.join
+    - askyblock.coop
+    - BeastWithdraw.bxp
+    - BeastWithdraw.money
+    - BeastWithdraw.drop
+    - hubbasics.admin.warp
+  Admin:
+    worlds:
+      world:
+        options:
+          prefix: Admin
+        permissions:
+        - '*'
+    options:
+      prefix: '&8[&cAdmin&8] &c'
+    inheritance:
+    - default
+  owner:
+    options:
+      prefix: '&8[&6Owner&8] &6'
+  headadmin:
+    options:
+      prefix: '&8[&4Head-Admin&8] &4'
+  srmod:
+    options:
+      prefix: '&8[&bSrMod&8]&b '
+    inheritance:
+    - default
+    - trainee
+    - moderator
+    permissions:
+    - essentials.command.tp
+    - essentials.invsee
+    - essentials.teleporthere
+    - essentials.tphere
+    - essentials.teleport
+    - essentials.tp
+    - sv.use
+    - ab.mute.temp
+    - ab.tempban.notify
+    - ab.ban.notify
+    - ab.kick.notify
+    - ab.kick.use
+    - ab.ban.temp
+  trainee:
+    options:
+      prefix: '&8[&aTrainee&8] &a'
+    inheritance:
+    - default
+    permissions:
+    - ab.mute.notify
+    - ab.warn.notify
+    - ab.warn.temp
+    - ab.warn.perma
+    - ab.mute.perma
+    - ab.mute.temp
+    - ab.kick.notify
+    - ab.kick.use
+  mod:
+    options:
+      prefix: '&8[&bMod&8] &b'
+    inheritance:
+    - default
+    - trainee
+    - Arken
+    permissions:
+    - ab.help
+    - ab.ban.notify
+    - ab.ban.temp
+    - ab.ban.perma
+  partner:
+    options:
+      prefix: '&8[&5Partner&8] &5'
+  CreeperZ585:
+    permissions:
+    - essentials.default
+    - essentials.defaulty
+    - modifyworld.*
+  Valiant:
+    options:
+      prefix: '&8[&6&k!&eValiant&6&k!&8] &e'
+    inheritance:
+    - default
+    permissions:
+    - spawnershop.shop
+    - shopguiplus.shop
+    - essentials.kits.valiantblocks
+    - essentials.kits.valiant
+    - essentials.enderchest
+    - essentials.hat
+    - essentials.repair
+    - essentials.fix
+  Mystic:
+    options:
+      prefix: '&8[&5&k!&dMystic&5&k!&8] &d'
+    inheritance:
+    - default
+    permissions:
+    - essentials.kits.mystic
+    - essentials.kits.mysticblocks
+    - essentials.kits.valiantblocks
+    - essentials.kits.valiant
+    - essentials.workbench
+    - essentials.craft
+    - essentials.condense
+    - essentials.feed
+    - essentials.enderchest
+    - essentials.hat
+    - essentials.repair
+    - essentials.fix
+  Arken:
+    options:
+      prefix: '&8[&3&k!&bArken&3&k!&8] &b'
+    inheritance:
+    - default
+    - Mystic
+    - Valiant
+    permissions:
+    - shopguiplus.shop
+    - shopguiplus.open
+    - essentials.heal
+    - essentials.fly
+    - essentials.kits.arkenblocks
+    - essentials.kits.arken
+  moderator:
+    inheritance:
+    - default
+schema-version: 1
+users:
+  8283ee29-162f-45f6-9509-6399934e9637:
+    permissions:
+    - '*'
+    group:
+    - owner
+    options:
+      name: Azift
+      suffix: '&f &8[&5&k!&dRiftz&5&k!&8]'
+  d91918a4-49d0-4615-b6a5-2dae429a5e77:
+    permissions:
+    - '*'
+    - essentials.hat
+    - essentials.repair
+    - essentials.fix
+    - essentials.fly
+    group:
+    - owner
+    options:
+      name: CreeperZ585
+      prefix: '&8[&6Owner&8]&6 &6'
+      suffix: '&r &8[&4&k!&cArken&4&k!&8]'
+    worlds:
+      world:
+        group:
+        - Member
+      '&e':
+        options:
+          prefix: '&8[&dMega&5Gay&8]'
+      '&d':
+        options:
+          prefix: '&8[&6Owner&8]&6'
+  33b4c94e-b745-4132-9df1-add467919a77:
+    group:
+    - partner
+    - partnet
+    options:
+      name: Jstutz31
+  7ae6bba7-1d43-4bb4-81c4-970965996227:
+    group:
+    - Valiant
+    options:
+      name: SpudGamer168
+  694565c1-1aca-4a47-8679-6acbc4f975eb:
+    group: []
+    options:
+      name: RocketPie721
+  b26b73e7-fe89-4ad0-8f03-9abc416696ca:
+    group:
+    - srmod
+    - mod
+    options:
+      name: CaptainWaffles42
+      suffix: '&f &8[&2&k!&aGoodboi&2&k!&8]'
+    permissions:
+    - sr.name
+    - sr.rename
+    - essentials.command.tp
+    - sv.tp
+    - sv.keepfly
+    - sv.notoggle
+    - crazyenchantments.access
+    - crazyenchantments.gkitz.fujin
+    - crazyenchants.gkitz.fujin
+    - crazyenchants.gkits.fujin
+    - ultracosmetics.*
+    - ultracosmetics.command.*
+  e23d0e0d-71cf-4d56-9fd7-ca95256d31d9:
+    group:
+    - Valiant
+    options:
+      name: Otis69
+  82075c39-dd70-4d2c-9a2d-a19689523549:
+    group:
+    - trainee
+    options:
+      name: IceManCMV11
+  6b5a0ebb-4381-4c36-8575-a55258816961:
+    group:
+    - srmod
+    - Arken
+    options:
+      name: Oldwallaby
+    permissions:
+    - ab.ipban.temp
+    - ab.ipban.perma
+  d2bd125f-ed0d-406e-a18e-37d7053db624:
+    options:
+      name: STW_Myth
+  2706065d-6b53-445d-8c79-98c7ce1d760f:
+    options:
+      name: Addman1
+  f093c1f3-0977-4945-86ce-5971c01aa4fb:
+    options:
+      name: centurion13
+  e2cd42ef-ee7c-4228-b513-6a59de6d8961:
+    options:
+      name: Fallbackhydra27
+  c663f59b-5202-4e88-8cbc-ead1fd1c108b:
+    group:
+    - Arken
+    options:
+      name: BigGus1999
+  9fe539c5-9c3a-4a87-bab0-c7c4cc0e33a4:
+    permissions:
+    - essentials.fly
+    - fly
+    options:
+      name: ABSKrum
+      suffix: '&f &8[&2&k!&r&2G&4ucc&2i&2&k!&8]'
+  b4da24a9-ad60-4051-be28-d38dd3e30ed6:
+    options:
+      name: Vomet
+  fc0da7be-486f-436f-8e2c-1887262d4b0a:
+    group:
+    - Valiant
+    options:
+      name: KorTezz
+  712d0a8b-f375-4683-a7a4-0adb8cc568a1:
+    group:
+    - headadmin
+    options:
+      name: IgnisOwl

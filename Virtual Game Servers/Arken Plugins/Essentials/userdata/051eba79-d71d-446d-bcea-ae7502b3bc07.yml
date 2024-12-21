@@ -1,0 +1,24 @@
+geolocation: Singapore
+lastAccountName: BlasterDark12310
+timestamps:
+  login: 1535175856229
+  lastteleport: 1535175861145
+  kits:
+    starter: 1535175427412
+  logout: 1535176143606
+ipAddress: 59.189.51.99
+lastlocation:
+  world: Lobby2
+  x: -70.0
+  y: 86.0
+  z: -9.0
+  yaw: 5.4000006
+  pitch: -0.29999992
+money: '24630.0'
+logoutlocation:
+  world: ASkyBlock
+  x: 1205.8037568800048
+  y: 120.0
+  z: -1179.667652357104
+  yaw: -179.54956
+  pitch: 17.7

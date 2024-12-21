@@ -1,0 +1,21 @@
+geolocation: United States
+lastAccountName: MangoSecurity
+timestamps:
+  login: 1535179713201
+  lastteleport: 1535177329386
+  logout: 1535179719684
+ipAddress: 138.87.27.173
+lastlocation:
+  world: Lobby2
+  x: -69.5177347296958
+  y: 83.0
+  z: 20.592229219153033
+  yaw: 0.2001856
+  pitch: 3.6927948
+logoutlocation:
+  world: Lobby2
+  x: -70.0
+  y: 86.0
+  z: -9.0
+  yaw: 0.0
+  pitch: 0.0

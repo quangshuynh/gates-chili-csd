@@ -1,0 +1,39 @@
+lastAccountName: Azift
+timestamps:
+  login: 1535386196669
+  logout: 1535386373792
+  mute: 0
+  lastteleport: 1535386206217
+  kits:
+    arkenblocks: 1535135585629
+    starter: 1535241872320
+    valiantblocks: 1535135595306
+    valiant: 1535214140488
+    mystic: 1534962019221
+    mysticblocks: 1535135590595
+    arken: 1535240450798
+ipAddress: 172.101.137.86
+logoutlocation:
+  world: SkyblockLobby
+  x: -534.6654257130073
+  y: 149.0
+  z: 897.5097870931622
+  yaw: -103.199615
+  pitch: 12.600009
+muted: false
+geolocation: N/A
+powertools:
+  '369':
+  - sell handall
+lastlocation:
+  world: Lobby2
+  x: -65.09357574944632
+  y: 86.0
+  z: -27.30000001192093
+  yaw: -347.69998
+  pitch: -0.75000155
+godmode: false
+afk: false
+money: '1130478.499'
+homes: {}
+socialspy: true

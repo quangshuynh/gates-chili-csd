@@ -1,0 +1,21 @@
+lastAccountName: Kallinx
+timestamps:
+  login: 1535219681904
+  lastteleport: 1535219966521
+  logout: 1535220024847
+ipAddress: 166.172.184.118
+geolocation: United States
+lastlocation:
+  world: SkyblockLobby
+  x: -550.9710917830225
+  y: 145.0
+  z: 915.6999999880791
+  yaw: 19.764954
+  pitch: 13.074521
+logoutlocation:
+  world: SkyblockLobby
+  x: -510.7224040589401
+  y: 144.0625
+  z: 877.827339061292
+  yaw: 1.9874277
+  pitch: 23.951122

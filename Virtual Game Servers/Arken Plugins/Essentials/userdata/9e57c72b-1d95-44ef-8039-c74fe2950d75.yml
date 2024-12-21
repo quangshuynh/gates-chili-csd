@@ -1,0 +1,23 @@
+geolocation: United States
+lastAccountName: FrostbitePlayz
+timestamps:
+  login: 1535225793416
+  lastteleport: 1535226558145
+  kits:
+    starter: 1535225861582
+  logout: 1535226856229
+ipAddress: 104.34.98.196
+lastlocation:
+  world: SkyblockLobby
+  x: -551.6866298496906
+  y: 144.0
+  z: 924.8487912924707
+  yaw: 114.599884
+  pitch: 46.50001
+logoutlocation:
+  world: ASkyBlock
+  x: -1201.699999988079
+  y: 118.0
+  z: 1604.6774878757358
+  yaw: -104.40036
+  pitch: 22.500107

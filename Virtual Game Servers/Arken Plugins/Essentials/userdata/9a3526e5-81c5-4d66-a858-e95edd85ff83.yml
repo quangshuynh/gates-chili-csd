@@ -1,0 +1,20 @@
+geolocation: United States
+lastAccountName: I_Am_Dreamz
+timestamps:
+  login: 1535136975136
+  logout: 1535136978199
+ipAddress: 71.53.145.43
+lastlocation:
+  world: world
+  x: 0.0
+  y: 62.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: Lobby2
+  x: -70.0
+  y: 86.0
+  z: -9.0
+  yaw: 0.0
+  pitch: 0.0

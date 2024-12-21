@@ -1,0 +1,24 @@
+geolocation: United Kingdom
+lastAccountName: iiReAcTiOnZii
+timestamps:
+  login: 1535138372238
+  lastteleport: 1535138940842
+  kits:
+    starter: 1535138664666
+  logout: 1535139689267
+ipAddress: 82.29.145.87
+lastlocation:
+  world: SkyblockLobby
+  x: -519.4025604057995
+  y: 146.0
+  z: 896.6695006528868
+  yaw: -315.44977
+  pitch: 1.4999745
+money: '23196.0'
+logoutlocation:
+  world: Lobby2
+  x: -70.61842897357208
+  y: 90.65658248110962
+  z: -50.959658345981794
+  yaw: 4.5002766
+  pitch: 27.000006

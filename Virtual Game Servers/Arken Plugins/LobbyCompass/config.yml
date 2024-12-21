@@ -1,0 +1,42 @@
+# #############################################
+# # - LobbyCompass Updated By FrostedGC & Goldentoenail - #
+# #############################################
+# # Option 'executedByPlayer' means:
+# #    > true = Command is executed as the player typed it
+# #    > false = Command is executed by console (%n% is player name)
+# # There can be only at most 6 lines in one inventory!
+# # If get-compass-slot is -1 it will add the compass in a free slot
+# # LobbyCompass handles inventories starting at 0-8 not 1-9!
+# # ############################################
+
+compass-name: '&3&lArken Compass!'
+compass-item: COMPASS
+compass-inventory-name: '&b&lThe Arken Compass'
+get-compass-on-join: true
+get-compass-slot: 4
+get-compass-worlds:
+- Lobby2
+only-allow-command-lc_get-in-worlds: false
+can-drop-compass: false
+inventory-lines-amount: 1
+sound-effect: true
+options:
+- skyblock
+- survival
+data:
+  skyblock:
+    name: '&b&lSKYBLOCK &8&l>> &f&lMap 1'
+    lore:
+    - '&fJoin Arken Skyblock'
+    item: SAPLING
+    cmd: warp skyblock
+    executedByPlayer: true
+    position-in-inventory: 3
+  survival:
+    name: '&a&lSURVIVAL &8&l>> &c&lComing Soon'
+    lore:
+    - '&fJoin Arken Survival'
+    item: WORKBENCH
+    cmd: warp survival
+    executedByPlayer: true
+    position-in-inventory: 5

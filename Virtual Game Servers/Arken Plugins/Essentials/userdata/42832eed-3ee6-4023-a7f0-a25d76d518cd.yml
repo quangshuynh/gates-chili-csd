@@ -1,0 +1,23 @@
+geolocation: United States
+lastAccountName: ZwissCheeze
+timestamps:
+  login: 1535200851088
+  lastteleport: 1535200856605
+  kits:
+    starter: 1535200871002
+  logout: 1535200968206
+ipAddress: 73.42.92.110
+lastlocation:
+  world: Lobby2
+  x: -69.5762496907264
+  y: 86.0
+  z: -4.3036483706222
+  yaw: 2.999999
+  pitch: -8.099999
+logoutlocation:
+  world: ASkyBlock
+  x: 0.699999988079071
+  y: 119.0
+  z: -1203.5215082936506
+  yaw: -173.85004
+  pitch: 71.54991

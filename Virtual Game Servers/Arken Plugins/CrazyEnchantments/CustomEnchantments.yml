@@ -1,0 +1,477 @@
+#Potion Effect Names to pick from: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+Enchantments:
+  Cyborg: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'Cyborg' #The in-game name of the enchantment
+    Color: '&6' #The color of the enchantment on the item
+    BookColor: '&6&l' #The color of the enchantment on the book
+    MaxPower: 1 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Legendary'
+    Info:
+      Name: '&6&lCyborg &7&l<&eI&7&l>'
+      Description:
+        - '&eGives you speed, strength and'
+        - '&ejump boost to take down your enemies.'
+        - '&7Armor Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Armor' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      ArmorOptions: #Options that only effect Armor Enchantments.
+        PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+        PotionEffects: #Potion types that will be applied.
+          - 'SPEED:1, Time:1000000'
+          - 'INCREASE_DAMAGE:2, Time:1000000'
+          - 'JUMP:2, Time:1000000'
+  Sniper: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'Sniper' #The in-game name of the enchantment
+    Color: '&6' #The color of the enchantment on the item
+    BookColor: '&6&l' #The color of the enchantment on the book
+    MaxPower: 5 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Legendary'
+    Info:
+      Name: '&6&lSniper &7&l<&6I&7-&6V&7&l>'
+      Description:
+        - '&eShoot an enemy with this and'
+        - '&eit has a chance to poison them.'
+        - '&7Bow Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Bow' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      BowOptions: #Options that only effect Bow Enchantments.
+        OnHit: #When the arrow Hits.
+          #Remove the # to use the Exploding option.
+          #Ground: #Options if the arrow hits the ground.
+          #  Explode: #Options for the explosion.
+          #   Power: 2 #The power of the explosion.
+          #    PowerIncrease: 2 #How much each lvl will increases the strength.
+          #    Chance: 25 #Chance of the arrow exploding.
+          Damaged: #The player that is attacked.
+            PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+            PotionEffects: #Effects that are added to the Damaged.
+            - 'POISON:2, Time:5, Chance:25'
+  Slice: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'Slice' #The in-game name of the enchantment
+    Color: '&6' #The color of the enchantment on the item
+    BookColor: '&6&l' #The color of the enchantment on the book
+    MaxPower: 2 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Legendary'
+    Info:
+      Name: '&6&lSlice &7&l<&6I&7-&6II&7&l>'
+      Description:
+        - '&eGives you a chance to'
+        - '&edo a lot more damage.'
+        - '&7Weapon Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Weapons' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      WeaponOptions: #Options that only effect Sword and Axe Enchantments.
+        #Remove the # to use the Damager options.
+        #Damager: #The player with the sword.
+        #  PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+        #  PotionEffects: #Effects that are added to the Damager.
+        #    - 'REGENERATION:2, Time:10, Chance:25'
+        Damaged: #The player that is attacked.
+          DamageMultiplyer: #The Damager Multipler Option.
+            PowerIncrease: 1 #How many times the Multiplier will go up each lvl.
+            Multiplyer: 2 #How many times stronger the attack is.
+            Chance: 25 #The chance of the multiplier happening.
+          #Remove the # to use the Potion options.
+          #PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+          #PotionEffects: #Effects that are added to the Damaged.
+          #  - 'POISON:2, Time:5, Chance:25'
+  Insomnla: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'Insomnia' #The in-game name of the enchantment
+    Color: '&7' #The color of the enchantment on the item
+    BookColor: '&7&l' #The color of the enchantment on the book
+    MaxPower: 7 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Simple'
+    Info:
+      Name: '&7&lInsomnia &7&l<&fI&7-&fVII&7&l>'
+      Description:
+        - '&eA chance to give your opponent slowness,'
+        - '&eslow swinging and confusion.'
+        - '&7Weapon Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Weapons' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      WeaponOptions: #Options that only effect Sword and Axe Enchantments.
+        #Remove the # to use the Damager options.
+        #Damager: #The player with the sword.
+        #  PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+        #  PotionEffects: #Effects that are added to the Damager.
+        #    - 'REGENERATION:2, Time:10, Chance:25'
+        Damaged: #The player that is attacked.
+          #DamageMultiplyer: #The Damager Multipler Option.
+            #PowerIncrease: 1 #How many times the Multiplier will go up each lvl.
+            #Multiplyer: 2 #How many times stronger the attack is.
+            #Chance: 25 #The chance of the multiplier happening.
+          #Remove the # to use the Potion options.
+          PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+          PotionEffects: #Effects that are added to the Damaged.
+            - 'SLOW:0, Time:5, Chance:20'
+            - 'SLOW_DIGGING:0, Time:10, Chance:20'
+            - 'CONFUSION:0, Time:15, Chance:20'
+  Unfocus: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'Unfocus' #The in-game name of the enchantment
+    Color: '&e' #The color of the enchantment on the item
+    BookColor: '&e&l' #The color of the enchantment on the book
+    MaxPower: 5 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Ultimate'
+    Info:
+      Name: '&e&lUnfocus &7&l<&eI&7-&eV&7&l>'
+      Description:
+        - '&eA chance to unfocus your opponent,'
+        - '&ereducing their outgoing bow damage'
+        - '&eby 50% for up to 10 seconds.'
+        - '&7Bow Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Bow' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      WeaponOptions: #Options that only effect Sword and Axe Enchantments.
+        #Remove the # to use the Damager options.
+        #Damager: #The player with the sword.
+        #  PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+        #  PotionEffects: #Effects that are added to the Damager.
+        #    - 'REGENERATION:2, Time:10, Chance:25'
+        Damaged: #The player that is attacked.
+          #DamageMultiplyer: #The Damager Multipler Option.
+            #PowerIncrease: 1 #How many times the Multiplier will go up each lvl.
+            #Multiplyer: 2 #How many times stronger the attack is.
+            #Chance: 25 #The chance of the multiplier happening.
+          #Remove the # to use the Potion options.
+          PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+          PotionEffects: #Effects that are added to the Damaged.
+            - 'WEAKNESS:0, Time:3, Chance:35'
+  Virus: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'Virus' #The in-game name of the enchantment
+    Color: '&b' #The color of the enchantment on the item
+    BookColor: '&b&l' #The color of the enchantment on the book
+    MaxPower: 4 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Elite'
+    Info:
+      Name: '&b&lVirus &7&l<&bI&7-&bIV&7&l>'
+      Description:
+        - '&eMultiplies all wither and poison damage'
+        - '&ethe affected opponent receives.'
+        - '&7Bow Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Bow' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      WeaponOptions: #Options that only effect Sword and Axe Enchantments.
+        #Remove the # to use the Damager options.
+        #Damager: #The player with the sword.
+        #  PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+        #  PotionEffects: #Effects that are added to the Damager.
+        #    - 'REGENERATION:2, Time:10, Chance:25'
+        Damaged: #The player that is attacked.
+          DamageMultiplyer: #The Damager Multipler Option.
+            PowerIncrease: 0 #How many times the Multiplier will go up each lvl.
+            Multiplyer: 1 #How many times stronger the attack is.
+            Chance: 25 #The chance of the multiplier happening.
+          #Remove the # to use the Potion options.
+          PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+          PotionEffects: #Effects that are added to the Damaged.
+            - 'WITHER:0, Time:10, Chance:100'
+            - 'POISON:0, Time:10, Chance:100'
+  Greatsword: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'Greatsword' #The in-game name of the enchantment
+    Color: '&6' #The color of the enchantment on the item
+    BookColor: '&6&l' #The color of the enchantment on the book
+    MaxPower: 5 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Legendary'
+    Info:
+      Name: '&6&lGreatsword &7&l<&6I&7-&6V&7&l>'
+      Description:
+        - '&eMultiplies damage against opponents who are'
+        - '&ewielding a BOW at the time they are hit.'
+        - '&7Sword Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Sword' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      WeaponOptions: #Options that only effect Sword and Axe Enchantments.
+        #Remove the # to use the Damager options.
+        #Damager: #The player with the sword.
+        #  PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+        #  PotionEffects: #Effects that are added to the Damager.
+        #    - 'REGENERATION:2, Time:10, Chance:25'
+        Damaged: #The player that is attacked.
+          DamageMultiplyer: #The Damager Multipler Option.
+            PowerIncrease: 1 #How many times the Multiplier will go up each lvl.
+            Multiplyer: 1 #How many times stronger the attack is.
+            Chance: 10 #The chance of the multiplier happening.
+          #Remove the # to use the Potion options.
+          #PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+          #PotionEffects: #Effects that are added to the Damaged.
+            #- 'EFFECT_NAME, Time:10, Chance:100'
+            #- 'EFFECT_NAME, Time:10, Chance:100'
+  Silence: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'Silence' #The in-game name of the enchantment
+    Color: '&e' #The color of the enchantment on the item
+    BookColor: '&e&l' #The color of the enchantment on the book
+    MaxPower: 4 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Legendary'
+    Info:
+      Name: '&e&lSilence &7&l<&eI&7-&eIV&7&l>'
+      Description:
+        - '&eA chance to weaken opponent''s attacks.'
+        - '&7Sword Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Sword' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      WeaponOptions: #Options that only effect Sword and Axe Enchantments.
+        #Remove the # to use the Damager options.
+        #Damager: #The player with the sword.
+        #  PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+        #  PotionEffects: #Effects that are added to the Damager.
+        #    - 'REGENERATION:2, Time:10, Chance:25'
+        Damaged: #The player that is attacked.
+          #DamageMultiplyer: #The Damager Multipler Option.
+            #PowerIncrease: 1 #How many times the Multiplier will go up each lvl.
+            #Multiplyer: 1 #How many times stronger the attack is.
+            #Chance: 25 #The chance of the multiplier happening.
+          #Remove the # to use the Potion options.
+          PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+          PotionEffects: #Effects that are added to the Damaged.
+            - 'WEAKNESS:0, Time:6, Chance:25'
+  Tank: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'Tank' #The in-game name of the enchantment
+    Color: '&6' #The color of the enchantment on the item
+    BookColor: '&6&l' #The color of the enchantment on the book
+    MaxPower: 4 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Legendary'
+    Info:
+      Name: '&6&lTank &7&l<&6I&7-&6IV&7&l>'
+      Description:
+        - '&eDecreases damage from your opponents.'
+        - '&7Armor Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Armor' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      ArmorOptions: #Options that only effect Armor Enchantments.
+        PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+        PotionEffects: #Potion types that will be applied.
+          - 'DAMAGE_RESISTANCE:0, Time:1000000'
+  Barbarian: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'Barbarian' #The in-game name of the enchantment
+    Color: '&6' #The color of the enchantment on the item
+    BookColor: '&6&l' #The color of the enchantment on the book
+    MaxPower: 4 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Legendary'
+    Info:
+      Name: '&6&lBarbarian &7&l<&6I&7-&6IV&7&l>'
+      Description:
+        - '&eChance to multiply your damage against your opponents.'
+        - '&7Axe Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Axe' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      WeaponOptions: #Options that only effect Sword and Axe Enchantments.
+        #Remove the # to use the Damager options.
+        #Damager: #The player with the sword.
+        #  PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+        #  PotionEffects: #Effects that are added to the Damager.
+        #    - 'REGENERATION:2, Time:10, Chance:25'
+        Damaged: #The player that is attacked.
+          #DamageMultiplyer: #The Damager Multipler Option.
+            PowerIncrease: 1 #How many times the Multiplier will go up each lvl.
+            Multiplyer: 1 #How many times stronger the attack is.
+            Chance: 5 #The chance of the multiplier happening.
+          #Remove the # to use the Potion options.
+          #PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+          #PotionEffects: #Effects that are added to the Damaged.
+            #- 'WEAKNESS:0, Time:6, Chance:25'
+  Ghost: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'Ghost' #The in-game name of the enchantment
+    Color: '&6' #The color of the enchantment on the item
+    BookColor: '&6&l' #The color of the enchantment on the book
+    MaxPower: 3 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Legendary'
+    Info:
+      Name: '&6&lGhost &7&l<&6I&7-&6III&7&l>'
+      Description:
+        - '&eChance to become invisible for a short time'
+        - '&ewhen you get struck by an enemy.'
+        - '&7Boots Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Boots' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      WeaponOptions: #Options that only effect Sword and Axe Enchantments.
+        #Remove the # to use the Damager options.
+        #Damager: #The player with the sword.
+        #  PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+        #  PotionEffects: #Effects that are added to the Damager.
+        #    - 'REGENERATION:2, Time:10, Chance:25'
+        Damaged: #The player that is attacked.
+          #DamageMultiplyer: #The Damager Multipler Option.
+            #PowerIncrease: 1 #How many times the Multiplier will go up each lvl.
+            #Multiplyer: 1 #How many times stronger the attack is.
+            #Chance: 5 #The chance of the multiplier happening.
+          #Remove the # to use the Potion options.
+          PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+          PotionEffects: #Effects that are added to the Damaged.
+            - 'INVISIBILITY, Time:4, Chance:10'
+  DoubleStrike: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'DoubleStrike' #The in-game name of the enchantment
+    Color: '&6' #The color of the enchantment on the item
+    BookColor: '&6&l' #The color of the enchantment on the book
+    MaxPower: 3 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Legendary'
+    Info:
+      Name: '&6&lDoubleStrike &7&l<&6I&7-&6III&7&l>'
+      Description:
+        - '&eA chance to strike twice.'
+        - '&7Sword Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Sword' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      WeaponOptions: #Options that only effect Sword and Axe Enchantments.
+        #Remove the # to use the Damager options.
+        Damager: #The player with the sword.
+          PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+          PotionEffects: #Effects that are added to the Damager.
+            - 'FAST_DIGGING:1, Time:1, Chance:10'
+        Damaged: #The player that is attacked.
+          #DamageMultiplyer: #The Damager Multipler Option.
+            #PowerIncrease: 1 #How many times the Multiplier will go up each lvl.
+            #Multiplyer: 1 #How many times stronger the attack is.
+            #Chance: 5 #The chance of the multiplier happening.
+          #Remove the # to use the Potion options.
+          #PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+          #PotionEffects: #Effects that are added to the Damaged.
+          #  - 'FAST_DIGGING:1, Time:1, Chance:10'
+  Inversion: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'Inversion' #The in-game name of the enchantment
+    Color: '&6' #The color of the enchantment on the item
+    BookColor: '&6&l' #The color of the enchantment on the book
+    MaxPower: 4 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Legendary'
+    Info:
+      Name: '&6&lInversion &7&l<&6I&7-&6IV&7&l>'
+      Description:
+        - '&eBy dealing damage to your opponent'
+        - '&eyou have a % chance gain short burst'
+        - '&eof resistance and regeneration.'
+        - '&7Sword Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Sword' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      WeaponOptions: #Options that only effect Sword and Axe Enchantments.
+        #Remove the # to use the Damager options.
+        Damager: #The player with the sword.
+          PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+          PotionEffects: #Effects that are added to the Damager.
+            - 'DAMAGE_RESISTANCE:0, Time:3, Chance:10'
+            - 'REGENERATION:0, Time:3, Chance:10'
+        Damaged: #The player that is attacked.
+          #DamageMultiplyer: #The Damager Multipler Option.
+            #PowerIncrease: 1 #How many times the Multiplier will go up each lvl.
+            #Multiplyer: 1 #How many times stronger the attack is.
+            #Chance: 5 #The chance of the multiplier happening.
+          #Remove the # to use the Potion options.
+          #PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+          #PotionEffects: #Effects that are added to the Damaged.
+          #  - 'FAST_DIGGING:1, Time:1, Chance:10'
+  BlindArrow: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'BlindArrow' #The in-game name of the enchantment
+    Color: '&b' #The color of the enchantment on the item
+    BookColor: '&b&l' #The color of the enchantment on the book
+    MaxPower: 3 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Elite'
+    Info:
+      Name: '&b&lBlindArrow &7&l<&bI&7-&bIII&7&l>'
+      Description:
+        - '&eA chance of causing the blindness'
+        - '&edebuff on your opponent.'
+        - '&7Bow Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Bow' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      BowOptions: #Options that only effect Bow Enchantments.
+        OnHit: #When the arrow Hits.
+          #Remove the # to use the Exploding option.
+          #Ground: #Options if the arrow hits the ground.
+          #  Explode: #Options for the explosion.
+          #   Power: 2 #The power of the explosion.
+          #    PowerIncrease: 2 #How much each lvl will increases the strength.
+          #    Chance: 25 #Chance of the arrow exploding.
+          Damaged: #The player that is attacked.
+            PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+            PotionEffects: #Effects that are added to the Damaged.
+            - 'BLINDNESS:1, Time:5, Chance:25'
+  Insanity: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'Insanity' #The in-game name of the enchantment
+    Color: '&6' #The color of the enchantment on the item
+    BookColor: '&6&l' #The color of the enchantment on the book
+    MaxPower: 8 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Legendary'
+    Info:
+      Name: '&6&lInsanity &7&l<&6I&7-&6VIII&7&l>'
+      Description:
+        - '&eMultiplies damage against opponents'
+        - '&eand cause a wither poison on them.'
+        - '&7Axe Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Axe' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      WeaponOptions: #Options that only effect Sword and Axe Enchantments.
+        #Remove the # to use the Damager options.
+        Damager: #The player with the sword.
+          PowerIncrease: 0 #How many times the Potion Effects go up each lvl.
+          PotionEffects: #Effects that are added to the Damager.
+            - 'INCREASE_DAMAGE:0, Time:5, Chance:10'
+        Damaged: #The player that is attacked.
+          #DamageMultiplyer: #The Damager Multipler Option.
+          #  PowerIncrease: 0 #How many times the Multiplier will go up each lvl.
+          #  Multiplyer: 0 #How many times stronger the attack is.
+          #  Chance: 20 #The chance of the multiplier happening.
+          #Remove the # to use the Potion options.
+          PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+          PotionEffects: #Effects that are added to the Damaged.
+            - 'WITHER:0, Time:5, Chance:20'
+  Bleed: #Enchantment
+    Enabled: True #Enable and disable the enchantment
+    Name: 'Bleed' #The in-game name of the enchantment
+    Color: '&e' #The color of the enchantment on the item
+    BookColor: '&e&l' #The color of the enchantment on the book
+    MaxPower: 6 #Max lvl the enchantment goes up to
+    Categories: #All the categories the Enchantment can be found in
+      - 'Ultimate'
+    Info:
+      Name: '&e&lBleed &7&l<&eI&7-&eVI&7&l>'
+      Description:
+        - '&eApplies bleed effect to opponents that'
+        - '&edecrease their movement speed and'
+        - '&eapplies damage over time.'
+        - '&7Axe Enchant'
+    EnchantOptions: #Customizing Options for each enchantment.
+      ItemsEnchantable: 'Axe' #You can pick from Armor, Boots, Helmet, Axe, Sword, Weapons(Swords & Axes), and Bow.
+      WeaponOptions: #Options that only effect Sword and Axe Enchantments.
+        #Remove the # to use the Damager options.
+        #Damager: #The player with the sword.
+        #  PowerIncrease: 0 #How many times the Potion Effects go up each lvl.
+        #  PotionEffects: #Effects that are added to the Damager.
+        #    - 'INCREASE_DAMAGE:0, Time:5, Chance:10'
+        Damaged: #The player that is attacked.
+          #DamageMultiplyer: #The Damager Multipler Option.
+          #  PowerIncrease: 0 #How many times the Multiplier will go up each lvl.
+          #  Multiplyer: 0 #How many times stronger the attack is.
+          #  Chance: 20 #The chance of the multiplier happening.
+          #Remove the # to use the Potion options.
+          PowerIncrease: 1 #How many times the Potion Effects go up each lvl.
+          PotionEffects: #Effects that are added to the Damaged.
+            - 'POISON:0, Time:5, Chance:10'
+            - 'SLOW:0, Time:4, Chance:5'

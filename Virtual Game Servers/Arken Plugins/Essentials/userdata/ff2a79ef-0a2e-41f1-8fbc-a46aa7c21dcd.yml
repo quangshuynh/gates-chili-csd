@@ -1,0 +1,21 @@
+geolocation: United States
+lastAccountName: ssm227hdm
+timestamps:
+  login: 1535159929992
+  logout: 1535160101230
+  lastteleport: 1535159935902
+ipAddress: 184.75.152.243
+lastlocation:
+  world: Lobby2
+  x: -62.7479215808164
+  y: 86.0
+  z: -9.287091435260685
+  yaw: -59.550003
+  pitch: 0.9000001
+logoutlocation:
+  world: Lobby2
+  x: -69.5006674386074
+  y: 86.0
+  z: -8.474481006582119
+  yaw: -0.60000116
+  pitch: -6.5999994

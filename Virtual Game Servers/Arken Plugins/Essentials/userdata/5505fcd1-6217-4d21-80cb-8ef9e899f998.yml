@@ -1,0 +1,21 @@
+geolocation: United States
+lastAccountName: AlphaChop
+timestamps:
+  login: 1535155453880
+  lastteleport: 1535155491663
+  logout: 1535155592029
+ipAddress: 98.208.114.109
+lastlocation:
+  world: Lobby2
+  x: -70.50046998035512
+  y: 86.0
+  z: -14.354484567137627
+  yaw: -177.13617
+  pitch: 17.367966
+logoutlocation:
+  world: SkyblockLobby
+  x: -536.0484483849349
+  y: 148.0625
+  z: 910.4018650817117
+  yaw: 156.11151
+  pitch: 17.111069

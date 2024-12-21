@@ -1,0 +1,23 @@
+geolocation: United States
+lastAccountName: TechBoltYT
+timestamps:
+  login: 1535166628389
+  lastteleport: 1535166657236
+  kits:
+    starter: 1535166698640
+  logout: 1535166700458
+ipAddress: 75.176.38.251
+lastlocation:
+  world: Lobby2
+  x: -69.49844435989507
+  y: 86.0
+  z: -7.018348986781499
+  yaw: -0.12598464
+  pitch: -9.19014
+logoutlocation:
+  world: ASkyBlock
+  x: 1203.6000796076662
+  y: 120.0
+  z: 2.237500011920929
+  yaw: 195.84128
+  pitch: 13.842622

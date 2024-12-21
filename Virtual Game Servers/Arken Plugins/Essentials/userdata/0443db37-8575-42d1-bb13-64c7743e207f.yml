@@ -1,0 +1,24 @@
+geolocation: United States
+lastAccountName: Tuck
+timestamps:
+  login: 1535223121886
+  lastteleport: 1535223129543
+  kits:
+    starter: 1535203242244
+  logout: 1535248420158
+ipAddress: 192.181.22.242
+lastlocation:
+  world: Lobby2
+  x: -69.98378008413056
+  y: 86.0
+  z: 0.9489482192360151
+  yaw: -0.5812836
+  pitch: 1.691007
+money: '6730.0'
+logoutlocation:
+  world: ASkyBlock
+  x: -801.9993717538864
+  y: 116.0
+  z: -1187.699999988079
+  yaw: 180.4383
+  pitch: 2.8577886

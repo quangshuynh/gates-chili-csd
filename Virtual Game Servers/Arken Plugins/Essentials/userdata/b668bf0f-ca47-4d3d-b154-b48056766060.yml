@@ -1,0 +1,21 @@
+geolocation: United States
+lastAccountName: ev1lm1nnow
+timestamps:
+  login: 1535159885019
+  lastteleport: 1535159913196
+  logout: 1535159944065
+ipAddress: 192.40.59.156
+lastlocation:
+  world: Lobby2
+  x: -68.94763014587795
+  y: 83.0
+  z: 25.660180114246668
+  yaw: -1.8230443
+  pitch: 6.1455784
+logoutlocation:
+  world: ASkyBlock
+  x: 760.037671251761
+  y: 120.0
+  z: 1203.2118646702445
+  yaw: 92.477974
+  pitch: 15.747114

@@ -1,0 +1,25 @@
+lastAccountName: SpudGamer168
+timestamps:
+  login: 1534983841721
+  kits:
+    valiant: 1534971275337
+  lastteleport: 1534971441561
+  lastheal: 1534971455315
+  logout: 1534983845464
+ipAddress: 127.0.0.1
+geolocation: N/A
+lastlocation:
+  world: Lobby2
+  x: -72.32683897206408
+  y: 83.0
+  z: 16.90272337058378
+  yaw: 196.19994
+  pitch: 24.750002
+money: '250000'
+logoutlocation:
+  world: Lobby2
+  x: -69.11390045972561
+  y: 93.0
+  z: 40.64190494879088
+  yaw: -239.54968
+  pitch: 21.300102

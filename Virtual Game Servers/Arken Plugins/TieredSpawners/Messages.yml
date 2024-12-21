@@ -1,0 +1,38 @@
+#Messages Version 1 by Yukun
+#Placeholders:
+#- %tier% for tier of spawner that is clicked -- Usable in anything other than prefix and NotEnoughExp.
+#- %mob% for mob that the spawner spawns -- Usable in anything other than prefix and NotEnoughExp.
+#- %cost% for cost of upgrade or amount returned on downgrade -- Usable in Break, Upgrade and Downgrade message.
+Messages:
+  #Prefix before all messages.
+  Prefix: "&bTiered&eSpawners&f >> &7"
+  #Message sent when a player clicks on a spawner.
+  Click: "&7You are now editing a &6&lTier %tier% %mob% Spawner&r&7."
+  #Message sent when a player upgrades a spawner.
+  Upgrade: "&aYou have successfully upgraded your &6&lTier %tier% %mob% Spawner&r&a for &b&l$%cost%&r&a!"
+  #Message sent when a player upgrades a spawner's delay.
+  UpgradeDelay: "&aYou have successfully upgraded your &6&lTier %tier% %mob% Spawner's Delay&r&a for &b&l$%cost%&r&a!"
+  #Message sent when a player upgrades a spawner's spawn amount.
+  UpgradeAmount: "&aYou have successfully upgraded your &6&lTier %tier% %mob% Spawner's Spawn Amount&r&a for &b&l$%cost%&r&a!"
+  #Message sent when a player upgrades a spawner's spawn range.
+  UpgradeRange: "&aYou have successfully upgraded your &6&lTier %tier% %mob% Spawner's Range&r&a for &b&l$%cost%&r&a!"
+  #Message sent when a player downgrades a spawner.
+  Downgrade: "&aYou have successfully downgraded your &6&lTier %tier% %mob% Spawner&r&a! You have been refunded &b&l$%cost%&r&a!"
+  #Message sent when a player downgrades a spawner's delay.
+  DowngradeDelay: "&aYou have successfully downgraded your &6&lTier %tier% %mob% Spawner's Delay&r&a! You have been refunded &b&l$%cost%&r&a!"
+  #Message sent when a player downgrades a spawner's spawn amount.
+  DowngradeAmount: "&aYou have successfully downgraded your &6&lTier %tier% %mob% Spawner's Spawn Amount&r&a! You have been refunded &b&l$%cost%&r&a!"
+  #Message sent when a player downgrades a spawner's range.
+  DowngradeRange: "&aYou have successfully downgraded your &6&lTier %tier% %mob% Spawner's Spawn Amount&r&a! You have been refunded &b&l$%cost%&r&a!"
+  #Message sent when a player breaks a spawner.
+  Break: "&cYou have broken a Tier %tier% %mob% Spawner&r&c! You have been refunded &b&l$%cost%&r&c!"
+  #Message sent if more than 1 player tries to edit a spawner at the same time.
+  Only1Player: "&cOnly 1 player can edit the spawner at 1 time!"
+  #Message sent when a player tries to spawn in an upgrade item with full inventory.
+  InvenFull: "&cYour inventory is full! Please empty out a spot before spawning the item in!"
+  #Message sent when a player tries to upgrade a spawner that cannot be upgraded anymore.
+  Maxed: "&cYou may not upgrade this spawner anymore as either the spawner is max out or you do not have enough currency!"
+  #Message sent when a player tries to downgrade a spawner that cannot be downgraded anymore.
+  Mined: "&cYou may not downgrade this spawner as either the spawner is at the lowest level or you have too much currency!"
+  #Message sent when a player spawns in a spawner.
+  SpawnSpawner: "&aYou have spawned in a %mob% spawner!"

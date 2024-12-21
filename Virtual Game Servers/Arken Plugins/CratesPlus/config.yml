@@ -1,0 +1,1740 @@
+# [][][][][][][][][][][][][][][][][][][][][]
+#  CratesPlus V4.4.5 Config
+# [][][][][][][][][][][][][][][][][][][][][]
+# ------------------------------------------
+# There are many placeholders that can now be used withing the config and messages file, placeholders are as followed:
+# - %name% - Replaces with the players name, Example: "Notch".
+# - %displayname% - Replaces with the players display name, Example: "[Owner] Notch".
+# - %uuid% - Replaces with the players UUID.
+# - %crate% - The crate types name.
+# - %prize% - The name of the winning.
+# - %percentage% - Percentage of the winning, useful for "Chance Message".
+# - %rand;100;500% - Generates a random number between two numbers, example is between 100 and 500.
+# ------------------------------------------
+# Don't change the config version!
+
+Config Version: 6
+Update Checks: true
+Update Branch: spigot
+Metrics: true
+Default Opener: BasicGUI
+Default Cooldown: 5
+Crate Protection: false
+Disable Key Swapping: false
+Default Hologram Text:
+- '%crate%'
+- Right-Click to Open!
+- Left-Click to Preview!
+Crates:
+  Vote:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: GOLD
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lCash Note &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa7dCash:\xa7r $5000"
+        - "\xa7dDepositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lCash Note \xa77(Right-Click)"
+          lore:
+          - "\xa7dCash:\xa7r $5000"
+          - "\xa7dDepositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2AQ7mAAAD7LkksTAAAA
+      '2':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lCash Note &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa7dCash:\xa7r $10000"
+        - "\xa7dDepositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lCash Note \xa77(Right-Click)"
+          lore:
+          - "\xa7dCash:\xa7r $10000"
+          - "\xa7dDepositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2BQF2AAAGCGaNETAAAA
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_PICKAXE
+        Item Data: 0
+        Name: '&6&k!&eValiant&6&k!'
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-1
+        - DURABILITY-1
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7k!\xa7eValiant\xa76\xa7k!"
+          enchants:
+            DIG_SPEED: 1
+            DURABILITY: 1
+      '4':
+        Type: ITEM
+        Item Type: IRON_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '5':
+        Type: ITEM
+        Item Type: REDSTONE_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '6':
+        Type: ITEM
+        Item Type: GOLD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '7':
+        Type: ITEM
+        Item Type: DIAMOND_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '8':
+        Type: ITEM
+        Item Type: EMERALD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '9':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&f&lSimple Enchantment Book &7(Right Click)&r'
+        Amount: 5
+        Enchantments: []
+        Lore:
+        - "\xa77Examin to recieve a random"
+        - "\xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7f\xa7lSimple Enchantment Book \xa77(Right Click)\xa7r"
+          lore:
+          - "\xa77Examin to recieve a random"
+          - "\xa77enchantment book."
+      '10':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&a&lUnique Enchantment Book &7(Right Click)&r'
+        Amount: 3
+        Enchantments: []
+        Lore:
+        - "\xa77Examin to recieve a random"
+        - "\xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lUnique Enchantment Book \xa77(Right Click)\xa7r"
+          lore:
+          - "\xa77Examin to recieve a random"
+          - "\xa77enchantment book."
+      '11':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&b&lElite Enchantment Book &7(Right Click)&r'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Examin to recieve a random"
+        - "\xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lElite Enchantment Book \xa77(Right Click)\xa7r"
+          lore:
+          - "\xa77Examin to recieve a random"
+          - "\xa77enchantment book."
+      '12':
+        Type: ITEM
+        Item Type: TRIPWIRE_HOOK
+        Item Data: 0
+        Name: '&6Vote Crate Key'
+        Amount: 2
+        Enchantments:
+        - DURABILITY-1
+        Lore:
+        - "\xa77Right-Click on a \"\xa76Vote\xa77\" crate"
+        - "\xa77to win an item!"
+        - ''
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76Vote Crate Key"
+          lore:
+          - "\xa77Right-Click on a \"\xa76Vote\xa77\" crate"
+          - "\xa77to win an item!"
+          - ''
+          enchants:
+            DURABILITY: 1
+      '13':
+        Type: ITEM
+        Item Type: TRIPWIRE_HOOK
+        Item Data: 0
+        Name: '&eEpic Crate Key'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-1
+        Lore:
+        - "\xa77Right-Click on a \"\xa7eEpic\xa77\" crate"
+        - "\xa77to win an item!"
+        - ''
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eEpic Crate Key"
+          lore:
+          - "\xa77Right-Click on a \"\xa7eEpic\xa77\" crate"
+          - "\xa77to win an item!"
+          - ''
+          enchants:
+            DURABILITY: 1
+      '14':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&6&lFujin Blade &d[&b&l&n8&d]'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-5
+        - DURABILITY-2
+        Lore:
+        - "\xa7aRavenous IV"
+        - "\xa76\xa7oAn electrifyingly twist on an"
+        - "\xa76\xa7ootherwise legendary holy blade."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lFujin Blade \xa7d[\xa7b\xa7l\xa7n8\xa7d]"
+          lore:
+          - "\xa7aRavenous IV"
+          - "\xa76\xa7oAn electrifyingly twist on an"
+          - "\xa76\xa7ootherwise legendary holy blade."
+          enchants:
+            DAMAGE_ALL: 5
+            DURABILITY: 2
+      '15':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&eHeroic Fujin Hat &d[&b&l&n4&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa76Protection I"
+        - "\xa76\xa7oPerfectly stitched with bring embroideries."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eHeroic Fujin Hat \xa7d[\xa7b\xa7l\xa7n4\xa7d]"
+          lore:
+          - "\xa76Protection I"
+          - "\xa76\xa7oPerfectly stitched with bring embroideries."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '16':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&eHeroic Fujin Jacket &d[&b&l&n5&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa76Overload II"
+        - "\xa76\xa7oThe very existence of the medals pinned"
+        - "\xa76\xa7oon your jacket ensure your victory."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eHeroic Fujin Jacket \xa7d[\xa7b\xa7l\xa7n5\xa7d]"
+          lore:
+          - "\xa76Overload II"
+          - "\xa76\xa7oThe very existence of the medals pinned"
+          - "\xa76\xa7oon your jacket ensure your victory."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '17':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&6&lHeroic Fujin Legs &d[&b&l&n6&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa7bCactus I"
+        - "\xa76\xa7oWar has taken its toll on you"
+        - "\xa76\xa7obut you are not one to surrender."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lHeroic Fujin Legs \xa7d[\xa7b\xa7l\xa7n6\xa7d]"
+          lore:
+          - "\xa7bCactus I"
+          - "\xa76\xa7oWar has taken its toll on you"
+          - "\xa76\xa7obut you are not one to surrender."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '18':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&6&lHeroic Boots of Fujin &d[&b&l&n5&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa76Gears I"
+        - "\xa76\xa7oA spoil of war but something"
+        - "\xa76\xa7ois strange about these boots."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lHeroic Boots of Fujin \xa7d[\xa7b\xa7l\xa7n5\xa7\
+            d]"
+          lore:
+          - "\xa76Gears I"
+          - "\xa76\xa7oA spoil of war but something"
+          - "\xa76\xa7ois strange about these boots."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '19':
+        Type: ITEM
+        Item Type: INK_SACK
+        Item Data: 0
+        Name: '&f&lBlack Scroll'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Removes a random enchantment"
+        - "\xa77from an item and converts"
+        - "\xa77it into \xa7frandom%\xa77 success book."
+        - "\xa7fPlace scroll on item to extract."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7f\xa7lBlack Scroll"
+          lore:
+          - "\xa77Removes a random enchantment"
+          - "\xa77from an item and converts"
+          - "\xa77it into \xa7frandom%\xa77 success book."
+          - "\xa7fPlace scroll on item to extract."
+      '20':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&eWhite Scroll'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Prevents an item from being destroyed"
+        - "\xa77due to a failed Enchantment Book."
+        - "\xa7ePlace scroll on item to apply."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eWhite Scroll"
+          lore:
+          - "\xa77Prevents an item from being destroyed"
+          - "\xa77due to a failed Enchantment Book."
+          - "\xa7ePlace scroll on item to apply."
+      '21':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&e&lTransmog Scroll'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Organizes enchants by \xa7e\xa7nrarity\xa77 on item"
+        - "\xa77and adds the \xa7blore \xa7acount \xa77to name."
+        - "\xa7e\xa7oPlace scroll on item to apply."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7e\xa7lTransmog Scroll"
+          lore:
+          - "\xa77Organizes enchants by \xa7e\xa7nrarity\xa77 on item"
+          - "\xa77and adds the \xa7blore \xa7acount \xa77to name."
+          - "\xa7e\xa7oPlace scroll on item to apply."
+      '22':
+        Type: ITEM
+        Item Type: PRISMARINE_SHARD
+        Item Data: 0
+        Name: '&b&lSoulBound'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Protects an item from being lost"
+        - "\xa77from your inventory upon death."
+        - "\xa7bPlace soulbound on item to enchant."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lSoulBound"
+          lore:
+          - "\xa77Protects an item from being lost"
+          - "\xa77from your inventory upon death."
+          - "\xa7bPlace soulbound on item to enchant."
+      '23':
+        Type: ITEM
+        Item Type: ENCHANTED_BOOK
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+  Epic:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: YELLOW
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lCash Note &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa7dCash:\xa7r $25000"
+        - "\xa7dDepositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lCash Note \xa77(Right-Click)"
+          lore:
+          - "\xa7dCash:\xa7r $25000"
+          - "\xa7dDepositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2BIXMEAAKJTY4kTAAAA
+      '2':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lCash Note &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa7dCash:\xa7r $50000"
+        - "\xa7dDepositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lCash Note \xa77(Right-Click)"
+          lore:
+          - "\xa7dCash:\xa7r $50000"
+          - "\xa7dDepositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2A4HMAAABmx+o8TAAAA
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_PICKAXE
+        Item Data: 0
+        Name: '&5&k!&dMystic&5&k!'
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-3
+        - DURABILITY-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa75\xa7k!\xa7dMystic\xa75\xa7k!"
+          enchants:
+            DIG_SPEED: 3
+            DURABILITY: 2
+      '4':
+        Type: ITEM
+        Item Type: IRON_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '5':
+        Type: ITEM
+        Item Type: REDSTONE_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '6':
+        Type: ITEM
+        Item Type: GOLD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '7':
+        Type: ITEM
+        Item Type: EMERALD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '8':
+        Type: ITEM
+        Item Type: DIAMOND_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '9':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&a&lUnique Enchantment Book &7(Right Click)&r'
+        Amount: 5
+        Enchantments: []
+        Lore:
+        - "\xa77Examin to recieve a random"
+        - "\xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lUnique Enchantment Book \xa77(Right Click)\xa7r"
+          lore:
+          - "\xa77Examin to recieve a random"
+          - "\xa77enchantment book."
+      '10':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&b&lElite Enchantment Book &7(Right Click)&r'
+        Amount: 3
+        Enchantments: []
+        Lore:
+        - "\xa77Examin to recieve a random"
+        - "\xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lElite Enchantment Book \xa77(Right Click)\xa7r"
+          lore:
+          - "\xa77Examin to recieve a random"
+          - "\xa77enchantment book."
+      '11':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&e&lUltimate Enchantment Book &7(Right Click)&r'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Examin to recieve a random"
+        - "\xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7e\xa7lUltimate Enchantment Book \xa77(Right Click)\xa7\
+            r"
+          lore:
+          - "\xa77Examin to recieve a random"
+          - "\xa77enchantment book."
+      '12':
+        Type: ITEM
+        Item Type: TRIPWIRE_HOOK
+        Item Data: 0
+        Name: '&eEpic Crate Key'
+        Amount: 2
+        Enchantments:
+        - DURABILITY-1
+        Lore:
+        - "\xa77Right-Click on a \"\xa7eEpic\xa77\" crate"
+        - "\xa77to win an item!"
+        - ''
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eEpic Crate Key"
+          lore:
+          - "\xa77Right-Click on a \"\xa7eEpic\xa77\" crate"
+          - "\xa77to win an item!"
+          - ''
+          enchants:
+            DURABILITY: 1
+      '13':
+        Type: ITEM
+        Item Type: TRIPWIRE_HOOK
+        Item Data: 0
+        Name: '&cHeroic Crate Key'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-1
+        Lore:
+        - "\xa77Right-Click on a \"\xa7cHeroic\xa77\" crate"
+        - "\xa77to win an item!"
+        - ''
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7cHeroic Crate Key"
+          lore:
+          - "\xa77Right-Click on a \"\xa7cHeroic\xa77\" crate"
+          - "\xa77to win an item!"
+          - ''
+          enchants:
+            DURABILITY: 1
+      '14':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&6&lFujin Blade &d[&b&l&n8&d]'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-5
+        - DURABILITY-2
+        Lore:
+        - "\xa7aParalyze IV"
+        - "\xa7aRavenous IV"
+        - "\xa77Headless II"
+        - "\xa76\xa7oAn electrifyingly twist on an"
+        - "\xa76\xa7ootherwise legendary holy blade."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lFujin Blade \xa7d[\xa7b\xa7l\xa7n8\xa7d]"
+          lore:
+          - "\xa7aParalyze IV"
+          - "\xa7aRavenous IV"
+          - "\xa77Headless II"
+          - "\xa76\xa7oAn electrifyingly twist on an"
+          - "\xa76\xa7ootherwise legendary holy blade."
+          enchants:
+            DAMAGE_ALL: 5
+            DURABILITY: 2
+      '15':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&eHeroic Fujin Hat &d[&b&l&n4&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa76Protection I"
+        - "\xa76\xa7oPerfectly stitched with bring embroideries."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eHeroic Fujin Hat \xa7d[\xa7b\xa7l\xa7n4\xa7d]"
+          lore:
+          - "\xa76Protection I"
+          - "\xa76\xa7oPerfectly stitched with bring embroideries."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '16':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&eHeroic Fujin Jacket &d[&b&l&n5&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa76Overload II"
+        - "\xa76Recover I"
+        - "\xa76\xa7oThe very existence of the medals pinned"
+        - "\xa76\xa7oon your jacket ensure your victory."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eHeroic Fujin Jacket \xa7d[\xa7b\xa7l\xa7n5\xa7d]"
+          lore:
+          - "\xa76Overload II"
+          - "\xa76Recover I"
+          - "\xa76\xa7oThe very existence of the medals pinned"
+          - "\xa76\xa7oon your jacket ensure your victory."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '17':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&6&lHeroic Fujin Legs &d[&b&l&n6&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa7bCactus I"
+        - "\xa76Guardians III"
+        - "\xa76Enlightened III"
+        - "\xa76\xa7oWar has taken its toll on you"
+        - "\xa76\xa7obut you are not one to surrender."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lHeroic Fujin Legs \xa7d[\xa7b\xa7l\xa7n6\xa7d]"
+          lore:
+          - "\xa7bCactus I"
+          - "\xa76Guardians III"
+          - "\xa76Enlightened III"
+          - "\xa76\xa7oWar has taken its toll on you"
+          - "\xa76\xa7obut you are not one to surrender."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '18':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&6&lHeroic Boots of Fujin &d[&b&l&n5&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa76Gears I"
+        - "\xa7bUndeadRuse III"
+        - "\xa76\xa7oA spoil of war but something"
+        - "\xa76\xa7ois strange about these boots."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lHeroic Boots of Fujin \xa7d[\xa7b\xa7l\xa7n5\xa7\
+            d]"
+          lore:
+          - "\xa76Gears I"
+          - "\xa7bUndeadRuse III"
+          - "\xa76\xa7oA spoil of war but something"
+          - "\xa76\xa7ois strange about these boots."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '19':
+        Type: ITEM
+        Item Type: INK_SACK
+        Item Data: 0
+        Name: '&f&lBlack Scroll'
+        Amount: 2
+        Enchantments: []
+        Lore:
+        - "\xa77Removes a random enchantment"
+        - "\xa77from an item and converts"
+        - "\xa77it into \xa7frandom%\xa77 success book."
+        - "\xa7fPlace scroll on item to extract."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7f\xa7lBlack Scroll"
+          lore:
+          - "\xa77Removes a random enchantment"
+          - "\xa77from an item and converts"
+          - "\xa77it into \xa7frandom%\xa77 success book."
+          - "\xa7fPlace scroll on item to extract."
+      '20':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&eWhite Scroll'
+        Amount: 2
+        Enchantments: []
+        Lore:
+        - "\xa77Prevents an item from being destroyed"
+        - "\xa77due to a failed Enchantment Book."
+        - "\xa7ePlace scroll on item to apply."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eWhite Scroll"
+          lore:
+          - "\xa77Prevents an item from being destroyed"
+          - "\xa77due to a failed Enchantment Book."
+          - "\xa7ePlace scroll on item to apply."
+      '21':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&e&lTransmog Scroll'
+        Amount: 2
+        Enchantments: []
+        Lore:
+        - "\xa77Organizes enchants by \xa7e\xa7nrarity\xa77 on item"
+        - "\xa77and adds the \xa7blore \xa7acount \xa77to name."
+        - "\xa7e\xa7oPlace scroll on item to apply."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7e\xa7lTransmog Scroll"
+          lore:
+          - "\xa77Organizes enchants by \xa7e\xa7nrarity\xa77 on item"
+          - "\xa77and adds the \xa7blore \xa7acount \xa77to name."
+          - "\xa7e\xa7oPlace scroll on item to apply."
+      '22':
+        Type: ITEM
+        Item Type: PRISMARINE_SHARD
+        Item Data: 0
+        Name: '&b&lSoulBound'
+        Amount: 2
+        Enchantments: []
+        Lore:
+        - "\xa77Protects an item from being lost"
+        - "\xa77from your inventory upon death."
+        - "\xa7bPlace soulbound on item to enchant."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lSoulBound"
+          lore:
+          - "\xa77Protects an item from being lost"
+          - "\xa77from your inventory upon death."
+          - "\xa7bPlace soulbound on item to enchant."
+      '23':
+        Type: ITEM
+        Item Type: ENCHANTED_BOOK
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DAMAGE_ALL: 5
+  Heroic:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: RED
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lCash Note &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa7dCash:\xa7r $60000"
+        - "\xa7dDepositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lCash Note \xa77(Right-Click)"
+          lore:
+          - "\xa7dCash:\xa7r $60000"
+          - "\xa7dDepositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2B4lcAAAIX6IGcTAAAA
+      '2':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lCash Note &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa7dCash:\xa7r $75000"
+        - "\xa7dDepositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lCash Note \xa77(Right-Click)"
+          lore:
+          - "\xa7dCash:\xa7r $75000"
+          - "\xa7dDepositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2BU+cEAALgmNf0TAAAA
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_PICKAXE
+        Item Data: 0
+        Name: '&5&k!&dMystic&5&k!'
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-3
+        - DURABILITY-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa75\xa7k!\xa7dMystic\xa75\xa7k!"
+          enchants:
+            DIG_SPEED: 3
+            DURABILITY: 2
+      '4':
+        Type: ITEM
+        Item Type: IRON_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 48
+        Enchantments: []
+        Lore: []
+      '5':
+        Type: ITEM
+        Item Type: REDSTONE_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 48
+        Enchantments: []
+        Lore: []
+      '6':
+        Type: ITEM
+        Item Type: GOLD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 48
+        Enchantments: []
+        Lore: []
+      '7':
+        Type: ITEM
+        Item Type: DIAMOND_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 48
+        Enchantments: []
+        Lore: []
+      '8':
+        Type: ITEM
+        Item Type: EMERALD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 48
+        Enchantments: []
+        Lore: []
+      '9':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&b&lElite Enchantment Book &7(Right Click)&r'
+        Amount: 5
+        Enchantments: []
+        Lore:
+        - "\xa77Examin to recieve a random"
+        - "\xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lElite Enchantment Book \xa77(Right Click)\xa7r"
+          lore:
+          - "\xa77Examin to recieve a random"
+          - "\xa77enchantment book."
+      '10':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&e&lUltimate Enchantment Book &7(Right Click)&r'
+        Amount: 3
+        Enchantments: []
+        Lore:
+        - "\xa77Examin to recieve a random"
+        - "\xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7e\xa7lUltimate Enchantment Book \xa77(Right Click)\xa7\
+            r"
+          lore:
+          - "\xa77Examin to recieve a random"
+          - "\xa77enchantment book."
+      '11':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&6&lLegendary Enchantment Book &7(Right Click)&r'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Examin to recieve a random"
+        - "\xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lLegendary Enchantment Book \xa77(Right Click)\xa7\
+            r"
+          lore:
+          - "\xa77Examin to recieve a random"
+          - "\xa77enchantment book."
+      '12':
+        Type: ITEM
+        Item Type: TRIPWIRE_HOOK
+        Item Data: 0
+        Name: '&cHeroic Crate Key'
+        Amount: 2
+        Enchantments:
+        - DURABILITY-1
+        Lore:
+        - "\xa77Right-Click on a \"\xa7cHeroic\xa77\" crate"
+        - "\xa77to win an item!"
+        - ''
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7cHeroic Crate Key"
+          lore:
+          - "\xa77Right-Click on a \"\xa7cHeroic\xa77\" crate"
+          - "\xa77to win an item!"
+          - ''
+          enchants:
+            DURABILITY: 1
+      '13':
+        Type: ITEM
+        Item Type: TRIPWIRE_HOOK
+        Item Data: 0
+        Name: '&dArcane Crate Key'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-1
+        Lore:
+        - "\xa77Right-Click on a \"\xa7dArcane\xa77\" crate"
+        - "\xa77to win an item!"
+        - ''
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7dArcane Crate Key"
+          lore:
+          - "\xa77Right-Click on a \"\xa7dArcane\xa77\" crate"
+          - "\xa77to win an item!"
+          - ''
+          enchants:
+            DURABILITY: 1
+      '14':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&6&lFujin Blade &d[&b&l&n8&d]'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-5
+        - DURABILITY-2
+        Lore:
+        - "\xa7aParalyze IV"
+        - "\xa7aRavenous IV"
+        - "\xa76Inquisitive II"
+        - "\xa77Headless II"
+        - "\xa76Lifesteal I"
+        - "\xa7aFeatherweight III"
+        - "\xa76\xa7oAn electrifyingly twist on an"
+        - "\xa76\xa7ootherwise legendary holy blade."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lFujin Blade \xa7d[\xa7b\xa7l\xa7n8\xa7d]"
+          lore:
+          - "\xa7aParalyze IV"
+          - "\xa7aRavenous IV"
+          - "\xa76Inquisitive II"
+          - "\xa77Headless II"
+          - "\xa76Lifesteal I"
+          - "\xa7aFeatherweight III"
+          - "\xa76\xa7oAn electrifyingly twist on an"
+          - "\xa76\xa7ootherwise legendary holy blade."
+          enchants:
+            DAMAGE_ALL: 5
+            DURABILITY: 2
+      '15':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&eHeroic Fujin Hat &d[&b&l&n4&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa76Protection I"
+        - "\xa7bFrozen I"
+        - "\xa76\xa7oPerfectly stitched with bring embroideries."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eHeroic Fujin Hat \xa7d[\xa7b\xa7l\xa7n4\xa7d]"
+          lore:
+          - "\xa76Protection I"
+          - "\xa7bFrozen I"
+          - "\xa76\xa7oPerfectly stitched with bring embroideries."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '16':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&eHeroic Fujin Jacket &d[&b&l&n5&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa7eLeadership I"
+        - "\xa76Overload II"
+        - "\xa76Recover I"
+        - "\xa76\xa7oThe very existence of the medals pinned"
+        - "\xa76\xa7oon your jacket ensure your victory."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eHeroic Fujin Jacket \xa7d[\xa7b\xa7l\xa7n5\xa7d]"
+          lore:
+          - "\xa7eLeadership I"
+          - "\xa76Overload II"
+          - "\xa76Recover I"
+          - "\xa76\xa7oThe very existence of the medals pinned"
+          - "\xa76\xa7oon your jacket ensure your victory."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '17':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&6&lHeroic Fujin Legs &d[&b&l&n6&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa7eArmored I"
+        - "\xa7bCactus I"
+        - "\xa76Guardians III"
+        - "\xa76Enlightened III"
+        - "\xa76\xa7oWar has taken its toll on you"
+        - "\xa76\xa7obut you are not one to surrender."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lHeroic Fujin Legs \xa7d[\xa7b\xa7l\xa7n6\xa7d]"
+          lore:
+          - "\xa7eArmored I"
+          - "\xa7bCactus I"
+          - "\xa76Guardians III"
+          - "\xa76Enlightened III"
+          - "\xa76\xa7oWar has taken its toll on you"
+          - "\xa76\xa7obut you are not one to surrender."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '18':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&6&lHeroic Boots of Fujin &d[&b&l&n5&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa76Gears I"
+        - "\xa76Destruction II"
+        - "\xa7bUndeadRuse III"
+        - "\xa76\xa7oA spoil of war but something"
+        - "\xa76\xa7ois strange about these boots."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lHeroic Boots of Fujin \xa7d[\xa7b\xa7l\xa7n5\xa7\
+            d]"
+          lore:
+          - "\xa76Gears I"
+          - "\xa76Destruction II"
+          - "\xa7bUndeadRuse III"
+          - "\xa76\xa7oA spoil of war but something"
+          - "\xa76\xa7ois strange about these boots."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '19':
+        Type: ITEM
+        Item Type: INK_SACK
+        Item Data: 0
+        Name: '&f&lBlack Scroll'
+        Amount: 3
+        Enchantments: []
+        Lore:
+        - "\xa77Removes a random enchantment"
+        - "\xa77from an item and converts"
+        - "\xa77it into \xa7frandom%\xa77 success book."
+        - "\xa7fPlace scroll on item to extract."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7f\xa7lBlack Scroll"
+          lore:
+          - "\xa77Removes a random enchantment"
+          - "\xa77from an item and converts"
+          - "\xa77it into \xa7frandom%\xa77 success book."
+          - "\xa7fPlace scroll on item to extract."
+      '20':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&eWhite Scroll'
+        Amount: 3
+        Enchantments: []
+        Lore:
+        - "\xa77Prevents an item from being destroyed"
+        - "\xa77due to a failed Enchantment Book."
+        - "\xa7ePlace scroll on item to apply."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eWhite Scroll"
+          lore:
+          - "\xa77Prevents an item from being destroyed"
+          - "\xa77due to a failed Enchantment Book."
+          - "\xa7ePlace scroll on item to apply."
+      '21':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&e&lTransmog Scroll'
+        Amount: 3
+        Enchantments: []
+        Lore:
+        - "\xa77Organizes enchants by \xa7e\xa7nrarity\xa77 on item"
+        - "\xa77and adds the \xa7blore \xa7acount \xa77to name."
+        - "\xa7e\xa7oPlace scroll on item to apply."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7e\xa7lTransmog Scroll"
+          lore:
+          - "\xa77Organizes enchants by \xa7e\xa7nrarity\xa77 on item"
+          - "\xa77and adds the \xa7blore \xa7acount \xa77to name."
+          - "\xa7e\xa7oPlace scroll on item to apply."
+      '22':
+        Type: ITEM
+        Item Type: PRISMARINE_SHARD
+        Item Data: 0
+        Name: '&b&lSoulBound'
+        Amount: 3
+        Enchantments: []
+        Lore:
+        - "\xa77Protects an item from being lost"
+        - "\xa77from your inventory upon death."
+        - "\xa7bPlace soulbound on item to enchant."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lSoulBound"
+          lore:
+          - "\xa77Protects an item from being lost"
+          - "\xa77from your inventory upon death."
+          - "\xa7bPlace soulbound on item to enchant."
+      '23':
+        Type: ITEM
+        Item Type: ENCHANTED_BOOK
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_DAMAGE: 5
+  Arcane:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: LIGHT_PURPLE
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lCash Note &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa7dCash:\xa7r $85000"
+        - "\xa7dDepositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lCash Note \xa77(Right-Click)"
+          lore:
+          - "\xa7dCash:\xa7r $85000"
+          - "\xa7dDepositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2D04WAAAJ1dTa8TAAAA
+      '2':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lCash Note &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa7dCash:\xa7r $100000"
+        - "\xa7dDepositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lCash Note \xa77(Right-Click)"
+          lore:
+          - "\xa7dCash:\xa7r $100000"
+          - "\xa7dDepositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2BsW8AAAOp4q1UTAAAA
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_PICKAXE
+        Item Data: 0
+        Name: '&3&k!&bArken&3&k!'
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-5
+        - DURABILITY-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa73\xa7k!\xa7bArken\xa73\xa7k!"
+          enchants:
+            DIG_SPEED: 5
+            DURABILITY: 3
+      '4':
+        Type: ITEM
+        Item Type: IRON_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '5':
+        Type: ITEM
+        Item Type: REDSTONE_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '6':
+        Type: ITEM
+        Item Type: GOLD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '7':
+        Type: ITEM
+        Item Type: EMERALD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '8':
+        Type: ITEM
+        Item Type: DIAMOND_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '9':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&e&lUltimate Enchantment Book &7(Right Click)&r'
+        Amount: 5
+        Enchantments: []
+        Lore:
+        - "\xa77Examin to recieve a random"
+        - "\xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7e\xa7lUltimate Enchantment Book \xa77(Right Click)\xa7\
+            r"
+          lore:
+          - "\xa77Examin to recieve a random"
+          - "\xa77enchantment book."
+      '10':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&6&lLegendary Enchantment Book &7(Right Click)&r'
+        Amount: 8
+        Enchantments: []
+        Lore:
+        - "\xa77Examin to recieve a random"
+        - "\xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lLegendary Enchantment Book \xa77(Right Click)\xa7\
+            r"
+          lore:
+          - "\xa77Examin to recieve a random"
+          - "\xa77enchantment book."
+      '11':
+        Type: ITEM
+        Item Type: TRIPWIRE_HOOK
+        Item Data: 0
+        Name: '&dArcane Crate Key'
+        Amount: 2
+        Enchantments:
+        - DURABILITY-1
+        Lore:
+        - "\xa77Right-Click on a \"\xa7dArcane\xa77\" crate"
+        - "\xa77to win an item!"
+        - ''
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7dArcane Crate Key"
+          lore:
+          - "\xa77Right-Click on a \"\xa7dArcane\xa77\" crate"
+          - "\xa77to win an item!"
+          - ''
+          enchants:
+            DURABILITY: 1
+      '12':
+        Type: ITEM
+        Item Type: TRIPWIRE_HOOK
+        Item Data: 0
+        Name: '&cHeroic Crate Key'
+        Amount: 3
+        Enchantments:
+        - DURABILITY-1
+        Lore:
+        - "\xa77Right-Click on a \"\xa7cHeroic\xa77\" crate"
+        - "\xa77to win an item!"
+        - ''
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7cHeroic Crate Key"
+          lore:
+          - "\xa77Right-Click on a \"\xa7cHeroic\xa77\" crate"
+          - "\xa77to win an item!"
+          - ''
+          enchants:
+            DURABILITY: 1
+      '13':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&eHeroic Fujin Hat &d[&b&l&n4&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa7eDemonforged III"
+        - "\xa76Protection I"
+        - "\xa76Enlightened II"
+        - "\xa7bFrozen II"
+        - "\xa76\xa7oPerfectly stitched with bring embroideries."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eHeroic Fujin Hat \xa7d[\xa7b\xa7l\xa7n4\xa7d]"
+          lore:
+          - "\xa7eDemonforged III"
+          - "\xa76Protection I"
+          - "\xa76Enlightened II"
+          - "\xa7bFrozen II"
+          - "\xa76\xa7oPerfectly stitched with bring embroideries."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '14':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&eHeroic Fujin Jacket &d[&b&l&n5&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa7eLeadership I"
+        - "\xa7aCommander I"
+        - "\xa76Deathbringer II"
+        - "\xa76Overload II"
+        - "\xa76Recover II"
+        - "\xa76\xa7oThe very existence of the medals pinned"
+        - "\xa76\xa7oon your jacket ensure your victory."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eHeroic Fujin Jacket \xa7d[\xa7b\xa7l\xa7n5\xa7d]"
+          lore:
+          - "\xa7eLeadership I"
+          - "\xa7aCommander I"
+          - "\xa76Deathbringer II"
+          - "\xa76Overload II"
+          - "\xa76Recover II"
+          - "\xa76\xa7oThe very existence of the medals pinned"
+          - "\xa76\xa7oon your jacket ensure your victory."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '15':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&6&lHeroic Fujin Legs &d[&b&l&n6&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa7eArmored I"
+        - "\xa7bNutrition I"
+        - "\xa7bCactus I"
+        - "\xa76Guardians II"
+        - "\xa76Enlightened II"
+        - "\xa7aFury II"
+        - "\xa76\xa7oWar has taken its toll on you"
+        - "\xa76\xa7obut you are not one to surrender."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lHeroic Fujin Legs \xa7d[\xa7b\xa7l\xa7n6\xa7d]"
+          lore:
+          - "\xa7eArmored I"
+          - "\xa7bNutrition I"
+          - "\xa7bCactus I"
+          - "\xa76Guardians II"
+          - "\xa76Enlightened II"
+          - "\xa7aFury II"
+          - "\xa76\xa7oWar has taken its toll on you"
+          - "\xa76\xa7obut you are not one to surrender."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '16':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&6&lHeroic Boots of Fujin &d[&b&l&n5&d]'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - "\xa76Gears II"
+        - "\xa76Destruction II"
+        - "\xa7bUndeadRuse II"
+        - "\xa7eAngelic V"
+        - "\xa7bSprings I"
+        - "\xa76\xa7oA spoil of war but something"
+        - "\xa76\xa7ois strange about these boots."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lHeroic Boots of Fujin \xa7d[\xa7b\xa7l\xa7n5\xa7\
+            d]"
+          lore:
+          - "\xa76Gears II"
+          - "\xa76Destruction II"
+          - "\xa7bUndeadRuse II"
+          - "\xa7eAngelic V"
+          - "\xa7bSprings I"
+          - "\xa76\xa7oA spoil of war but something"
+          - "\xa76\xa7ois strange about these boots."
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '17':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&6&lFujin Blade &d[&b&l&n8&d]'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-5
+        - DURABILITY-2
+        Lore:
+        - "\xa7eSilence I"
+        - "\xa7aParalyze II"
+        - "\xa7aRavenous III"
+        - "\xa76Inquisitive I"
+        - "\xa76DoubleStrike II"
+        - "\xa77Headless II"
+        - "\xa76Lifesteal I"
+        - "\xa7aFeatherweight III"
+        - "\xa76\xa7oAn electrifyingly twist on an"
+        - "\xa76\xa7ootherwise legendary holy blade."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lFujin Blade \xa7d[\xa7b\xa7l\xa7n8\xa7d]"
+          lore:
+          - "\xa7eSilence I"
+          - "\xa7aParalyze II"
+          - "\xa7aRavenous III"
+          - "\xa76Inquisitive I"
+          - "\xa76DoubleStrike II"
+          - "\xa77Headless II"
+          - "\xa76Lifesteal I"
+          - "\xa7aFeatherweight III"
+          - "\xa76\xa7oAn electrifyingly twist on an"
+          - "\xa76\xa7ootherwise legendary holy blade."
+          enchants:
+            DAMAGE_ALL: 5
+            DURABILITY: 2
+      '18':
+        Type: ITEM
+        Item Type: INK_SACK
+        Item Data: 0
+        Name: '&f&lBlack Scroll'
+        Amount: 5
+        Enchantments: []
+        Lore:
+        - "\xa77Removes a random enchantment"
+        - "\xa77from an item and converts"
+        - "\xa77it into \xa7frandom%\xa77 success book."
+        - "\xa7fPlace scroll on item to extract."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7f\xa7lBlack Scroll"
+          lore:
+          - "\xa77Removes a random enchantment"
+          - "\xa77from an item and converts"
+          - "\xa77it into \xa7frandom%\xa77 success book."
+          - "\xa7fPlace scroll on item to extract."
+      '19':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&eWhite Scroll'
+        Amount: 5
+        Enchantments: []
+        Lore:
+        - "\xa77Prevents an item from being destroyed"
+        - "\xa77due to a failed Enchantment Book."
+        - "\xa7ePlace scroll on item to apply."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eWhite Scroll"
+          lore:
+          - "\xa77Prevents an item from being destroyed"
+          - "\xa77due to a failed Enchantment Book."
+          - "\xa7ePlace scroll on item to apply."
+      '20':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&e&lTransmog Scroll'
+        Amount: 5
+        Enchantments: []
+        Lore:
+        - "\xa77Organizes enchants by \xa7e\xa7nrarity\xa77 on item"
+        - "\xa77and adds the \xa7blore \xa7acount \xa77to name."
+        - "\xa7e\xa7oPlace scroll on item to apply."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7e\xa7lTransmog Scroll"
+          lore:
+          - "\xa77Organizes enchants by \xa7e\xa7nrarity\xa77 on item"
+          - "\xa77and adds the \xa7blore \xa7acount \xa77to name."
+          - "\xa7e\xa7oPlace scroll on item to apply."
+      '21':
+        Type: ITEM
+        Item Type: PRISMARINE_SHARD
+        Item Data: 0
+        Name: '&b&lSoulBound'
+        Amount: 5
+        Enchantments: []
+        Lore:
+        - "\xa77Protects an item from being lost"
+        - "\xa77from your inventory upon death."
+        - "\xa7bPlace soulbound on item to enchant."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lSoulBound"
+          lore:
+          - "\xa77Protects an item from being lost"
+          - "\xa77from your inventory upon death."
+          - "\xa7bPlace soulbound on item to enchant."
+      '22':
+        Type: ITEM
+        Item Type: ENCHANTED_BOOK
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DEPTH_STRIDER: 3

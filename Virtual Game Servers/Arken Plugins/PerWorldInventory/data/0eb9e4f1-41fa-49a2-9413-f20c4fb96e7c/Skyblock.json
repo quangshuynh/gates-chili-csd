@@ -1,0 +1,36 @@
+{
+     "ender-chest": [],
+     "stats": {
+          "saturation": 10,
+          "potion-effects": "1:2147482965:0;",
+          "can-fly": false,
+          "level": 0,
+          "flying": false,
+          "exhaustion": 3.4598937034606934,
+          "health": 20,
+          "exp": 0,
+          "food": 20
+     },
+     "data-format": 1,
+     "inventory": {
+          "armor": [
+               {
+                    "item": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAN0AAI9\r\nPXQABHR5cGV0AARtZXRhdXEAfgAGAAAAA3QAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFj\r\na3QADURJQU1PTkRfQk9PVFNzcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAh0AAltZXRhLXR5cGV0\r\nAAxkaXNwbGF5LW5hbWV0AARsb3JldAAIZW5jaGFudHN1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApV\r\nTlNQRUNJRklDdAAuwqc2wqdsSGVyb2ljIEJvb3RzIG9mIEZ1amluIMKnZFvCp2LCp2zCp241wqdk\r\nXXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZv\r\ncm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzcQB+AAR4cHVxAH4ABgAAAAV0AArCpzZHZWFycyBJdAAR\r\nwqc2RGVzdHJ1Y3Rpb24gSUl0ABHCp2JVbmRlYWRSdXNlIElJSXQAIsKnNsKnb0Egc3BvaWwgb2Yg\r\nd2FyIGJ1dCBzb21ldGhpbmd0ACPCpzbCp29pcyBzdHJhbmdlIGFib3V0IHRoZXNlIGJvb3RzLnNx\r\nAH4AA3VxAH4ABgAAAAJ0ABhQUk9URUNUSU9OX0VOVklST05NRU5UQUx0AApEVVJBQklMSVRZdXEA\r\nfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5s\r\nYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgAmAAAAAw==\r\n",
+                    "index": 0
+               },
+               {
+                    "item": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9\r\nPXQABHR5cGV0AAZkYW1hZ2V0AAZhbW91bnR1cQB+AAYAAAAEdAAeb3JnLmJ1a2tpdC5pbnZlbnRv\r\ncnkuSXRlbVN0YWNrdAADQUlSc3IAD2phdmEubGFuZy5TaG9ydGhNNxM0YNpSAgABUwAFdmFsdWV4\r\ncgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHD//3NyABFqYXZhLmxhbmcuSW50ZWdlchLi\r\noKT3gYc4AgABSQAFdmFsdWV4cQB+ABAAAAAA\r\n",
+                    "index": 1
+               },
+               {
+                    "item": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9\r\nPXQABHR5cGV0AAZkYW1hZ2V0AAZhbW91bnR1cQB+AAYAAAAEdAAeb3JnLmJ1a2tpdC5pbnZlbnRv\r\ncnkuSXRlbVN0YWNrdAADQUlSc3IAD2phdmEubGFuZy5TaG9ydGhNNxM0YNpSAgABUwAFdmFsdWV4\r\ncgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHD//3NyABFqYXZhLmxhbmcuSW50ZWdlchLi\r\noKT3gYc4AgABSQAFdmFsdWV4cQB+ABAAAAAA\r\n",
+                    "index": 2
+               },
+               {
+                    "item": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9\r\nPXQABHR5cGV0AAZkYW1hZ2V0AAZhbW91bnR1cQB+AAYAAAAEdAAeb3JnLmJ1a2tpdC5pbnZlbnRv\r\ncnkuSXRlbVN0YWNrdAADQUlSc3IAD2phdmEubGFuZy5TaG9ydGhNNxM0YNpSAgABUwAFdmFsdWV4\r\ncgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHD//3NyABFqYXZhLmxhbmcuSW50ZWdlchLi\r\noKT3gYc4AgABSQAFdmFsdWV4cQB+ABAAAAAA\r\n",
+                    "index": 3
+               }
+          ],
+          "inventory": []
+     }
+}

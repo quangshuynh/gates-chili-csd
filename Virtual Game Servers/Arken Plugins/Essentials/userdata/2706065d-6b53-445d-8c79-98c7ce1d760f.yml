@@ -1,0 +1,21 @@
+geolocation: United States
+lastAccountName: Addman1
+timestamps:
+  login: 1535168603249
+  lastteleport: 1535168646987
+  logout: 1535168714920
+ipAddress: 99.93.106.75
+lastlocation:
+  world: Lobby2
+  x: -91.83422135120345
+  y: 98.5
+  z: 38.84952402395563
+  yaw: 281.63727
+  pitch: 16.453896
+logoutlocation:
+  world: SkyblockLobby
+  x: -509.23750001192093
+  y: 145.0
+  z: 877.8949922127374
+  yaw: -94.053246
+  pitch: 24.971365

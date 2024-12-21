@@ -1,0 +1,21 @@
+geolocation: United States
+lastAccountName: xQuackie
+timestamps:
+  login: 1535160595118
+  lastteleport: 1535160600482
+  logout: 1535160603904
+ipAddress: 67.180.48.251
+lastlocation:
+  world: Lobby2
+  x: -68.5796156023526
+  y: 86.0
+  z: 0.031216272901908815
+  yaw: -6.7534475
+  pitch: 26.28369
+logoutlocation:
+  world: SkyblockLobby
+  x: -534.5418721659516
+  y: 148.78502770378924
+  z: 909.9868694627319
+  yaw: 1.082611
+  pitch: 32.75896

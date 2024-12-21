@@ -1,0 +1,23 @@
+lastAccountName: Jujuthered
+timestamps:
+  login: 1535241702260
+  lastteleport: 1535242351416
+  logout: 1535242388914
+  kits:
+    starter: 1535241797909
+ipAddress: 24.163.31.58
+geolocation: United States
+lastlocation:
+  world: Lobby2
+  x: -69.01221454340988
+  y: 84.65658248110962
+  z: -31.320423416810247
+  yaw: -180.61873
+  pitch: -29.140322
+logoutlocation:
+  world: SkyblockLobby
+  x: -535.5515842320514
+  y: 149.0
+  z: 898.836580315429
+  yaw: 209.72345
+  pitch: -10.7179365

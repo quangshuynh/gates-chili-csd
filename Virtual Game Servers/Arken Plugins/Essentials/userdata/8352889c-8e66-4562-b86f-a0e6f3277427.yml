@@ -1,0 +1,23 @@
+geolocation: Bulgaria
+lastAccountName: xZakaPvP
+timestamps:
+  login: 1535187991661
+  lastteleport: 1535188041772
+  kits:
+    starter: 1535188009646
+  logout: 1535188043439
+ipAddress: 77.78.133.88
+lastlocation:
+  world: ASkyBlock
+  x: 400.46841549691453
+  y: 120.0
+  z: -1200.7891030874944
+  yaw: -236.24997
+  pitch: 17.999996
+logoutlocation:
+  world: SkyblockLobby
+  x: -534.5
+  y: 149.0
+  z: 898.5
+  yaw: 0.90008545
+  pitch: 4.6500154

@@ -1,0 +1,20 @@
+geolocation: United States
+lastAccountName: LoupiqueALT
+timestamps:
+  login: 1535168563291
+  logout: 1535168569032
+ipAddress: 138.87.27.173
+lastlocation:
+  world: world
+  x: 0.0
+  y: 62.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: Lobby2
+  x: -69.5
+  y: 86.0
+  z: -8.5
+  yaw: -1.1861324E-6
+  pitch: -6.4499993

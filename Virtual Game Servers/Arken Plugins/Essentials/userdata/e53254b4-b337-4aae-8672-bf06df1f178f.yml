@@ -1,0 +1,24 @@
+geolocation: Netherlands
+lastAccountName: xKevinx
+timestamps:
+  login: 1535215751197
+  lastteleport: 1535216211170
+  kits:
+    starter: 1535215792950
+  logout: 1535217116650
+ipAddress: 81.204.163.208
+lastlocation:
+  world: ASkyBlock
+  x: -398.98781703378535
+  y: 122.0
+  z: 373.0511570405681
+  yaw: 11.961517
+  pitch: 17.375263
+money: '1605.0'
+logoutlocation:
+  world: ASkyBlock
+  x: -395.5125649045487
+  y: 122.0
+  z: 378.13953157940796
+  yaw: 27.346191
+  pitch: 14.899149

@@ -1,0 +1,24 @@
+skyblock:
+  location: lobby, 0.517, 12.000, -4.481
+  lines:
+  - '&9&k!&bSkyblock&9&k!'
+survival:
+  location: lobby, 0.505, 12.000, 5.471
+  lines:
+  - '&2&k!&aSurvival&2&k!'
+factions:
+  location: lobby, -4.485, 12.000, 0.497
+  lines:
+  - '&4&k!&cFactions&4&k!'
+prisons:
+  location: lobby, 5.527, 12.000, 0.520
+  lines:
+  - '&6&k!&ePrisons&6&k!'
+sbpvp2:
+  location: SkyblockLobby, -547.882, 147.058, 870.711
+  lines:
+  - '&4&l&k!&c&lPVP ARENA&4&l&k!'
+sbpvp1:
+  location: SkyblockLobby, -529.203, 147.000, 870.481
+  lines:
+  - '&4&l&k!&c&lPVP ARENA&4&l&k!'

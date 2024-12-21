@@ -1,0 +1,20 @@
+geolocation: United States
+lastAccountName: 4n4
+timestamps:
+  login: 1535214570772
+  logout: 1535214596860
+ipAddress: 73.107.221.190
+lastlocation:
+  world: world
+  x: 0.0
+  y: 62.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: Lobby2
+  x: -69.5
+  y: 86.0
+  z: -8.5
+  yaw: 181.43361
+  pitch: -6.4499993

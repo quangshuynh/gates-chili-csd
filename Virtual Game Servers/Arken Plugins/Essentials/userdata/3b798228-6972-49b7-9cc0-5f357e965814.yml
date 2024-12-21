@@ -1,0 +1,22 @@
+geolocation: United States
+lastAccountName: Draglann
+timestamps:
+  login: 1535243883850
+  logout: 1535244381819
+  lastteleport: 1535243892855
+ipAddress: 97.94.14.114
+lastlocation:
+  world: Lobby2
+  x: -71.79729651112798
+  y: 86.0
+  z: -4.904005241307428
+  yaw: -292.2235
+  pitch: 0.3650508
+logoutlocation:
+  world: ASkyBlock
+  x: -401.87800091071676
+  y: 118.0
+  z: -799.504299576079
+  yaw: 231.07745
+  pitch: 15.317287
+money: '11886.0'

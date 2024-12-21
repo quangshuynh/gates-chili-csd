@@ -1,0 +1,49 @@
+Items:
+  UpgradeTier:
+    #What you want the <item> to be when you use the command to spawn the item in. (Not case sensitive.)
+    CommandName: 'TierUpgrade'
+    ItemType: 'NETHER_STAR'
+    Name: '&a&lSpawner Tier Upgrade'
+    Lore:
+      - "&7Right click your spawner"
+      - "&7with this item to increase"
+      - "&7the spawner's tier!"
+    Cost: '10000'
+    #Either money or exp.
+    Currency: 'money'
+  UpgradeAmount:
+    #What you want the <item> to be when you use the command to spawn the item in. (Not case sensitive.)
+    CommandName: 'AmountUpgrade'
+    ItemType: 'HOPPER'
+    Name: '&a&lSpawner Amount Upgrade'
+    Lore:
+      - "&7Right click your spawner"
+      - "&7with this item to increase"
+      - "&7the spawn amount!"
+    Cost: '10000'
+    #Either money or exp.
+    Currency: 'money'
+  UpgradeDelay:
+    #What you want the <item> to be when you use the command to spawn the item in. (Not case sensitive.)
+    CommandName: 'DelayUpgrade'
+    ItemType: 'WATCH'
+    Name: '&a&lSpawner Delay Upgrade'
+    Lore:
+      - "&7Right click your spawner"
+      - "&7with this item to decrease"
+      - "&7the spawn delay!"
+    Cost: '10000'
+    #Either money or exp.
+    Currency: 'money'
+  UpgradeRange:
+    #What you want the <item> to be when you use the command to spawn the item in. (Not case sensitive.)
+    CommandName: 'RangeUpgrade'
+    ItemType: 'COMPASS'
+    Name: '&a&lSpawner Range Upgrade'
+    Lore:
+      - "&7Right click your spawner"
+      - "&7with this item to increase"
+      - "&7the spawn range!"
+    Cost: '10000'
+    #Either money or exp.
+    Currency: 'money'

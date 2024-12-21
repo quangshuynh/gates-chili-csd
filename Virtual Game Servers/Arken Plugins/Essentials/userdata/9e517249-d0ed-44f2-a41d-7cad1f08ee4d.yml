@@ -1,0 +1,23 @@
+lastAccountName: Randomized
+timestamps:
+  login: 1535216135316
+  lastteleport: 1535216141678
+  kits:
+    starter: 1535216303191
+  logout: 1535216626346
+ipAddress: 67.70.23.88
+geolocation: Canada
+lastlocation:
+  world: Lobby2
+  x: -71.02738833561936
+  y: 84.5
+  z: 11.86927657067174
+  yaw: 5.3907824
+  pitch: -0.7379246
+logoutlocation:
+  world: SkyblockLobby
+  x: -531.9733815148029
+  y: 145.0
+  z: 860.8102920283147
+  yaw: 183.96289
+  pitch: 13.218223

@@ -1,0 +1,22 @@
+geolocation: Norway
+lastAccountName: Lounged
+timestamps:
+  login: 1535153713991
+  lastteleport: 1535154805739
+  logout: 1535154990526
+ipAddress: 84.215.216.66
+lastlocation:
+  world: SkyblockLobby
+  x: -533.3016104923852
+  y: 149.0
+  z: 899.8888139060928
+  yaw: 194.40028
+  pitch: 8.400039
+logoutlocation:
+  world: SkyblockLobby
+  x: -532.005023378648
+  y: 149.0625
+  z: 900.674095587651
+  yaw: 65.55026
+  pitch: 22.650028
+money: '8800.00999999999000000000001'

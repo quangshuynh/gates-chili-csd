@@ -1,0 +1,114 @@
+# SuperbVote configuration
+# A superb vote plugin made by Tux.
+#
+# https://github.com/minecrafter/SuperbVote/wiki
+
+# Once you've configured SuperbVote, add it to our official server list, CraftServers.net:
+# Official server list: https://www.craftservers.net/
+
+# Database configuration.
+storage:
+  database: json
+  json:
+    file: votes.json
+  mysql:
+    host: 127.0.0.1
+    username: root
+    password: topsecret
+    database: superbvote
+    table: votes
+    read-only: false
+
+# General vote configuration.
+votes:
+  # At least this many seconds must pass before allowing another vote (per-service). This will apply per service.
+  # Default: 3600 seconds (1 hour)
+  cooldown-per-service: 3600
+
+  # Whether or not to treat fake votes as real votes
+  process-fake-votes: true
+
+# Rewards. This is the main section you will need to edit. Ordering is important.
+rewards:
+  # Example of matchers. See https://github.com/minecrafter/SuperbVote/wiki/Configuration#if for a full list of available
+  # matchers.
+  - if:
+      permission: superbvote.lucky
+      chance-percentage: 25
+      service: SpecialService
+    commands:
+    - crates key %player% vote 5
+    - crates key %player% arcane 1
+    - eco give %player% 15000
+    player-message: "&aThanks for meeting nearly impossible conditions, you have been rewarded with $15,000&f, &d1 Arcane Key&f, and &65 Vote Keys."
+    broadcast-message: "&3&l%player% &fhit the jackpot and recieved &a$15,000&f, &d1 Arcane Key&f, and &65 Vote Keys &fby voting on Skyblock."
+  # A default reward is required. Default rewards are defined by using default: true as a matcher. No other matchers can
+  # be used with this matcher and only one such reward can be the default reward.
+  - if:
+      default: true
+    commands:
+    - crates key %player% vote 1
+    - eco give %player% 5000
+    player-message: "&aThanks for voting for us on %service%, you have been rewarded with $5,000 and a Vote key."
+    broadcast-message: "&3%player% &fhas voted and recieved &a$5,000&f and &61 Vote Key&f for voting on Skyblock."
+
+# Whether or not players need to be online to vote. If set, offline player votes are queued for when the player next logs in.
+require-online: false
+
+# Broadcast settings:
+broadcast:
+  # Should we broadcast votes at all?
+  enabled: true
+
+  # Should we tell players if they voted?
+  message-player: false
+
+  # Should we broadcast queued votes?
+  queued: true
+
+# Vote command.
+# See http://www.minecraftforum.net/forums/minecraft-discussion/redstone-discussion-and/351959-1-9-json-text-component-for-tellraw-title-books
+# and https://www.minecraftjson.com for json text format
+vote-command:
+  enabled: true
+  use-json-text: false
+  text: |-
+    &fVote to get &a$5,000 &fand &6One Vote Key&f! You can possibly get a chance to win &a$15,000 &fas well!
+    &3http://bit.ly/arkenvote1
+    &bhttp://bit.ly/arkenvote2
+    &3http://bit.ly/arkenvote3
+    &bhttp://bit.ly/arkenvote4
+    &3http://bit.ly/arkenvote5
+    &bhttp://bit.ly/arkenvote6
+    &3http://bit.ly/arkenvote7
+
+# Vote reminder.
+vote-reminder:
+  message: "&8[&3Arken&8] &fDon't forget to &cvote &ffor us&c! &fYou currently have &a%votes%&f votes."
+  on-join: true
+  repeat: 180
+
+# Controls the /sv <top/leaderboard> command.
+leaderboard:
+  # Supported: text, scoreboard
+  display: text
+
+  # The text format supports pagination.
+  text:
+    per-page: 10
+    header: "&c&m         &r&b Top Voters &r&c&m         &r"
+    entry: "&e%num%. &7%player% (&e%votes%&7 votes)"
+    page: "&7(page %page%/%total%)"
+
+  # Control the scoreboard.
+  scoreboard:
+    title: Top voters
+    max: 10
+
+# Control top player signs.
+top-player-signs:
+  format:
+  - "#%num%"
+  - ""
+  - "%player%"
+  - "&l%votes% &rvotes"

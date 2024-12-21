@@ -1,0 +1,24 @@
+geolocation: United Kingdom
+lastAccountName: MCcreative1
+timestamps:
+  login: 1535171513053
+  lastteleport: 1535171515513
+  kits:
+    starter: 1535170818542
+  logout: 1535171530493
+ipAddress: 81.110.135.191
+lastlocation:
+  world: Lobby2
+  x: -70.0
+  y: 86.0
+  z: -9.0
+  yaw: 3.0
+  pitch: -6.15
+money: '15000'
+logoutlocation:
+  world: SkyblockLobby
+  x: -591.0802847051207
+  y: 205.0750196542782
+  z: 850.5765002736614
+  yaw: 138.42683
+  pitch: 62.19622

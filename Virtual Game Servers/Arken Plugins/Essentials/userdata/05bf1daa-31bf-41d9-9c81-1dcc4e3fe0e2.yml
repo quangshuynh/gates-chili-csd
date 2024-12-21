@@ -1,0 +1,21 @@
+lastAccountName: iWasted
+timestamps:
+  login: 1535243791953
+  lastteleport: 1535243795296
+  logout: 1535244099998
+ipAddress: 73.231.126.175
+geolocation: United States
+lastlocation:
+  world: Lobby2
+  x: -70.02651975750632
+  y: 86.0
+  z: -0.631426871381905
+  yaw: 0.8744674
+  pitch: 13.99148
+logoutlocation:
+  world: Lobby2
+  x: -67.43741107426192
+  y: 86.0
+  z: -10.574531316694136
+  yaw: 206.2771
+  pitch: 11.922609

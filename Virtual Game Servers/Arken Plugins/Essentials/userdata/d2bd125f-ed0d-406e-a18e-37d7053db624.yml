@@ -1,0 +1,25 @@
+geolocation: United States
+lastAccountName: STW_Myth
+timestamps:
+  login: 1535243470305
+  lastteleport: 1535242269437
+  kits:
+    starter: 1535167258497
+  logout: 1535244187101
+ipAddress: 162.195.101.47
+lastlocation:
+  world: Lobby2
+  x: -69.5006674386074
+  y: 86.0
+  z: -4.996623460872195
+  yaw: -1.2000011
+  pitch: -6.4499993
+money: '108504.093750'
+logoutlocation:
+  world: Lobby2
+  x: -92.5679256040597
+  y: 83.0
+  z: -8.888484427234994
+  yaw: -275.39987
+  pitch: 30.15005
+afk: false

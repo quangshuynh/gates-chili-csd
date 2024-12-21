@@ -1,0 +1,31 @@
+lastAccountName: Oldwallaby
+timestamps:
+  login: 1535243845728
+  lastteleport: 1535243860869
+  kits:
+    arkenblocks: 1535158901637
+    starter: 1535153901429
+    valiantblocks: 1535159026292
+    valiant: 1535178731387
+    mystic: 1535159877350
+    mysticblocks: 1535159021879
+    arken: 1535159101804
+  logout: 1535245908821
+  lastheal: 1535243866997
+ipAddress: 60.241.57.139
+geolocation: Australia
+lastlocation:
+  world: Lobby2
+  x: -70.00463660346577
+  y: 86.0
+  z: -5.899556748288521
+  yaw: 0.77608865
+  pitch: -2.9103324
+money: '56886.0'
+logoutlocation:
+  world: ASkyBlock
+  x: -816.5393193090223
+  y: 124.10293963077677
+  z: -386.3582604788188
+  yaw: -172.77693
+  pitch: 10.209764

@@ -1,0 +1,29 @@
+geolocation: N/A
+lastAccountName: Jstutz31
+timestamps:
+  login: 1534990299346
+  logout: 1534991306214
+  lastteleport: 1534990306063
+  kits:
+    arkenblocks: 1534989601885
+    starter: 1534986000359
+    valiantblocks: 1534989674327
+    mystic: 1534987596729
+    mysticblocks: 1534989639313
+ipAddress: 0:0:0:0:0:0:0:1
+lastlocation:
+  world: Lobby2
+  x: -70.0
+  y: 86.0
+  z: -9.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: ASkyBlock
+  x: -395.04476584347856
+  y: 122.0
+  z: 381.2326745593396
+  yaw: -352.3766
+  pitch: 28.145233
+afk: false
+money: '109200.0'

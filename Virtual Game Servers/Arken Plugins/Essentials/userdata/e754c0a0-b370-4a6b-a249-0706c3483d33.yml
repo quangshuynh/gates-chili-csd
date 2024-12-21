@@ -1,0 +1,21 @@
+geolocation: Philippines
+lastAccountName: NicholsJohn
+timestamps:
+  login: 1535204612837
+  lastteleport: 1535204712556
+  logout: 1535204910750
+ipAddress: 49.145.114.238
+lastlocation:
+  world: Lobby2
+  x: -69.69648037931948
+  y: 86.0
+  z: -0.006630352494051944
+  yaw: 1.1860011
+  pitch: 3.9604661
+logoutlocation:
+  world: SkyblockLobby
+  x: -579.8447657625368
+  y: -73.9935374448968
+  z: 841.9554793013062
+  yaw: 146.81653
+  pitch: 6.71634

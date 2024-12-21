@@ -1,0 +1,22 @@
+lastAccountName: I_R_C
+timestamps:
+  login: 1535141645099
+  kits:
+    starter: 1535141929283
+  logout: 1535142171296
+ipAddress: 174.55.219.3
+geolocation: United States
+lastlocation:
+  world: world
+  x: 0.0
+  y: 62.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: Lobby2
+  x: -86.79368990704171
+  y: 87.0
+  z: -12.696954791540726
+  yaw: -77.7013
+  pitch: 19.950047

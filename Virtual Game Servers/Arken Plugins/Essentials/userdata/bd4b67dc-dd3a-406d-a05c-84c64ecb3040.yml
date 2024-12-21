@@ -1,0 +1,24 @@
+geolocation: United States
+lastAccountName: IQ_101
+timestamps:
+  login: 1535171546782
+  kits:
+    starter: 1535138668379
+  lastteleport: 1535171552698
+  logout: 1535171565846
+ipAddress: 73.152.190.8
+lastlocation:
+  world: Lobby2
+  x: -70.0
+  y: 86.0
+  z: -9.0
+  yaw: 0.15000004
+  pitch: -5.9604646E-9
+money: '12420.0'
+logoutlocation:
+  world: SkyblockLobby
+  x: -530.7423841824069
+  y: 149.0
+  z: 900.2956566803894
+  yaw: 149.10011
+  pitch: 10.050017

@@ -1,0 +1,21 @@
+geolocation: Australia
+lastAccountName: KoalaPvpAU
+timestamps:
+  login: 1535165766917
+  lastteleport: 1535165747865
+  logout: 1535165886713
+ipAddress: 14.202.176.50
+lastlocation:
+  world: Lobby2
+  x: -70.59374153145566
+  y: 86.0
+  z: -26.112676553802736
+  yaw: 179.65149
+  pitch: 2.457497
+logoutlocation:
+  world: Lobby2
+  x: -52.76214908236537
+  y: 83.0
+  z: 13.218984299708861
+  yaw: 174.53204
+  pitch: 8.693724

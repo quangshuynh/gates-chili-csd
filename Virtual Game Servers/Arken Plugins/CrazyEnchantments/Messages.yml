@@ -1,0 +1,195 @@
+Messages:
+  Config-Reload: '&aConfig.yml reloaded...'
+  Need-To-UnStack-Item: '&cUnstack the item for it to be used.'
+  Not-An-Enchantment: '&cThat is not an enchantment'
+  Right-Click-Black-Scroll: ' &f&l** Black Scroll ** &7Removes a random enchantment from an item and converts it into &frandom%&7 success book.'
+  Black-Scroll-Unsuccessful: '&cThe Black Scroll was &nunsuccessful&c! Try again with another one.'
+  Need-More-XP-Lvls: '&cYou do not have enough EXP to purchase that. &7(Your EXP: %XP%l)'
+  Need-More-Total-XP: '&cYou do not have enough EXP to purchase that. &7(Your EXP: %XP%l)'
+  Need-More-Money: '&cYou do not have enough money to purchase that. &7(Your BAL: $%Money_Needed%)'
+  Hit-Enchantment-Max: '&cYou have reached the max &ncaplevel&c of enchantment an item that you can have.'
+  Inventory-Full: '&c&nInventory is full&c! Please make some space to purchase that.'
+  Tinker-Inventory-Full: '&c&nInventory is full&c! Please make some space.'
+  Tinker-Sold-Msg: ' &e&l** Trade accepted &e&l**'
+  Players-Only: '&cOnly players can use this command.'
+  No-Perm: '&cYou do not have permission to do that.'
+  Not-Online: '&cThat player is not online.'
+  Remove-Enchantment: ' &a&l** Successfully Removed &c&l%Enchantment% &a&l**'
+  Doesnt-Have-Enchantment: '&cThat item does not contain the enchantment &f&l%Enchantment%&c.'
+  Doesnt-Have-Item-In-Hand: '&cYou must have an item in your hand.'
+  Not-A-Number: '&c%Arg% is not a number.'
+  Get-Success-Dust: ' &f&l** Obtained &a&l(%Amount%) &aSuccess Rate Dust &f&l**'
+  Give-Success-Dust: '&aYou have given &a&l(%Amount%) &aSuccess Rate Dust &ato &e%Player%&7.'
+  Get-Destroy-Dust: ' &f&l** Obtained &a&l(%Amount%) &cDestroy Rate Dust &f&l**'
+  Give-Destroy-Dust: '&aYou have given &a&l(%Amount%) &cDestroy Rate Dust &ato &e%Player%&7.'
+  Get-Mystery-Dust: ' &f&l** Obtained &a&l(%Amount%) &6Enchanted Secret Dust &7(Right Click) &f&l**'
+  Give-Mystery-Dust: '&aYou have given &a&l(%Amount%) &6Enchanted Secret Dust &7(Right Click) &ato &e%Player%&7.'
+  Not-A-Category: '&b%Category% &cis not a category.'
+  Clean-Lost-Book: ' &f&l** Discovered %Found% &f&l**'
+  Book-Works: ' &a&l** Successfully Enchanted **'
+  Book-Failed: '&cItem failed to enchant.'
+  Item-Destroyed: '&cThe item was destroyed due failed enchantment book.'
+  Item-Was-Protected: ' &e&l** White Scroll ACTIVATED **'
+  Give-Protection-Crystal: '&aYou have just given &e%Player% &a&l(%Amount%) &b&lSoulBound&a.'
+  Get-Protection-Crystal: ' &b&l** Obtained &a&l(%Amount%) &b&lSoulBound **'
+  Give-Scrambler-Crystal: '&aYou have just given &e%Player% &a&l(%Amount%) &f&lRandomization Scroll&a.'
+  Get-Scrambler-Crystal: ' &f&l** Obtained &a&l(%Amount%) &f&lRandomization Scroll **'
+  Break-Enchantment-Shop-Sign: '&cYou have just removed Enchantment Shop Sign.'
+  Send-Enchantment-Book: '&aYou have sent &e%Player% &aan Enchantment Book&a.'
+  Not-A-GKit: '&c%Kit% is not a GKit.'
+  Still-In-Cooldown: '&cCooldown left: %Day%d %Hour%h %Minute%m %Second%s on %Kit%&c.'
+  Given-GKit: '&aYou have just given &e%Player%&7 a %Kit%&a GKit.'
+  Received-GKit: ' &a&l** Recieved the %Kit%&a&l GKit &a&l**'
+  No-GKit-Permission: '&cYou do not have permission to use the %Kit% GKit.'
+  Spawned-Book: '&aYou have just spawned a book at &e%World%, %X%, %Y%, %Z%&a.'
+  Reset-GKit: '&e%Player%''s&a %GKit% &aGKit cooldown are reset.'
+  Enchantment-Upgrade:
+    Success: ' &f&l** %Enchantment% level %Level% **'
+    Destroyed: '&cUpgrade failed! The lower level enchantment was lost.'
+    Failed: '&cThe book failed to upgrade the item.'
+  Rage:
+    Building: '&a&l** RAGE **'
+    Cooled-Down: '&c&l** RAGE **'
+    Rage-Up: '&a&l** %Level%x RAGE DAMAGE **'
+    Damaged: '&cYou have been hurt! Your Rage Multiplier was broken!'
+  InfoGUI:
+    Inventory:
+      Size: 27
+      Name: '&8Custom Enchantments Info Page'
+    Categories-Info:
+      Back:
+        Item: 410
+        Right: '&c&l⤾ Back'
+        Left: '&c&lBack ⤿'
+      Helmets:
+        Item: 310
+        Slot: 5
+        Name: '&e&n&lHelmet Enchants'
+        Lore:
+          - ''
+          - ' &f&l⎷ &f&oSimple'
+          - ' &a&l⎷ &a&oUnique'
+          - ' &b&l⎷ &b&oElite'
+          - '&7Click to inspect the books.'
+      Boots:
+        Item: 313
+        Slot: 23
+        Name: '&e&n&lBoot Enchants'
+        Lore:
+          - ''
+          - ' &b&l⎷ &b&oElite'
+          - ' &e&l⎷ &e&oUltimate'
+          - ' &6&l⎷ &6&oLegendary'
+          - '&7Click to inspect the books.'
+      Armor:
+        Item: 311
+        Slot: 14
+        Name: '&e&n&lArmor Enchants'
+        Lore:
+          - ''
+          - ' &f&l⎷ &f&oSimple'
+          - ' &a&l⎷ &a&oUnique'
+          - ' &b&l⎷ &b&oElite'
+          - ' &e&l⎷ &e&oUltimate'
+          - ' &6&l⎷ &6&oLegendary'
+          - '&7Click to inspect the books.'
+      Bow:
+        Item: 261
+        Slot: 12
+        Name: '&e&n&lBow Enchants'
+        Lore:
+          - ''
+          - ' &f&l⎷ &f&oSimple'
+          - ' &a&l⎷ &a&oUnique'
+          - ' &b&l⎷ &b&oElite'
+          - ' &e&l⎷ &e&oUltimate'
+          - ' &6&l⎷ &6&oLegendary'
+          - '&7Click to inspect the books.'
+      Sword:
+        Item: 276
+        Slot: 15
+        Name: '&e&n&lSword Enchants'
+        Lore:
+          - ''
+          - ' &f&l⎷ &f&oSimple'
+          - ' &a&l⎷ &a&oUnique'
+          - ' &b&l⎷ &b&oElite'
+          - ' &e&l⎷ &e&oUltimate'
+          - ' &6&l⎷ &6&oLegendary'
+          - '&7Click to inspect the books.'
+      Axe:
+        Item: 279
+        Slot: 13
+        Name: '&e&n&lAxe Enchants'
+        Lore:
+          - ''
+          - ' &f&l⎷ &f&oSimple'
+          - ' &a&l⎷ &a&oUnique'
+          - ' &e&l⎷ &e&oUltimate'
+          - ' &6&l⎷ &6&oLegendary'
+          - '&7Click to inspect the books.'
+      Tool:
+        Item: 277
+        Slot: 17
+        Name: '&e&n&lTool Enchants'
+        Lore:
+          - ''
+          - ' &f&l⎷ &f&oSimple'
+          - ' &b&l⎷ &b&oElite'
+          - '&7Click to inspect the books.'
+      Pickaxe:
+        Item: 278
+        Slot: 8
+        Name: '&e&n&lPickaxe Enchants'
+        Lore:
+          - ''
+          - ' &f&l⎷ &f&oSimple'
+          - ' &a&l⎷ &a&oUnique'
+          - ' &e&l⎷ &e&oUltimate'
+          - '&7Click to inspect the books.'
+      Misc:
+        Item: ENDER_CHEST
+        Slot: 25
+        Name: '&e&n&lMiscellaneous Enchants'
+        Lore:
+          - ''
+          - ' &f&l⎷ &f&oSimple'
+          - ' &e&l⎷ &e&oUltimate'
+          - ' &6&l⎷ &6&oLegendary'
+          - '&7Click to see all enchantable items.'
+      Other:
+        Item: CHEST
+        Slot: 27
+        Name: '&e&n&lExtra Info'
+        Lore:
+          - ''
+          - ' &b&l* &bTinkerer'
+          - ' &b&l* &bBlacksmith'
+          - ' &e&l* &eScrolls'
+          - ' &a&l* &aSuccess &7& &cDestroy &7Dusts'
+    BlackSmith:
+      - '&7Combine 2 of the same enchantment books'
+      - '&7into the enchantment book up a level.'
+      - '&7Or 2 items of the same enchantment'
+      - '&7to combined the enchantments on them.'
+    Black-Scroll:
+      - '&7Removes a random enchantment'
+      - '&7from an item and converts'
+      - '&7it into &frandom%&7 success book.'
+    White-Scroll:
+      - '&7Prevents an item from being destroyed'
+      - '&7due to a failed Enchantment Book.'
+    Tinker:
+      - '&7Exchange your enchanted armor in for experience,'
+      - '&7or exchange your custom enchant book for a'
+      - '&7fireball.'
+      - '&7A fireball has a chance of getting'
+      - '&7magic dust, which improves the success or'
+      - '&7destroy rate on a enchant book.'
+    Success-Dust:
+        - '&7Apply to a Enchantment Book to'
+        - '&7increase the &asuccess rate %'
+    Destroy-Dust:
+        - '&7Apply to a Enchantment Book to'
+        - '&7decrease the &cdestroy rate %'
+#Savage Panda Setups.

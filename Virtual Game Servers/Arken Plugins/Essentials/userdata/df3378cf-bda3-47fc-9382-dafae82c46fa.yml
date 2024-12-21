@@ -1,0 +1,21 @@
+geolocation: Australia
+lastAccountName: SwiftAudacity
+timestamps:
+  login: 1535174604787
+  lastteleport: 1535174619168
+  logout: 1535178054374
+ipAddress: 60.241.57.139
+lastlocation:
+  world: Lobby2
+  x: -69.5
+  y: 86.0
+  z: -8.5
+  yaw: -2.9103336
+  pitch: -5.091844
+logoutlocation:
+  world: ASkyBlock
+  x: -797.7221245110544
+  y: 120.0
+  z: -400.2360486187428
+  yaw: -220.21518
+  pitch: 8.948582

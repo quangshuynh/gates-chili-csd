@@ -1,0 +1,23 @@
+geolocation: United Kingdom
+lastAccountName: iBlueToxic
+timestamps:
+  login: 1535198216436
+  lastteleport: 1535198232094
+  kits:
+    starter: 1535198246198
+  logout: 1535198291288
+ipAddress: 86.142.65.117
+lastlocation:
+  world: Lobby2
+  x: -67.45078263534161
+  y: 83.0
+  z: 19.5135177636259
+  yaw: 0.89999837
+  pitch: 6.9000015
+logoutlocation:
+  world: SkyblockLobby
+  x: -582.1895118835615
+  y: -81.27437190760652
+  z: 826.5315307744015
+  yaw: 108.89994
+  pitch: 19.500057

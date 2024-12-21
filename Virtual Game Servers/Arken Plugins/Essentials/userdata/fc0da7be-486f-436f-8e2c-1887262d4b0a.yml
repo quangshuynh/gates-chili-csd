@@ -1,0 +1,26 @@
+lastAccountName: KorTezz
+timestamps:
+  login: 1535229370382
+  lastteleport: 1535229373915
+  kits:
+    starter: 1535224032924
+    valiant: 1535225074754
+    valiantblocks: 1535225111071
+  logout: 1535229393039
+ipAddress: 24.245.51.172
+geolocation: United States
+lastlocation:
+  world: Lobby2
+  x: -68.32606038167721
+  y: 86.0
+  z: -0.6602520854444912
+  yaw: -9.750001
+  pitch: 14.400004
+money: '104662.50'
+logoutlocation:
+  world: ASkyBlock
+  x: -1202.303247779735
+  y: 117.5
+  z: 1203.699999988079
+  yaw: -195.14972
+  pitch: -46.050003

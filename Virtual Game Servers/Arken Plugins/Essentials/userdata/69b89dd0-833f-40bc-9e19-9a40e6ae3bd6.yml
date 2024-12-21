@@ -1,0 +1,23 @@
+lastAccountName: OoJess
+timestamps:
+  login: 1535136483289
+  lastteleport: 1535137283163
+  kits:
+    starter: 1535136437862
+  logout: 1535137434759
+ipAddress: 24.107.105.201
+geolocation: United States
+lastlocation:
+  world: SkyblockLobby
+  x: -551.6689909692248
+  y: 146.0
+  z: 882.3653101573094
+  yaw: 188.29807
+  pitch: 7.8063474
+logoutlocation:
+  world: SkyblockLobby
+  x: -537.1226896408878
+  y: 149.4807108763317
+  z: 884.7316523011
+  yaw: -274.48367
+  pitch: 12.2675495

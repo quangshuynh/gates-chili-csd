@@ -1,0 +1,21 @@
+geolocation: United Kingdom
+lastAccountName: TheGingerNonce
+timestamps:
+  login: 1535134500148
+  lastteleport: 1535134521983
+  logout: 1535134610672
+ipAddress: 2.26.69.227
+lastlocation:
+  world: Lobby2
+  x: -84.53185427170175
+  y: 84.0155550727022
+  z: 6.6832801027135735
+  yaw: 170.30229
+  pitch: 22.909859
+logoutlocation:
+  world: Lobby2
+  x: -78.50689683945336
+  y: 86.0
+  z: -16.667218886671257
+  yaw: 130.36694
+  pitch: 20.536823

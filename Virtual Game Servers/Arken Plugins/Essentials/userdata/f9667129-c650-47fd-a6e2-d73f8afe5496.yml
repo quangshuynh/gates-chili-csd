@@ -1,0 +1,21 @@
+geolocation: Australia
+lastAccountName: PlayingOGC
+timestamps:
+  login: 1535198225489
+  lastteleport: 1535199607726
+  logout: 1535201061776
+ipAddress: 149.167.255.43
+lastlocation:
+  world: Lobby2
+  x: -72.1528076566967
+  y: 86.0
+  z: -8.856517912787208
+  yaw: 150.00018
+  pitch: 31.04998
+logoutlocation:
+  world: Lobby2
+  x: -71.82409957203879
+  y: 86.0
+  z: -5.347791785107999
+  yaw: 119.099915
+  pitch: 35.99992

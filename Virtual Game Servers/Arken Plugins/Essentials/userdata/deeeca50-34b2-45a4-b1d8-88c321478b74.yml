@@ -1,0 +1,21 @@
+geolocation: Jamaica
+lastAccountName: RavioliFormuoli
+timestamps:
+  login: 1535169184953
+  logout: 1535169210491
+  lastteleport: 1535153717542
+ipAddress: 216.10.217.127
+lastlocation:
+  world: Lobby2
+  x: -63.78791602683208
+  y: 87.0
+  z: 9.77599102382382
+  yaw: 156.29051
+  pitch: 31.889414
+logoutlocation:
+  world: Lobby2
+  x: -69.4970462228308
+  y: 86.0
+  z: -3.4098404470862884
+  yaw: -159.8822
+  pitch: 46.90894

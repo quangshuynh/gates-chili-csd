@@ -1,0 +1,21 @@
+lastAccountName: GoldenHawkeye
+timestamps:
+  login: 1535156114673
+  lastteleport: 1535156934471
+  logout: 1535157106040
+ipAddress: 71.174.6.6
+geolocation: United States
+lastlocation:
+  world: ASkyBlock
+  x: 0.7248231617740902
+  y: 116.0
+  z: 1203.456758485936
+  yaw: 89.69999
+  pitch: 68.99999
+logoutlocation:
+  world: SkyblockLobby
+  x: -510.3037016064
+  y: 144.0
+  z: 880.5706016037262
+  yaw: -20.699793
+  pitch: 2.8500488

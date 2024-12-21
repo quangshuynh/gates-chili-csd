@@ -1,0 +1,60 @@
+#Placeholders:
+#- %mob% for mob spawned by spawner. (Usable in spawner name, MUST BE in spawner name.)
+#- %tier% for tier of spawner. (Usable in spawner lore.)
+#- %delay% for delay between spawns in seconds. (Usable in spawner lore.)
+#- %amount% for amount of mobs per spawn. (Usable in spawner lore.)
+#- %range% for maximum distance a player can be from the spawner before it stops spawning. (Usable in spawner lore.)
+SilkSpawnerOptions:
+  ######################
+  # Silk Touch Options #
+  ######################
+  #Whether to let players silk touch spawners with attributes.
+  #If true, spawners keep upgrades when dropped. If false, spawners refund xp based on settings.
+  AllowSilk: true
+  #Minimum level of silk touch required to mine the spawner.
+  SilkLevel: 1
+  
+  ###########################
+  # Dropped Spawner Options #
+  ###########################
+  Dropped:
+    #Options for spawner item dropped when mined with silk touch.
+    #The %tier%, %delay%, %amount% and %range% placeholders will revert to base values if they are not in the lore.
+    #If refund option in Config.yml is turned off, a default spawner is dropped.
+    #Default spawner has Tier:1, Delay:200-800, Amount:4 and Range:16.
+    Mined:
+      #The %mob% placeholder MUST be in the item name!
+      #If %mob% is not in the item name, the spawner will be a pig spawner.
+      Name: "&e&l%mob% &6&lSpawner"
+      #DO NOT PUT MORE THAN ONE PLACEHOLDER PER LINE!
+      Lore:
+        - "&7Tier: %tier%"
+        - "&7Delay: %delay%"
+        - "&7Amount: %amount%"
+        - "&7Range: %range%"
+    #Options for spawner item dropped when successfully TNTed.
+    #The %tier%, %delay%, %amount% and %range% placeholders will revert to base values if they are not in the lore.
+    #If refund option in Config.yml is turned off, a default spawner is dropped.
+    #Default spawner has Tier:1, Delay:200-800, Amount:4 and Range:16.
+    TNT:
+      #The %mob% placeholder MUST be in the item name!
+      #If %mob% is not in the item name, the spawner will be a pig spawner.
+      Name: "&e&l%mob% &6&lSpawner"
+      #DO NOT PUT MORE THAN ONE PLACEHOLDER PER LINE!
+      Lore:
+        - "&7Tier: %tier%"
+        - "&7Delay: %delay%"
+        - "&7Amount: %amount%"
+        - "&7Range: %range%"
+        - "&c*Raided Spawner*"
+  
+  ###################
+  # Raiding Options #
+  ###################
+  Raiding:
+    TNT:
+      #Chance of dropping a spawner when it is broken by TNT out of 100.
+      #Set to 0 to disable drops.
+      Chance: 70
+      #Whether dropped spawner keeps its stats.
+      Keep: false

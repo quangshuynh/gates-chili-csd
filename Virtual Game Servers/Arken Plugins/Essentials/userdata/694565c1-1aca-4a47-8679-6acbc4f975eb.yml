@@ -1,0 +1,25 @@
+geolocation: N/A
+lastAccountName: RocketPie721
+timestamps:
+  login: 1535227064889
+  lastteleport: 1535227066304
+  kits:
+    starter: 1534961726672
+  logout: 1535227079989
+ipAddress: 127.0.0.1
+lastlocation:
+  world: Lobby2
+  x: -69.94090530263873
+  y: 86.0
+  z: -11.0531505266378
+  yaw: 9.000001
+  pitch: -17.85
+logoutlocation:
+  world: SkyblockLobby
+  x: -534.4997745095607
+  y: 149.0
+  z: 893.9221212064396
+  yaw: 8.547902E-5
+  pitch: 7.8000164
+money: '0'
+godmode: true

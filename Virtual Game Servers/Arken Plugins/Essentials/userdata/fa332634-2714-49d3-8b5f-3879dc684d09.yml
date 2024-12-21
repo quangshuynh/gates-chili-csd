@@ -1,0 +1,24 @@
+geolocation: United Kingdom
+lastAccountName: tlbtts
+timestamps:
+  login: 1535138593666
+  lastteleport: 1535139129913
+  kits:
+    starter: 1535137304388
+  logout: 1535139721078
+ipAddress: 2.121.148.178
+lastlocation:
+  world: ASkyBlock
+  x: 801.421985671264
+  y: 118.0
+  z: 401.59508246650614
+  yaw: 96.299286
+  pitch: 32.10013
+logoutlocation:
+  world: ASkyBlock
+  x: 800.5515387962721
+  y: 117.0
+  z: 400.23062368202153
+  yaw: -222.59967
+  pitch: 39.150265
+money: '15000'

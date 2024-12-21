@@ -1,0 +1,23 @@
+geolocation: United States
+lastAccountName: __SSundee
+timestamps:
+  login: 1535168149760
+  lastteleport: 1535168154222
+  logout: 1535168236238
+  kits:
+    starter: 1535168167604
+ipAddress: 97.103.13.136
+lastlocation:
+  world: Lobby2
+  x: -70.0
+  y: 86.0
+  z: -9.0
+  yaw: -2.5730786
+  pitch: -1.4196296
+logoutlocation:
+  world: SkyblockLobby
+  x: -551.6984376683831
+  y: -62.189599069416026
+  z: 839.0900569558144
+  yaw: 185.94873
+  pitch: 25.611088

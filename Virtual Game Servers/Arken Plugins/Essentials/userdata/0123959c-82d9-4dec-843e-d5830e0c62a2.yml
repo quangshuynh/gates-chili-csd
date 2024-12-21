@@ -1,0 +1,21 @@
+geolocation: United States
+lastAccountName: TM18807
+timestamps:
+  login: 1535168554893
+  lastteleport: 1535168562628
+  logout: 1535168568999
+ipAddress: 138.87.27.173
+lastlocation:
+  world: Lobby2
+  x: -69.5
+  y: 86.0
+  z: -8.5
+  yaw: -1.1861324E-6
+  pitch: -6.4499993
+logoutlocation:
+  world: SkyblockLobby
+  x: -534.5
+  y: 149.0
+  z: 898.5
+  yaw: 0.90008545
+  pitch: 4.6500154

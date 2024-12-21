@@ -1,0 +1,21 @@
+geolocation: Australia
+lastAccountName: iDroppin
+timestamps:
+  login: 1535180592218
+  lastteleport: 1535180606305
+  logout: 1535180614336
+ipAddress: 203.45.88.231
+lastlocation:
+  world: Lobby2
+  x: -69.51549429315128
+  y: 84.0
+  z: 27.246029524019434
+  yaw: 0.56368923
+  pitch: -5.8460445
+logoutlocation:
+  world: SkyblockLobby
+  x: -534.5293366252154
+  y: 149.0
+  z: 904.9784341549876
+  yaw: 0.9806124
+  pitch: 9.28033

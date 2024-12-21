@@ -1,0 +1,23 @@
+geolocation: United States
+lastAccountName: ZombieReaper308
+timestamps:
+  login: 1535142179987
+  lastteleport: 1535142203957
+  kits:
+    starter: 1535142218215
+  logout: 1535142324430
+ipAddress: 98.115.40.149
+lastlocation:
+  world: Lobby2
+  x: -70.76316218081192
+  y: 86.0
+  z: 4.868740205501837
+  yaw: 203.25
+  pitch: 14.100003
+logoutlocation:
+  world: ASkyBlock
+  x: -801.3000000119209
+  y: 116.0
+  z: -801.5
+  yaw: 11.549996
+  pitch: 22.349998

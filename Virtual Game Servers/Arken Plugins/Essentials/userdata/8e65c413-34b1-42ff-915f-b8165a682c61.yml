@@ -1,0 +1,21 @@
+geolocation: N/A
+lastAccountName: doden2005
+timestamps:
+  login: 1534965704824
+  logout: 1534965721752
+  lastteleport: 1534961496376
+ipAddress: 0:0:0:0:0:0:0:1
+lastlocation:
+  world: Lobby2
+  x: -70.0
+  y: 86.0
+  z: -9.0
+  yaw: -135.59985
+  pitch: 18.150011
+logoutlocation:
+  world: Lobby2
+  x: -69.36816752001042
+  y: 86.0
+  z: -9.213142200018492
+  yaw: 238.94983
+  pitch: 33.74999

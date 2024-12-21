@@ -1,0 +1,26 @@
+geolocation: Australia
+lastAccountName: BigGus1999
+timestamps:
+  login: 1535175257732
+  lastteleport: 1535175625593
+  logout: 1535189414582
+  kits:
+    starter: 1535172197351
+    mystic: 1535172215282
+    arken: 1535172354497
+ipAddress: 144.131.206.231
+lastlocation:
+  world: ASkyBlock
+  x: -400.1971074395133
+  y: 121.0
+  z: 386.6475749966881
+  yaw: 196.73492
+  pitch: 6.749981
+logoutlocation:
+  world: ASkyBlock
+  x: -803.6095796306805
+  y: 120.0
+  z: -402.19112859378447
+  yaw: 38.69702
+  pitch: 11.700018
+money: '97360.0'

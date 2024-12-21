@@ -1,0 +1,23 @@
+geolocation: United States
+lastAccountName: emsbrodie
+timestamps:
+  login: 1535240079890
+  lastteleport: 1535240409967
+  kits:
+    starter: 1535240424606
+  logout: 1535240461821
+ipAddress: 73.231.126.175
+lastlocation:
+  world: Lobby2
+  x: -69.58392180136853
+  y: 86.0
+  z: -3.065634688316641
+  yaw: 11.24315
+  pitch: -0.32872397
+logoutlocation:
+  world: SkyblockLobby
+  x: -531.718248164981
+  y: 145.0
+  z: 868.8309113394347
+  yaw: 63.204834
+  pitch: 10.19608

@@ -1,0 +1,21 @@
+lastAccountName: Zag
+timestamps:
+  login: 1535155055675
+  lastteleport: 1535155064601
+  logout: 1535155335570
+ipAddress: 67.170.136.44
+geolocation: United States
+lastlocation:
+  world: Lobby2
+  x: -71.69999998807907
+  y: 85.5
+  z: 10.1478703640188
+  yaw: 20.033407
+  pitch: 7.441781
+logoutlocation:
+  world: SkyblockLobby
+  x: -551.3644050000335
+  y: 145.0
+  z: 911.4976409720467
+  yaw: 17.441895
+  pitch: -6.771255

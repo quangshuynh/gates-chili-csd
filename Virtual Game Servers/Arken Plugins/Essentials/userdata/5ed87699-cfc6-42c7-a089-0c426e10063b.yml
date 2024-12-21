@@ -1,0 +1,24 @@
+geolocation: United States
+lastAccountName: flash1213
+timestamps:
+  login: 1535180387976
+  lastteleport: 1535180697515
+  kits:
+    starter: 1535180499683
+  logout: 1535181264598
+ipAddress: 174.52.189.15
+lastlocation:
+  world: Lobby2
+  x: -64.70138314938104
+  y: 86.0
+  z: -9.51448839587275
+  yaw: -157.6501
+  pitch: 1.0500003
+money: '24600.0'
+logoutlocation:
+  world: ASkyBlock
+  x: 802.9632373181146
+  y: 120.0
+  z: -1205.0398022970928
+  yaw: 37.04918
+  pitch: 20.25015

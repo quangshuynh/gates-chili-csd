@@ -1,0 +1,21 @@
+lastAccountName: hidace
+timestamps:
+  login: 1535168221233
+  lastteleport: 1535168232654
+  logout: 1535168569112
+ipAddress: 138.87.27.173
+geolocation: United States
+lastlocation:
+  world: SkyblockLobby
+  x: -534.5
+  y: 149.0
+  z: 898.5
+  yaw: 0.90008545
+  pitch: 4.6500154
+logoutlocation:
+  world: SkyblockLobby
+  x: -553.5
+  y: 144.0625
+  z: 924.5
+  yaw: -90.0
+  pitch: 88.17039

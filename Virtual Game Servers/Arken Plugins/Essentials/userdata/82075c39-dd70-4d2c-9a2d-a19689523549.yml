@@ -1,0 +1,24 @@
+geolocation: United States
+lastAccountName: IceManCMV11
+timestamps:
+  login: 1535137503781
+  kits:
+    starter: 1535138584971
+  lastteleport: 1535142629558
+  logout: 1535142901523
+ipAddress: 32.213.144.74
+lastlocation:
+  world: SkyblockLobby
+  x: -533.3786343968318
+  y: 149.0
+  z: 892.0836661239872
+  yaw: -34.93028
+  pitch: 27.981558
+afk: false
+logoutlocation:
+  world: Lobby2
+  x: -6.001739274304206
+  y: 98.0
+  z: -10.95021427376891
+  yaw: 167.76529
+  pitch: 51.18449
