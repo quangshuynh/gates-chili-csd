@@ -1,0 +1,311 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 6/18/19 6:14 PM
+Description: Watching Server
+
+java.lang.Error
+	at sun.nio.ch.WindowsSelectorImpl.setWakeupSocket0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl.setWakeupSocket(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.wakeup(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.wakeup(SelectedSelectionKeySetSelector.java:73)
+	at io.netty.channel.nio.NioEventLoop.wakeup(NioEventLoop.java:710)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:774)
+	at ja.b(SourceFile:206)
+	at ja.a(SourceFile:175)
+	at vy.a(SourceFile:1042)
+	at vy.a(SourceFile:1025)
+	at us$b.a(SourceFile:1111)
+	at us$b$$Lambda$2210/1149912720.accept(Unknown Source)
+	at vf.a(SourceFile:168)
+	at us.g(SourceFile:982)
+	at ve.n(SourceFile:379)
+	at ve.a(SourceFile:293)
+	at vg.a(SourceFile:310)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:827)
+	at ug.b(SourceFile:343)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:764)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:632)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at sun.nio.ch.WindowsSelectorImpl.setWakeupSocket0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl.setWakeupSocket(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.wakeup(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.wakeup(SelectedSelectionKeySetSelector.java:73)
+	at io.netty.channel.nio.NioEventLoop.wakeup(NioEventLoop.java:710)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:774)
+	at ja.b(SourceFile:206)
+	at ja.a(SourceFile:175)
+	at vy.a(SourceFile:1042)
+	at vy.a(SourceFile:1025)
+	at us$b.a(SourceFile:1111)
+	at us$b$$Lambda$2210/1149912720.accept(Unknown Source)
+	at vf.a(SourceFile:168)
+	at us.g(SourceFile:982)
+	at ve.n(SourceFile:379)
+	at ve.a(SourceFile:293)
+	at vg.a(SourceFile:310)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:827)
+	at ug.b(SourceFile:343)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:764)
+
+-- Thread Dump --
+Details:
+	Threads: "Server-Worker-56" Id=98 WAITING on java.util.concurrent.ForkJoinPool@ec7d112
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@ec7d112
+	at java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+
+"Server-Worker-55" Id=97 WAITING on java.util.concurrent.ForkJoinPool@ec7d112
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@ec7d112
+	at java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+
+"Server-Worker-53" Id=95 TIMED_WAITING on java.util.concurrent.ForkJoinPool@ec7d112
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@ec7d112
+	at java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+
+"Netty Server IO #7" Id=46 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@3eba
+	-  locked java.util.Collections$UnmodifiableSet@43fba62
+	-  locked sun.nio.ch.WindowsSelectorImpl@413d3481
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"Netty Server IO #6" Id=34 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@71c232f5
+	-  locked java.util.Collections$UnmodifiableSet@70363799
+	-  locked sun.nio.ch.WindowsSelectorImpl@9236f57
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"Netty Server IO #5" Id=33 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@2112cbce
+	-  locked java.util.Collections$UnmodifiableSet@41a71083
+	-  locked sun.nio.ch.WindowsSelectorImpl@6c6dd1
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"Java2D Disposer" Id=28 WAITING on java.lang.ref.ReferenceQueue$Lock@1227e35c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@1227e35c
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at sun.java2d.Disposer.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Server Watchdog" Id=27 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+	at uj.run(SourceFile:45)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Netty Server IO #4" Id=26 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@255c166d
+	-  locked java.util.Collections$UnmodifiableSet@5c06394d
+	-  locked sun.nio.ch.WindowsSelectorImpl@3f67d5f9
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"Netty Server IO #3" Id=25 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@1277ec4a
+	-  locked java.util.Collections$UnmodifiableSet@575d7f17
+	-  locked sun.nio.ch.WindowsSelectorImpl@3afcf8e0
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"Netty Server IO #2" Id=24 RUNNABLE (in native)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@3b353a5b
+	-  locked java.util.Collections$UnmodifiableSet@168d84cb
+	-  locked sun.nio.ch.WindowsSelectorImpl@2a14e4ca
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"Netty Server IO #1" Id=23 RUNNABLE (in native)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@77722290
+	-  locked java.util.Collections$UnmodifiableSet@658729c7
+	-  locked sun.nio.ch.WindowsSelectorImpl@1f565260
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"Netty Server IO #0" Id=22 RUNNABLE (in native)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@12e9d7f4
+	-  locked java.util.Collections$UnmodifiableSet@7469019b
+	-  locked sun.nio.ch.WindowsSelectorImpl@28fcd7c0
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"ObjectCleanerThread" Id=21 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@59445ed
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@59445ed
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Server console handler" Id=20 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	-  locked java.io.BufferedInputStream@591e74dc
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	-  locked java.io.InputStreamReader@6547c3bd
+	at java.io.InputStreamReader.read(Unknown Source)
+	...
+
+
+"DestroyJavaVM" Id=19 RUNNABLE
+
+
+"Server thread" Id=16 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl.setWakeupSocket0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl.setWakeupSocket(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.wakeup(Unknown Source)
+	-  locked java.lang.Object@2bcb5a02
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.wakeup(SelectedSelectionKeySetSelector.java:73)
+	at io.netty.channel.nio.NioEventLoop.wakeup(NioEventLoop.java:710)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:774)
+	at ja.b(SourceFile:206)
+	at ja.a(SourceFile:175)
+	...
+
+
+"Server Infinisleeper" Id=17 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at ug$1.run(SourceFile:93)
+
+
+"Snooper Timer" Id=15 WAITING on java.util.TaskQueue@c57d9bb
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@c57d9bb
+	at java.lang.Object.wait(Unknown Source)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+
+"Attach Listener" Id=5 RUNNABLE
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@2645e479
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@2645e479
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@7d449127
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@7d449127
+	at java.lang.Object.wait(Unknown Source)
+	at java.lang.ref.Reference.tryHandlePending(Unknown Source)
+	at java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+
+
+
+Stacktrace:
+	at uj.run(SourceFile:61)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_211, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1858669160 bytes (1772 MB) / 3160408064 bytes (3014 MB) up to 3160408064 bytes (3014 MB)
+	JVM Flags: 2 total; -Xmx3072M -Xms3072M
+	Player Count: 3 / 20; [vh['Joesh7'/123, l='world', x=-1151.58, y=69.00, z=-2428.02], vh['CaptainWaffles42'/624, l='world', x=755.83, y=73.00, z=-208.13], vh['CreeperZ585'/57030, l='world', x=-277.64, y=63.65, z=80.02]]
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)
