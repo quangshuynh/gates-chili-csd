@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Conclusion" themeId="0" version="65540" templateID="SimpleProjectTemplate">
+  <MediaItems>
+    <MediaItem id="17" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\Mars Jump.png" arWidth="250" arHeight="250" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="18" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\animals.jpg" arWidth="1280" arHeight="720" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="1" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\blue-red.jpg" arWidth="1200" arHeight="666" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="19" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\Spaceman.png" arWidth="252" arHeight="263" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="2" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\.Conclusion.m4a" arWidth="0" arHeight="0" duration="18.538625" songTitle="Conclusion" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="3" />
+    <MediaItem id="3" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\colonize mars.jpg" arWidth="405" arHeight="405" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="4" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\checkpoint 5\Mars Surface.jpg" arWidth="570" arHeight="356" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="5" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\Space.jpg" arWidth="500" arHeight="332" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="6" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\space_2.jpg" arWidth="276" arHeight="182" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="7" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\Lego Space_Bee.png" arWidth="1440" arHeight="809" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="8" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\checkpoint 3\earth.jpg" arWidth="1200" arHeight="800" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="9" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\Milky Way_can.png" arWidth="950" arHeight="534" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="10" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\Materials and Resources.png" arWidth="942" arHeight="942" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="11" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\Mars Surface.png" arWidth="570" arHeight="356" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="12" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\Mars Surface - Food or plants.png" arWidth="570" arHeight="356" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="13" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\Lego Space.jpg" arWidth="1440" arHeight="809" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="14" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\Mars Surface - Metal.png" arWidth="570" arHeight="356" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+    <MediaItem id="15" filePath="C:\Users\20378\OneDrive - Gates Chili CSD\Science project\conclusion\Mars Surface - Wood.png" arWidth="570" arHeight="356" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+  </MediaItems>
+  <Extents>
+    <ImageClip extentID="53" gapBefore="0" mediaItemID="6" duration="0.14999999999999999">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <ImageClip extentID="54" gapBefore="0" mediaItemID="9" duration="0.25">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="55" gapBefore="0" duration="0.25">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="2.7762711048126221" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="4.1500000953674316" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="Can" />
+              <BoundPropertyStringElement Value="n" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="56" gapBefore="0" mediaItemID="1" duration="0.90000000000000002">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="57" gapBefore="0" duration="0.90000000000000036">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0.39661026000976563" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="0.80000001192092896" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value=" witstand the climate on " />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <TitleClip extentID="58" gapBefore="0" duration="0.14999999999999999">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="0.46819305419921875" />
+              <BoundPropertyFloatElement Value="-0.43728804588317871" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="1.6666666269302368" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="and" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="5" gapBefore="0" mediaItemID="1" duration="1.3">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <ImageClip extentID="59" gapBefore="0" mediaItemID="19" duration="0.75">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <ImageClip extentID="6" gapBefore="0" mediaItemID="5" duration="0.5">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="60" gapBefore="0.0099999999999997868" duration="0.74000000000000021">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="-2.2188296318054199" />
+              <BoundPropertyFloatElement Value="-1.1694912910461426" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="1.3333333730697632" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="humans" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <AudioClip extentID="7" gapBefore="0" mediaItemID="2" inTime="0.78000000000000003" outTime="7.7200000000000006" speed="1">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyBool Name="Mute" Value="false" />
+        <BoundPropertyFloat Name="Volume" Value="1" />
+      </BoundProperties>
+    </AudioClip>
+    <TitleClip extentID="8" gapBefore="0" duration="1.3">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="-1.8000001907348633" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="0.46666666865348816" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="So in our opinion, we should" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="9" gapBefore="0" mediaItemID="3" duration="0.34999999999999998">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="10" gapBefore="0" duration="0.34999999999999998">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="2.3491525650024414" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="2.6666667461395264" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="colonize" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="11" gapBefore="0" mediaItemID="4" duration="0.45000000000000001">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="12" gapBefore="0.010000000000000009" duration="0.44">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectSwingDownTemplate" TextScriptId="8">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length" />
+            <BoundPropertyFloat Name="maxExtent" Value="0" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="2.7762711048126221" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="4.1500000953674316" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="Mars" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <TitleClip extentID="13" gapBefore="0.0099999999999997868" duration="0.49000000000000021">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="-0.040712356567382813" />
+              <BoundPropertyFloatElement Value="2.7762711048126221" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="1.2000000476837158" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="Expand out" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="14" gapBefore="0" mediaItemID="6" duration="0.25">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <ImageClip extentID="15" gapBefore="0" mediaItemID="7" duration="0.25">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="16" gapBefore="0" duration="0.25">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectSpinInTemplate" TextScriptId="3">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length" />
+            <BoundPropertyFloat Name="maxExtent" Value="0" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="-0.3053436279296875" />
+              <BoundPropertyFloatElement Value="-0.37627124786376953" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="1.5" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="because" />
+              <BoundPropertyStringElement Value="e" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="17" gapBefore="0" mediaItemID="8" duration="0.25">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="18" gapBefore="0" duration="0.25">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectStretchTemplate" TextScriptId="2">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length" />
+            <BoundPropertyFloat Name="maxExtent" Value="0" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="2.7762711048126221" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="5" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="and" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="19" gapBefore="0" mediaItemID="1" duration="0.20000000000000001">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="20" gapBefore="0.0099999999999997868" duration="0.24000000000000021">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectSpinOutTemplate" TextScriptId="4">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length" />
+            <BoundPropertyFloat Name="maxExtent" Value="0" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="-2.3206107616424561" />
+              <BoundPropertyFloatElement Value="0.57966113090515137" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="2.3333332538604736" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="Earth" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="21" gapBefore="0" mediaItemID="9" duration="0.25">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="22" gapBefore="0" duration="0.25">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="2.7762711048126221" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="4.1666665077209473" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="can" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <TitleClip extentID="23" gapBefore="0" duration="0.20000000000000001">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="-2.3409671783447266" />
+              <BoundPropertyFloatElement Value="-1.006779670715332" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="1.3333333730697632" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="more" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="24" gapBefore="0" mediaItemID="10" duration="2">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="25" gapBefore="0.019999999999999574" duration="1.9800000000000004">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="-1.8000001907348633" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="0.40000000596046448" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="materials and resources on Mars" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="26" gapBefore="0" mediaItemID="11" duration="1.45">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <ImageClip extentID="27" gapBefore="0" mediaItemID="1" duration="2.25">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="28" gapBefore="0" duration="0.98000000000000043">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0.70169496536254883" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="1.3333333730697632" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="But the thing is," />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <TitleClip extentID="29" gapBefore="0.0099999999999997868" duration="1.4400000000000002">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="-1.7186441421508789" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="0.80000001192092896" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="safe for our bodies or not" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="30" gapBefore="0" mediaItemID="12" duration="1.1499999999999999">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <AudioClip extentID="31" gapBefore="0" mediaItemID="2" inTime="8.1600000000000001" outTime="11.879999999999999" speed="1">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyBool Name="Mute" Value="false" />
+        <BoundPropertyFloat Name="Volume" Value="1" />
+      </BoundProperties>
+    </AudioClip>
+    <TitleClip extentID="32" gapBefore="-0.084165077209473083" duration="1.3541650772094727">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectScrollTemplate" TextScriptId="7">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length" />
+            <BoundPropertyFloat Name="maxExtent" Value="0" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="-1.608142614364624" />
+              <BoundPropertyFloatElement Value="-1.9627118110656738" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="0.60000002384185791" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="We do not know if it is" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Bold" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <TitleClip extentID="33" gapBefore="0" duration="1.1500000000000004">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="-0.040712356567382813" />
+              <BoundPropertyFloatElement Value="-1.7186441421508789" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="0.80000001192092896" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="if there is any food, or" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="34" gapBefore="0" mediaItemID="13" duration="0.40000000000000002">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <ImageClip extentID="35" gapBefore="0" mediaItemID="14" duration="0.5">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="36" gapBefore="0" duration="0.40000000000000002">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="-0.83460521697998047" />
+              <BoundPropertyFloatElement Value="-0.43728804588317871" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="1.8333333730697632" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="Mars" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <AudioClip extentID="40" gapBefore="0" mediaItemID="2" inTime="8.1600000000000001" outTime="18.538625" speed="1">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyBool Name="Mute" Value="false" />
+        <BoundPropertyFloat Name="Volume" Value="1" />
+      </BoundProperties>
+    </AudioClip>
+    <ImageClip extentID="42" gapBefore="0" mediaItemID="17" duration="2.1000000000000001">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="43" gapBefore="0.019999999999999574" duration="2.0800000000000005">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectTemplate" TextScriptId="0">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length">
+              <BoundPropertyFloatElement Value="4.0999999046325684" />
+              <BoundPropertyFloatElement Value="5.1999998092651367" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="maxExtent" Value="5" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="-0.63104343414306641" />
+              <BoundPropertyFloatElement Value="-2.267796516418457" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="0.40000000596046448" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="or if the gravity is suitable for living things," />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="45" gapBefore="0" mediaItemID="1" duration="0.25">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="46" gapBefore="0" duration="0.25">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectSwingDownTemplate" TextScriptId="8">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length" />
+            <BoundPropertyFloat Name="maxExtent" Value="0" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="2.7152543067932129" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="3" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="such as" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="47" gapBefore="0" mediaItemID="18" duration="0.25">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <AudioClip extentID="48" gapBefore="0" mediaItemID="2" inTime="12.459999999999997" outTime="18.538625" speed="1">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyBool Name="Mute" Value="false" />
+        <BoundPropertyFloat Name="Volume" Value="1" />
+      </BoundProperties>
+    </AudioClip>
+    <TitleClip extentID="49" gapBefore="0" duration="0.5">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectFlyInTemplate" TextScriptId="5">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length" />
+            <BoundPropertyFloat Name="maxExtent" Value="0" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="-0.46819305419921875" />
+              <BoundPropertyFloatElement Value="-0.57966113090515137" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="2" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="metal" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ImageClip extentID="50" gapBefore="0" mediaItemID="15" duration="0.5">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <TitleClip extentID="51" gapBefore="0.0099999999999997868" duration="0.49000000000000021">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectFlyInLeftTemplate" TextScriptId="6">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length" />
+            <BoundPropertyFloat Name="maxExtent" Value="0" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="-0.98644065856933594" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="1.6666666269302368" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="or wood" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <TitleClip extentID="52" gapBefore="0.0099999999999997868" duration="0.24000000000000021">
+      <Effects>
+        <TextEffect effectTemplateID="TextEffectBigZoomTemplate" TextScriptId="10">
+          <BoundProperties>
+            <BoundPropertyBool Name="automatic" Value="false" />
+            <BoundPropertyFloatSet Name="color">
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="1" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyStringSet Name="family">
+              <BoundPropertyStringElement Value="Segoe UI" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="horizontal" Value="true" />
+            <BoundPropertyStringSet Name="justify">
+              <BoundPropertyStringElement Value="MIDDLE" />
+            </BoundPropertyStringSet>
+            <BoundPropertyBool Name="leftToRight" Value="true" />
+            <BoundPropertyFloatSet Name="length" />
+            <BoundPropertyFloat Name="maxExtent" Value="0" />
+            <BoundPropertyFloatSet Name="outlineColor">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="0" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyInt Name="outlineSizeIndex" Value="1" />
+            <BoundPropertyFloatSet Name="position">
+              <BoundPropertyFloatElement Value="0" />
+              <BoundPropertyFloatElement Value="2.3898305892944336" />
+              <BoundPropertyFloatElement Value="0.02500000037252903" />
+            </BoundPropertyFloatSet>
+            <BoundPropertyFloat Name="size" Value="3" />
+            <BoundPropertyStringSet Name="string">
+              <BoundPropertyStringElement Value="animals" />
+            </BoundPropertyStringSet>
+            <BoundPropertyString Name="style" Value="Plain" />
+            <BoundPropertyFloat Name="transparency" Value="0" />
+          </BoundProperties>
+        </TextEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyFloatSet Name="diffuseColor">
+          <BoundPropertyFloatElement Value="0.75" />
+          <BoundPropertyFloatElement Value="1" />
+          <BoundPropertyFloatElement Value="0" />
+        </BoundPropertyFloatSet>
+        <BoundPropertyFloat Name="transparency" Value="1" />
+      </BoundProperties>
+    </TitleClip>
+    <ExtentSelector extentID="1" gapBefore="0" primaryTrack="true">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs>
+        <ExtentRef id="5" />
+        <ExtentRef id="9" />
+        <ExtentRef id="11" />
+        <ExtentRef id="15" />
+        <ExtentRef id="17" />
+        <ExtentRef id="21" />
+        <ExtentRef id="6" />
+        <ExtentRef id="14" />
+        <ExtentRef id="19" />
+        <ExtentRef id="24" />
+        <ExtentRef id="27" />
+        <ExtentRef id="26" />
+        <ExtentRef id="30" />
+        <ExtentRef id="35" />
+        <ExtentRef id="50" />
+        <ExtentRef id="54" />
+        <ExtentRef id="56" />
+        <ExtentRef id="34" />
+        <ExtentRef id="42" />
+        <ExtentRef id="45" />
+        <ExtentRef id="47" />
+        <ExtentRef id="53" />
+        <ExtentRef id="59" />
+      </ExtentRefs>
+    </ExtentSelector>
+    <ExtentSelector extentID="2" gapBefore="0" primaryTrack="false">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs>
+        <ExtentRef id="7" />
+        <ExtentRef id="31" />
+        <ExtentRef id="48" />
+      </ExtentRefs>
+    </ExtentSelector>
+    <ExtentSelector extentID="3" gapBefore="0" primaryTrack="false">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs />
+    </ExtentSelector>
+    <ExtentSelector extentID="4" gapBefore="0" primaryTrack="false">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs>
+        <ExtentRef id="8" />
+        <ExtentRef id="10" />
+        <ExtentRef id="12" />
+        <ExtentRef id="16" />
+        <ExtentRef id="20" />
+        <ExtentRef id="22" />
+        <ExtentRef id="13" />
+        <ExtentRef id="18" />
+        <ExtentRef id="23" />
+        <ExtentRef id="25" />
+        <ExtentRef id="28" />
+        <ExtentRef id="32" />
+        <ExtentRef id="29" />
+        <ExtentRef id="33" />
+        <ExtentRef id="49" />
+        <ExtentRef id="51" />
+        <ExtentRef id="55" />
+        <ExtentRef id="57" />
+        <ExtentRef id="36" />
+        <ExtentRef id="43" />
+        <ExtentRef id="46" />
+        <ExtentRef id="52" />
+        <ExtentRef id="58" />
+        <ExtentRef id="60" />
+      </ExtentRefs>
+    </ExtentSelector>
+  </Extents>
+  <BoundPlaceholders>
+    <BoundPlaceholder placeholderID="SingleExtentView" extentID="0" />
+    <BoundPlaceholder placeholderID="Main" extentID="1" />
+    <BoundPlaceholder placeholderID="SoundTrack" extentID="2" />
+    <BoundPlaceholder placeholderID="Narration" extentID="3" />
+    <BoundPlaceholder placeholderID="Text" extentID="4" />
+  </BoundPlaceholders>
+  <BoundProperties>
+    <BoundPropertyFloatSet Name="AspectRatio">
+      <BoundPropertyFloatElement Value="1.7777776718139648" />
+    </BoundPropertyFloatSet>
+    <BoundPropertyFloat Name="DuckedNarrationAndSoundTrackMix" Value="1" />
+    <BoundPropertyFloat Name="DuckedVideoAndNarrationMix" Value="0" />
+    <BoundPropertyFloat Name="DuckedVideoAndSoundTrackMix" Value="1" />
+    <BoundPropertyFloat Name="SoundTrackMix" Value="1" />
+  </BoundProperties>
+  <ThemeOperationLog themeID="0">
+    <MonolithicThemeOperations />
+  </ThemeOperationLog>
+  <AudioDuckingProperties emphasisPlaceholderID="Narration" />
+</Project>
