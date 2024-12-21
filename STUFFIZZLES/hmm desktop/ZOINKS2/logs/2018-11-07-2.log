@@ -1,0 +1,536 @@
+[20:44:51] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:44:51] [Server thread/INFO]: Loading properties
+[20:44:51] [Server thread/INFO]: Default game type: SURVIVAL
+[20:44:51] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:44:51] [Server thread/INFO]: Debug logging is disabled
+[20:44:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:44:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:44:51] [Server thread/INFO]: Generating keypair
+[20:44:52] [Server thread/INFO]: Starting Minecraft server on *:42069
+[20:44:52] [Server thread/INFO]: Using default channel type
+[20:44:52] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:44:52] [Server thread/ERROR]: ebean.properties not found
+[20:44:52] [Server thread/INFO]: DataSourcePool [LoginSecurity] autoCommit[false] transIsolation[SERIALIZABLE] min[2] max[20]
+[20:44:52] [Server thread/INFO]: SubClassFactory parent ClassLoader [org.bukkit.plugin.java.PluginClassLoader]
+[20:44:52] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerProfile but not supported by DB Platform - ignored
+[20:44:52] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.Migration but not supported by DB Platform - ignored
+[20:44:52] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.ActionEntry but not supported by DB Platform - ignored
+[20:44:52] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerInventory but not supported by DB Platform - ignored
+[20:44:53] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerLocation but not supported by DB Platform - ignored
+[20:44:53] [Server thread/INFO]: Entities enhanced[0] subclassed[5]
+[20:44:53] [Server thread/ERROR]: Could not load 'plugins\EssentialsXChat-2.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Essentials
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[20:44:53] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.5.04-SNAPSHOT-b${BUILD_NUMBER}
+[20:44:53] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.3.0
+[20:44:53] [Server thread/INFO]: [ViaVersion] ViaVersion 1.3.0 is now loaded, injecting!
+[20:44:53] [Server thread/INFO]: [LockettePro] Loading LockettePro v2.9.0
+[20:44:53] [Server thread/INFO]: [EasyBackup] Loading EasyBackup v1.1.4
+[20:44:53] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v2.1.7
+[20:44:53] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.5.04-SNAPSHOT-b${BUILD_NUMBER}
+[20:44:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:44:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:44:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:44:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:44:54] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:44:54] [Server thread/INFO]: Preparing level "world"
+[20:44:54] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:44:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:44:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:44:54] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:44:54] [Server thread/INFO]: Clear tick list: false
+[20:44:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:44:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:44:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:44:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:44:54] [Server thread/INFO]: View Distance: 10
+[20:44:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:44:54] [Server thread/INFO]: Max Entity Collisions: 8
+[20:44:54] [Server thread/INFO]: Anti X-Ray: true
+[20:44:54] [Server thread/INFO]: 	Engine Mode: 1
+[20:44:54] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:44:54] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:44:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:44:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:44:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:44:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:44:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:44:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:44:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:44:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:44:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:44:54] [Server thread/INFO]: Mob Spawn Range: 4
+[20:44:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:44:54] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:44:54] [Server thread/INFO]: Random Lighting Updates: false
+[20:44:54] [Server thread/INFO]: Structure Info Saving: true
+[20:44:54] [Server thread/INFO]: Max TNT Explosions: 100
+[20:44:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:44:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:44:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:44:55] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:44:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:44:55] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:44:55] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:44:55] [Server thread/INFO]: Clear tick list: false
+[20:44:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:44:55] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:44:55] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:44:55] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:44:55] [Server thread/INFO]: View Distance: 10
+[20:44:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:44:55] [Server thread/INFO]: Max Entity Collisions: 8
+[20:44:55] [Server thread/INFO]: Anti X-Ray: true
+[20:44:55] [Server thread/INFO]: 	Engine Mode: 1
+[20:44:55] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:44:55] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:44:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:44:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:44:55] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:44:55] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:44:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:44:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:44:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:44:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:44:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:44:55] [Server thread/INFO]: Mob Spawn Range: 4
+[20:44:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:44:55] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:44:55] [Server thread/INFO]: Random Lighting Updates: false
+[20:44:55] [Server thread/INFO]: Structure Info Saving: true
+[20:44:55] [Server thread/INFO]: Max TNT Explosions: 100
+[20:44:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:44:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:44:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:44:56] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:44:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:44:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:44:56] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:44:56] [Server thread/INFO]: Clear tick list: false
+[20:44:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:44:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:44:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:44:56] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:44:56] [Server thread/INFO]: View Distance: 10
+[20:44:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:44:56] [Server thread/INFO]: Max Entity Collisions: 8
+[20:44:56] [Server thread/INFO]: Anti X-Ray: true
+[20:44:56] [Server thread/INFO]: 	Engine Mode: 1
+[20:44:56] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:44:56] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:44:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:44:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:44:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:44:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:44:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:44:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:44:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:44:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:44:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:44:56] [Server thread/INFO]: Mob Spawn Range: 4
+[20:44:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:44:56] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:44:56] [Server thread/INFO]: Random Lighting Updates: false
+[20:44:56] [Server thread/INFO]: Structure Info Saving: true
+[20:44:56] [Server thread/INFO]: Max TNT Explosions: 100
+[20:44:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:44:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:44:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:44:56] [Server thread/INFO]: Preparing start region for level 0 (Seed: 376786508)
+[20:44:57] [Server thread/INFO]: Preparing spawn area: 82%
+[20:44:57] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4664712093828578505)
+[20:44:58] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4664712093828578505)
+[20:44:59] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.3.0
+[20:44:59] [Server thread/INFO]: [LockettePro] Enabling LockettePro v2.9.0
+[20:44:59] [Server thread/INFO]: [EasyBackup] Enabling EasyBackup v1.1.4
+[20:44:59] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v2.1.7
+[20:44:59] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[20:44:59] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[20:44:59] [Server thread/INFO]: [LoginSecurity] Connection to database....
+[20:44:59] [Server thread/INFO]: DataSourcePool [LoginSecurityDB] autoCommit[false] transIsolation[SERIALIZABLE] min[2] max[20]
+[20:44:59] [Server thread/INFO]: SubClassFactory parent ClassLoader [org.bukkit.plugin.java.PluginClassLoader]
+[20:44:59] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerProfile but not supported by DB Platform - ignored
+[20:44:59] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.Migration but not supported by DB Platform - ignored
+[20:44:59] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.ActionEntry but not supported by DB Platform - ignored
+[20:44:59] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerInventory but not supported by DB Platform - ignored
+[20:44:59] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerLocation but not supported by DB Platform - ignored
+[20:44:59] [Server thread/INFO]: Entities enhanced[0] subclassed[5]
+[20:44:59] [Server thread/INFO]: [LoginSecurity] Checking database version...
+[20:44:59] [Server thread/INFO]: [LoginSecurity] Applied 0 missing database upgrades.
+[20:44:59] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[20:44:59] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[20:44:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:44:59] [Server thread/INFO]: Done (5.589s)! For help, type "help" or "?"
+[20:44:59] [Server thread/INFO]: Starting remote control listener
+[20:44:59] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:42079
+[20:44:59] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x(47)
+[20:45:00] [Craft Scheduler Thread - 3/WARN]: java.io.IOException: Server returned HTTP response code: 500 for URL: http://coremod.com/pluginMetrics/pluginMetrics.php?plugin=EasyBackup&ip=42069&players=0
+[20:45:00] [Craft Scheduler Thread - 3/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[20:45:00] [Craft Scheduler Thread - 3/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[20:45:00] [Craft Scheduler Thread - 3/WARN]: 	at me.forseth11.EasyBackup.PluginMetrics.update(PluginMetrics.java:32)
+[20:45:00] [Craft Scheduler Thread - 3/WARN]: 	at me.forseth11.EasyBackup.PluginMetrics$1.run(PluginMetrics.java:51)
+[20:45:00] [Craft Scheduler Thread - 3/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[20:45:00] [Craft Scheduler Thread - 3/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[20:45:00] [Craft Scheduler Thread - 3/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[20:45:00] [Craft Scheduler Thread - 3/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[20:45:00] [Craft Scheduler Thread - 3/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[20:45:00] [Server thread/WARN]: [ViaVersion] There is a newer version available: 1.6.0, you're on: 1.3.0
+[20:45:25] [Thread-15/INFO]: [0;32;1m[EasyBackup] Starting server backup from: C:\Users\20378\OneDrive - Gates Chili CSD\STUFFIZZLES\Zoinks\.[m
+[20:45:25] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 0% 0/56 MB Saved.[m
+[20:45:26] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 3% 1/56 MB Saved.[m
+[20:45:27] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 12% 7/56 MB Saved.[m
+[20:45:27] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 13% 7/56 MB Saved.[m
+[20:45:28] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 15% 8/56 MB Saved.[m
+[20:45:28] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 18% 10/56 MB Saved.[m
+[20:45:29] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 51% 29/56 MB Saved.[m
+[20:45:33] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 52% 29/56 MB Saved.[m
+[20:45:33] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 53% 30/56 MB Saved.[m
+[20:45:33] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 58% 33/56 MB Saved.[m
+[20:45:34] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 64% 36/56 MB Saved.[m
+[20:45:35] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 65% 37/56 MB Saved.[m
+[20:45:35] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 66% 37/56 MB Saved.[m
+[20:45:35] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 74% 42/56 MB Saved.[m
+[20:45:37] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 82% 46/56 MB Saved.[m
+[20:45:39] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 83% 47/56 MB Saved.[m
+[20:45:40] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 84% 48/56 MB Saved.[m
+[20:45:40] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 86% 48/56 MB Saved.[m
+[20:45:41] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 87% 49/56 MB Saved.[m
+[20:45:41] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 88% 50/56 MB Saved.[m
+[20:45:42] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 89% 50/56 MB Saved.[m
+[20:45:42] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 90% 51/56 MB Saved.[m
+[20:45:43] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 91% 52/56 MB Saved.[m
+[20:45:45] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 92% 52/56 MB Saved.[m
+[20:45:45] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 93% 53/56 MB Saved.[m
+[20:45:45] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 94% 53/56 MB Saved.[m
+[20:45:45] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 95% 54/56 MB Saved.[m
+[20:45:45] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 97% 55/56 MB Saved.[m
+[20:45:46] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 98% 55/56 MB Saved.[m
+[20:45:46] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 99% 56/56 MB Saved.[m
+[20:45:46] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup: 100% 57/56 MB Saved.[m
+[20:45:48] [Thread-15/INFO]: [0;32;1m[EasyBackup] Backup saved![m
+[20:46:49] [Thread-16/INFO]: UUID of player CreeperZ585 is ea89974b-77ad-3c41-8273-6072be99af20
+[20:46:49] [Server thread/INFO]: CreeperZ585[/127.0.0.1:56837] logged in with entity id 199 at ([world]34.0591881893178, 69.0, 252.60163002748703)
+[20:48:53] [Server thread/INFO]: Stopping the server
+[20:48:53] [Server thread/INFO]: Stopping server
+[20:48:53] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v2.1.7
+[20:48:53] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[20:48:53] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[20:48:53] [Server thread/INFO]: [EasyBackup] Disabling EasyBackup v1.1.4
+[20:48:53] [Server thread/WARN]: java.io.IOException: Server returned HTTP response code: 500 for URL: http://coremod.com/pluginMetrics/pluginMetrics.php?plugin=EasyBackup&ip=42069&players=-1
+[20:48:53] [Server thread/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[20:48:53] [Server thread/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[20:48:53] [Server thread/WARN]: 	at me.forseth11.EasyBackup.PluginMetrics.update(PluginMetrics.java:32)
+[20:48:53] [Server thread/WARN]: 	at me.forseth11.EasyBackup.main.onDisable(main.java:28)
+[20:48:53] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:323)
+[20:48:53] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:364)
+[20:48:53] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:424)
+[20:48:53] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:417)
+[20:48:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.disablePlugins(CraftServer.java:336)
+[20:48:53] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.stop(MinecraftServer.java:460)
+[20:48:53] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:593)
+[20:48:53] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[20:48:53] [Server thread/INFO]: [LockettePro] Disabling LockettePro v2.9.0
+[20:48:53] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.3.0
+[20:48:53] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[20:48:53] [Server thread/INFO]: [mcMMO] Disabling mcMMO v1.5.04-SNAPSHOT-b${BUILD_NUMBER}
+[20:48:53] [Server thread/INFO]: Saving players
+[20:48:53] [Server thread/INFO]: CreeperZ585 lost connection: Server closed
+[20:48:54] [Server thread/INFO]: CreeperZ585 left the game.
+[20:48:54] [Server thread/INFO]: Saving worlds
+[20:48:54] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[20:48:54] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[20:48:54] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[20:49:08] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:49:08] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_181]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_181]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_181]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_181]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer$2.run(DedicatedServer.java:81) [server.jar:git-Spigot-db6de12-18fbb24]
+[20:49:08] [Server thread/INFO]: Loading properties
+[20:49:08] [Server thread/INFO]: Default game type: SURVIVAL
+[20:49:08] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:49:08] [Server thread/INFO]: Debug logging is disabled
+[20:49:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:49:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:49:08] [Server thread/INFO]: Generating keypair
+[20:49:08] [Server thread/INFO]: Starting Minecraft server on *:42069
+[20:49:08] [Server thread/INFO]: Using default channel type
+[20:49:09] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:49:09] [Server thread/ERROR]: ebean.properties not found
+[20:49:09] [Server thread/INFO]: DataSourcePool [LoginSecurity] autoCommit[false] transIsolation[SERIALIZABLE] min[2] max[20]
+[20:49:09] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.[20:49:09] [Server thread/INFO]: Explicit Identity [20:49:09] [Server thread/INFO]: Debug logging is disabled
+[20:49:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:49:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:49:10] [Server thread/INFO]: Generating keypair
+[20:49:10] [Server thread/INFO]: Starting Minecraft server on *:42069
+[20:49:10] [Server thread/INFO]: Using default channel type
+[20:49:10] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[20:49:10] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[20:49:10] [Server thread/WARN]: Perhaps a server is already running on that port?
+[20:49:10] [Server thread/INFO]: Stopping server
+[20:49:10] [Server thread/INFO]: Saving players
+ver thread/INFO]: Entities enhanced[0] subclassed[5]
+[20:49:10] [Server thread/ERROR]: Could not load 'plugins\EssentialsXChat-2.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Essentials
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[20:49:10] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.5.04-SNAPSHOT-b${BUILD_NUMBER}
+[20:49:10] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.3.0
+[20:49:10] [Server thread/INFO]: [ViaVersion] ViaVersion 1.3.0 is now loaded, injecting!
+[20:49:10] [Server thread/INFO]: [LockettePro] Loading LockettePro v2.9.0
+[20:49:10] [Server thread/INFO]: [EasyBackup] Loading EasyBackup v1.1.4
+[20:49:10] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v2.1.7
+[20:49:10] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.5.04-SNAPSHOT-b${BUILD_NUMBER}
+[20:49:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:49:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:49:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:49:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:49:10] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:49:10] [Server thread/INFO]: Preparing level "world"
+[20:49:10] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:49:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:49:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:49:10] [Server thread/INFO]: View Distance: 10
+[20:49:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:49:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:49:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:49:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:49:10] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:49:10] [Server thread/INFO]: Clear tick list: false
+[20:49:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:49:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:49:10] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:49:10] [Server thread/INFO]: Random Lighting Updates: false
+[20:49:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:49:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:49:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:49:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:49:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:49:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:49:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:49:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:49:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:49:10] [Server thread/INFO]: Max TNT Explosions: 100
+[20:49:10] [Server thread/INFO]: Structure Info Saving: true
+[20:49:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:49:10] [Server thread/INFO]: Anti X-Ray: true
+[20:49:10] [Server thread/INFO]: 	Engine Mode: 1
+[20:49:10] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:49:10] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:49:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:49:10] [Server thread/INFO]: Mob Spawn Range: 4
+[20:49:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:49:10] [Server thread/INFO]: Max Entity Collisions: 8
+[20:49:11] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:49:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:49:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:49:11] [Server thread/INFO]: View Distance: 10
+[20:49:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:49:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:49:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:49:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:49:11] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:49:11] [Server thread/INFO]: Clear tick list: false
+[20:49:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:49:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:49:11] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:49:11] [Server thread/INFO]: Random Lighting Updates: false
+[20:49:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:49:11] [Server thread/INFO]: Max TNT Explosions: 100
+[20:49:11] [Server thread/INFO]: Structure Info Saving: true
+[20:49:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:49:11] [Server thread/INFO]: Anti X-Ray: true
+[20:49:11] [Server thread/INFO]: 	Engine Mode: 1
+[20:49:11] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:49:11] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:49:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:49:11] [Server thread/INFO]: Mob Spawn Range: 4
+[20:49:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:49:11] [Server thread/INFO]: Max Entity Collisions: 8
+[20:49:11] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:49:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:49:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:49:11] [Server thread/INFO]: View Distance: 10
+[20:49:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:49:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:49:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:49:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:49:11] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:49:11] [Server thread/INFO]: Clear tick list: false
+[20:49:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:49:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:49:11] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:49:11] [Server thread/INFO]: Random Lighting Updates: false
+[20:49:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:49:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:49:11] [Server thread/INFO]: Max TNT Explosions: 100
+[20:49:11] [Server thread/INFO]: Structure Info Saving: true
+[20:49:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:49:11] [Server thread/INFO]: Anti X-Ray: true
+[20:49:11] [Server thread/INFO]: 	Engine Mode: 1
+[20:49:11] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:49:11] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:49:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:49:11] [Server thread/INFO]: Mob Spawn Range: 4
+[20:49:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:49:11] [Server thread/INFO]: Max Entity Collisions: 8
+[20:49:11] [Server thread/INFO]: Preparing start region for level 0 (Seed: 376786508)
+[20:49:12] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4664712093828578505)
+[20:49:12] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4664712093828578505)
+[20:49:13] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.3.0
+[20:49:13] [Server thread/INFO]: [LockettePro] Enabling LockettePro v2.9.0
+[20:49:13] [Server thread/INFO]: [EasyBackup] Enabling EasyBackup v1.1.4
+[20:49:13] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v2.1.7
+[20:49:13] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[20:49:13] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[20:49:13] [Server thread/INFO]: [LoginSecurity] Connection to database....
+[20:49:13] [Server thread/INFO]: DataSourcePool [LoginSecurityDB] autoCommit[false] transIsolation[SERIALIZABLE] min[2] max[20]
+[20:49:13] [Server thread/INFO]: SubClassFactory parent ClassLoader [org.bukkit.plugin.java.PluginClassLoader]
+[20:49:13] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerProfile but not supported by DB Platform - ignored
+[20:49:13] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerLocation but not supported by DB Platform - ignored
+[20:49:13] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.ActionEntry but not supported by DB Platform - ignored
+[20:49:13] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.Migration but not supported by DB Platform - ignored
+[20:49:13] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerInventory but not supported by DB Platform - ignored
+[20:49:13] [Server thread/INFO]: Entities enhanced[0] subclassed[5]
+[20:49:13] [Server thread/INFO]: [LoginSecurity] Checking database version...
+[20:49:13] [Server thread/INFO]: [LoginSecurity] Applied 0 missing database upgrades.
+[20:49:13] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[20:49:13] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[20:49:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:49:13] [Server thread/INFO]: Done (2.818s)! For help, type "help" or "?"
+[20:49:13] [Server thread/INFO]: Starting remote control listener
+[20:49:13] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:42079
+[20:49:13] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x(47)
+[20:49:14] [Craft Scheduler Thread - 3/WARN]: java.io.IOException: Server returned HTTP response code: 500 for URL: http://coremod.com/pluginMetrics/pluginMetrics.php?plugin=EasyBackup&ip=42069&players=0
+[20:49:14] [Craft Scheduler Thread - 3/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[20:49:14] [Craft Scheduler Thread - 3/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[20:49:14] [Craft Scheduler Thread - 3/WARN]: 	at me.forseth11.EasyBackup.PluginMetrics.update(PluginMetrics.java:32)
+[20:49:14] [Craft Scheduler Thread - 3/WARN]: 	at me.forseth11.EasyBackup.PluginMetrics$1.run(PluginMetrics.java:51)
+[20:49:14] [Craft Scheduler Thread - 3/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[20:49:14] [Craft Scheduler Thread - 3/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[20:49:14] [Craft Scheduler Thread - 3/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[20:49:14] [Craft Scheduler Thread - 3/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[20:49:14] [Craft Scheduler Thread - 3/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[20:49:14] [Server thread/WARN]: [ViaVersion] There is a newer version available: 1.6.0, you're on: 1.3.0
+[20:49:37] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:49:37] [Server thread/INFO]: Loading properties
+[20:49:37] [Server thread/INFO]: Default game type: SURVIVAL
+[20:49:37] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:49:37] [Server thread/INFO]: Debug logging is disabled
+[20:49:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:49:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:49:38] [Server thread/INFO]: Generating keypair
+[20:49:38] [Server thread/INFO]: Starting Minecraft server on *:42069
+[20:49:38] [Server thread/INFO]: Using default channel type
+[20:49:38] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[20:49:38] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[20:49:38] [Server thread/WARN]: Perhaps a server is already running on that port?
+[20:49:38] [Server thread/INFO]: Stopping server
+[20:49:38] [Server thread/INFO]: Saving players
+[20:49:57] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:49:57] [Server thread/INFO]: Loading properties
+[20:49:57] [Server thread/INFO]: Default game type: SURVIVAL
+[20:49:57] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:49:57] [Server thread/INFO]: Debug logging is disabled
+[20:49:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:49:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:49:57] [Server thread/INFO]: Generating keypair
+[20:49:57] [Server thread/INFO]: Starting Minecraft server on *:42069
+[20:49:57] [Server thread/INFO]: Using default channel type
+[20:49:58] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[20:49:58] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[20:49:58] [Server thread/WARN]: Perhaps a server is already running on that port?
+[20:49:58] [Server thread/INFO]: Stopping server
+[20:49:58] [Server thread/INFO]: Saving players
+[20:50:08] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:50:08] [Server thread/INFO]: Loading properties
+[20:50:08] [Server thread/INFO]: Default game type: SURVIVAL
+[20:50:09] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:50:09] [Server thread/INFO]: Debug logging is disabled
+[20:50:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:50:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:50:09] [Server thread/INFO]: Generating keypair
+[20:50:09] [Server thread/INFO]: Starting Minecraft server on *:42069
+[20:50:09] [Server thread/INFO]: Using default channel type
+[20:50:09] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[20:50:09] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[20:50:09] [Server thread/WARN]: Perhaps a server is already running on that port?
+[20:50:09] [Server thread/INFO]: Stopping server
+[20:50:09] [Server thread/INFO]: Saving players
+[20:50:36] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:50:36] [Server thread/INFO]: Loading properties
+[20:50:36] [Server thread/INFO]: Default game type: SURVIVAL
+[20:50:36] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:50:36] [Server thread/INFO]: Debug logging is disabled
+[20:50:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:50:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:50:36] [Server thread/INFO]: Generating keypair
+[20:50:36] [Server thread/INFO]: Starting Minecraft server on *:42069
+[20:50:36] [Server thread/INFO]: Using default channel type
+[20:50:36] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[20:50:36] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[20:50:36] [Server thread/WARN]: Perhaps a server is already running on that port?
+[20:50:36] [Server thread/INFO]: Stopping server
+[20:50:36] [Server thread/INFO]: Saving players
+[20:50:48] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:50:48] [Server thread/INFO]: Loading properties
+[20:50:48] [Server thread/INFO]: Default game type: SURVIVAL
+[20:50:48] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:50:49] [Server thread/INFO]: Debug logging is disabled
+[20:50:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:50:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:50:49] [Server thread/INFO]: Generating keypair
+[20:50:49] [Server thread/INFO]: Starting Minecraft server on *:42069
+[20:50:49] [Server thread/INFO]: Using default channel type
+[20:50:49] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[20:50:49] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[20:50:49] [Server thread/WARN]: Perhaps a server is already running on that port?
+[20:50:49] [Server thread/INFO]: Stopping server
+[20:50:49] [Server thread/INFO]: Saving players
+[20:57:45] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:57:45] [Server thread/INFO]: Loading properties
+[20:57:45] [Server thread/INFO]: Default game type: SURVIVAL
+[20:57:45] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:57:46] [Server thread/INFO]: Debug logging is disabled
+[20:57:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:57:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:57:46] [Server thread/INFO]: Generating keypair
+[20:57:46] [Server thread/INFO]: Starting Minecraft server on *:42069
+[20:57:46] [Server thread/INFO]: Using default channel type
+[20:57:46] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[20:57:46] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[20:57:46] [Server thread/WARN]: Perhaps a server is already running on that port?
+[20:57:46] [Server thread/INFO]: Stopping server
+[20:57:46] [Server thread/INFO]: Saving players

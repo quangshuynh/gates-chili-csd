@@ -1,0 +1,21 @@
+{
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2018-11-09 13:46:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:cold_ocean": "2018-11-09 13:46:47 -0500",
+      "minecraft:snowy_mountains": "2018-11-09 13:47:51 -0500",
+      "minecraft:mountains": "2018-11-09 13:46:14 -0500",
+      "minecraft:forest": "2018-11-09 13:46:11 -0500",
+      "minecraft:deep_cold_ocean": "2018-11-09 13:46:13 -0500",
+      "minecraft:jungle": "2018-11-09 13:46:06 -0500",
+      "minecraft:beach": "2018-11-09 13:46:00 -0500",
+      "minecraft:wooded_hills": "2018-11-09 13:46:07 -0500"
+    },
+    "done": false
+  }
+}

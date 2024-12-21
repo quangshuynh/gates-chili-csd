@@ -1,0 +1,50 @@
+# EssentialsX new Kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+# 
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - itemID[:DataValue/Durability] Amount [Enchantment:Level].. [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  sniper:
+    delay: 60
+    items:
+    - IRON_HORSE_ARMOR 1 title:&eHunting_Rifle&e_▫_«0» lore:&eBolt-action_rifle_with_high_accuracy.|&eEquipped_with_a_night_vision_scope.|&eDeals_double_damage_on_headshots.
+    - IRON_HORSE_ARMOR 1 title:&eCarbine&e_▪_«8_◀▷_1» lore:&eDeals_crits_with_a_10%_chance.|&eSwitch_to_the_grenade_launcher|&ewith_right_click._Fired_grenades|&earm_themselves_in_0.25_seconds.
+    - LEVER 5 title:&eC4&e_«2» lore:&eRemote_explosives.|&eRight_click_to_place.|&eLeft_click_to_detonate.
+    - LEATHER_HELMET 1 color:10511680
+    - LEATHER_CHESTPLATE 1 color:10511680
+    - CHAINMAIL_LEGGINGS 1
+    GOLDEN_BOOTS 1
+  dtools:
+    delay: 600
+    items:
+    - 278 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+    - 277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
+    - 298 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
+    - 279:780 1
+  notch:
+    delay: 6000
+    items:
+    - 397:3 1 player:Notch
+  color:
+    delay: 6000
+    items:
+    - 387 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes book:Colors
+  firework:
+    delay: 6000
+    items:
+    - 401 1 name:Angry_Creeper color:red fade:green type:creeper power:1
+    - 401 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle
+      power:1
+    - 401 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle
+      color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink
+      shape:star effect:trail power:1
+  Sniper:
+    delay: 0
+    items:
+    - SIGN_POST 1
+    - SKULL_ITEM:3 1 player:Notch

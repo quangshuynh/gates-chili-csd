@@ -1,0 +1,27 @@
+lastAccountName: SpudGamer168
+timestamps:
+  login: 1539708091026
+  kits:
+    sniper: 1539708217243
+    soldier: 1539708173656
+    explosivesexpert: 1539103500667
+    heavyduty: 1539103640321
+  lastteleport: 1539708228310
+  logout: 1539708088977
+ipAddress: 10.146.65.183
+geolocation: N/A
+lastlocation:
+  world: world
+  x: 22.509641085277224
+  y: 64.0
+  z: -29.016878878666652
+  yaw: 95.77774
+  pitch: 3.302278
+logoutlocation:
+  world: world
+  x: 17.30000001192093
+  y: 72.00402773699017
+  z: -15.505304983070884
+  yaw: 170.02728
+  pitch: 65.5522
+afk: false

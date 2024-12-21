@@ -1,0 +1,22 @@
+geolocation: N/A
+lastAccountName: SirElbow420
+timestamps:
+  login: 1542303180501
+  logout: 1542303175832
+  lastteleport: 1542130325152
+ipAddress: 10.146.65.48
+logoutlocation:
+  world: world
+  x: 3.2431128090484664
+  y: 67.5
+  z: 254.35165049975893
+  yaw: 12.154663
+  pitch: 17.99998
+lastlocation:
+  world: world
+  x: 254.5172042639594
+  y: 7.0
+  z: 329.2030025453121
+  yaw: 83.400085
+  pitch: 4.9500866
+afk: false

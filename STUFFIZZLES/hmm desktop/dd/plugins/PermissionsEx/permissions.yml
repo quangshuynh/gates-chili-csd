@@ -1,0 +1,63 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - essentials.workbench
+    - modifyworld.*
+    - essentials.help
+    - essentials.msg
+    - essentials.warp
+    - essentials.warps
+    - essentials.warps.list
+    - essentials.warp.list
+    - essentials.warp.skyblock
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.list
+    - essentials.kit.list
+    - essentials.kits.starter
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.pay
+    - essentials.afk
+    - essentials.helpop
+    - essentials.ignore
+    - essentials.info
+    - essentials.list
+    - essentials.realname
+    - essentials.whois
+    - essentials.spawn
+    - essentials.back
+    - essentials.home
+    - essentials.sethome
+    - essentials.sethome.multiple.3
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warps.*
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.sethome.multiple
+    - essentials.sethome.bed
+    - essentials.sethome
+    - essentials.home
+    - essentials.home.bed
+    - lockette.user.create.*
+schema-version: 1
+users:
+  46ee552d-b7dc-3500-bf99-0a9f809c1a71:
+    options:
+      name: GoodBoiNo1
+    permissions:
+    - worldedit.*
+  4d714c40-3e16-35cc-b032-f6b8bd7b1115:
+    options:
+      name: SpudGamer168
+  afdbc47f-fb48-3ee6-bbe9-9be012e87e0a:
+    options:
+      name: Jevaco
+  ea89974b-77ad-3c41-8273-6072be99af20:
+    options:
+      name: CreeperZ585

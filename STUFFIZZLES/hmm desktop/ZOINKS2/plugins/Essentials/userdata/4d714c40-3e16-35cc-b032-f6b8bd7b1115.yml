@@ -1,0 +1,22 @@
+geolocation: United States
+lastAccountName: SpudGamer168
+timestamps:
+  login: 1542156317217
+  logout: 1542132291089
+  lastteleport: 1542159663214
+ipAddress: 172.101.183.235
+logoutlocation:
+  world: world
+  x: 0.48092963788740484
+  y: 61.0
+  z: 249.69999998807907
+  yaw: 233.39008
+  pitch: 9.072809
+afk: true
+lastlocation:
+  world: world
+  x: 17.356936106285982
+  y: 70.0
+  z: 278.74757217202693
+  yaw: 37.804688
+  pitch: 72.60004

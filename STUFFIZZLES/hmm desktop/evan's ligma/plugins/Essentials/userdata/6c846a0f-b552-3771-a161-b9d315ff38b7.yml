@@ -1,0 +1,25 @@
+lastAccountName: SirElbow420
+timestamps:
+  login: 1539189094607
+  logout: 1539189746287
+  lastteleport: 1539189596515
+  kits:
+    sniper: 1539189570546
+    soldier: 1539189539943
+    heavyduty: 1539189534158
+ipAddress: 10.146.65.160
+logoutlocation:
+  world: world
+  x: 115.5
+  y: 63.0
+  z: 62.5
+  yaw: 175.51857
+  pitch: 12.773675
+lastlocation:
+  world: world
+  x: 30.63417909426169
+  y: 64.0
+  z: -20.9523965239047
+  yaw: -189.0714
+  pitch: 2.4020352
+geolocation: United States

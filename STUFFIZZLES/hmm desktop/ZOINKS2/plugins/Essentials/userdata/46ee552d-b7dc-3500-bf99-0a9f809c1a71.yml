@@ -1,0 +1,21 @@
+geolocation: N/A
+lastAccountName: GoodBoiNo1
+timestamps:
+  login: 1542130753645
+  logout: 1542131194709
+  lastteleport: 1542130851982
+ipAddress: 10.146.65.170
+logoutlocation:
+  world: world
+  x: 36.56443985194075
+  y: 69.0
+  z: 259.1944715870395
+  yaw: 175.64972
+  pitch: -0.15003438
+lastlocation:
+  world: world
+  x: 4.358736453975829
+  y: 80.0
+  z: 447.7335212410899
+  yaw: 27.149506
+  pitch: 3.4499898

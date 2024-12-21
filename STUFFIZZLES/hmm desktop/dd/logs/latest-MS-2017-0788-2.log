@@ -1,0 +1,243 @@
+[08:32:27] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[08:32:27] [Server thread/INFO]: Loading properties
+[08:32:27] [Server thread/INFO]: Default game type: SURVIVAL
+[08:32:28] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[08:32:28] [Server thread/INFO]: Debug logging is disabled
+[08:32:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:32:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:32:28] [Server thread/INFO]: Generating keypair
+[08:32:29] [Server thread/INFO]: Starting Minecraft server on *:42069
+[08:32:29] [Server thread/INFO]: Using default channel type
+[08:32:30] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[08:32:30] [Server thread/ERROR]: ebean.properties not found
+[08:32:30] [Server thread/INFO]: DataSourcePool [LoginSecurity] autoCommit[false] transIsolation[SERIALIZABLE] min[2] max[20]
+[08:32:30] [Server thread/ERROR]: FATAL: DataSourcePool [LoginSecurity] is down!!!
+[08:32:30] [Server thread/INFO]: Reseting DataSourcePool [LoginSecurity] min:2 max:20 free:0 busy:0 waiting:0 highWaterMark:0 waitCount:0 hitCount:0
+[08:32:30] [Server thread/INFO]: Busy Connections:
+
+[08:32:30] [Server thread/ERROR]: Could not load 'plugins\LoginSecurity.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: com.avaje.ebeaninternal.server.lib.sql.DataSourceException: java.sql.SQLException: [SQLITE_IOERR]  Some kind of disk I/O error occurred (out of memory)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:135) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_191]
+Caused by: com.avaje.ebeaninternal.server.lib.sql.DataSourceException: java.sql.SQLException: [SQLITE_IOERR]  Some kind of disk I/O error occurred (out of memory)
+	at com.avaje.ebeaninternal.server.lib.sql.DataSourcePool.<init>(DataSourcePool.java:220) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.lib.sql.DataSourceManager.getDataSource(DataSourceManager.java:217) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.lib.sql.DataSourceGlobalManager.getDataSource(DataSourceGlobalManager.java:63) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.getDataSourceFromConfig(DefaultServerFactory.java:431) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.setDataSource(DefaultServerFactory.java:392) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:168) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:63) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:78) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPlugin.init(JavaPlugin.java:373) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:128) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:66) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.lenis0012.bukkit.loginsecurity.libs.pluginutils.PluginHolder.<init>(PluginHolder.java:18) ~[LoginSecurity.jar:git-LoginSecurity-4709b9e]
+	at com.lenis0012.bukkit.loginsecurity.LoginSecurity.<init>(LoginSecurity.java:83) ~[LoginSecurity.jar:git-LoginSecurity-4709b9e]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.Class.newInstance(Unknown Source) ~[?:1.8.0_191]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	... 6 more
+Caused by: java.sql.SQLException: [SQLITE_IOERR]  Some kind of disk I/O error occurred (out of memory)
+	at org.sqlite.DB.newSQLException(DB.java:383) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.sqlite.DB.newSQLException(DB.java:387) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.sqlite.DB.throwex(DB.java:374) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.sqlite.NativeDB._open(Native Method) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.sqlite.DB.open(DB.java:86) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.sqlite.Conn.open(Conn.java:140) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.sqlite.Conn.<init>(Conn.java:57) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.sqlite.JDBC.createConnection(JDBC.java:77) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.sqlite.JDBC.connect(JDBC.java:64) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at java.sql.DriverManager.getConnection(Unknown Source) ~[?:1.8.0_191]
+	at java.sql.DriverManager.getConnection(Unknown Source) ~[?:1.8.0_191]
+	at com.avaje.ebeaninternal.server.lib.sql.DataSourcePool.createUnpooledConnection(DataSourcePool.java:396) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.lib.sql.DataSourcePool.createConnectionForQueue(DataSourcePool.java:602) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.lib.sql.PooledConnectionQueue.ensureMinimumConnections(PooledConnectionQueue.java:205) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.lib.sql.DataSourcePool.initialise(DataSourcePool.java:258) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.lib.sql.DataSourcePool.<init>(DataSourcePool.java:218) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.lib.sql.DataSourceManager.getDataSource(DataSourceManager.java:217) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.lib.sql.DataSourceGlobalManager.getDataSource(DataSourceGlobalManager.java:63) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.getDataSourceFromConfig(DefaultServerFactory.java:431) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.setDataSource(DefaultServerFactory.java:392) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:168) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:63) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:78) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPlugin.init(JavaPlugin.java:373) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:128) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:66) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at com.lenis0012.bukkit.loginsecurity.libs.pluginutils.PluginHolder.<init>(PluginHolder.java:18) ~[LoginSecurity.jar:git-LoginSecurity-4709b9e]
+	at com.lenis0012.bukkit.loginsecurity.LoginSecurity.<init>(LoginSecurity.java:83) ~[LoginSecurity.jar:git-LoginSecurity-4709b9e]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.Class.newInstance(Unknown Source) ~[?:1.8.0_191]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	... 6 more
+[08:32:30] [Server thread/ERROR]: Could not load 'plugins\EssentialsXChat-2.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Essentials
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_191]
+[08:32:30] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.5.04-SNAPSHOT-b${BUILD_NUMBER}
+[08:32:30] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.3.0
+[08:32:30] [Server thread/INFO]: [ViaVersion] ViaVersion 1.3.0 is now loaded, injecting!
+[08:32:31] [Server thread/INFO]: [LockettePro] Loading LockettePro v2.9.0
+[08:32:31] [Server thread/INFO]: [EasyBackup] Loading EasyBackup v1.1.4
+[08:32:31] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.5.04-SNAPSHOT-b${BUILD_NUMBER}
+[08:32:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:32:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:32:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:32:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:32:32] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[08:32:33] [Server thread/INFO]: Preparing level "world"
+[08:32:33] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:32:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:32:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:32:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:32:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:32:33] [Server thread/INFO]: View Distance: 10
+[08:32:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:32:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:32:33] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:32:33] [Server thread/INFO]: Clear tick list: false
+[08:32:33] [Server thread/INFO]: Anti X-Ray: true
+[08:32:33] [Server thread/INFO]: 	Engine Mode: 1
+[08:32:33] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:32:33] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:32:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:32:33] [Server thread/INFO]: Mob Spawn Range: 4
+[08:32:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:32:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:32:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:32:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:32:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:32:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:32:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:32:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:32:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:32:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:32:33] [Server thread/INFO]: Structure Info Saving: true
+[08:32:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:32:33] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:32:33] [Server thread/INFO]: Random Lighting Updates: false
+[08:32:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:32:33] [Server thread/INFO]: Max TNT Explosions: 100
+[08:32:33] [Server thread/INFO]: Max Entity Collisions: 8
+[08:32:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:32:34] [Server thread/WARN]: java.io.IOException: The cloud sync provider failed to validate the downloaded data
+[08:32:34] [Server thread/WARN]: 	at java.io.FileInputStream.read0(Native Method)
+[08:32:34] [Server thread/WARN]: 	at java.io.FileInputStream.read(Unknown Source)
+[08:32:34] [Server thread/WARN]: 	at java.util.zip.CheckedInputStream.read(Unknown Source)
+[08:32:34] [Server thread/WARN]: 	at java.util.zip.GZIPInputStream.readUByte(Unknown Source)
+[08:32:34] [Server thread/WARN]: 	at java.util.zip.GZIPInputStream.readUShort(Unknown Source)
+[08:32:34] [Server thread/WARN]: 	at java.util.zip.GZIPInputStream.readHeader(Unknown Source)
+[08:32:34] [Server thread/WARN]: 	at java.util.zip.GZIPInputStream.<init>(Unknown Source)
+[08:32:34] [Server thread/WARN]: 	at java.util.zip.GZIPInputStream.<init>(Unknown Source)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:18)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PersistentCollection.get(PersistentCollection.java:47)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.WorldServer.b(WorldServer.java:77)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:270)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525)
+[08:32:34] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[08:32:34] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:32:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:32:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:32:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:32:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:32:34] [Server thread/INFO]: View Distance: 10
+[08:32:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:32:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:32:34] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:32:34] [Server thread/INFO]: Clear tick list: false
+[08:32:34] [Server thread/INFO]: Anti X-Ray: true
+[08:32:34] [Server thread/INFO]: 	Engine Mode: 1
+[08:32:34] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:32:34] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:32:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:32:34] [Server thread/INFO]: Mob Spawn Range: 4
+[08:32:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:32:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:32:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: Structure Info Saving: true
+[08:32:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:32:34] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:32:34] [Server thread/INFO]: Random Lighting Updates: false
+[08:32:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:32:34] [Server thread/INFO]: Max TNT Explosions: 100
+[08:32:34] [Server thread/INFO]: Max Entity Collisions: 8
+[08:32:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:32:34] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:32:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:32:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:32:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:32:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:32:34] [Server thread/INFO]: View Distance: 10
+[08:32:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:32:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:32:34] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:32:34] [Server thread/INFO]: Clear tick list: false
+[08:32:34] [Server thread/INFO]: Anti X-Ray: true
+[08:32:34] [Server thread/INFO]: 	Engine Mode: 1
+[08:32:34] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:32:34] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:32:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:32:34] [Server thread/INFO]: Mob Spawn Range: 4
+[08:32:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:32:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:32:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:32:34] [Server thread/INFO]: Structure Info Saving: true
+[08:32:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:32:34] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:32:34] [Server thread/INFO]: Random Lighting Updates: false
+[08:32:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:32:34] [Server thread/INFO]: Max TNT Explosions: 100
+[08:32:34] [Server thread/INFO]: Max Entity Collisions: 8
+[08:32:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:32:34] [Server thread/INFO]: Preparing start region for level 0 (Seed: 376786508)
+[08:32:34] [Server thread/WARN]: java.io.IOException: The cloud sync provider failed to validate the downloaded data
+[08:32:34] [Server thread/WARN]: 	at java.io.RandomAccessFile.read0(Native Method)
+[08:32:34] [Server thread/WARN]: 	at java.io.RandomAccessFile.read(Unknown Source)
+[08:32:34] [Server thread/WARN]: 	at java.io.RandomAccessFile.readInt(Unknown Source)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.RegionFile.<init>(RegionFile.java:70)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.RegionFileCache.a(RegionFileCache.java:31)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ChunkRegionLoader.chunkExists(ChunkRegionLoader.java:39)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:110)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:97)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:369)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263)
+[08:32:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525)
+[08:32:34] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[08:32:35] [Server thread/INFO]: Preparing spawn area: 0%
+[08:32:36] [Server thread/INFO]: Preparing spawn area: 4%
+[08:32:37] [Server thread/INFO]: Preparing spawn area: 5%
+[08:32:38] [Server thread/INFO]: Preparing spawn area: 7%
+[08:32:39] [Server thread/INFO]: Preparing spawn area: 9%
+[08:32:40] [Server thread/INFO]: Preparing spawn area: 12%

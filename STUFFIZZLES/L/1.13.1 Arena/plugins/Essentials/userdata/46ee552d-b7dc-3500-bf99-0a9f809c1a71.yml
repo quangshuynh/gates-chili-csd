@@ -1,0 +1,32 @@
+lastAccountName: GoodBoiNo1
+timestamps:
+  login: 1539103020785
+  logout: 1539103777026
+  lastteleport: 1539103742813
+  kits:
+    sniper: 1539103555301
+    soldier: 1539103553172
+    explosivesexpert: 1539103458355
+    heavyduty: 1539103450467
+    notch: 1538887057537
+ipAddress: 10.146.66.186
+powertools:
+  '365':
+  - smite
+  '418':
+  - kittycannon
+logoutlocation:
+  world: world
+  x: 115.5
+  y: 64.0
+  z: 62.5
+  yaw: 179.7185
+  pitch: 0.9236799
+lastlocation:
+  world: world
+  x: 19.73122531567035
+  y: 64.0
+  z: -0.4800525239205857
+  yaw: -57.22254
+  pitch: 4.9521694
+afk: false
