@@ -1,0 +1,105 @@
+JumpPads:
+  world, -63, 64, -63:
+    plate: LEGACY_IRON_PLATE
+    power: 100.0
+    angle: 100.0
+  world, 20, 64, -18:
+    plate: LEGACY_IRON_PLATE
+    power: 4.0
+    angle: 10.0
+  world, 19, 64, -19:
+    plate: LEGACY_IRON_PLATE
+    power: 4.0
+    angle: 10.0
+  world, 15, 64, -19:
+    plate: LEGACY_IRON_PLATE
+    power: 4.0
+    angle: 10.0
+  world, 14, 64, -18:
+    plate: LEGACY_IRON_PLATE
+    power: 4.0
+    angle: 10.0
+  world, 14, 64, -19:
+    plate: LEGACY_IRON_PLATE
+    power: 4.0
+    angle: 10.0
+  world, 20, 64, -19:
+    plate: LEGACY_IRON_PLATE
+    power: 4.0
+    angle: 10.0
+  world, 20, 64, -13:
+    plate: LEGACY_IRON_PLATE
+    power: 4.0
+    angle: 10.0
+  world, 20, 64, -14:
+    plate: LEGACY_IRON_PLATE
+    power: 4.0
+    angle: 10.0
+  world, 19, 64, -13:
+    plate: LEGACY_IRON_PLATE
+    power: 4.0
+    angle: 10.0
+  world, 15, 64, -13:
+    plate: LEGACY_IRON_PLATE
+    power: 4.0
+    angle: 10.0
+  world, 14, 64, -13:
+    plate: LEGACY_IRON_PLATE
+    power: 4.0
+    angle: 10.0
+  world, 14, 64, -14:
+    plate: LEGACY_IRON_PLATE
+    power: 4.0
+    angle: 10.0
+  world, 16, 65, 2:
+    plate: LEGACY_IRON_PLATE
+    power: 1.0
+    angle: 15.0
+  world, 17, 65, 2:
+    plate: LEGACY_IRON_PLATE
+    power: 1.0
+    angle: 15.0
+  world, 18, 65, 2:
+    plate: LEGACY_IRON_PLATE
+    power: 1.0
+    angle: 15.0
+  world, 16, 65, -34:
+    plate: LEGACY_IRON_PLATE
+    power: 1.0
+    angle: 15.0
+  world, 17, 65, -34:
+    plate: LEGACY_IRON_PLATE
+    power: 1.0
+    angle: 15.0
+  world, 27, 75, -25:
+    plate: LEGACY_IRON_PLATE
+    power: 10.0
+    angle: 10.0
+  world, 27, 75, -7:
+    plate: LEGACY_IRON_PLATE
+    power: 10.0
+    angle: 10.0
+  world, 7, 75, -7:
+    plate: LEGACY_IRON_PLATE
+    power: 10.0
+    angle: 10.0
+  world, 7, 75, -25:
+    plate: LEGACY_IRON_PLATE
+    power: 10.0
+    angle: 10.0
+  world, 31, 65, -16:
+    plate: LEGACY_IRON_PLATE
+    power: 10.0
+    angle: 10.0
+  world, 3, 65, -16:
+    plate: LEGACY_IRON_PLATE
+    power: 10.0
+    angle: 10.0
+  world, 3, 65, -29:
+    plate: LEGACY_IRON_PLATE
+    power: 7.0
+    angle: 10.0
+  world, 17, 71, -16:
+    plate: LEGACY_SLIME_BLOCK
+    power: 42069.0
+    angle: 900.0

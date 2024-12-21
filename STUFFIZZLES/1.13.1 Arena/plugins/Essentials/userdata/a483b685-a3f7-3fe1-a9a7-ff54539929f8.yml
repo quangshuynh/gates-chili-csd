@@ -1,0 +1,25 @@
+geolocation: N/A
+lastAccountName: Ever_Tree
+timestamps:
+  login: 1539794161599
+  logout: 1539708088890
+  kits:
+    sniper: 1539189688051
+    soldier: 1539708299801
+    heavyduty: 1539189692552
+  lastteleport: 1539708311729
+ipAddress: 10.146.66.152
+lastlocation:
+  world: world
+  x: 47.54324991518399
+  y: 68.0
+  z: 71.67979492734744
+  yaw: 154.26009
+  pitch: 0.19650955
+logoutlocation:
+  world: world
+  x: -1.512856487823739
+  y: 81.06282366422029
+  z: -19.532906884681342
+  yaw: 279.67752
+  pitch: 27.60001

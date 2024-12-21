@@ -1,0 +1,57 @@
+# EssentialsX new Kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - itemID[:DataValue/Durability] Amount [Enchantment:Level].. [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  Sniper:
+    delay: 500
+    items:
+      - 417 1 name:&eHunting_Rifle&e_▫_«0» lore:&eBolt-action_rifle_with_high_accuracy.|&eEquipped_with_a_night_vision_scope.|&eDeals_double_damage_on_headshots.
+      - 417 1 name:&eCarbine&e_▪_«8_◀▷_1» lore:&eDeals_crits_with_a_10%_chance.|&eSwitch_to_the_grenade_launcher|&ewith_right_click._Fired_grenades|&earm_themselves_in_0.25_seconds.
+      - LEVER 5 name:&eC4&e_«2» lore:&eRemote_explosives.|&eRight_click_to_place.|&eLeft_click_to_detonate.
+      - LEATHER_HELMET 1 color:10511680
+      - LEATHER_CHESTPLATE 1 color:10511680
+      - CHAINMAIL_LEGGINGS 1
+      - GOLDBOOTS 1
+  explosivesexpert:
+    delay: 500
+    items:
+      - 417 1 name:&eBazooka&e_«1» lore:&eRocket_launcher.|&eFire_down_at_your|&efeet_to_rocket-jump.|&eNegates_fall_damage.
+      - 417 1 name:&eType_95&e_▫_«0» lore:&eSemi-automatic_with_three_round_burst_fire.|&eGhast_Tears_are_required_for_reloads.
+      - FURNACEMINECART 1 name:&eToaster&e lore:&eAnti-personnel_mine.|&eTriggers_a_fiery_explosion_when:|&e-_walked_into_by_mobs_or_players|&e-_struck_with_fists_or_items|&e-_shot_by_projectiles
+      - dye:8 3 name:&eFlashbang&e lore:&eDisorientates_the_target_upon_detonation.
+      - FIREWORKSTAR 5 name:&eFrag_Grenade&e lore:&eExplodes_three_seconds_after_launch.
+      - LEVER 5 name:&eC4&e_«2» lore:&eRemote_explosives.|&eRight_click_to_place.|&eLeft_click_to_detonate.
+      - LEATHERHELMET 1 color:10511680
+      - GOLDCHESTPLATE 1
+      - GOLDLEGGINGS 1
+      - LEATHERBOOTS 1 color:10511680
+      - GHASTTEAR 64
+  heavyduty:
+    delay: 500
+    items:
+      - IRONHORSEARMOR 1 name:&eGauss_Shotgun&e_▪_«8» lore:&eAdvanced_pump-action_shotgun.|&eFires_metal_slugs_that_penetrate|&eall_targets_within_40_blocks.|&eDeals_200%_damage_to_Zombies.
+      - IRONHORSEARMOR 1 name:&eAK-47&e_▪_«30» lore:&eFully_automatic_with_high_power.|&eEffective_at_medium_range.|&eControls_are_inverted.
+      - IRONSWORD 1 name:&eRiot_Shield&e lore:&eBlocks_all_melee_and_ranged_attacks.|&eIneffective_against_attacks_from_behind.
+      - DYE:8 3 name:&eFlashbang&e lore:&eDisorientates_the_target_upon_detonation.
+      - IRONHELMET 1
+      - IRONCHESTPLATE 1
+      - LEATHERLEGGINGS 1 color:10511680
+      - CHAINMAILBOOTS 1
+     
+  soldier:
+    delay: 500
+    items:
+      - IRONHORSEARMOR 1 name:&ePython_&l/&e_Knife&e_▪_«6» lore:&eRevolver_with_high_power.|&eLeft_click_to_melee_enemies|&ewith_the_tactical_knife.
+      - IRONHORSEARMOR 1 name:&eOlympia&e_▪_«2» lore:&eDouble-barreled_shotgun.|&eDeadly_at_close_range.|&eIneffective_at_longer_ranges.|&eFires_incendiary_ammo.
+      - FIREWORKSTAR 3 name:&eFrag_Grenade&e lore:&eExplodes_three_seconds_after_launch.
+      - LEATHERHELMET 1 color:10511680
+      - CHAINMAILCHESTPLATE 1
+      - LEATHERLEGGINGS 1 color:10511680
+      - IRONBOOTS 1
