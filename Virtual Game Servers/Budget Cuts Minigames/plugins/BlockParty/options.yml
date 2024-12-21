@@ -1,0 +1,21 @@
+# BlockParty - Plugin Originally created by instancelabs, Modified and Updated by chuky025
+config:
+  rounds_per_game: 10
+  start_countdown: 10
+  default_max_players: 10
+  default_min_players: 5
+  use_economy_reward: false
+  money_reward_per_game: 30
+  itemid: 264
+  itemamount: 1
+  use_command_reward: false
+  command_reward: pex user <player> group set ColorPro
+  start_announcement: false
+  winner_announcement: true
+  game_on_join: false
+  bling_sounds: true
+  enable_titles: true
+  enable_scoreboard: true
+  lobby_on_join: false
+  spawn_fireworks_winners: true
+  speed_in_game: true

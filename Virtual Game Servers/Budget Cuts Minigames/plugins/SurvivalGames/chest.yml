@@ -1,0 +1,136 @@
+# Usage: 'ItemID : Amount'
+# You can also add extra enchantments, names, lores by doing this
+# 'ItemID : Amount : Extra'
+# Enchanting is done like this: enchant:enchantment:level
+# Naming is done like this: name:name
+# Adding a lore is done like this: lore:lore
+# List of enchantments you can use: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+# You can also control the durability of items by doing this 'ItemID:Durability : Amount'
+# Example '267:50 : 1 : enchant:DAMAGE_ALL:2 : name:&4GOD SWORD : lore:&b its a cool sword!'
+# This will create an iron sword with a durability of 50 and sharpness 2 enchantment on it and the name of 'GOD SWORD' with a dark red color and a lore that says 'Its a cool sword' in an aqua color
+# For POTIONS, if your server is below 1.9 then use  POTION:DURABILITY to make potions like POTION:16421, otherwise you should use the form
+# POTION/SPLASH_POTION/LINGERING_POTION:POTION_TYPE:EXTENDED:UPGRADED
+# Example of the form -> 'SPLASH_POTION:INSTANT_DAMAGE:false:true : 1'
+Types:
+  Default:
+    Items:
+    - 'STONE_SWORD : 1'
+    - 'WOOD_SWORD : 1'
+    - 'GOLD_SWORD : 1'
+    - 'GOLD_AXE : 1'
+    - 'WOOD_AXE : 1'
+    - 'STONE_AXE : 1'
+    - 'BOW : 1'
+    - 'FISHING_ROD : 1'
+    - 'LEATHER_BOOTS : 1'
+    - 'LEATHER_LEGGINGS : 1'
+    - 'LEATHER_CHESTPLATE : 1'
+    - 'LEATHER_HELMET : 1'
+    - 'GOLD_BOOTS : 1'
+    - 'GOLD_LEGGINGS : 1'
+    - 'GOLD_CHESTPLATE : 1'
+    - 'GOLD_HELMET : 1'
+    - 'CHAINMAIL_BOOTS : 1'
+    - 'CHAINMAIL_HELMET : 1'
+    - 'CHAINMAIL_LEGGINGS : 1'
+    - 'RAW_BEEF : 3'
+    - 'RAW_CHICKEN : 1'
+    - 'PORK : 2'
+    - 'POTATO_ITEM : 2'
+    - 'RAW_FISH : 1'
+    - 'APPLE : 2'
+    - 'CARROT : 1'
+    - 'COOKIE : 1'
+    - 'MELON : 1'
+    - 'STRING : 1'
+    - 'FEATHER : 1'
+    - 'WHEAT : 1'
+    - 'BOWL : 1'
+    - 'BROWN_MUSHROOM : 1'
+    - 'RED_MUSHROOM : 1'
+    - 'IRON_INGOT : 1'
+    - 'LEATHER : 1'
+    - 'EXP_BOTTLE : 1'
+    - 'STICK : 1'
+    - 'ARROW : 2'
+    Carepackage:
+    - 'EXP_BOTTLE : 15'
+    - 'DIAMOND_SWORD : 1'
+    - 'FLINT_AND_STEEL : 1'
+    - 'SPLASH_POTION:POISON:false:true : 2'
+    Tier-2-Items:
+    - 'TNT : 1'
+    - 'ENDER_PEARL : 1'
+    - 'EXP_BOTTLE : 3'
+    - 'GOLDEN_APPLE : 1'
+    - 'COOKED_BEEF : 1'
+    - 'COOKED_CHICKEN : 1'
+    - 'IRON_AXE : 1'
+    - 'BOW : 1'
+    - 'ARROW : 3'
+    - 'IRON_SWORD : 1'
+    - 'STONE_SWORD : 1'
+    - 'IRON_HELMET : 1'
+    - 'IRON_CHESTPLATE : 1'
+    - 'IRON_LEGGINGS : 1'
+    - 'IRON_BOOTS : 1'
+    - 'DIAMOND_LEGGINGS : 1'
+    - 'CHAINMAIL_CHESTPLATE : 1'
+    - 'CHAINMAIL_LEGGINGS : 1'
+    - 'SPLASH_POTION:POISON:false:true : 1'
+    - 'SPLASH_POTION:REGEN:false:true : 1'
+    - 'POTION:SPEED:false:true : 1'
+    - 'POTION:INSTANT_HEAL:false:true : 1'
+    - 'DIAMOND : 1'
+    - 'STICK : 3'
+    - 'IRON_INGOT : 2'
+version: 0
+chest:
+  ratio: 10
+  lvl1:
+  - 268,1
+  - 298,1
+  - 299,1
+  - 300,1
+  - 301,1
+  - 319,3
+  - 349,3
+  - 260,3
+  - 262,5
+  lvl2:
+  - 268,1
+  - 314,1
+  - 315,1
+  - 316,1
+  - 317,1
+  - 320,3
+  - 281,4
+  - 260,2
+  - 363,4
+  - 364,2
+  - 365,4
+  - 366,2
+  - 368,2
+  - 282,1
+  lvl3:
+  - 283,1
+  - 103,4
+  - 306,1
+  - 307,1
+  - 308,1
+  - 309,1
+  - 302,1
+  - 303,1
+  - 305,1
+  - 322,2
+  - 259,1
+  - 283,1
+  lvl4:
+  - 267,1
+  lvl5:
+  - 276,1
+  - 310,1
+  - 311,1
+  - 312,1
+  - 313,1
+  - 354,2

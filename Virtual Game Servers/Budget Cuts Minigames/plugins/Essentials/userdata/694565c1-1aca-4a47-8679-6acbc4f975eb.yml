@@ -1,0 +1,23 @@
+lastAccountName: JameTime
+timestamps:
+  login: 1568155080950
+  logout: 1568155227270
+  lastteleport: 1566577835103
+ipAddress: 104.229.211.168
+lastlocation:
+  world: world
+  x: 469.9862676937545
+  y: 15.512734128965377
+  z: 848.3000000119209
+  yaw: 227.15686
+  pitch: 25.836746
+geolocation: United States
+logoutlocation:
+  world: world
+  x: 473.00360895736173
+  y: 17.619279075964727
+  z: 814.1440113180456
+  yaw: 179.1449
+  pitch: 5.590059
+afk: false
+money: '13.0'

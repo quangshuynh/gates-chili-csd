@@ -1,0 +1,12 @@
+# SuperVanish v5.4.1 - Playerdata
+PlayerData:
+  d91918a4-49d0-4615-b6a5-2dae429a5e77:
+    normalTabName: "\xa78[\xa74Admin\xa78] \xa7fAJ \xa78[\xa76OrangeBallCrew\xa78]"
+  097c6d5f-c13c-49af-a3d2-6b47da0392ef:
+    normalTabName: "\xa78[\xa76Budget\xa7eCut\xa78] \xa77MaximumSucculent"
+  8283ee29-162f-45f6-9509-6399934e9637:
+    normalTabName: "\xa78[\xa74Admin\xa78] \xa7fAzift \xa78[\xa73#1-SG\xa78]"
+    itemPickUps: false
+  694565c1-1aca-4a47-8679-6acbc4f975eb:
+    normalTabName: "\xa78[\xa75Budget\xa7dCut\xa78] \xa77flasked"
+InvisiblePlayers: []

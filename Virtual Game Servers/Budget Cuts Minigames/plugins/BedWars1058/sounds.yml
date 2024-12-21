@@ -1,0 +1,5 @@
+bed-destroy: ENDERDRAGON_GROWL
+player-kill: WOLF_HURT
+insufficient-money: ENDERMAN_TELEPORT
+bought: NOTE_STICKS
+countdown: CHICKEN_EGG_POP

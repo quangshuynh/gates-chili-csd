@@ -1,0 +1,48 @@
+lang: english
+times:
+  wait: 10
+allow:
+  snowBalls: false
+  lightning: true
+  showTime: true
+  magmaCream: true
+  broadcast: true
+  goldShovel: true
+rewards:
+  win: 0
+  lose: 0
+  command: ' /eco give {player} 69'
+gameMode:
+  team:
+    glowing: false
+  melt:
+    beforeMelt: 30
+    betweenMelt: 1
+commands:
+  start: 'null'
+  end: 'null'
+holograms: {}
+spleef:
+  '998':
+    name: Slate
+    isOpen: true
+    gameMode: NORMAL
+    spleef:
+      x: 1209.4359002872718
+      y: 25.0
+      z: 388.5907144261592
+      yaw: 4.5822754
+      pitch: 90.0
+      world: world
+    spawn:
+      x: 1209.4140664959525
+      y: 36.0
+      z: 388.39343316414977
+      yaw: -179.94992
+      pitch: 4.19999
+      world: world
+    min: 2
+    max: 10
+v1_13: {}
+scoreboard:
+  enable: true

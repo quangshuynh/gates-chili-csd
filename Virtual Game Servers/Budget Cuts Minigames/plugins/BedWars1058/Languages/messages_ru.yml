@@ -1,0 +1,1100 @@
+prefix: ''
+name: "P\u0443\u0441\u0441\u043a\u0438\u0439"
+cmd-main-list:
+- ''
+- "&2\u25aa &7/bw stats"
+- "&2\u25aa &7/bw join &o<arena/group>"
+- "&2\u25aa &7/bw leave"
+- "&2\u25aa &7/bw lang"
+- "&2\u25aa &7/bw gui"
+- "&2\u25aa &7/bw start &3(vip)"
+arena-kicked-by-vip: "{prefix}&c\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435,\
+  \ \u043d\u043e \u0432\u0430\u0441 \u0432\u044b\u0433\u043d\u0430\u043b\u0438, \u043f\
+  \u043e\u0442\u043e\u043c\u0443 \u0447\u0442\u043e \u043a \u0430\u0440\u0435\u043d\
+  \u0435 \u043f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u0438\u043b\u0441\u044f\
+  \ \u0434\u043e\u043d\u0430\u0442\u0435\u0440.\n&a\u0427\u0442\u043e\u0431\u044b\
+  \ \u0438\u043c\u0435\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 \u0432\u043e\
+  \u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0435\u0439 - \u043a\u0443\u043f\
+  \u0438\u0442\u0435 \u0434\u043e\u043d\u0430\u0442. &7&o(\u0436\u043c\u0438)"
+cmd-join-arena-full: "{prefix}&c\u042d\u0442\u0430 \u0430\u0440\u0435\u043d\u0430\
+  \ \u043f\u043e\u043b\u043d\u0430\u044f!\n&a\u0427\u0442\u043e\u0431\u044b \u0438\
+  \u043c\u0435\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 \u0432\u043e\u0437\
+  \u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0435\u0439 - \u043a\u0443\u043f\u0438\
+  \u0442\u0435 \u0434\u043e\u043d\u0430\u0442. &7&o(\u0436\u043c\u0438)"
+cmd-join-arena-full-vips: "{prefix}&c\u041f\u0440\u0438\u043d\u043e\u0441\u0438\u043c\
+  \ \u0438\u0437\u0432\u0438\u043d\u0435\u043d\u0438\u044f, \u043d\u043e \u044d\u0442\
+  \u0430 \u0430\u0440\u0435\u043d\u0430 \u043f\u043e\u043b\u043d\u0430\u044f.\n&c\u041c\
+  \u044b \u0437\u043d\u0430\u0435\u043c, \u0447\u0442\u043e \u0432\u044b \u044f\u0432\
+  \u043b\u044f\u0435\u0442\u0435\u0441\u044c \u0434\u043e\u043d\u0430\u0442\u0435\u0440\
+  \u043e\u043c, \u043d\u043e \u043d\u0430 \u0441\u0430\u043c\u043e\u043c \u0434\u0435\
+  \u043b\u0435 \u044d\u0442\u0430 \u0430\u0440\u0435\u043d\u0430 \u043f\u043e\u043b\
+  \u043d\u0430 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u0432\
+  \ \u0438/\u0438\u043b\u0438 \u0434\u043e\u043d\u0430\u0442\u0435\u0440\u043e\u0432\
+  ."
+arena-countdown-stopped: "{prefix}\xa7c\u041d\u0435\u0434\u043e\u0441\u0442\u0430\u0442\
+  \u043e\u0447\u043d\u043e \u0438\u0433\u0440\u043e\u043a\u043e\u0432! \u041e\u0431\
+  \u0440\u0430\u0442\u043d\u044b\u0439 \u043e\u0442\u0441\u0447\u0435\u0442 \u043e\
+  \u0441\u0442\u0430\u043d\u043e\u0432\u0438\u043b\u0441\u044f!"
+cmd-leave: "{prefix}&7{player} &e\u0432\u044b\u0448\u0435\u043b \u0438\u0437 \u0438\
+  \u0433\u0440\u044b!"
+arena-restart-kick: "{prefix}&e\u0410\u0440\u0435\u043d\u0430, \u0432 \u043a\u043e\
+  \u0442\u043e\u0440\u043e\u0439 \u0432\u044b \u0431\u044b\u043b\u0438, \u043f\u0435\
+  \u0440\u0435\u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0435\u0442\u0441\u044f."
+arena-status-playing: "&c\u0418\u0434\u0435\u0442 \u0418\u0433\u0440\u0430"
+arena-status-restarting: "&4\u041f\u0435\u0440\u0435\u0437\u0430\u043f\u0443\u0441\
+  \u043a"
+arena-status-waiting: "&2\u041e\u0436\u0438\u0434\u0430\u043d\u0438\u0435 \xa7c{full}"
+arena-status-starting: "&6\u041d\u0430\u0447\u0430\u043b\u043e \xa7c{full}"
+cmd-join-not-found: "{prefix}&c\u041d\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\
+  \u0443\u0435\u0442 \u043a\u0430\u043a\u043e\u0439-\u043b\u0438\u0431\u043e \u0430\
+  \u0440\u0435\u043d\u044b \u0438\u043b\u0438 \u0430\u0440\u0435\u043d\u044b: {name}"
+cmd-join-arenas-full: "{prefix}&c\u0421\u0435\u0439\u0447\u0430\u0441 \u043d\u0435\
+  \u0442 \u043a\u0430\u043a\u043e\u0439-\u043b\u0438\u0431\u043e \u0430\u0440\u0435\
+  \u043d\u044b ;("
+cmd-not-in-arena: "{prefix}&c\u0422\u044b \u043d\u0435 \u043d\u0430 \u0430\u0440\u0435\
+  \u043d\u0435!"
+arena-selector-gui-name: "&8\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0435\
+  \ \u0430\u0440\u0435\u043d\u044b"
+arena-selector-content-name: '&a&l{name}'
+arena-selector-content-lore:
+- ''
+- "&7\u0421\u0442\u0430\u0442\u0443\u0441: {status}"
+- "&7\u0418\u0433\u0440\u043e\u043a\u043e\u0432: &f{on}&7/&f{max}"
+- "&7\u0422\u0438\u043f: &a{group}"
+- ''
+- '&aLeft-Click to join.'
+- '&eRight-Click to spectate.'
+cmd-lang-list-header: "{prefix} &2\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u044b\
+  \u0435 \u044f\u0437\u044b\u043a\u0438:"
+cmd-lang-list-format: "&a\u25aa  &7{iso} - &f{name}"
+cmd-lang-usage: "{prefix}&7\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\
+  \u0435: /lang &f&o<iso>"
+cmd-lang-not-exist: "{prefix}&c\u042d\u0442\u043e\u0442 \u044f\u0437\u044b\u043a \u043d\
+  \u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442!"
+cmd-lang-set: "{prefix}&a\u042f\u0437\u044b\u043a \u0441\u043c\u0435\u043d\u0435\u043d\
+  !"
+cmd-lang-not-set: "{prefix}&c\u0412\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\
+  \u0435 \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u044f\u0437\u044b\u043a\
+  \ \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u0438\u0433\u0440\u044b."
+cmd-join-party-big: "{prefix}&c\u0412\u0430\u0448\u0430 \u043f\u0430\u0440\u0442\u0438\
+  \u044f \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0432\u0435\u043b\u0438\u043a\
+  \u0430 \u0434\u043b\u044f \u0442\u043e\u0433\u043e, \u0447\u0442\u043e\u0431\u044b\
+  \ \u043f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u0438\u0442\u044c\u0441\
+  \u044f \u043a \u044d\u0442\u043e\u0439 \u0430\u0440\u0435\u043d\u0435 \u043a\u0430\
+  \u043a \u043a\u043e\u043c\u0430\u043d\u0434\u0435 :("
+cmd-join-not-leader: "{prefix}&c\u0422\u043e\u043b\u044c\u043a\u043e \u043b\u0438\u0434\
+  \u0435\u0440 \u043c\u043e\u0436\u0435\u0442 \u0432\u044b\u0431\u0440\u0430\u0442\
+  \u044c \u0430\u0440\u0435\u043d\u0443."
+cmd-rejoin-player-reconnected: '{prefix}&7{player} &ehas reconnected!'
+generator-tier: "&e\u0423\u0440\u043e\u0432\u0435\u043d\u044c &c{tier}"
+generator-diamond: "&b&l\u0410\u043b\u043c\u0430\u0437"
+generator-emerald: "&a&l\u042d\u043c\u0435\u0440\u0430\u043b\u044c\u0434"
+generator-timer: "&e\u0421\u043f\u0430\u0432\u043d \u0447\u0435\u0440\u0435\u0437\
+  \ &c{seconds} &e\u0441\u0435\u043a\u0443\u043d\u0434"
+cmd-join-success: "{prefix}&7{player} &e\u0432\u043e\u0448\u0435\u043b \u0432 \u0438\
+  \u0433\u0440\u0443 (&b{on}&e/&b{max}&e)!"
+arena-start-countdown: "{prefix}&e\u0418\u0433\u0440\u0430 \u043d\u0430\u0447\u043d\
+  \u0435\u0442\u0441\u044f \u0447\u0435\u0440\u0435\u0437 &6{time} &e\u0441\u0435\u043a\
+  \u0443\u043d\u0434!"
+format-chat-lobby: '{level}{vPrefix}&7{player}{vSuffix}: {message}'
+format-chat-waiting: '{level}{vPrefix}&7{player}{vSuffix}: {message}'
+format-chat-global: "{level}{vPrefix}&6[\u0412\u0421\u0415\u041c] {team} &7{player}&f{vSuffix}:\
+  \ {message}"
+format-chat-team: '{level}{vPrefix}&f{team}&7 {player}{vSuffix} {message}'
+format-chat-spectator: "{level}{vPrefix}&7[\u0417\u0420\u0418\u0422\u0415\u041b\u042c\
+  ] {player}{vSuffix}: {message}"
+arena-start-tutorial:
+- "&a\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac"
+- '&f                                   &lBedWars'
+- ''
+- "&e&l \u0417\u0430\u0449\u0438\u0449\u0430\u0439\u0442\u0435 \u0441\u0432\u043e\u044e\
+  \ \u043a\u0440\u043e\u0432\u0430\u0442\u044c \u0438 \u0443\u043d\u0438\u0447\u0442\
+  \u043e\u0436\u0430\u0439\u0442\u0435 \u043a\u0440\u043e\u0432\u0430\u0442\u0438\
+  \ \u0432\u0440\u0430\u0433\u043e\u0432."
+- "&e&l      \u0423\u043b\u0443\u0447\u0448\u0430\u0439\u0442\u0435 \u0441\u0435\u0431\
+  \u044f \u0438 \u0441\u0432\u043e\u044e \u043a\u043e\u043c\u0430\u043d\u0434\u0443\
+  , \u0441\u043e\u0431\u0438\u0440\u0430\u044f"
+- "&e&l   \u0416\u0435\u043b\u0435\u0437\u043e, \u0417\u043e\u043b\u043e\u0442\u043e\
+  , \u042d\u043c\u0435\u0440\u0430\u043b\u044c\u0434\u044b \u0438 \u0410\u043b\u043c\
+  \u0430\u0437\u044b \u0438\u0437 \u0433\u0435\u043d\u0435\u0440\u0430\u0442\u043e\
+  \u0440\u043e\u0432"
+- "&e&l     \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u043b\u0443\u0447\u0438\u0442\
+  \u044c \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u043c\u043e\u0449\u043d\u044b\
+  \u043c \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u044f\u043c."
+- ''
+- "&a\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac"
+meaning-shout: shout
+interact-cant-place: "{prefix}&c\u0412\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\
+  \u0442\u0435 \u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0431\u043b\u043e\u043a\
+  \u0438 \u0437\u0434\u0435\u0441\u044c!"
+scoreboard:
+  Default:
+    starting:
+    - '&f&lBED WARS'
+    - ''
+    - "&f\u041a\u0430\u0440\u0442\u0430: &a{map}"
+    - "&f\u0418\u0433\u0440\u043e\u043a\u043e\u0432: &a{on}/{max}"
+    - ''
+    - "&f\u0421\u0442\u0430\u0440\u0442 \u0447\u0435\u0440\u0435\u0437 &a{time}s"
+    - ''
+    - "\xa7f\u0421\u0435\u0440\u0432\u0435\u0440: &a{server}"
+    - ''
+    - '&e  {server_ip}'
+    waiting:
+    - '&f&lBED WARS'
+    - ''
+    - "&f\u041a\u0430\u0440\u0442\u0430: &a{map}"
+    - "&f\u0418\u0433\u0440\u043e\u043a\u043e\u0432: &a{on}/{max}"
+    - ''
+    - "&f\u041e\u0436\u0438\u0434\u0430\u043d\u0438\u0435..."
+    - ''
+    - "\xa7f\u0421\u0435\u0440\u0432\u0435\u0440: &a{server}"
+    - ''
+    - '&e  {server_ip}'
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent}'
+    - '&a{time}'
+    - ''
+    - '{TeamRedColor}&lR&f {TeamRedName}&f: {TeamRedStatus}'
+    - '{TeamBlueColor}&lB&f {TeamBlueName}&f: {TeamBlueStatus}'
+    - '{TeamGreenColor}&lG&f {TeamGreenName}&f: {TeamGreenStatus}'
+    - '{TeamYellowColor}&lY &f{TeamYellowName}&f: {TeamYellowStatus}'
+    - ''
+    - "&f\u0423\u0431\u0438\u0439\u0441\u0442\u0432: &a{kills}"
+    - "&f\u0424\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0443\u0431\u0438\
+      \u0439\u0441\u0442\u0432: &a{finalKills}"
+    - "&f\u041a\u0440\u043e\u0432\u0430\u0442\u0435\u0439 \u0443\u043d\u0438\u0447\
+      \u0442\u043e\u0436\u0435\u043d\u043e: &a{beds}"
+    - ''
+    - '&ehttp://{server_ip}'
+  Solo:
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent}'
+    - '&a{time}'
+    - ''
+    - '{TeamRedColor}&lR&f {TeamRedName}&f: {TeamRedStatus}'
+    - '{TeamBlueColor}&lB&f {TeamBlueName}&f: {TeamBlueStatus}'
+    - '{TeamGreenColor}&lG&f {TeamGreenName}&f: {TeamGreenStatus}'
+    - '{TeamYellowColor}&lY &f{TeamYellowName}&f: {TeamYellowStatus}'
+    - '{TeamAquaColor}&lA&f {TeamAquaName}&f: {TeamAquaStatus}'
+    - '{TeamWhiteColor}&lW&f {TeamWhiteName}&f: {TeamWhiteStatus}'
+    - '{TeamPinkColor}&lP&f {TeamPinkName}&f: {TeamPinkStatus}'
+    - '{TeamGrayColor}&lG&f {TeamGrayName}&f: {TeamGrayStatus}'
+    - ''
+    - '&ehttp://{server_ip}'
+  Doubles:
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent}'
+    - '&a{time}'
+    - ''
+    - '{TeamRedColor}&lR&f {TeamRedName}&f: {TeamRedStatus}'
+    - '{TeamBlueColor}&lB&f {TeamBlueName}&f: {TeamBlueStatus}'
+    - '{TeamGreenColor}&lG&f {TeamGreenName}&f: {TeamGreenStatus}'
+    - '{TeamYellowColor}&lY &f{TeamYellowName}&f: {TeamYellowStatus}'
+    - '{TeamAquaColor}&lA&f {TeamAquaName}&f: {TeamAquaStatus}'
+    - '{TeamWhiteColor}&lW&f {TeamWhiteName}&f: {TeamWhiteStatus}'
+    - '{TeamPinkColor}&lP&f {TeamPinkName}&f: {TeamPinkStatus}'
+    - '{TeamGrayColor}&lG&f {TeamGrayName}&f: {TeamGrayStatus}'
+    - ''
+    - '&ehttp://{server_ip}'
+  lobby:
+  - '&6&lBedWars'
+  - '&7{date}'
+  - "&f\u041d\u0438\u043a: &a{player}"
+  - ''
+  - "&f\u041f\u043e\u0431\u0435\u0434: &a{wins}"
+  - "&f\u041f\u0440\u043e\u0438\u0433\u0440\u044b\u0448\u0435\u0439: &a{losses}"
+  - "&f\u0423\u0431\u0438\u0439\u0441\u0442\u0432: &a{kills}"
+  - "&f\u0421\u043c\u0435\u0440\u0442\u0435\u0439: &a{deaths}"
+  - "&f\u0424\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0443\u0431\u0438\u0439\
+    \u0441\u0442\u0432: &a{f\u0423\u0431\u0438\u0439\u0441\u0442\u0432}"
+  - "&f\u041a\u0440\u043e\u0432\u0430\u0442\u0435\u0439 \u0443\u043d\u0438\u0447\u0442\
+    \u043e\u0436\u0435\u043d\u043e: &a{beds}"
+  - ''
+  - "&f\u041e\u043d\u043b\u0430\u0439\u043d: &a{on}"
+  - '&e{server_ip}'
+interact-cant-break: "{prefix}&c\u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435\
+  \ \u043b\u043e\u043c\u0430\u0442\u044c \u0431\u043b\u043e\u043a\u0438 \u0442\u043e\
+  \u043b\u044c\u043a\u043e \u0438\u0433\u0440\u043e\u043a\u043e\u0432!"
+arena-start-title: "&a\u041f\u041e\u0413\u041d\u0410\u041b\u0418"
+format-sb-date: dd/MM/yy
+format-sb-team-eliminated: "&c&l\u2718"
+format-sb-bed-destroyed: '&a{remainingPlayers}'
+format-sb-team-alive: "&a&l\u2713"
+format-sb-generator-timer: mm:ss
+format-sb-you: "&7 (\u0412\u044b)"
+format-action-tracking: "&f\u041e\u0442\u0441\u043b\u0435\u0436\u0438\u0432\u0430\u043d\
+  \u0438\u0435: {team} &f- \u0414\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u044f\
+  : {distance}m"
+bed-hologram-defend: "&c&l\u0417\u0430\u0449\u0438\u0449\u0430\u0439\u0442\u0435 \u0441\
+  \u0432\u043e\u044e \u043a\u0440\u043e\u0432\u0430\u0442\u044c!"
+interact-cant-destroy-bed: "&c\u0412\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\
+  \u0435 \u0440\u0430\u0437\u0440\u0443\u0448\u0438\u0442\u044c \u0441\u0432\u043e\
+  \u044e \u043a\u0440\u043e\u0432\u0430\u0442\u044c!"
+team-eliminated: "\n&f&l\u041a\u041e\u041c\u0410\u041d\u0414\u041d\u0410\u042f \u041b\
+  \u0418\u041a\u0412\u0418\u0414\u0410\u0426\u0418\u042f > {TeamColor}{TeamName} \u043a\
+  \u043e\u043c\u0430\u043d\u0434\u0430 &c\u0431\u044b\u043b\u0430 \u0443\u043d\u0438\
+  \u0447\u0442\u043e\u0436\u0435\u043d\u0430!\n"
+interact-bed-destroy-chat: "\n&f&l\u0423\u041d\u0418\u0427\u0422\u041e\u0416\u0415\
+  \u041d\u0418\u0415 \u041a\u0420\u041e\u0412\u0410\u0422\u0418 > {TeamColor}{TeamName}\
+  \ \u041a\u0440\u043e\u0432\u0430\u0442\u044c &7\u0440\u0430\u0437\u0443\u0448\u0435\
+  \u043d\u0430 \u0438\u0433\u0440\u043e\u043a\u043e\u043c {PlayerColor}{PlayerName}&7!\n"
+interact-bed-destroy-title: "&c\u041a\u0420\u041e\u0412\u0410\u0422\u042c \u0423\u041d\
+  \u0418\u0427\u0422\u041e\u0416\u0415\u041d\u0410!"
+interact-bed-destroy-subtitle: "&f\u0412\u044b \u0431\u043e\u043b\u044c\u0448\u0435\
+  \ \u043d\u0435 \u0431\u0443\u0434\u0435\u0442\u0435 \u0432\u043e\u0437\u0440\u043e\
+  \u0436\u0434\u0430\u0442\u044c\u0441\u044f!"
+interact-bed-destroy-team: "&f&l\u0423\u041d\u0418\u0427\u0422\u041e\u0416\u0415\u041d\
+  \u0418\u0415 \u041a\u0420\u041e\u0412\u0410\u0422\u0418 > &7\u0412\u0430\u0448\u0430\
+  \ \u043a\u0440\u043e\u0432\u0430\u0442\u044c \u0440\u0430\u0437\u0440\u0443\u0448\
+  \u0435\u043d\u0430 \u0438\u0433\u0440\u043e\u043a\u043e\u043c {PlayerColor}{PlayerName}&7!"
+player-die-void-regular: "{PlayerColor}{PlayerName} &7\u0443\u043f\u0430\u043b."
+player-die-void-final: "{PlayerColor}{PlayerName} &7\u0443\u043f\u0430\u043b. &b&l\u0417\
+  \u0410\u041a\u041b\u042e\u0427\u0418\u0422\u0415\u041b\u042c\u041d\u041e\u0415 \u0423\
+  \u0411\u0418\u0419\u0421\u0422\u0412\u041e!"
+player-die-knocked-regular: "{PlayerColor}{PlayerName} &7\u0431\u044b\u043b \u0441\
+  \u0431\u0438\u0442 \u0438\u0433\u0440\u043e\u043a\u043e\u043c {KillerColor}{KillerName}&7."
+player-die-knocked-final: "{PlayerColor}{PlayerName} &7\u0431\u044b\u043b \u0441\u0431\
+  \u0438\u0442 \u0438\u0433\u0440\u043e\u043a\u043e\u043c {KillerColor}{KillerName}&7.\
+  \ &b&l\u0417\u0410\u041a\u041b\u042e\u0427\u0418\u0422\u0415\u041b\u042c\u041d\u041e\
+  \u0415 \u0423\u0411\u0418\u0419\u0421\u0422\u0412\u041e!"
+player-die-bomb-regular: "{PlayerColor}{PlayerName} &7\u0431\u044b\u043b \u043f\u043e\
+  \u0440\u0430\u0436\u0435\u043d \u043b\u044e\u0431\u0438\u043c\u043e\u0439 \u0431\
+  \u043e\u043c\u0431\u043e\u0439 \u0438\u0433\u0440\u043e\u043a\u0430 {KillerColor}{KillerName}&7."
+player-die-bomb-final: "{PlayerColor}{PlayerName} &7\u0431\u044b\u043b \u043f\u043e\
+  \u0440\u0430\u0436\u0435\u043d \u043b\u044e\u0431\u0438\u043c\u043e\u0439 \u0431\
+  \u043e\u043c\u0431\u043e\u0439 \u0438\u0433\u0440\u043e\u043a\u0430 {KillerColor}{KillerName}&7.\
+  \ &b&l\u0417\u0410\u041a\u041b\u042e\u0427\u0418\u0422\u0415\u041b\u042c\u041d\u041e\
+  \u0415 \u0423\u0411\u0418\u0419\u0421\u0422\u0412\u041e!"
+player-die-attack-regular: "{PlayerColor}{PlayerName} &7\u0431\u044b\u043b \u0443\u0431\
+  \u0438\u0442 \u0438\u0433\u0440\u043e\u043a\u043e\u043c {KillerColor}{KillerName}&7."
+player-die-attack-final: "{PlayerColor}{PlayerName} &7\u0431\u044b\u043b \u0443\u0431\
+  \u0438\u0442 \u0438\u0433\u0440\u043e\u043a\u043e\u043c {KillerColor}{KillerName}&7.\
+  \ &b&l\u0417\u0410\u041a\u041b\u042e\u0427\u0418\u0422\u0415\u041b\u042c\u041d\u041e\
+  \u0415 \u0423\u0411\u0418\u0419\u0421\u0422\u0412\u041e!"
+bed-hologram-destroyed: "&c&l\u0412\u0430\u0448\u0430 \u043a\u0440\u043e\u0432\u0430\
+  \u0442\u044c \u0440\u0430\u0437\u0440\u0443\u0448\u0435\u043d\u0430!"
+player-respawn-title: "&c\u0412\u042b \u0423\u041c\u0415\u0420\u041b\u0418!"
+player-respawn-subtitle: "&e\u0412\u044b \u0432\u043e\u0437\u0440\u043e\u0434\u0438\
+  \u0442\u0435\u0441\u044c \u0447\u0435\u0440\u0435\u0437 &c{time} &e\u0441\u0435\u043a\
+  \u0443\u043d\u0434!"
+player-respawn-timer-chat: "{prefix}&e\u0412\u044b \u0432\u043e\u0437\u0440\u043e\u0434\
+  \u0438\u0442\u0435\u0441\u044c \u0447\u0435\u0440\u0435\u0437 &c{time} &e\u0441\u0435\
+  \u043a\u0443\u043d\u0434!"
+player-respawned-title: "&a\u0412\u041e\u0417\u0420\u041e\u0416\u0414\u0415\u041d!"
+player-eliminated-chat: "{prefix}&c\u0412\u044b \u0431\u044b\u043b\u0438 \u0443\u0441\
+  \u0442\u0440\u0430\u043d\u0435\u043d\u044b!"
+game-end-game-over-title: "&c&l\u0418\u0413\u0420\u0410 \u041e\u041a\u041e\u041d\u0427\
+  \u0415\u041d\u0410!"
+game-end-victory-title: "&6&l\u041f\u041e\u0411\u0415\u0414\u0410!"
+game-end-top-chat:
+- "&a\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac"
+- '&f                                   &lBedWars'
+- ''
+- '{winnerFormat}'
+- ''
+- ''
+- "&e                          &l1-1 \u0423\u0431\u0438\u0439\u0446\u0430 &7- {firstName}\
+  \ - {firstKills}"
+- "&6                          &l2-\u0439 \u0423\u0431\u0438\u0439\u0446\u0430 &7-\
+  \ {secondName} - {secondKills}"
+- "&c                          &l3-\u0439 \u0423\u0431\u0438\u0439\u0446\u0430 &7-\
+  \ {thirdName} - {thirdKills}"
+- ''
+- "&a\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac"
+game-end-winner-team: "{prefix}{TeamColor}{TeamName} &a\u0432\u044b\u0438\u0433\u0440\
+  \u0430\u043b \u0438\u0433\u0440\u0443!"
+format-winner-team: '      {TeamColor}{TeamName} &7- {members}'
+format-winner-solo: '                 {TeamColor}{TeamName} &7- {members}'
+meaning-nobody: "\u041d\u0438\u043a\u0442\u043e"
+format-tier1: I
+format-tier2: II
+format-tier3: III
+generator-upgrade-announce: "{prefix}{generatorType} \u0413\u0435\u043d\u0435\u0440\
+  \u0430\u0442\u043e\u0440 &e\u0431\u044b\u043b \u043e\u0431\u043d\u043e\u0432\u043b\
+  \u0435\u043d \u0434\u043e \u0443\u0440\u043e\u0432\u043d\u044f &c{tier}"
+npc-team-upgrades: "&b\u041a\u041e\u041c\u0410\u041d\u0414\u041d\u042b\u0415 \u0423\
+  \u041b\u0423\u0427\u0428\u0415\u041d\u0418\u042f,&e&lRIGHT CLICK"
+npc-solo-upgrades: "&b\u0421\u041e\u041b\u041e \u0423\u041b\u0423\u0427\u0428\u0415\
+  \u041d\u0418\u042f,&e&lRIGHT CLICK"
+npc-team-shop: "&b\u041c\u0410\u0413\u0410\u0417\u0418\u041d,&e&lRIGHT CLICK"
+npc-solo-shop: "&b\u041c\u0410\u0413\u0410\u0417\u0418\u041d,&e&lRIGHT CLICK"
+xp-reward-per-minute: '{prefix}&6+{xp} BedWars Experience Received (Play Time).'
+xp-reward-game-win: '{prefix}&6+{xp} BedWars Experience Received (Game Win).'
+xp-reward-per-teammate: '{prefix}&6+{xp} BedWars Experience Received (Team Support).'
+shop-items-messages:
+  inventory-name: '&8Quick Buy'
+  separator-item-name: "&8\u21e7 Categories"
+  separator-item-lore:
+  - "&8\u21e9 Items"
+  quick-buy-item-name: '&bQuick Buy'
+  quick-buy-item-lore: []
+  quick-buy-empty-item-name: '&cEmpty slot!'
+  quick-buy-empty-item-lore:
+  - '&7This is a Quick Buy Slot!'
+  - '&bSneak Click &7any item in'
+  - '&7the shop to add it here.'
+  can-buy-color: '&a'
+  cant-buy-color: '&c'
+  blocks-category:
+    inventory-name: '&8Blocks'
+    category-item-name: '&aBlocks'
+    category-item-lore:
+    - '&eClick to view!'
+    content-item-wool-name: '{color}Wool'
+    content-item-wool-lore:
+    - '&7Cost: &f{cost} {currency}'
+    - ''
+    - '&7Great for bridging across'
+    - '&7islands. Turns into your team''s'
+    - '&7color.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-clay-name: '{color}Hardened Clay'
+    content-item-clay-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Basic block to defend your bed.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-glass-name: '{color}Blast-Proof Glass'
+    content-item-glass-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Immune to explosions.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stone-name: '{color}End Stone'
+    content-item-stone-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Solid block to defend your bed.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ladder-name: '{color}Ladder'
+    content-item-ladder-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Useful to save cats stuck in'
+    - '&7trees.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-obsidian-name: '{color}Obsidian'
+    content-item-obsidian-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Extreme protection for your bed.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-wood-name: '{color}Wood'
+    content-item-wood-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Solid block to defend your bed'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  melee-category:
+    inventory-name: '&8Melee'
+    category-item-name: '&aMelee'
+    category-item-lore:
+    - '&eClick to view!'
+    content-item-stone-sword-name: '{color}Stone Sword'
+    content-item-stone-sword-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-sword-name: '{color}Iron Sword'
+    content-item-iron-sword-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-sword-name: '{color}Diamond Sword'
+    content-item-diamond-sword-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stick-name: '{color}Stick (KnockBack I)'
+    content-item-stick-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  armor-category:
+    inventory-name: '&8Armor'
+    category-item-name: '&aArmor'
+    category-item-lore:
+    - '&eClick to view!'
+    content-item-chainmail-name: '{color}Permanent Chainmail Armor'
+    content-item-chainmail-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Chainmail leggings and boots'
+    - '&7which you will always spawn'
+    - '&7with.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-armor-name: '{color}Permanent Iron Armor'
+    content-item-iron-armor-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Iron leggings and boots which'
+    - '&7you will always spawn with.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-armor-name: '{color}Permanent Diamond Armor'
+    content-item-diamond-armor-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Diamond leggings and boots which'
+    - '&7you will always crush with.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  tools-category:
+    inventory-name: '&8Tools'
+    category-item-name: '&aTools'
+    category-item-lore:
+    - '&eClick to view!'
+    content-item-shears-name: '{color}Permanent Shears'
+    content-item-shears-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Great to get rid of wool. You'
+    - '&7will always spawn with these shears.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-pickaxe-name: '{color}Pickaxe {tier}'
+    content-item-pickaxe-lore:
+    - '&7Cost: {cost} {currency}'
+    - '&7Tier: &e{tier}'
+    - ''
+    - '&7This is an upgradable item.'
+    - '&7It will lose 1 tier upon.'
+    - '&7death!'
+    - ''
+    - '&7You will permanently'
+    - '&7respawn with at least the'
+    - '&7lowest tier.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-axe-name: '{color}Axe {tier}'
+    content-item-axe-lore:
+    - '&7Cost: {cost} {currency}'
+    - '&7Tier: &e{tier}'
+    - ''
+    - '&7This is an upgradable item.'
+    - '&7It will lose 1 tier upon.'
+    - '&7death!'
+    - ''
+    - '&7You will permanently'
+    - '&7respawn with at least the'
+    - '&7lowest tier.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  ranged-category:
+    inventory-name: '&8Ranged'
+    category-item-name: '&aRanged'
+    category-item-lore:
+    - '&eClick to view!'
+    content-item-arrow-name: '{color}Arrow'
+    content-item-arrow-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow1-name: '{color}Bow'
+    content-item-bow1-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow2-name: '{color}Bow (Power I)'
+    content-item-bow2-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow3-name: '{color}Bow (Power I, Punch I)'
+    content-item-bow3-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  potions-category:
+    inventory-name: '&8Potions'
+    category-item-name: '&aPotions'
+    category-item-lore:
+    - '&eClick to view!'
+    content-item-speed-potion-name: '{color}Speed II Potion (45 seconds)'
+    content-item-speed-potion-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-jump-potion-name: '{color}Jump V Potion (45 seconds)'
+    content-item-jump-potion-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-invisibility-name: '{color}Invisibility Potion (30 seconds)'
+    content-item-invisibility-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  utility-category:
+    inventory-name: '&8Utility'
+    category-item-name: '&aUtility'
+    category-item-lore:
+    - '&eClick to view!'
+    content-item-golden-apple-name: '{color}Golden Apple'
+    content-item-golden-apple-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Well-rounded healing.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bedbug-name: '{color}BedBug'
+    content-item-bedbug-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Spawns silverfish where the'
+    - '&7snowball lands to distract your'
+    - '&7enemies. Lasts 15 seconds.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-dream-defender-name: '{color}Dream Defender'
+    content-item-dream-defender-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Iron Golem to help defend your'
+    - '&7base. Lasts 4 minutes.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-fireball-name: '{color}Fireball'
+    content-item-fireball-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Right-click to launch! Great to'
+    - '&7knock back enemies walking on'
+    - '&7thin bridges'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-tnt-name: '{color}TNT'
+    content-item-tnt-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Instantly ignites, appropriate'
+    - '&7to explode things!'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ender-pearl-name: '{color}Ender Pearl'
+    content-item-ender-pearl-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7The quickest way to invade enemy'
+    - '&7bases.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-water-bucket-name: '{color}Water Bucket'
+    content-item-water-bucket-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Great to slow down approaching'
+    - '&7enemies. Can also protect'
+    - against TNT.
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bridge-egg-name: '{color}Bridge Egg'
+    content-item-bridge-egg-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7This egg creates a bridge in its'
+    - '&7trial after being thrown.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-magic-milk-name: '{color}Magic Milk'
+    content-item-magic-milk-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Avoid triggering traps for 60'
+    - '&7seconds after consuming.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-sponge-name: '{color}Sponge'
+    content-item-sponge-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Great for soaking up water.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+shop-insuff-money: '{prefix}&cYou don''t have enough {currency}! Need {amount} more!'
+shop-new-purchase: '{prefix}&aYou purchased &6{item}'
+shop-already-bought: '{prefix}&cYou''ve already bought that!'
+shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}Silverfish'
+shop-utility-iron-golem: '{TeamColor}{despawn}s &8[ {TeamColor}{health}&8]'
+shop-lore-status-can-buy: '&eClick to purchase!'
+shop-lore-status-cant-afford: '&cYou don''t have enough {currency}!'
+shop-lore-status-tier-maxed: '&aMAXED!'
+shop-lore-quick-add: '&bSneak Click to add to Quick Buy'
+shop-lore-quick-remove: '&bSneak Click to remove from Quick Buy!'
+meaning-full: Full
+meaning-iron-singular: "\u0416\u0435\u043b\u0435\u0437\u043e"
+meaning-iron-plural: "\u0416\u0435\u043b\u0435\u0437\u043e"
+meaning-gold-singular: "\u0417\u043e\u043b\u043e\u0442\u043e"
+meaning-gold-plural: "\u0417\u043e\u043b\u043e\u0442\u043e"
+meaning-emerald-singular: "\u042d\u043c\u0435\u0440\u0430\u043b\u044c\u0434"
+meaning-emerald-plural: "\u042d\u043c\u0435\u0440\u0430\u043b\u044c\u0434"
+meaning-diamond-singular: "\u0410\u043b\u043c\u0430\u0437"
+meaning-diamond-plural: "\u0410\u043b\u043c\u0430\u0437"
+meaning-vault-singular: $
+meaning-vault-plural: $
+cmd-join-usage: "\xa7a\u25aa \xa77\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\
+  \u0439\u0442\u0435: /bw join \xa7o<arena/group>"
+cmd-blocked-in-game: "{prefix}&c\u0412\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\
+  \u0442\u0435 \u044d\u0442\u043e \u0441\u0434\u0435\u043b\u0430\u0442\u044c."
+upgrades-lore-click-buy: "&a\u041d\u0430\u0436\u043c\u0438\u0442\u0435, \u0447\u0442\
+  \u043e\u0431\u044b \u043a\u0443\u043f\u0438\u0442\u044c!"
+upgrades-lore-insuff-money: "&c\u0423 \u0432\u0430\u0441 \u043d\u0435\u0434\u043e\u0441\
+  \u0442\u0430\u0442\u043e\u0447\u043d\u043e {currency}"
+upgrades-lore-locked: "&c\u0417\u0410\u0411\u041b\u041e\u041a\u0418\u0420\u041e\u0412\
+  \u0410\u041d\u041e"
+upgrades-lore-unlocked: "&a\u0420\u0410\u0417\u0411\u041b\u041e\u041a\u0418\u0420\u041e\
+  \u0412\u0410\u041d\u041e"
+upgrades:
+  Default:
+    generators:
+      tier1:
+        name: "&e\u0416\u0435\u043b\u0435\u0437\u043d\u0430\u044f \u043a\u0443\u0437\
+          \u043d\u0438\u0446\u0430"
+        lore:
+        - "&7\u0423\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u0441\
+          \u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0441\u043f\u0430\u0432\u043d\
+          \u0430"
+        - "&7\u0416\u0435\u043b\u0435\u0437\u0430 \u0438 \u0437\u043e\u043b\u043e\u0442\
+          \u0430 \u043d\u0430 50%.."
+        - ''
+        - "&7\u0426\u0435\u043d\u0430:&b {cost} {currency}"
+        - ''
+        - '{loreFooter}'
+      tier2:
+        name: "&e\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043a\u0443\u0437\u043d\
+          \u0438\u0446\u0430"
+        lore:
+        - "&7\u0423\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u0441\
+          \u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0441\u043f\u0430\u0432\u043d\
+          \u0430"
+        - "&7\u0436\u0435\u043b\u0435\u0437\u0430 \u0438 \u0437\u043e\u043b\u043e\u0442\
+          \u0430 \u043d\u0430 100%.."
+        - ''
+        - "&7\u0426\u0435\u043d\u0430:&b {cost} {currency}"
+        - ''
+        - '{loreFooter}'
+      tier3:
+        name: "&e\u0418\u0437\u0443\u043c\u0440\u0443\u0434\u043d\u0430\u044f \u043a\
+          \u0443\u0437\u043d\u0438\u0446\u0430"
+        lore:
+        - "&7\u0410\u043a\u0442\u0438\u0432\u0438\u0440\u0443\u0435\u0442 \u0437\u0430\
+          \u043a\u043b\u0438\u043d\u0430\u0442\u0435\u043b\u044f \xab\u0418\u0437\u0443\
+          \u043c\u0440\u0443\u0434\xbb"
+        - "&7\u0412 \u043a\u0443\u0437\u043d\u0438\u0446\u0435 \u0432\u0430\u0448\u0435\
+          \u0439 \u043a\u043e\u043c\u0430\u043d\u0434\u044b."
+        - ''
+        - "&7\u0426\u0435\u043d\u0430:&b {cost} {currency}"
+        - ''
+        - '{loreFooter}'
+    maniacMiner:
+      tier1:
+        name: "&e\u041c\u0430\u043d\u044c\u044f\u043a-\u043c\u0430\u0439\u043d\u0435\
+          \u0440"
+        lore:
+        - "&7\u0412\u0441\u0435 \u0438\u0433\u0440\u043e\u043a\u0438 \u0432\u0430\u0448\
+          \u0435\u0439 \u043a\u043e\u043c\u0430\u043d\u0434\u044b"
+        - "&7\u041d\u0430\u0432\u0441\u0435\u0433\u0434\u0430 \u043f\u043e\u043b\u0443\
+          \u0447\u0430\u0442 \u0443\u0441\u043a\u043e\u0440\u0435\u043d\u0438\u0435\
+          \ I"
+        - ''
+        - "&7\u0426\u0435\u043d\u0430:&b {cost} {currency}"
+        - ''
+        - '{loreFooter}'
+    sharpSword:
+      tier1:
+        name: "&e\u0417\u0430\u043e\u0441\u0442\u0440\u0435\u043d\u043d\u044b\u0435\
+          \ \u043c\u0435\u0447\u0438"
+        lore:
+        - "&7\u0412\u0430\u0448\u0430 \u043a\u043e\u043c\u0430\u043d\u0434\u0430 \u043f\
+          \u043e\u043b\u0443\u0447\u0438\u0442 \u0420\u0435\u0437\u043a\u043e\u0441\
+          \u0442\u044c I"
+        - "&7\u041d\u0430 \u0432\u0441\u0435\u0445 \u043c\u0435\u0447\u0430\u0445!"
+        - ''
+        - "&7\u0426\u0435\u043d\u0430:&b {cost} {currency}"
+        - ''
+        - '{loreFooter}'
+    reinforced:
+      tier1:
+        name: "&e\u0423\u043a\u0440\u0435\u043f\u043b\u0435\u043d\u043d\u0430\u044f\
+          \ \u0431\u0440\u043e\u043d\u044f"
+        lore:
+        - "&7\u0412\u0430\u0448\u0430 \u043a\u043e\u043c\u0430\u043d\u0434\u0430 \u043f\
+          \u043e\u043e\u043b\u0443\u0447\u0438\u0442 \u0417\u0430\u0449\u0438\u0442\
+          \u0443 I"
+        - "&7\u041d\u0430 \u0432\u0441\u0435\u0439 \u0431\u0440\u043e\u043d\u0435!"
+        - ''
+        - "&7\u0426\u0435\u043d\u0430:&b {cost} {currency}"
+        - ''
+        - '{loreFooter}'
+    trap:
+      tier1:
+        name: "&e\u042d\u0442\u043e \u043b\u043e\u0432\u0443\u0448\u043a\u0430!"
+        lore:
+        - "&7\u0412\u0440\u0430\u0433, \u043f\u044b\u0442\u0430\u044e\u0449\u0438\u0439\
+          \u0441\u044f \u0437\u0430\u0439\u0442\u0438 \u043d\u0430 \u0432\u0430\u0448\
+          \u0443 \u0431\u0430\u0437\u0443"
+        - "&7\u041f\u043e\u043b\u0443\u0447\u0438\u0442 \u0441\u043b\u0435\u043f\u043e\
+          \u0442\u0443"
+        - "&7\u0438 \u043c\u0435\u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\
+          \u0441\u0442\u044c!"
+        - ''
+        - "&7\u0426\u0435\u043d\u0430:&b {cost} {currency}"
+        - ''
+        - '{loreFooter}'
+    miningFatigue:
+      tier1:
+        name: "&e\u0428\u0430\u0445\u0442\u0435\u0440\u0441\u043a\u0430\u044f \u0443\
+          \u0441\u0442\u0430\u043b\u043e\u0441\u0442\u043d\u0430\u044f \u043b\u043e\
+          \u0432\u0443\u0448\u043a\u0430"
+        lore:
+        - "&7\u0412\u0440\u0430\u0433, \u043f\u044b\u0442\u0430\u044e\u0449\u0438\u0439\
+          \u0441\u044f \u0437\u0430\u0439\u0442\u0438 \u043d\u0430 \u0432\u0430\u0448\
+          \u0443 \u0431\u0430\u0437\u0443"
+        - "&7\u0412 \u0442\u0435\u0447\u0435\u043d\u0438\u0438 10 \u0441\u0435\u043a\
+          \u0443\u043d\u0434 \u043f\u043e\u043b\u0443\u0447\u0438\u0442"
+        - "&7\u0443\u0441\u0442\u0430\u043b\u043e\u0441\u0442\u044c!"
+        - ''
+        - "&7\u0426\u0435\u043d\u0430:&b {cost} {currency}"
+        - ''
+        - '{loreFooter}'
+    healPool:
+      tier1:
+        name: "&e\u0418\u0441\u0446\u0435\u043b\u044f\u044e\u0449\u0438\u0439 \u0431\
+          \u0430\u0441\u0441\u0435\u0439\u043d"
+        lore:
+        - "&7\u0421\u043e\u0437\u0434\u0430\u0435\u0442 \u043f\u043e\u043b\u0435 \u0440\
+          \u0435\u0433\u0435\u043d\u0438\u0440\u0430\u0446\u0438\u0438"
+        - "&7\u0432\u043e\u043a\u0440\u0443\u0433 \u0432\u0430\u0448\u0435\u0439 \u0431\
+          \u0430\u0437\u044b!"
+        - ''
+        - "&7\u0426\u0435\u043d\u0430:&b {cost} {currency}"
+        - ''
+        - '{loreFooter}'
+    name: '&8Team Upgrades'
+trap-base-enter-action: "&c\u0412 \u041b\u041e\u0412\u0423\u0428\u041a\u0423 \u041f\
+  \u041e\u041f\u0410\u041b\u0418\u0421\u042c!"
+trap-base-enter-chat: "{prefix}&c\u0412 \u041b\u041e\u0412\u0423\u0428\u041a\u0423\
+  \ \u041f\u041e\u041f\u0410\u041b\u0418\u0421\u042c!"
+trap-base-enter-subtitle: "&f\u0412\u0430\u0448\u0430 \u043b\u043e\u0432\u0443\u0448\
+  \u043a\u0430 \u0431\u044b\u043b\u0430 \u0432\u044b\u043a\u043b\u044e\u0447\u0435\
+  \u043d\u0430!"
+trap-base-enter-title: "&c\u0412 \u041b\u041e\u0412\u0423\u0428\u041a\u0423 \u041f\
+  \u041e\u041f\u0410\u041b\u0418\u0421\u042c!"
+upgrades-new-purchase: "&a{player} \u043a\u0443\u043f\u0438\u043b \u0443\u043b\u0443\
+  \u0447\u0448\u0435\u043d\u0438\u0435 &6{upgradeName}"
+format-despawnable-health: "\u25ae "
+player-die-unknown-regular: "{PlayerColor}{PlayerName} &7\u0443\u043c\u0435\u0440."
+player-die-unknown-final: "{PlayerColor}{PlayerName} &7\u0443\u043c\u0435\u0440. &b&l\u0417\
+  \u0410\u041a\u041b\u042e\u0427\u0418\u0422\u0415\u041b\u042c\u041d\u041e\u0415 \u0423\
+  \u0411\u0418\u0419\u0421\u0422\u0412\u041e!"
+player-die-shoot-regular: '{PlayerColor}{PlayerName} &7was shoot by {KillerColor}{KillerName}&7!'
+player-die-shoot-final: "{PlayerColor}{PlayerName} &7was shoot by {KillerColor}{KillerName}&7!\
+  \ &b&l\u0417\u0410\u041a\u041b\u042e\u0427\u0418\u0422\u0415\u041b\u042c\u041d\u041e\
+  \u0415 \u0423\u0411\u0418\u0419\u0421\u0422\u0412\u041e!"
+player-die-bedbug-regular: '{PlayerColor}{PlayerName} &7was killed by {KillerColor}{KillerTeamName}''s
+  &7BedBug!'
+player-die-bedbug-final: "{PlayerColor}{PlayerName} &7was killed by {KillerColor}{KillerTeamName}'s\
+  \ &7BedBug! &b&l\u0417\u0410\u041a\u041b\u042e\u0427\u0418\u0422\u0415\u041b\u042c\
+  \u041d\u041e\u0415 \u0423\u0411\u0418\u0419\u0421\u0422\u0412\u041e!"
+player-die-golem-regular: '{PlayerColor}{PlayerName} &7was killed by {KillerColor}{KillerTeamName}''s
+  &7Iron Golem!'
+player-die-golem-final: "{PlayerColor}{PlayerName} &7was killed by {KillerColor}{KillerTeamName}'s\
+  \ &7Iron Golem! &b&l\u0417\u0410\u041a\u041b\u042e\u0427\u0418\u0422\u0415\u041b\
+  \u042c\u041d\u041e\u0415 \u0423\u0411\u0418\u0419\u0421\u0422\u0412\u041e!"
+player-loot-diamond: '{prefix}&b+{amount} {meaning}'
+player-loot-emerald: '{prefix}&a+{amount} {meaning}'
+player-loot-iron: '{prefix}&f+{amount} {meaning}'
+player-loot-gold: '{prefix}&6+{amount} {meaning}'
+player-die-bomb2-regular: "{PlayerColor}{PlayerName} &7\u0431\u044b\u043b \u043f\u043e\
+  \u0440\u0430\u0436\u0435\u043d \u0431\u043e\u043c\u0431\u043e\u0439."
+player-die-bomb2-final: "{PlayerColor}{PlayerName} &7\u0431\u044b\u043b \u043f\u043e\
+  \u0440\u0430\u0436\u0435\u043d \u0431\u043e\u043c\u0431\u043e\u0439. &b&l\u0417\u0410\
+  \u041a\u041b\u042e\u0427\u0418\u0422\u0415\u041b\u042c\u041d\u041e\u0415 \u0423\u0411\
+  \u0418\u0419\u0421\u0422\u0412\u041e!"
+stats-inv-name: "&8{player} \u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\
+  \u0430"
+stats-wins-name: "&6\u041f\u043e\u0431\u0435\u0434"
+stats-wins-lore:
+- '&f{wins}'
+stats-losses-name: "&6\u041f\u0440\u043e\u0438\u0433\u0440\u044b\u0448\u0435\u0439"
+stats-losses-lore:
+- '&f{losses}'
+stats-kills-name: "&6\u0423\u0431\u0438\u0439\u0441\u0442\u0432"
+stats-kills-lore:
+- '&f{kills}'
+stats-deaths-name: "&6\u0421\u043c\u0435\u0440\u0442\u0435\u0439"
+stats-deaths-lore:
+- '&f{deaths}'
+stats-final-kills-name: "&6\u0424\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0445\
+  \ \u0443\u0431\u0438\u0439\u0441\u0442\u0432"
+stats-final-kills-lore:
+- '&f{finalKills}'
+stats-final-deaths-name: "&6\u0424\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0445\
+  \ \u0441\u043c\u0435\u0440\u0442\u0435\u0439"
+stats-final-deaths-lore:
+- '&f{finalDeaths}'
+stats-beds-destroyed-name: "&6\u041a\u0440\u043e\u0432\u0430\u0442\u0435\u0439 \u0443\
+  \u043d\u0438\u0447\u0442\u043e\u0436\u0435\u043d\u043e"
+stats-beds-destroyed-lore:
+- '&f{bedsDestroyed}'
+stats-first-play-name: "&6\u041f\u0435\u0440\u0432\u0430\u044f \u0438\u0433\u0440\u0430"
+stats-first-play-lore:
+- '&f{firstPlay}'
+stats-last-play-name: "&6\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u0438\
+  \u0433\u0440\u0430"
+stats-last-play-lore:
+- '&f{lastPlay}'
+stats-games-played-name: "&6\u0418\u0433\u0440 \u0441\u044b\u0433\u0440\u0430\u043d\
+  \u043e"
+stats-games-played-lore:
+- '&f{gamesPlayed}'
+format-stats-time: yyyy/MM/dd HH:mm
+meaning-never: "\u041d\u0438\u043a\u043e\u0433\u0434\u0430"
+cmd-party-help:
+- "&6\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\
+  \u25ac\u25ac\u25ac\u25ac"
+- "&a\u041a\u043e\u043c\u0430\u043d\u0434\u044b \u0433\u0440\u0443\u043f\u043f\u044b\
+  :"
+- "&e/party help &7- &b\u041f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442\
+  \ \u0432\u0441\u0435 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0435 \u043a\
+  \u043e\u043c\u0430\u043d\u0434\u044b"
+- "&e/party invite <player> &7- &b\u041f\u0440\u0438\u0433\u043b\u0430\u0441\u0438\
+  \u0442\u044c \u0438\u0433\u0440\u043e\u043a\u0430 \u0432 \u0432\u0430\u0448\u0443\
+  \ \u0433\u0440\u0443\u043f\u043f\u0443"
+- "&e/party leave &7- &b\u0412\u044b\u0439\u0442\u0438 \u0438\u0437 \u0433\u0440\u0443\
+  \u043f\u043f\u044b"
+- "&e/party remove <player> &7- &b\u0412\u044b\u0433\u043d\u0430\u0442\u044c \u0438\
+  \u0433\u0440\u043e\u043a\u0430 \u0438\u0437 \u0433\u0440\u0443\u043f\u043f\u044b"
+- "&e/party accept <player> &7- &b\u041f\u0440\u0438\u043d\u044f\u0442\u044c \u043f\
+  \u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435 \u0432 \u0433\u0440\
+  \u0443\u043f\u043f\u0443"
+- "&e/party disband &7- &b\u0420\u0430\u0441\u0444\u0438\u0440\u043c\u0438\u0440\u043e\
+  \u0432\u0430\u0442\u044c \u0442\u0435\u043a\u0443\u044e\u0449\u0443\u044e \u0433\
+  \u0440\u0443\u043f\u043f\u0443"
+cmd-party-invite-usage: "{prefix}&e\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\
+  \u0439\u0442\u0435: &7/party invite <player>"
+cmd-party-offline: '{prefix}&7{player} &eis offline!'
+cmd-party-invite: "{prefix}&e\u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\
+  \u0438\u0435 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e &7{player}&6."
+cmd-party-invite-received: "{prefix}&b{player} &e\u043f\u0440\u0438\u0433\u043b\u0430\
+  \u0441\u0438\u043b \u0432 \u0433\u0440\u0443\u043f\u043f\u0443! &o&7(\u041d\u0430\
+  \u0436\u043c\u0438\u0442\u0435, \u0447\u0442\u043e\u0431\u044b \u043f\u0440\u0438\
+  \u043d\u044f\u0442\u044c)"
+cmd-party-invite-self: "{prefix}&c\u0412\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\
+  \u0442\u0435 \u043f\u0440\u0438\u0433\u043b\u0430\u0441\u0438\u0442\u044c \u0441\
+  \u0435\u0431\u044f!"
+cmd-party-no-invite: "{prefix}&c\u041d\u0435\u0442 \u043f\u0440\u0438\u0433\u043b\u0430\
+  \u0448\u0435\u043d\u0438\u0439 \u0432 \u0433\u0440\u0443\u043f\u043f\u0443."
+cmd-party-already-in: "{prefix}&e\u0412\u044b \u0443\u0436\u0435 \u0432 \u0433\u0440\
+  \u0443\u043f\u043f\u0435!"
+cmd-party-no-perm: "{prefix}&c\u0422\u043e\u043b\u044c\u043a\u043e \u0432\u043b\u0430\
+  \u0434\u0435\u043b\u0435\u0446 \u043f\u0430\u0440\u0442\u0438\u0438 \u043c\u043e\
+  \u0436\u0435\u0442 \u044d\u0442\u043e \u0441\u0434\u0435\u043b\u0430\u0442\u044c\
+  !"
+cmd-party-accept-usage: "{prefix}&e\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\
+  \u0439\u0442\u0435: &7/party accept <player>"
+cmd-party-join: "{prefix}&7{player} &e\u043f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\
+  \u043d\u0438\u043b\u0441\u044f \u043a \u0433\u0440\u0443\u043f\u043f\u0435!"
+cmd-party-not-in: "{prefix}&c\u0412\u044b \u043d\u0435 \u0432 \u0433\u0440\u0443\u043f\
+  \u043f\u0435!"
+cmd-party-cant-leave: "{prefix}&c\u0412\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\
+  \u0442\u0435 \u043f\u043e\u043a\u0438\u043d\u0443\u0442\u044c \u0441\u0432\u043e\
+  \u044e \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u0443\u044e \u0433\
+  \u0440\u0443\u043f\u043f\u0443!\n&e\u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\
+  \u0442\u0435: &b/party disband"
+cmd-party-leave: "{prefix}&7{player} &e\u0432\u044b\u0448\u0435\u043b \u0438\u0437\
+  \ \u0433\u0440\u0443\u043f\u043f\u044b!"
+cmd-party-disband: "{prefix}&e\u0413\u0440\u0443\u043f\u043f\u0430 \u0440\u0430\u0441\
+  \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u0430!"
+cmd-party-remove-usage: "{prefix}&7\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\
+  \u0439\u0442\u0435: &e/party remove <player>"
+cmd-party-remove: "{prefix}&7{player} &e\u0431\u044b\u043b \u0443\u0434\u0430\u043b\
+  \u0435\u043d \u0438\u0437 \u0433\u0440\u0443\u043f\u043f\u044b."
+cmd-party-remove-not-in: '{prefix}&7{player} &eis not in your party!'
+next-event-beds-destroy: "&c\u0423\u043d\u0438\u0447\u0442\u043e\u0436\u0435\u043d\
+  \u0438\u0435 \u043a\u0440\u043e\u0432\u0430\u0442\u0435\u0439"
+next-event-diamondII: "&f\u0410\u043b\u043c\u0430\u0437 II"
+next-event-diamondIII: "&f\u0410\u043b\u043c\u0430\u0437 III"
+next-event-dragon-spawn: "&f\u0412\u043d\u0435\u0437\u0430\u043f\u043d\u0430\u044f\
+  \ \u0441\u043c\u0435\u0440\u0442\u044c"
+next-event-emeraldII: "&f\u042d\u043c\u0435\u0440\u0430\u043b\u044c\u0434 II"
+next-event-emeraldIII: "&f\u042d\u043c\u0435\u0440\u0430\u043b\u044c\u0434 III"
+next-event-game-end: "&4\u0418\u0433\u0440\u0430 \u0437\u0430\u043a\u043e\u043d\u0447\
+  \u0435\u043d\u0430"
+next-event-beds-destroy-title: "&c\u041a\u0420\u041e\u0412\u0410\u0422\u042c \u0423\
+  \u041d\u0418\u0427\u0422\u041e\u0416\u0415\u041d\u0410!"
+next-event-beds-destroy-sub-title: "&f\u0412\u0441\u0435 \u043a\u0440\u043e\u0432\u0430\
+  \u0442\u0438 \u0431\u044b\u043b\u0438 \u0440\u0430\u0437\u0440\u0443\u0448\u0435\
+  \u043d\u044b!"
+next-event-beds-destroy-chat: "&c&l\u0412\u0441\u0435 \u043a\u0440\u043e\u0432\u0430\
+  \u0442\u0438 \u0431\u044b\u043b\u0438 \u0440\u0430\u0437\u0440\u0443\u0448\u0435\
+  \u043d\u044b!"
+next-event-sudden-death-title: "&c\u0412\u043d\u0435\u0437\u0430\u043f\u043d\u0430\
+  \u044f \u0441\u043c\u0435\u0440\u0442\u044c"
+next-event-sudden-death-sub-title: ''
+next-event-sudden-death-chat: "&c\u0412\u041d\u0415\u0417\u0410\u041f\u041d\u0410\u042f\
+  \ \u0421\u041c\u0415\u0420\u0422\u042c: &6&b{TeamDragons} {TeamColor}{TeamName}\
+  \ Dragon!"
+cmd-not-found: "{prefix}&c\u041a\u043e\u043c\u0430\u043d\u0434\u0430 \u043d\u0435\
+  \ \u043d\u0430\u0439\u0434\u0435\u043d\u0430 \u0438\u043b\u0438 \u0443 \u0432\u0430\
+  \u0441 \u043d\u0435\u0442 \u043f\u0440\u0430\u0432!"
+cmd-start-no-game: "\xa7c\u25aa \xa77\u0412\u044b \u043d\u0435 \u0438\u0433\u0440\u0430\
+  \u0435\u0442\u0435!"
+cmd-start: "\xa7c\u25aa \xa77\u041e\u0431\u0440\u0430\u0442\u043d\u044b\u0439 \u043e\
+  \u0442\u0441\u0447\u0435\u0442 \u0441\u043e\u043a\u0440\u0430\u0449\u0435\u043d!"
+cmd-start-no-perm: "{prefix}&7\u0412\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\
+  \u0435 \u0441\u043e\u043a\u0440\u0430\u0442\u0438\u0442\u044c \u0432\u0440\u0435\
+  \u043c\u044f \u0441\u0442\u0430\u0440\u0442\u0430.\n\xa77\u041f\u043e\u0434\u0443\
+  \u043c\u0430\u0439\u0442\u0435 \u043e \u0442\u043e\u043c, \u0447\u0442\u043e\u0431\
+  \u044b \u043a\u0443\u043f\u0438\u0442\u044c \u0434\u043e\u043d\u0430\u0442."
+cmd-join-spectate: "{prefix}\xa76You are now spectating \xa79{arena}\xa76.\n{prefix}\xa7\
+  eYou can leave the arena at any time doing \xa7c/leave\xa7e."
+interact-cant-open-chest: '&cYou can''t open this chest because this team was eliminated!'
+spectator-tp-gui-name: '&8Teleporter'
+spectator-tp-gui-head-name: '{prefix}{player}'
+spectator-tp-gui-head-lore:
+- '&7Health: &f{health}%'
+- '&7Food: &f{food}'
+- ''
+- '&7Left-click to spectate'
+spectator-tp-name: "&c&l\u0412\u0435\u0440\u043d\u0443\u0442\u044c\u044f \u0432 \u043b\
+  \u043e\u0431\u0431\u0438"
+spectator-tp-lore:
+- "&7\u0429\u0435\u043b\u043a\u043d\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u043e\
+  \u0439 \u043a\u043d\u043e\u043f\u043a\u043e\u0439 \u043c\u044b\u0448\u0438, \u0447\
+  \u0442\u043e\u0431\u044b \u0432\u0435\u0440\u043d\u0443\u0442\u044c\u0441\u044f\
+  \ \u0432 \u043b\u043e\u0431\u0431\u0438!"
+spectator-first-person-enter-title: '&aSpectating &7{player}'
+spectator-first-person-enter-subtitle: '&cSNEAK to exit'
+spectator-first-person-quit-title: '&eExiting Spectator mode'
+spectator-first-person-quit-subtitle: ''
+cmd-join-spectate-denied: '&cSpectators are not allowed in this arena!'
+arena-leave-party-disbanded: "{prefix}\xa7cThe party owner has left and the party\
+  \ was disbanded!"
+lobby-items-stats-name: "&e\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430"
+lobby-items-stats-lore:
+- "&f\u0420\u0438\u043a-\u043a\u043b\u0438\u043a, \u0447\u0442\u043e\u0431\u044b \u0443\
+  \u0432\u0438\u0434\u0435\u0442\u044c \u0441\u0432\u043e\u044e \u0441\u0442\u0430\
+  \u0442\u0438\u0441\u0442\u0438\u043a\u0443!"
+lobby-items-arena-selector-name: "&e\u0410\u0440\u0435\u043d\u044b"
+lobby-items-arena-selector-lore:
+- "&f\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0430\u0440\u0435\u043d\u0443\
+  !"
+lobby-items-leave-name: "&e\u0412\u0435\u0440\u043d\u0443\u0442\u044c\u044f \u0432\
+  \ \u043b\u043e\u0431\u0431\u0438"
+lobby-items-leave-lore:
+- "&f\u0429\u0435\u043b\u043a\u043d\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u043e\
+  \u0439 \u043a\u043d\u043e\u043f\u043a\u043e\u0439 \u043c\u044b\u0448\u0438, \u0447\
+  \u0442\u043e\u0431\u044b \u0432\u0435\u0440\u043d\u0443\u0442\u044c\u0441\u044f\
+  \ \u0432 \u043b\u043e\u0431\u0431\u0438!"
+pre-game-items-stats-name: "&e\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\
+  \u0430"
+pre-game-items-stats-lore:
+- "&f\u0420\u0438\u043a-\u043a\u043b\u0438\u043a, \u0447\u0442\u043e\u0431\u044b \u0443\
+  \u0432\u0438\u0434\u0435\u0442\u044c \u0441\u0432\u043e\u044e \u0441\u0442\u0430\
+  \u0442\u0438\u0441\u0442\u0438\u043a\u0443!"
+pre-game-items-leave-name: "&e\u0412\u0435\u0440\u043d\u0443\u0442\u044c\u044f \u0432\
+  \ \u043b\u043e\u0431\u0431\u0438"
+pre-game-items-leave-lore:
+- "&f\u0429\u0435\u043b\u043a\u043d\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u043e\
+  \u0439 \u043a\u043d\u043e\u043f\u043a\u043e\u0439 \u043c\u044b\u0448\u0438, \u0447\
+  \u0442\u043e\u0431\u044b \u0432\u0435\u0440\u043d\u0443\u0442\u044c\u0441\u044f\
+  \ \u0432 \u043b\u043e\u0431\u0431\u0438!"
+spectator-items-teleporter-name: '&eTeleporter'
+spectator-items-teleporter-lore:
+- '&fRight-click to spectate a player!'
+spectator-items-leave-name: "&e\u0412\u0435\u0440\u043d\u0443\u0442\u044c\u044f \u0432\
+  \ \u043b\u043e\u0431\u0431\u0438"
+spectator-items-leave-lore:
+- "&f\u0429\u0435\u043b\u043a\u043d\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u043e\
+  \u0439 \u043a\u043d\u043e\u043f\u043a\u043e\u0439 \u043c\u044b\u0448\u0438, \u0447\
+  \u0442\u043e\u0431\u044b \u0432\u0435\u0440\u043d\u0443\u0442\u044c\u0441\u044f\
+  \ \u0432 \u043b\u043e\u0431\u0431\u0438!"
+cmd-cooldown: '&cYou can''t do that yet! Wait {seconds} more seconds!'
+format-papi-player-team: '{TeamColor}[{TeamName}]'
+format-papi-player-shout: '&6[SHOUT]'
+format-papi-player-spectator: '&7[SPECTATOR]'
+arena-join-denied-selector: '{prefix}&cSorry but you can''t join this arena at this
+  moment. Use Right-Click to spectate!'
+arena-spectate-denied-selector: '{prefix}&cSorry but you can''t spectate this arena
+  at this moment. Use Left-Click to join!'
+cmd-rejoin-no-arena: '{prefix}&cThere is no arena to rejoin!'
+cmd-rejoin-denied: '{prefix}&cYou can''t rejoin the arena anymore. Game ended or bed
+  destroyed.'
+cmd-rejoin-allowed: '{prefix}&eJoining arena &a{arena}&e!'

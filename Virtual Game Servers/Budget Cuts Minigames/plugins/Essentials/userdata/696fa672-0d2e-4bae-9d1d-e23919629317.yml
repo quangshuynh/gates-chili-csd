@@ -1,0 +1,42 @@
+geolocation: United States
+lastAccountName: OatmealMan420
+timestamps:
+  login: 1566571890890
+  logout: 1566572313932
+  lastteleport: 1566572200817
+ipAddress: 69.207.140.68
+lastlocation:
+  world: world
+  x: 1986.8104976753464
+  y: 13.0
+  z: 3010.469051808321
+  yaw: -61.95722
+  pitch: 7.8151646
+logoutlocation:
+  world: SGMap
+  x: 142.30000001192093
+  y: 35.21899892529684
+  z: 131.65911566508385
+  yaw: 76.39792
+  pitch: 56.550095
+powertools:
+  stick:
+  - '1'
+  wood_hoe:
+  - smite
+  stone_sword:
+  - kick MaximumSucculent
+  string:
+  - smite
+  diamond_sword:
+  - fireball
+money: '17.0'
+afk: false
+homes:
+  home:
+    world: SGMap
+    x: 145.3910978156084
+    y: 35.0
+    z: 119.58871542069376
+    yaw: -304.59958
+    pitch: 86.100006

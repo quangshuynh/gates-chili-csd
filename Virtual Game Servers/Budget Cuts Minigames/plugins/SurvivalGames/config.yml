@@ -1,0 +1,278 @@
+# Config - Plugin made by Wazup92!
+# If Rollback is set to false, players wont be able to break/place blocks, and carepackages will stay on the map
+# If Set-Heads-Above-Top-Signs is set to true it might increase the lag when updating top signs!
+# There is one variable for Winner-Executed-Commands, %player%
+# There is one variable for Arena-Start-Executed-Commands, %world%
+# There are three variables for Player-Kill-Player-Executed-Commands, %player%, %killer%, %world%
+# There are two variables for Death-Match-Execute-Commands, %arena%, %world%
+
+Win-Coins: 20
+Kill-Coins: 5
+Min-Exp-Per-Kill: 2
+Max-Exp-Per-Kill: 5
+Broadcast-Winner: true
+Broadcast-Arena-Starting: true
+Advanced-Rollback: false
+Allow-Arena-Modifications:
+  enabled: false
+  settings:
+    explosions-damage-blocks: false
+Winning-Fireworks-Time: 15
+Delay-In-Between-Fireworks: 2
+Load-Top-Leaders-Minutes: 30
+Give-Compass-At-Start: true
+Warnings-Kick-After: 5
+Main-World: world
+Block-Behind-Signs: STAINED_GLASS
+Saving-Task:
+  Enabled: true
+  Save-Every-Minutes: 15
+Check-For-Updates: true
+Give-Winner-Map: true
+Display-Image-On-Winner-Map: false
+Image-URL: http://i.imgur.com/FrgIjmJ.png
+Display-Arena-State-On-Block: true
+Can-Players-Join-As-A-Spectator: true
+Spectators-Separate-Chat: true
+Separate-Arenas-Chats: false
+Compass-Max-Radius: 200
+Strike-Lightning-On-Death: true
+Shop-Inventory-Size: 36
+Starting-Coins: 100
+Tier-2: ENDER_CHEST
+Show-Health-On-Bow-Hit: true
+Clear-Entities-On-Game-End: true
+Scoreboard-Enabled: true
+Teleport-To-Global-Lobby-On-Leave: false
+Carepackage-Content: 1
+Carepackage-Drops-In-Seconds: 10
+Carepackage-Needed-Height: 20
+Display-Coins-In-Chat: false
+Give-Book: true
+Settings-Vote-Enabled: true
+Explosions-Unbreakable-Blocks:
+- 20
+Can-Spectators-Open-Players-Inventories: true
+Spectator-Leave-Item: true
+Lobby-Leave-Item: true
+Shop-Enabled: false
+Kits-Enabled: false
+Bounty-Enabled: false
+Sponsor-Enabled: false
+Load-Arenas-Delay-OnEnable: 10
+Load-Global-Lobby-Delay: 9
+Load-Global-Deathmatch-Delay: 9
+Shop-Item-Stack: EMERALD
+Shop-Item-Stack-Name: '&aShop'
+Kits-Item-Stack: CHEST
+Kits-Item-Stack-Name: '&bKits'
+Bounty-Item-Stack: EYE_OF_ENDER
+Bounty-Item-Stack-Name: '&cBounty'
+Leave-Item-Stack: MAGMA_CREAM
+Leave-Item-Stack-Name: '&cLeave!'
+Voting-Item-Stack: PAPER
+Voting-Item-Stack-Name: '&aVote!'
+Settings-Voting-Item-Stack: WATCH
+Settings-Voting-Item-Stack-Name: '&6&lVote'
+Back-Item-Stack: SLIME_BALL
+Back-Item-Stack-Name: '&aBack'
+Sponsor-Item-Stack: DIAMOND
+Sponsor-Item-Stack-Name: '&bSponsor!'
+Kit-Menu-OwnedKits-Item: SKULL_ITEM
+Kit-Menu-OwnedKits-Name: '&aMy kits'
+Kit-Menu-PurchaseableKits-Item: DIAMOND
+Kit-Menu-PurchaseableKits-Name: '&cPurchase more kits!'
+Kit-Menu-VipKits-Item: EMERALD
+Kit-Menu-VipKits-Name: '&9Vip kits!'
+Allowed-Commands:
+- sg
+- survivalgames
+- tell
+- msg
+- help
+- helpop
+Disabled-Items:
+- 325
+- 326
+- 327
+breakAbleBlocks:
+- 18
+placeAbleBlocks:
+- 51
+use-Vault: false
+use-UUID: false
+use-mysql: false
+table-prefix: sg_
+mysql-host: localhost
+mysql-port: 3306
+mysql-database: database
+mysql-username: root
+mysql-password: root
+Bungee-Mode: false
+Bungee-Mode-MinPlayers: 3
+Bungee-Mode-MaxPlayers: 24
+Bungee-Mode-Voting: true
+Bungee-Mode-Default-Wait-Time: 180
+Bungee-Mode-LockVotesAt: 10
+Bungee-Mode-Time-Skipped-To: 30
+Bungee-Mode-Skip-When-Players-Reached: 5
+Bungee-Mode-Amount-Of-Randomised-Maps: 3
+Bungee-Mode-Main-Server: lobby
+Bungee-Mode-Unload-Unused-Arenas-Worlds: true
+Bungee-Mode-Games-Till-End: 1
+Bungee-Mode-Server-Display-Name: SG-1
+Bungee-Mode-Delay-Till-Server-Close: 5
+Bungee-Mode-Commands-Executed-At-The-End:
+- restart
+Winner-Executed-Commands: []
+Arena-Start-Executed-Commands:
+- time set 1000 %world%
+Death-Match-Execute-Commands: []
+Player-Kill-Player-Executed-Commands: []
+Ranks:
+  First-Rank-Exp: 20
+  Rank-Modifier: 1.3
+  Max-Rank: 30
+  Commands:
+  - '30 : broadcast %player% has reached the highest rank!'
+Cooldowns:
+  Carepackage: 5
+  Bounty: 10
+  Signs: 3
+  Commands: 4
+Titles:
+  load-delay: 10
+  fadeIn: 10
+  stayTime: 40
+  fadeOut: 10
+  join:
+    enabled: true
+    text: '&6You have joined the game!'
+  leave:
+    enabled: true
+    text: '&6You have left the game!'
+  starting:
+    enabled: true
+    text: '&6Game starting in &b%time% &6Seconds!'
+  start:
+    enabled: true
+    text: '&6Game has begun!'
+  death:
+    enabled: true
+    text: '&6You have been killed by &c%killer%'
+  win:
+    enabled: true
+    text: '&aCongratulations! You have won the game!'
+  achievement:
+    enabled: true
+    text: '&aAchievement unlocked!'
+  exp-earn:
+    enabled: true
+    text: '&d+%exp% Exp'
+Bounty:
+- 20
+- 30
+- 40
+- 50
+- 100
+- 200
+Achievements:
+  enabled: true
+  kill:
+  - '1:10'
+  - 10:100
+  - 25:200
+  - 50:500
+  - 100:1000
+  - 200:2000
+  - 500:6000
+  win:
+  - 1:100
+  - 10:500
+  - 50:1000
+  - 100:3000
+  - 200:5000
+  games-played:
+  - '1:10'
+  - '5:30'
+  - 20:100
+  - 50:300
+  - 100:1000
+  - 200:3000
+  - 500:7000
+  rank-up:
+  - 5:250
+  - 10:500
+  - 15:750
+  - 20:1000
+  - 25:1250
+  - 30:2000
+config-version: 3
+debug: false
+check-for-updates: true
+auto-start-players: 20
+auto-start-time: 20
+auto-start-vote: 75
+enable-player-queue: true
+disallow-commands: true
+cmdwhitelist:
+- kit
+grace-period: 20
+restock-chest: true
+block:
+  place:
+    whitelist:
+    - 18
+    - 105
+    - 31
+    - 37
+    - 38
+    - 50
+    - 103
+    - 43
+  break:
+    whitelist:
+    - 18
+    - 105
+    - 31
+    - 37
+    - 38
+    - 50
+    - 103
+    - 43
+rollback:
+  per-tick: 100
+endgame:
+  players: 3
+  fire-lighting:
+    enabled: true
+    interval: 20
+deathmatch:
+  enabled: false
+  time: 30
+  killtime: 5
+sql:
+  host: localhost
+  port: 3306
+  user: root
+  pass: ''
+  database: survivalgames
+  prefix: sg_
+stats:
+  enabled: false
+  webserver:
+    enabled: false
+    port: 880
+  points:
+    kill: 10
+    win: 100
+    position: 7
+    killstreak:
+      base: 10
+      multiplier: 2
+  killstreak:
+    level1: '&e{player}&7 got a Double Kill!'
+    level2: '&e{player}&9 got a Multi Kill!'
+    level3: '&e{player}&5 got an Ultra Kill!'
+    level4: '&e{player}&4 got an Unbelievable Kill!'
+    level5: '&e{player}&a&kii&4&l Unbelievable+!&a&kii'

@@ -1,0 +1,115 @@
+# Kits permission is: sg.kits.<kitname>
+# Usage: 'ItemID : Amount'
+# You can also add extra enchantments, names, lores by doing this
+# 'ItemID : Amount : Extra'
+# Enchanting is done like this: enchant:enchantment:level
+# Naming is done like this: name:name
+# Adding a lore is done like this: lore:lore
+# List of enchantments you can use: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+# List of colors you can use as a dye: BLACK, AQUA, BLUE, FUCHSIA, GRAY, GREEN, LIME, MAROON, NAVY, OLIVE, ORANGE, PURPLE, RED, SILVER, TEAL, WHITE, YELLOW
+# You can also control the durability of items by doing this 'ItemID:Durability : Amount'
+# Example '267:50 : 1 : enchant:DAMAGE_ALL:2 : name:&4GOD SWORD : lore:&b its a cool sword!'
+# This will create an iron sword with a durability of 50 and sharpness 2 enchantment on it and the name of 'GOD SWORD' with a dark red color and a lore that says 'Its a cool sword' in an aqua color
+# Please note that ur kit name must be lowercase!
+# 
+# Potion effects format: 'POTION_ENUM : DURATION : LEVEL'
+# For a list of potions you can use visit this website https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+# Example 'SPEED : 99999 : 1' this will give unlimited speed 1
+
+version: 1
+enabled: false
+kit-select-mode: SHOW_ALL
+kits:
+  test-kit:
+    cost: 0
+    icon: '399'
+    contents:
+    - 267,1, 0, sharpness:4, Blade
+    - '261'
+    - 262, 64
+  kit2:
+    cost: 0
+    icon: '339'
+    contents:
+    - 276,1, 0, fire:2, Fire
+    - '261'
+    - 262, 64
+Kits:
+  archer:
+    permission: false
+    permission-name: sg.kits.archer
+    buyable: false
+    price: 0
+    position: -1
+    item: 'BOW : enchant:ARROW_DAMAGE:1'
+    armor:
+      helmet: LEATHER_HELMET
+      chestplate: 'LEATHER_CHESTPLATE : enchant:PROTECTION_ENVIRONMENTAL:1 : dye:RED'
+      leggings: AIR
+      boots: AIR
+    description:
+    - '&7Start with a protection leather chestplate'
+    - '&7and a none enchanted helmet and a power 1 bow with 10 arrows and some food!'
+    items:
+    - 'BOW : 1 : enchant:ARROW_DAMAGE:1'
+    - 'ARROW : 10'
+    - 'GRILLED_PORK : 2'
+    potion-effects: []
+  pvp:
+    permission: false
+    permission-name: sg.kits.pvp
+    buyable: false
+    price: 0
+    position: -1
+    item: 'WOOD_SWORD : enchant:DURABILITY:1'
+    armor:
+      helmet: AIR
+      chestplate: 'LEATHER_CHESTPLATE : enchant:DURABILITY:1 : lore:&bTime to PvP!
+        : name:&bFighter!'
+      leggings: AIR
+      boots: AIR
+    description:
+    - '&7Start with an unbreaking leather chestplate and an unbreaking wooden sword!'
+    items:
+    - 'WOOD_SWORD : 1 : name:&bPvP Sword : enchant:DURABILITY:1'
+    - 'GRILLED_PORK : 2'
+    potion-effects: []
+  beast:
+    permission: true
+    permission-name: sg.kits.beast
+    buyable: false
+    price: 0
+    position: 1
+    item: IRON_SWORD
+    armor:
+      helmet: AIR
+      chestplate: AIR
+      leggings: IRON_LEGGINGS
+      boots: AIR
+    description:
+    - '&7Start with many goodies'
+    items:
+    - 'IRON_SWORD : 1'
+    - 'BOW : 1'
+    - 'ARROW : 5'
+    - 'TNT : 2'
+    - 'GRILLED_PORK : 2'
+    potion-effects:
+    - 'SPEED : 99999 : 1'
+  pro:
+    permission: false
+    permission-name: sg.kits.pro
+    buyable: true
+    price: 400
+    position: 1
+    item: IRON_CHESTPLATE
+    armor:
+      helmet: AIR
+      chestplate: IRON_CHESTPLATE
+      leggings: AIR
+      boots: AIR
+    description:
+    - '&7Start with an iron chestplate and 1 cooked porkchop'
+    items:
+    - 'GRILLED_PORK : 1'
+    potion-effects: []

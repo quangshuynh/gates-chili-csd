@@ -1,0 +1,12 @@
+title: '&6&lBudget Cuts'
+update-interval: 10
+header:
+  - ''
+  - '&fTime left: &a%countdown%'
+  - ''
+ranking:
+  text: '&7%player_name%: &a%kills%'
+  size: 10
+footer:
+  - ''
+  - '&6&lBudget Cuts'

@@ -1,0 +1,53 @@
+permissions: []
+permissionMessage: ''
+cancelPermission: ''
+cancelPermissionMessage: ''
+world: world
+X: 12371
+Y: 152
+Z: 3144
+price: 0.0
+exp: 0
+cooldown: 0
+globalCooldown: 0
+lastGlobalUse: 0
+confirmation: false
+confirmationMessage: ''
+cancel_mode: ALWAYS
+commands:
+  '0':
+    command: tp 12373 147 3144
+    type: PLAYER_COMMAND
+    delay: 0
+    grantPerms: []
+    alwaysPersisted: false
+    interactValue: 0
+  '1':
+    command: 'enjin broadcast &8[&4&k!eaie&r&8]&c Azift&f: Yo&ku&r''re r&ke&rtar&kd&red'
+    type: PLAYER_COMMAND
+    delay: 0
+    grantPerms: []
+    alwaysPersisted: false
+    interactValue: 0
+grantPermissions: []
+priceItems: []
+heldItems: []
+pi_criteria:
+  enchants: false
+  name: false
+  lores: false
+  durability: false
+hi_criteria:
+  enchants: false
+  name: false
+  lores: false
+  durability: false
+loops: -1
+loop_delay: 1
+uses_limit: 0
+uses_tally: 4
+protectedBlocks:
+- world,12370,152,3144
+displayInternalMessages: true
+timeLimitMaximum: 0
+timeLimitMinimum: 0

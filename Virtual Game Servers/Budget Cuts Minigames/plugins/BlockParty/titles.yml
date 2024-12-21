@@ -1,0 +1,9 @@
+# BlockParty - Plugin Originally created by instancelabs, Modified and Updated by chuky025
+Titles:
+  you_fell: "&c&l\xa1YOU FELL!"
+  you_won: "&a&l\xa1YOU WON!"
+  starting: '&aStarting in'
+Subtitles:
+  you_fell: '&eNow you''re a spectator.'
+  you_won: '&eYou''re the best dancer'
+  starting: '&a'

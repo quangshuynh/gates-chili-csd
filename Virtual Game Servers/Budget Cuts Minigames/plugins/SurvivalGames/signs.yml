@@ -1,0 +1,30 @@
+Signs:
+  Join:
+    Victorian:
+      world: world
+      x: 2042.0
+      y: 15.0
+      z: 3017.0
+  Top:
+    Kills:
+      '1':
+        world: world
+        x: 2032.0
+        y: 13.0
+        z: 3020.0
+      '2':
+        world: world
+        x: 2032.0
+        y: 13.0
+        z: 3019.0
+    Wins:
+      '1':
+        world: world
+        x: 2032.0
+        y: 13.0
+        z: 3014.0
+      '2':
+        world: world
+        x: 2032.0
+        y: 13.0
+        z: 3015.0

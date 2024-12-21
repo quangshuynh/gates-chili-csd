@@ -1,0 +1,40 @@
+# BlockParty - Do not modify this file.
+mainlobby:
+  world: world
+  loc:
+    x: 1996
+    y: 13
+    z: 3029
+BudgetDisco:
+  name: BudgetDisco
+  difficulty: 1
+budgetdisco:
+  spawn:
+    world: world
+    loc:
+      x: 1118
+      y: 68
+      z: 311
+  x32: true
+  lobby:
+    world: world
+    loc:
+      x: 1121
+      y: 74
+      z: 322
+  max_players: 10
+  sign:
+    world: world
+    loc:
+      x: 1996
+      y: 14
+      z: 3031
+  min_players: 5
+  difficulty: 1
+budgetdisc:
+  lobby:
+    world: world
+    loc:
+      x: 1138
+      y: 5
+      z: 331

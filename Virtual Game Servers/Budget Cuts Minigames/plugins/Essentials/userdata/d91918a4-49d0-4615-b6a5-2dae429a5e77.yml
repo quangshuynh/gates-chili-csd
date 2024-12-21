@@ -1,0 +1,108 @@
+lastAccountName: Hymical
+timestamps:
+  login: 1572047371017
+  lastteleport: 1572047413443
+  logout: 1572047522498
+  jail: 0
+ipAddress: 104.229.211.168
+lastlocation:
+  world: world
+  x: 475.0713275120937
+  y: 14.0
+  z: 815.3096537778007
+  yaw: 7.4765973
+  pitch: 10.0691395
+powertools:
+  gold_axe:
+  - heal
+  stone_sword:
+  - heal
+  stone_axe:
+  - heal
+  diamond_sword:
+  - heal
+afk: false
+homes:
+  door:
+    world: world
+    x: 1256.1187905068507
+    y: 16.247436571488446
+    z: 396.4617393110411
+    yaw: 234.1972
+    pitch: 27.367155
+  gay:
+    world: world
+    x: 1878.7295304391039
+    y: 5.0
+    z: 3237.344594862366
+    yaw: 215.68666
+    pitch: 25.499847
+  home:
+    world: city
+    x: -239.6769636252669
+    y: 68.0
+    z: -51.65475900273009
+    yaw: 61.232483
+    pitch: 5.0870175
+  bed1:
+    world: bedwars
+    x: 109.27268503006763
+    y: 13.0
+    z: 392.77151395481997
+    yaw: 148.80016
+    pitch: 55.350063
+  budgetwars:
+    world: bedwars
+    x: 6.58583233384074
+    y: 122.0
+    z: -3.3281004010528266
+    yaw: 24.261688
+    pitch: 18.221516
+  gamer:
+    world: world
+    x: 455.30408011280383
+    y: 6.0
+    z: 2438.984678481194
+    yaw: -2.71421
+    pitch: 1.3498954
+  yacht:
+    world: city
+    x: 226.5
+    y: 63.5625
+    z: -145.5
+    yaw: 169.40668
+    pitch: 48.763474
+  yacht1:
+    world: city
+    x: 2004.5628924070163
+    y: 58.0
+    z: 2869.5941558004406
+    yaw: -163.9978
+    pitch: 24.750755
+  yacht2:
+    world: city
+    x: 1998.6775607917266
+    y: 68.0
+    z: 2869.482710670213
+    yaw: -263.15326
+    pitch: 16.050722
+  pptecc:
+    world: world
+    x: 2114.770132514192
+    y: 67.0
+    z: 3287.110900779955
+    yaw: 58.945316
+    pitch: 6.599972
+logoutlocation:
+  world: world
+  x: 2005.3794380940112
+  y: 14.0
+  z: 3021.1735119591663
+  yaw: 192.0795
+  pitch: -4.2865863
+money: '1616773.001'
+godmode: false
+geolocation: United States
+jailed: false
+socialspy: true
+teleportenabled: false

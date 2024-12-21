@@ -1,0 +1,42 @@
+[19-09-10 18:36:21] [INFO] [DEBUG] onEnable start -> 1568154981107
+
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of Config at 1568154981405
+[19-09-10 18:36:21] [INFO] [DEBUG] Config has been loaded. (took 32ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of Lang at 1568154981437
+[19-09-10 18:36:21] [INFO] [DEBUG] Lang has been loaded. (took 27ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of UserManager at 1568154981465
+[19-09-10 18:36:21] [INFO] [DEBUG] UserManager has been loaded. (took 3ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of GuiListener at 1568154981468
+[19-09-10 18:36:21] [INFO] [DEBUG] GuiListener has been loaded. (took 0ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of ArenaManager at 1568154981468
+[19-09-10 18:36:21] [INFO] ArenaManager: Loaded 0 arena(s).
+[19-09-10 18:36:21] [INFO] [DEBUG] ArenaManager has been loaded. (took 47ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of KitManager at 1568154981515
+[19-09-10 18:36:21] [INFO] KitManager: Loaded 0 kit(s).
+[19-09-10 18:36:21] [INFO] [DEBUG] KitManager has been loaded. (took 17ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of SettingsManager at 1568154981532
+[19-09-10 18:36:21] [INFO] [DEBUG] SettingsManager has been loaded. (took 0ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of PlayerInfoManager at 1568154981532
+[19-09-10 18:36:21] [INFO] PlayerInfoManager: Lobby location was not set, using world's spawn location as default. Use the command /duels setlobby in-game to set the lobby location.
+[19-09-10 18:36:21] [INFO] [DEBUG] PlayerInfoManager has been loaded. (took 1ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of SpectateManager at 1568154981533
+[19-09-10 18:36:21] [INFO] [DEBUG] SpectateManager has been loaded. (took 0ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of BettingManager at 1568154981533
+[19-09-10 18:36:21] [INFO] [DEBUG] BettingManager has been loaded. (took 0ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of InventoryManager at 1568154981533
+[19-09-10 18:36:21] [INFO] [DEBUG] InventoryManager has been loaded. (took 0ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of DuelManager at 1568154981533
+[19-09-10 18:36:21] [INFO] [DEBUG] DuelManager has been loaded. (took 1ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of QueueManager at 1568154981534
+[19-09-10 18:36:21] [INFO] QueueManager: Loaded 0 queue(s).
+[19-09-10 18:36:21] [INFO] [DEBUG] QueueManager has been loaded. (took 6ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of QueueSignManager at 1568154981540
+[19-09-10 18:36:21] [INFO] QueueSignManager: Loaded 0 queue sign(s).
+[19-09-10 18:36:21] [INFO] [DEBUG] QueueSignManager has been loaded. (took 5ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of RequestManager at 1568154981545
+[19-09-10 18:36:21] [INFO] [DEBUG] RequestManager has been loaded. (took 0ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of Teleport at 1568154981545
+[19-09-10 18:36:21] [INFO] [DEBUG] Teleport has been loaded. (took 0ms)
+[19-09-10 18:36:21] [INFO] [DEBUG] Starting load of ExtensionManager at 1568154981546
+[19-09-10 18:36:21] [INFO] [DEBUG] ExtensionManager has been loaded. (took 0ms)
+[19-09-10 18:36:25] [INFO] No updates were available. You are on the latest version!

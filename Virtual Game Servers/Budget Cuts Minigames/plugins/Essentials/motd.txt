@@ -1,0 +1,5 @@
+&8&m>-----------<&0&k!&6&lBudget Cuts&0&k!&8&m>-----------<
+&7Welcome to &6&lBudget Cuts&7, {PLAYER}&7!
+&7Type &e/help &7for a list of commands!
+&7There are &6{ONLINE} &7players online.
+&8&m>------------------------------<

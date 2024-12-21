@@ -1,0 +1,28 @@
+cq:
+  location: world, 2004.532, 16.200, 3022.499
+  lines:
+  - '&f-=[&5&lCounterfeit&d&lQuake&f]=-'
+tr:
+  location: world, 1999.474, 16.200, 3017.497
+  lines:
+  - '&f-=[&5&lTNT&d&lRun&f]=-'
+ms:
+  location: world, 2009.500, 16.200, 3017.502
+  lines:
+  - '&f-=[&5&lMini&d&lSG&f]=-'
+bw:
+  location: world, 2004.455, 16.200, 3012.461
+  lines:
+  - '&f-=[&5&lBudget&d&lWars&f]=-'
+ma:
+  location: world, 2017.462, 15.200, 3022.384
+  lines:
+  - '&f-=[&5&lMob&d&lArena&f]=-'
+spleef:
+  location: world, 2023.504, 15.200, 3011.466
+  lines:
+  - '&f-=[&5&lSpl&d&leef&f]=-'
+bp:
+  location: world, 1996.542, 15.200, 3027.415
+  lines:
+  - -=[&5&lBudget&d&lDisco&f]=-

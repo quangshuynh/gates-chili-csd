@@ -1,0 +1,56 @@
+# Default config for MonetaryDeathPenalty.
+# 
+# checkForUpdates - As I update MonetaryDeathPenalty often I've noticed that there are quite a a lot running out-of-date versions of MonetaryDeathPenalty. This will help server owners keep MonetaryDeathPenalty up to date. If there is an update available it will notify any Ops or any players with the mdp.admin permission. I recommend you set this to true just to notify any ops or players/groups with mdp.admin that there is a new version of MonetaryDeathPenalty available.
+# 
+# prefix - Display a prefix before the MonetaryDeathPenalty message. To disable set as ''
+# 
+# pvpPay - Allow players who kill another player to earn a flat amount of currency (pvpCost must be set to true). To disable type pvpPay: 0
+# 
+# usePercentage - Deduct a specified percentage of the players money upon death.
+# 
+# flatPercentage - Will deduct the specified percentage of the total players money upon death.
+# 
+# flatAmount - Deduct a set value rather than a percentage of the players money. Set usePercentage to false if you wish to use this.
+# 
+# vipFlatPercentage - Will deduct the specified percentage of the total players money upon death.
+# 
+# vipFlatAmount - Deduct a set value rather than a percentage of the players money. Set usePercentage to false if you wish to use this.
+# 
+# minAmountForPenalty - If a player has less than or equal to this amount no currency will be deducted when they die.
+# 
+# flatAmountBelowMinAmount - If a player has less than or equal to minAmountForPenalty then the value from flatAmountBelowMinAmount will be deducted from a player when they die. To disable type flatAmountBelowMinAmount: 0
+# 
+# maxPercentageCap - Will cap the max amount of currency that can be removed from the usePercentage.
+# 
+# currencySymbol - Will output currencySymbolX in the money lost message upon death. To disable set as ''
+# 
+# worlds - Worlds listed here will prevent players losing money through MonetaryDeathPenalty.
+# 
+# worldGuardBlackList - Any regions listed here will prevent players from losing any money when they die.
+# 
+# Supported variables in the custom message;
+# 	{0} - gets X: 0 Z: 0 Y: 0
+# 	{1} - gets currencySymbol from config
+# 	{2} - gets amount lost for dying
+#   {3} - gets name of player killed
+#   {4} - gets amount earned for killing a player
+checkForUpdates: true
+prefix: '&8[&aHymicare&8] '
+pvpPay: 1
+usePercentage: false
+flatPercentage: 10
+flatAmount: 35000
+vipFlatPercentage: 5
+vipFlatAmount: 5000
+minAmountForPenalty: 1000
+flatAmountBelowMinAmount: 100
+maxPercentageCap: 5000
+currencySymbol: $
+customMessage: '&6You have died at {0} &6and due to dying you have lost &a{1}&9{2}&6.'
+customMessageForKiller: '&6You have earned &a{1}&9{4} &6for killing &d{3}&6.'
+worlds:
+- city
+- world2
+- world2_nether
+worldGuardBlackList:
+- region_name_here

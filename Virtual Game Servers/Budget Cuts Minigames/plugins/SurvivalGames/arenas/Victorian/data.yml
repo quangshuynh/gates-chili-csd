@@ -1,0 +1,92 @@
+enabled: true
+author: Carrot
+world: SGMap
+minPlayers: 2
+maxPlayers: 8
+lobby-time: 15
+grace-time: 30
+deathmatch-grace-time: 20
+game-time: 1200
+warn-every-seconds: 60
+time-till-deathmatch-start-after-announce: 30
+deathmatch-time: 120
+chests-refill-at: 600
+minimum-chest-items: 3
+max-chest-items: 5
+minimum-chest-tier2-items: 2
+max-chest-tier2-items: 4
+Feast:
+  Radius: 100
+  Spawn-Times:
+  - - 300
+    - 900
+  Warning-Times-From:
+  - - 90
+    - 60
+    - 30
+    - 15
+    - 10
+    - 5
+    - 4
+    - 3
+    - 2
+    - 1
+playerstilldeathmatch: 0
+spawnpoints:
+  '1':
+    x: 145
+    y: 35
+    z: 119
+    yaw: -340.71973
+    pitch: 1.7409774
+  '2':
+    x: 137
+    y: 35
+    z: 139
+    yaw: -158.43066
+    pitch: 0.43018126
+  '3':
+    x: 151
+    y: 35
+    z: 133
+    yaw: -252.6914
+    pitch: 1.8314945
+  '4':
+    x: 131
+    y: 35
+    z: 125
+    yaw: -71.052246
+    pitch: 2.3287113
+  '5':
+    x: 137
+    y: 35
+    z: 119
+    yaw: -22.751465
+    pitch: 2.4190557
+  '6':
+    x: 145
+    y: 35
+    z: 139
+    yaw: -202.31006
+    pitch: 3.1874719
+  '7':
+    x: 131
+    y: 35
+    z: 133
+    yaw: -111.14111
+    pitch: -0.7901007
+  '8':
+    x: 151
+    y: 35
+    z: 125
+    yaw: -290.687
+    pitch: 0.2946033
+feast-radius: 100
+deathmatch:
+  spawnpoints:
+    '1':
+      x: 151
+      y: 34
+      z: 129
+      yaw: -270.27197
+      pitch: 3.5944862

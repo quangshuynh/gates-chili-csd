@@ -1,0 +1,267 @@
+groups:
+  default:
+    options:
+      default: true
+      build: true
+      prefix: '&8[&5Budget&dCut&8] &7'
+    permissions:
+    - BeastWithdraw.CashNote
+    - epicrename.*
+    - banknotes.deposit
+    - banknotes.withdraw
+    - epicrename.relore.*
+    - epicrename.reloreline.*
+    - epicrename.setloreline.*
+    - epicrename.removeglow.*
+    - epicrename.glow.*
+    - epicrename.setlore.*
+    - epicrename.lore.*
+    - epicrename.lore*
+    - enchants.*
+    - enchants.enchant.*
+    - enchants.base.*
+    - enchants.enchant
+    - sentinel.*
+    - sentry.*
+    - sentinel.admin
+    - sentinel.help
+    - sentinel.basic
+    - essentials.i
+    - essentials.give
+    - essentials.repair.all
+    - essentials.repair.hand
+    - essentials.fix
+    - essentials.feed.cooldown.bypass
+    - enchants.rename
+    - TimTheEnchanter.*
+    - epicrename.rename
+    - epicrename.epicrename
+    - epicrename.lore
+    - essentials.enderchest
+    - essentials.back.ondeath
+    - essentials.back
+    - essentials.clear.inventory
+    - essentials.clearinventoryconfirmtoggle
+    - essentials.tpdeny
+    - essentials.tptoggle
+    - essentials.clearinventory
+    - essentials.cleardeop
+    - essentials.clear
+    - essentials.build.interact.*
+    - essentials.protect
+    - essentials.signs.use.free
+    - essentials.worlds.*
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tp.position
+    - essentials.teleport
+    - essentials.interact
+    - essentials.build.*
+    - essentials.build
+    - modifyworld.blocks.place.*
+    - modifyworld.*
+    - essentials.feed
+    - lockettepro.user.*
+    - essentials.gamemode.all
+    - essentials.gamemode
+    - sentinel.damage
+    - sentinel.info
+    - sentinel.greet
+    - citizens.admin.*
+    - citizens.npc.*
+    - worldedit.*
+    - essentials.balancetop
+    - essentials.baltop
+    - essentials.balance
+    - essentials.sell.bulk
+    - essentials.sell.all
+    - essentials.sell.hand
+    - essentials.bulksell
+    - essentials.sell
+    - essentials.sellall
+    - mobarena.arenas.mobarena
+    - mobarena.arenas.default
+    - serversigns.use.*
+    - essentials.say
+    - essentials.nick
+    - essentials.nickname
+    - disguisecraft.player.*
+    - disguisecraft.object.*
+    - disguisecraft.mob.*
+    - sg.join
+    - tntrun.join.signs
+    - mobarena.use.class
+    - mobarena.use.classes
+    - mobarena.use.notready
+    - mobarena.use.playerlist
+    - mobarena.use.arenalist
+    - mobarena.use.spec
+    - mobarena.use.leave
+    - mobarena.use.join
+    - essentials.message
+    - essentials.msg
+    - essentials.reply
+    - essentials.spawnm
+    - essentials.fly
+    - factionsfly.ally
+    - factionsfly.own
+    - factionsfly.allow
+    - factionsfly.seeperms
+    - crazyenchantments.limit.9
+    - CustomEnchants.TnTFill
+    - playtime.uptime
+    - playtime.check
+    - creeperdrop.check
+    - essentials.exp
+    - factions.warp
+    - factions.setwarp
+    - -worldedit.calc
+    - crazyauctions.sell.1
+    - crazyauctions.sell.#
+    - crazyauctions.sell
+    - shopguiplus.shops.*
+    - shopguiplus.shop
+    - guishop.slot.*
+    - guishop.use
+    - crazyenchantments.info
+    - crazyenchantments.access
+    - crazyenchantments.blacksmith
+    - crazyenchantments.tinker
+    - crazyenchantments.
+    - essentials.rules
+    - essentials.motd
+    - essentials.helpop
+    - essentials.help
+    - essentials.ignore
+    - essentials.list
+    - essentials.recipe
+    - crazyauctions.access
+    - essentials.warp.Crates
+    - superbvote.lucky
+    - automessage.receive.json
+    - automessage.receive.regular
+    - essentials.kit.member
+    - essentials.kits.member
+    - essentials.warp.list
+    - essentials.warps.*
+    - essentials.warps.list
+    - essentials.kit.list
+    - essentials.kit,list
+    - essentials.kits.list
+    - featherboard.group.default
+    - bossbar.toggle
+    - silkspawners.explodedrop
+    - silkspawners.place.*
+    - playervaults.amount.1
+    - playervaults.size.6
+    - randomtp.tp
+    - essentials.spawn
+    - modifyworld.*
+    - essentials.kit
+    - trading.trade
+    - beastwithdraw.money
+    - essentials.tpaccept
+    - essentials.tpa
+    - essentials.sethome
+    - essentials.home
+    - essentials.spawn
+    - essentials.whois
+    - essentials.realname
+    - essentials.pay
+    - essentials.afk
+    - essentials.msg
+    - essentials.mail.send
+    - essentials.mail
+    - essentials.geoip.show
+    - essentials.delhome
+  builder:
+    options:
+      prefix: '&8[&6Builder&8] &f'
+  admin:
+    options:
+      prefix: '&8[&4Admin&8] &f'
+    inheritance:
+    - default
+schema-version: 1
+users:
+  8283ee29-162f-45f6-9509-6399934e9637:
+    permissions:
+    - '*'
+    - essentials.silentjoin
+    options:
+      suffix: ' &8[&9Lapis&3Mining&bCo&8]'
+      name: Azift
+    group:
+    - admin
+  d91918a4-49d0-4615-b6a5-2dae429a5e77:
+    permissions:
+    - '*'
+    - lockettepro.admin.use
+    - lockettepro.*
+    - lockette.*
+    options:
+      suffix: ' &8[&6OrangeBallCrew&8]'
+      name: Hymical
+    group:
+    - admin
+  b26b73e7-fe89-4ad0-8f03-9abc416696ca:
+    permissions: []
+    options:
+      name: CaptainWaffles42
+      suffix: ' &8[&3#1-TR&8]'
+      prefix: '&8[&6PP-Tech&eCEO&8] &f'
+    group:
+    - builder
+    worlds:
+      MAN:
+        options:
+          prefix: '&cBOOMER'
+      '&f':
+        options:
+          prefix: '&8[&6Builder&8]'
+  hymiacl:
+    permissions:
+    - '*'
+  097c6d5f-c13c-49af-a3d2-6b47da0392ef:
+    permissions:
+    - essentials.tp
+    - essentials.teleport
+    - essentials.fireball
+    - essentials.feed
+    - essentials.reply
+    - essentials.message
+    - essentials.msg
+    - iDisguise.mob.custom-name
+    options:
+      name: Kosive
+      suffix: ' &8[&aPro Fortnite Player&8]'
+      prefix: '&8[&cShart&8] &f'
+    worlds:
+      '&f':
+        options:
+          prefix: '&8[&cShart&8]'
+      '&':
+        options:
+          prefix: '&8[&cShart&8]'
+  sirelbow:
+    permissions:
+    - essentials.silentjoin.vanish
+  694565c1-1aca-4a47-8679-6acbc4f975eb:
+    permissions:
+    - '*'
+    - essentials.silentjoin
+    - vanish.joinwithoutannounce
+    - vanish.silentquit
+    - vanish.silentjoin
+    - essentials.silentjoin.vanish
+    options:
+      name: JameTime
+  696fa672-0d2e-4bae-9d1d-e23919629317:
+    group:
+    - builder
+    options:
+      name: OatmealMan420
+  33b4c94e-b745-4132-9df1-add467919a77:
+    options:
+      suffix: ' &8[&6Builder&8]'
+      name: Joesh7

@@ -1,0 +1,102 @@
+# To reset this file you must delete it and do /sg reload or /reload WHILE there are no online players.
+# For mysql users the samething and for deleting the table please only delete it while the server is offline or mysql is turned off
+Players:
+  Azift:
+    Coins: 2155
+    Kills: 35
+    Deaths: 12
+    Wins: 29
+    Gamesplayed: 41
+    Modifier: 1
+    Exp: 123
+    Play_Time: 0D-2H-14M-18S
+    Kits: archer, pvp
+    Name: Azift
+  CaptainWaffles42:
+    Coins: 490
+    Kills: 4
+    Deaths: 17
+    Wins: 6
+    Gamesplayed: 23
+    Modifier: 1
+    Exp: 17
+    Play_Time: 0D-0H-57M-5S
+    Kits: archer, pvp
+    Name: CaptainWaffles42
+  Hymical:
+    Coins: 640
+    Kills: 14
+    Deaths: 16
+    Wins: 6
+    Gamesplayed: 22
+    Modifier: 1
+    Exp: 41
+    Play_Time: 0D-1H-3M-29S
+    Kits: archer, pvp
+    Name: Hymical
+  MaximumSucculent:
+    Coins: 290
+    Kills: 4
+    Deaths: 10
+    Wins: 1
+    Gamesplayed: 11
+    Modifier: 1
+    Exp: 16
+    Play_Time: 0D-0H-17M-15S
+    Kits: archer, pvp
+    Name: MaximumSucculent
+  OatmealMan420:
+    Coins: 110
+    Kills: 0
+    Deaths: 1
+    Wins: 0
+    Gamesplayed: 1
+    Modifier: 1
+    Exp: 0
+    Play_Time: 0D-0H-3M-44S
+    Kits: archer, pvp
+    Name: OatmealMan420
+  SirElbow420:
+    Coins: 245
+    Kills: 1
+    Deaths: 0
+    Wins: 1
+    Gamesplayed: 1
+    Modifier: 1
+    Exp: 4
+    Play_Time: 0D-0H-0M-39S
+    Kits: ''
+    Name: SirElbow420
+  Kosive:
+    Coins: 515
+    Kills: 9
+    Deaths: 20
+    Wins: 6
+    Gamesplayed: 26
+    Modifier: 1
+    Exp: 33
+    Play_Time: 0D-1H-23M-14S
+    Kits: ''
+    Name: Kosive
+  Joesh7:
+    Coins: 330
+    Kills: 8
+    Deaths: 16
+    Wins: 2
+    Gamesplayed: 18
+    Modifier: 1
+    Exp: 23
+    Play_Time: 0D-0H-47M-42S
+    Kits: ''
+    Name: Joesh7
+  SpudGamer168:
+    Coins: 110
+    Kills: 0
+    Deaths: 1
+    Wins: 0
+    Gamesplayed: 1
+    Modifier: 1
+    Exp: 0
+    Play_Time: 0D-0H-1M-59S
+    Kits: ''
+    Name: SpudGamer168

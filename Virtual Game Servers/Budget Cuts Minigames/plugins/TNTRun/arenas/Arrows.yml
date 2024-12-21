@@ -1,0 +1,38 @@
+world: world
+p1:
+  ==: Vector
+  x: 961.0
+  y: 0.0
+  z: 3176.0
+p2:
+  ==: Vector
+  x: 995.0
+  y: 76.0
+  z: 3210.0
+gameleveldestroydelay: 8
+loselevel:
+  p1:
+    ==: Vector
+    x: 962.0
+    y: 1.0
+    z: 3177.0
+  p2:
+    ==: Vector
+    x: 994.0
+    y: 1.0
+    z: 3209.0
+spawnpoint:
+  ==: Vector
+  x: 980.2262717595148
+  y: 53.0
+  z: 3193.335328933692
+maxPlayers: 8
+minPlayers: 2
+votePercent: 0.75
+timelimit: 600
+countdown: 10
+teleportto: PREVIOUS
+damageenabled: 'NO'
+reward:
+  money: 0
+  items: []

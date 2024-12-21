@@ -1,0 +1,53 @@
+lastAccountName: CaptainWaffles42
+timestamps:
+  login: 1567209993904
+  logout: 1567217143432
+  lastteleport: 1567217029576
+  jail: 0
+ipAddress: 172.101.147.149
+lastlocation:
+  world: city
+  x: -385.5187006206822
+  y: 88.11163305637575
+  z: 338.88787812695165
+  yaw: -158.53888
+  pitch: 35.85007
+logoutlocation:
+  world: world
+  x: 475.1631515621555
+  y: 15.364278756824113
+  z: 787.4697143970568
+  yaw: 153.75
+  pitch: -1.649999
+homes:
+  home:
+    world: world
+    x: 365.37553207012473
+    y: 8.0
+    z: 316.9857849348275
+    yaw: -349.0595
+    pitch: 57.751163
+  maximumsucculent:
+    world: world
+    x: 469.4725447417776
+    y: 32.0
+    z: 505.5866252712996
+    yaw: -64.118835
+    pitch: 81.75008
+  qb:
+    world: city
+    x: -711.4837079896671
+    y: 67.0
+    z: 239.26127570355766
+    yaw: -265.03094
+    pitch: 56.399975
+afk: false
+powertools:
+  sapling:
+  - kick MaximumSucculent because i can
+  gold_sword:
+  - smite
+money: '3105005950057.961'
+geolocation: United States
+jailed: false
+teleportenabled: true

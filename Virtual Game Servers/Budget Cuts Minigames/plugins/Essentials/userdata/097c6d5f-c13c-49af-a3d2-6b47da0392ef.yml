@@ -1,0 +1,91 @@
+lastAccountName: Kosive
+timestamps:
+  login: 1567217989525
+  lastteleport: 1567217839050
+  logout: 1567218010694
+  mute: 0
+  lastheal: 1567191954535
+  jail: 0
+ipAddress: 172.100.143.219
+geolocation: United States
+lastlocation:
+  world: world
+  x: 2004.4935792721153
+  y: 14.0
+  z: 3017.4704973212565
+  yaw: 3.144747
+  pitch: -5.3301005
+logoutlocation:
+  world: city
+  x: -284.7422944438652
+  y: 67.0
+  z: 217.95540898883016
+  yaw: -62.63639
+  pitch: -5.192078
+muted: false
+money: '4022770.999'
+afk: false
+powertools:
+  glass:
+  - add /kill Oatmealman420
+  diamond_axe:
+  - kill OatmealMan420
+  leash:
+  - add troll spin Azift
+  water_lily:
+  - add /npc remove
+  name_tag:
+  - add fireball
+godmode: false
+homes:
+  house:
+    world: world
+    x: 524.5974711985668
+    y: 6.0
+    z: 2443.131579426547
+    yaw: 191.1709
+    pitch: 16.04506
+  home:
+    world: city
+    x: -931.115863123578
+    y: 67.0
+    z: 169.26116724764825
+    yaw: 273.7857
+    pitch: 17.166971
+  pptecc:
+    world: city
+    x: -374.70867713756087
+    y: 67.0
+    z: 253.08863476112117
+    yaw: 95.9884
+    pitch: -1.9439543
+  queens:
+    world: city
+    x: -59.63265479275972
+    y: 67.0
+    z: 61.15381507292809
+    yaw: 268.6012
+    pitch: 15.920162
+  quang:
+    world: city
+    x: -243.2055206425893
+    y: 67.0
+    z: -32.271448279692066
+    yaw: 180.7807
+    pitch: 5.5514674
+  yacht:
+    world: city
+    x: 246.771766035678
+    y: 63.0625
+    z: -133.80729116560815
+    yaw: -294.18094
+    pitch: 4.177292
+  uwu:
+    world: city
+    x: 154.20284578113754
+    y: 71.0
+    z: -105.35242313697724
+    yaw: 87.71161
+    pitch: 4.6221604
+teleportenabled: true
+jailed: false

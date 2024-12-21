@@ -1,0 +1,32 @@
+lastAccountName: Joesh7
+timestamps:
+  login: 1568154990441
+  logout: 1568155334010
+  lastteleport: 1567216964016
+ipAddress: 69.207.148.250
+geolocation: United States
+lastlocation:
+  world: world
+  x: 467.2367722086022
+  y: 4.104080378093037
+  z: 853.834359339208
+  yaw: -87.72092
+  pitch: 22.799978
+logoutlocation:
+  world: world
+  x: 487.68214626941847
+  y: 21.0
+  z: 813.8330858548812
+  yaw: -105.50717
+  pitch: 23.15343
+money: '1800000.001'
+homes:
+  home:
+    world: world
+    x: 473.52222781029946
+    y: 14.5
+    z: 857.1822229663146
+    yaw: -181.04973
+    pitch: -0.45001754
+afk: false
+godmode: false

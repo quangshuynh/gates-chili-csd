@@ -1,0 +1,110 @@
+arenas:
+- lobby:
+    world: world
+    x: 1749.496907319732
+    y: 207.0
+    z: 2842.300000011921
+    pitch: 0.48077628
+    yaw: -0.18710956
+  signs:
+  - world: world
+    x: 2004.0
+    y: 15.0
+    z: 3055.0
+    pitch: 0.0
+    yaw: 0.0
+  players:
+    min: 2
+    max: 8
+  name: Mir
+  kills_to_win: 10
+  id: mir
+  sneak: false
+  spawns:
+  - world: world
+    x: 484.58954750109643
+    y: 10.0
+    z: 519.435628532186
+    pitch: -0.35608163
+    yaw: -180.09204
+  - world: world
+    x: 484.5314132447929
+    y: 6.0
+    z: 489.4681229629517
+    pitch: 0.41670984
+    yaw: -270.59143
+  - world: world
+    x: 461.5204001890686
+    y: 9.0
+    z: 477.3140244805895
+    pitch: 0.5211711
+    yaw: -0.17608643
+  - world: world
+    x: 449.5057011473849
+    y: 9.0
+    z: 481.52480703327615
+    pitch: 1.3776317
+    yaw: -89.927795
+  - world: world
+    x: 441.5353989172767
+    y: 9.0
+    z: 489.59735532647744
+    pitch: 0.20808738
+    yaw: -0.34777832
+  - world: world
+    x: 441.5209152611425
+    y: 6.0
+    z: 523.4321384638183
+    pitch: 0.6467501
+    yaw: -90.17767
+  - world: world
+    x: 453.4458555154832
+    y: 6.0
+    z: 527.320994877959
+    pitch: 1.2733115
+    yaw: -180.156
+  - world: world
+    x: 476.71429763335266
+    y: 6.0
+    z: 527.4326902408093
+    pitch: 1.0226986
+    yaw: -270.50854
+  - world: world
+    x: 455.51458079470945
+    y: 14.0
+    z: 510.49134121933014
+    pitch: 0.29168582
+    yaw: -91.34656
+  - world: world
+    x: 469.54627869414776
+    y: 13.0
+    z: 519.5706206221056
+    pitch: 1.565695
+    yaw: -180.63324
+  hide_nametags: false
+  powerups:
+  - loc:
+      world: world
+      x: 469.434291464661
+      y: 29.0
+      z: 516.6545601680037
+      pitch: 86.15859
+      yaw: 184.92584
+    effect: rapid-fire
+    respawn-ticks: 300
+  - loc:
+      world: world
+      x: 469.4912853985722
+      y: 6.0
+      z: 505.22422871307197
+      pitch: 90.0
+      yaw: 176.19525
+    effect: speed
+    respawn-ticks: 300
+lobby:
+  world: world
+  x: 2004.494139553979
+  y: 14.0
+  z: 3017.746200985987
+  pitch: 21.765158
+  yaw: 2.8427613

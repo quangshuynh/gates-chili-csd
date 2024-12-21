@@ -1,0 +1,11 @@
+# BlockParty - Plugin Originally created by instancelabs, Modified and Updated by chuky025
+Scoreboard:
+  title: '&bBlock&eParty'
+  text:
+  - '&fMap:'
+  - '&a%arena%'
+  - '&f'
+  - '&fPlayers Left:'
+  - '&a%playersleft%'
+  - '&f'
+  - '&eYourServer.com'

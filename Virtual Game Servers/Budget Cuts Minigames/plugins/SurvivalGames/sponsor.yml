@@ -1,0 +1,35 @@
+# Usage: 'ItemID : Amount'
+# You can also add extra enchantments, names, lores by doing this
+# 'ItemID : Amount : Extra'
+# Enchanting is done like this: enchant:enchantment:level
+# Naming is done like this: name:name
+# Adding a lore is done like this: lore:lore
+# List of enchantments you can use: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+# You can also control the durability of items by doing this 'ItemID:Durability : Amount'
+# Example '267:50 : 1 : enchant:DAMAGE_ALL:2 : name:&4GOD SWORD : lore:&b its a cool sword!'
+# This will create an iron sword with a durability of 50 and sharpness 2 enchantment on it and the name of 'GOD SWORD' with a dark red color and a lore that says 'Its a cool sword' in an aqua color
+
+Categories:
+  food:
+    item: GOLDEN_APPLE
+    items:
+    - 'GOLDEN_APPLE : 1 :: 100'
+    - 'COOKED_BEEF : 3 :: 35'
+    - 'BREAD : 2 :: 30'
+    - 'MUSHROOM_SOUP : 1 :: 30'
+    - 'APPLE : 1 :: 25'
+  weapons:
+    item: WOOD_AXE
+    items:
+    - 'IRON_AXE : 1 :: 120'
+    - 'WOOD_SWORD : 1 :: 80'
+    - 'GOLD_SWORD : 1 :: 60'
+    - 'STONE_PICKAXE : 1 :: 40'
+  tools:
+    item: ENDER_PEARL
+    items:
+    - 'ENDER_PEARL : 2 :: 150'
+    - 'FLINT_AND_STEEL : 1 :: 120'
+    - 'EXP_BOTTLE : 2 :: 100'
+    - 'ARROW : 15 :: 80'
+    - 'IRON_INGOT : 1 :: 60'

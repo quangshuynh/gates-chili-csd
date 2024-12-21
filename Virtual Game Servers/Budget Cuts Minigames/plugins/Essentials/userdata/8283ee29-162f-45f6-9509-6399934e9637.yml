@@ -1,0 +1,101 @@
+lastAccountName: Azift
+timestamps:
+  login: 1568155133175
+  lastteleport: 1568155202534
+  logout: 1568155327407
+  jail: 0
+  lastheal: 1567189617783
+ipAddress: 172.101.137.86
+lastlocation:
+  world: world
+  x: 2003.4869803534752
+  y: 14.0
+  z: 3020.6796760604566
+  yaw: -153.38863
+  pitch: 1.8302051
+logoutlocation:
+  world: world
+  x: 471.8938661439179
+  y: 24.46806574747835
+  z: 851.4672196958302
+  yaw: 174.45807
+  pitch: 17.179539
+money: '7164603.048'
+homes:
+  home:
+    world: world
+    x: 1749.5
+    y: 205.0
+    z: 2841.5
+    yaw: 347.79224
+    pitch: 81.26961
+  budgethome:
+    world: world
+    x: 369.51927135808495
+    y: 6.0
+    z: 2363.501313536053
+    yaw: -174.54907
+    pitch: 1.4727066
+  gang:
+    world: city
+    x: -322.8467497443965
+    y: 203.0
+    z: 172.21318860990388
+    yaw: -133.36487
+    pitch: 5.3240647
+  outside:
+    world: city
+    x: -326.0060562913603
+    y: 67.0
+    z: 195.88832162804366
+    yaw: 1.8537477
+    pitch: -0.20616423
+  goldgrind:
+    world: city
+    x: -51.77158392381928
+    y: 67.0
+    z: 45.27257377389216
+    yaw: 333.2744
+    pitch: 1.2911488
+  logside:
+    world: city
+    x: 183.69999998807907
+    y: 67.0
+    z: -123.30000001192097
+    yaw: 132.02235
+    pitch: 1.3426654
+  escape:
+    world: city
+    x: 600.9603543246423
+    y: 68.0
+    z: 326.2961961243764
+    yaw: 146.49931
+    pitch: 1.2668958
+  floor:
+    world: city
+    x: 2015.617589808789
+    y: 207.0
+    z: 2757.530987701591
+    yaw: -89.450195
+    pitch: 2.4547079
+  tower:
+    world: city
+    x: 2024.4989691878013
+    y: 67.0
+    z: 2792.221676051252
+    yaw: -60.500507
+    pitch: -0.73128426
+  mine:
+    world: city
+    x: 2615.9089466157207
+    y: 11.0
+    z: 2637.374070838587
+    yaw: -267.52374
+    pitch: 16.856483
+powertools: {}
+afk: false
+godmode: false
+socialspy: true
+teleportenabled: true
+jailed: false
+geolocation: United States
