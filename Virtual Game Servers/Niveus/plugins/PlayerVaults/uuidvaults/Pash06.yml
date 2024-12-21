@@ -1,0 +1,213 @@
+vault1:
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"GOLDEN_APPLE"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"COBBLESTONE"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"DIODE"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"RAILS"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":5,"type":"DIRT"}'
+  '9': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":19,\"type\":\"DIAMOND_SWORD\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Sword\"}}"
+  '10': '{"==":"org.bukkit.inventory.ItemStack","damage":2,"type":"SAPLING"}'
+vault2:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"QUARTZ_BLOCK"}'
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_LEGGINGS\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :2},\"display-name\":\"\xa7aFrozen Rank Leggings\"}}"
+  '2': '{"type":"SANDSTONE","==":"org.bukkit.inventory.ItemStack"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":14,\"type\":\"DIAMOND_LEGGINGS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Leggings\"}}"
+  '5': '{"==":"org.bukkit.inventory.ItemStack","damage":4,"type":"FLINT_AND_STEEL"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","damage":5,"amount":32,"type":"STONE"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":44,"type":"STONE"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '10': '{"type":"STICK","==":"org.bukkit.inventory.ItemStack"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":21,"type":"COBBLESTONE"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"WOOD"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","amount":31,"type":"TNT"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","amount":45,"type":"COAL"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"ROTTEN_FLESH"}'
+  '17': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7oStandard\
+    \ issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\":\"\xa7\
+    fMember Wrench\"}}"
+  '18': '{"type":"BLAZE_ROD","==":"org.bukkit.inventory.ItemStack"}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '20': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"SAND"}'
+  '21': '{"==":"org.bukkit.inventory.ItemStack","amount":42,"type":"DIRT"}'
+  '22': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"CHEST"}'
+  '23': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '24': '{"==":"org.bukkit.inventory.ItemStack","amount":15,"type":"DIODE"}'
+  '25': '{"==":"org.bukkit.inventory.ItemStack","amount":63,"type":"LOG"}'
+  '26': '{"==":"org.bukkit.inventory.ItemStack","damage":5,"type":"BOW"}'
+  '27': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"BUCKET"}'
+  '28': '{"==":"org.bukkit.inventory.ItemStack","damage":3,"amount":3,"type":"STEP"}'
+  '29': '{"type":"GRASS","==":"org.bukkit.inventory.ItemStack"}'
+  '30': '{"==":"org.bukkit.inventory.ItemStack","amount":14,"type":"COOKED_BEEF"}'
+  '31': '{"type":"ENDER_PEARL","==":"org.bukkit.inventory.ItemStack"}'
+  '32': '{"==":"org.bukkit.inventory.ItemStack","damage":8,"type":"BOW"}'
+  '33': '{"type":"APPLE","==":"org.bukkit.inventory.ItemStack"}'
+  '34': '{"==":"org.bukkit.inventory.ItemStack","damage":195,"type":"SHEARS"}'
+  '35': '{"==":"org.bukkit.inventory.ItemStack","amount":9,"type":"SAND"}'
+  '36': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":41,\"type\":\"DIAMOND_SPADE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Excavator\"}}"
+  '37': '{"type":"WATER_LILY","==":"org.bukkit.inventory.ItemStack"}'
+  '38': '{"==":"org.bukkit.inventory.ItemStack","amount":63,"type":"SUGAR_CANE"}'
+  '39': '{"type":"SAPLING","==":"org.bukkit.inventory.ItemStack"}'
+  '40': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"GOLDEN_APPLE"}'
+  '41': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '42': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"SEEDS"}'
+  '43': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":13,"type":"DOUBLE_PLANT"}'
+  '44': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":11,\"type\":\"DIAMOND_SWORD\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Sword\"}}"
+  '45': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"HOPPER"}'
+  '47': '{"==":"org.bukkit.inventory.ItemStack","amount":51,"type":"ARROW"}'
+  '49': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":52,\"type\":\"DIAMOND_AXE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Wrench\"}}"
+  '50': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":3,\"type\":\"DIAMOND_HELMET\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Helmet\"}}"
+  '51': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":3,\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Chestplate\"}}"
+  '52': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":3,\"type\":\"DIAMOND_LEGGINGS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Leggings\"}}"
+  '53': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":3,\"type\":\"DIAMOND_BOOTS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Boots\"}}"
+vault5:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9Uxh4wzJzchLTU4vc83NSc4FqeYIzc7KDCxLL81KLipkYOFIhKl0YkhkYAAov8TVNAAAA\"\
+    ,\"display-name\":\"\xa7eIron Golem \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '7': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":2,\"type\":\"SUGAR\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa7a+3%\
+    \ Success Rate\",\"\xa77Apply to an Enchantment Book to\",\"\xa77Increase the\
+    \ Success Rate by \xa7e3%\"],\"display-name\":\"\xa7aMagical Angel Dust\"}}"
+  '8': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"SUGAR\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa7a+2% Success Rate\"\
+    ,\"\xa77Apply to an Enchantment Book to\",\"\xa77Increase the Success Rate by\
+    \ \xa7e2%\"],\"display-name\":\"\xa7aMagical Angel Dust\"}}"
+  '18': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9Uxi4nBPLUoMLMlNSi4AKeYIzc7KDCxLL81KLipkYOFIhylwYrBkYAH2Ol6JKAAAA\"\
+    ,\"display-name\":\"\xa7eCave Spider \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '19': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9Uxi4nBPLUoMLMlNSi4AKeYIzc7KDCxLL81KLipkYOFIhylwYrBkYAH2Ol6JKAAAA\"\
+    ,\"display-name\":\"\xa7eCave Spider \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '25': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to\",\"\xa77deal double damage.\",\"\xa7cArcane Enchant\",\"\xa7a65%\
+    \ Success Rate\",\"\xa7410% Destroy Rate\"],\"display-name\":\"\xa7c\xa7lDoubleStrike\
+    \ III\"}}"
+  '27': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxiYnfPLgSp4gjNzsoMLEsvzUouKmRg4UiHyLgwxDAwA3xw860MAAAA=\"\
+    ,\"display-name\":\"\xa7eCow \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '28': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxiYnfPLgSp4gjNzsoMLEsvzUouKmRg4UiHyLgwxDAwA3xw860MAAAA=\"\
+    ,\"display-name\":\"\xa7eCow \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '36': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9Uxg4grNTc1JL8vOAyniCM3OygwsSy\\/NSi4qZGDhSIYpcGIwZGACidI6tSAAAAA==\"\
+    ,\"display-name\":\"\xa7eSkeleton \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '45': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":37,\"type\":\"MOB_SPAWNER\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxhYnXISq1KBaniCM3OygwsSy\\/NSi4qZGDhSISpcGGwZGAD3ab8WRQAAAA==\"\
+    ,\"display-name\":\"\xa7eBlaze \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '46': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxhYnXISq1KBaniCM3OygwsSy\\/NSi4qZGDhSISpcGGwZGAD3ab8WRQAAAA==\"\
+    ,\"display-name\":\"\xa7eBlaze \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+vault3:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HQryq9KzfPOLGEAAGkc5W8ZAAAA\",\"lore\":[\"\xa77Use this book to obtain\
+    \ Frozen Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\":\"\xa7\
+    bFrozen Kit \xa77(Right Click)\"}}"
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HbKyayqSixK8c4sYQAAFYUIXxsAAAA=\",\"lore\":[\"\xa77Use this book to\
+    \ obtain Blizzard Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\"\
+    :\"\xa7bBlizzard Kit \xa77(Right Click)\"}}"
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HLPSUzOTC3yzixhAACwNYKWGgAAAA==\",\"lore\":[\"\xa77Use this book to\
+    \ obtain Glacier Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\"\
+    :\"\xa7bGlacier Kit \xa77(Right Click)\"}}"
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4PTLLEstLfbOLGEAAL4XYzsZAAAA\",\"lore\":[\"\xa77Use this book to obtain\
+    \ Niveus Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\":\"\xa7\
+    bNiveus Kit \xa77(Right Click)\"}}"
+  '9': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HQryq9KzfPOLGEAAGkc5W8ZAAAA\",\"lore\":[\"\xa77Use this book to obtain\
+    \ Frozen Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\":\"\xa7\
+    bFrozen Kit \xa77(Right Click)\"}}"
+  '10': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HbKyayqSixK8c4sYQAAFYUIXxsAAAA=\",\"lore\":[\"\xa77Use this book to\
+    \ obtain Blizzard Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\"\
+    :\"\xa7bBlizzard Kit \xa77(Right Click)\"}}"
+  '11': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HLPSUzOTC3yzixhAACwNYKWGgAAAA==\",\"lore\":[\"\xa77Use this book to\
+    \ obtain Glacier Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\"\
+    :\"\xa7bGlacier Kit \xa77(Right Click)\"}}"
+  '18': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HQryq9KzfPOLGEAAGkc5W8ZAAAA\",\"lore\":[\"\xa77Use this book to obtain\
+    \ Frozen Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\":\"\xa7\
+    bFrozen Kit \xa77(Right Click)\"}}"
+  '19': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HbKyayqSixK8c4sYQAAFYUIXxsAAAA=\",\"lore\":[\"\xa77Use this book to\
+    \ obtain Blizzard Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\"\
+    :\"\xa7bBlizzard Kit \xa77(Right Click)\"}}"
+  '28': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HbKyayqSixK8c4sYQAAFYUIXxsAAAA=\",\"lore\":[\"\xa77Use this book to\
+    \ obtain Blizzard Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\"\
+    :\"\xa7bBlizzard Kit \xa77(Right Click)\"}}"
+vault4:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"LEAVES"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":42,"type":"LOG"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"LEAVES"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"LEAVES"}'
+  '27': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"LEAVES"}'
+  '36': '{"==":"org.bukkit.inventory.ItemStack","amount":19,"type":"LEAVES"}'
+  '49': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":26,\"type\":\"DIAMOND_SWORD\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"DAMAGE_ALL\":5},\"lore\":[\"\xa7cWither III\",\"\xa76Execute IV\",\"\xa7\
+    cTrap I\",\"\xa7cLifeSteal I\",\"\xa7cRage II\",\"\xa76Drain I\",\"\xa7bLightWeight\
+    \ II\",\"\xa76Crafted for the Godess Khione herself.\"],\"display-name\":\"\xa7\
+    c\xa7lThe North-Wind\"}}"

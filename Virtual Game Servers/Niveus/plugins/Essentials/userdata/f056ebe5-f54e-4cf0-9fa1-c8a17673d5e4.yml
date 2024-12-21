@@ -1,0 +1,20 @@
+geolocation: Italy
+lastAccountName: Offup
+timestamps:
+  login: 1556023269094
+  logout: 1556023306922
+ipAddress: 79.37.14.39
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -27.855890045005516
+  y: 83.0
+  z: -17.771738456015452
+  yaw: -116.86717
+  pitch: 12.823841

@@ -1,0 +1,31 @@
+lastAccountName: Straight14
+timestamps:
+  login: 1556069063161
+  logout: 1556069330246
+  kits:
+    member: 1556069108324
+ipAddress: 47.188.47.169
+geolocation: United States
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -1513.9601016822455
+  y: 66.0
+  z: -951.0970104802657
+  yaw: -199.90564
+  pitch: 51.553177
+money: '750.0'
+homes:
+  home:
+    world: world
+    x: -1492.11175560201
+    y: 66.0
+    z: -948.3927626950256
+    yaw: -260.58105
+    pitch: 25.65503

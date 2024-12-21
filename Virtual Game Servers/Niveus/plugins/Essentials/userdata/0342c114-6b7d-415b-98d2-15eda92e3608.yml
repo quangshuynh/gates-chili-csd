@@ -1,0 +1,31 @@
+geolocation: United States
+lastAccountName: Vesno
+timestamps:
+  login: 1555969260488
+  kits:
+    member: 1555969281137
+  logout: 1555970961042
+ipAddress: 184.167.227.10
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+homes:
+  home:
+    world: world
+    x: -637.2770907276359
+    y: 34.0
+    z: 344.3267700726205
+    yaw: 219.453
+    pitch: 61.50005
+money: '3761.0'
+logoutlocation:
+  world: world
+  x: -1209.065606407105
+  y: 104.0
+  z: -280.6942735239669
+  yaw: -269.10037
+  pitch: 43.200005

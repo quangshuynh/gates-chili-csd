@@ -1,0 +1,5 @@
+vault1:
+  '0': '{"type":"ENDER_PEARL","==":"org.bukkit.inventory.ItemStack"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'

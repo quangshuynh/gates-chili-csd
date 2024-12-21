@@ -1,0 +1,22 @@
+lastAccountName: Attomic_
+timestamps:
+  login: 1556230575837
+  kits:
+    member: 1556230513164
+  logout: 1556230630476
+ipAddress: 173.218.102.196
+geolocation: United States
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -781.4128191142573
+  y: 71.0
+  z: 473.69999998807907
+  yaw: 79.53419
+  pitch: 64.50409

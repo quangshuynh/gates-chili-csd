@@ -1,0 +1,62 @@
+lastAccountName: Azift
+timestamps:
+  login: 1556477103851
+  logout: 1556475207715
+  lastteleport: 1556476212017
+  kits:
+    blizzard: 1555941687537
+    arctic: 1555941658831
+    member: 1555640284309
+    frozen: 1555952734382
+    niveus: 1555965121226
+    tools: 1555638718574
+    glacier: 1555941660637
+ipAddress: 172.101.137.86
+lastlocation:
+  world: world
+  x: 1282.2622515889582
+  y: 83.03991905117137
+  z: 260.23530010393245
+  yaw: -28.424374
+  pitch: 65.62199
+afk: false
+logoutlocation:
+  world: world
+  x: -0.1517011340617999
+  y: 84.0
+  z: -2.246768208089542
+  yaw: -356.864
+  pitch: 12.574538
+money: '1000'
+powertools: {}
+godmode: false
+homes:
+  mines:
+    world: world
+    x: -1294.355552387784
+    y: 13.0
+    z: 2285.300000011921
+    yaw: -7.253364
+    pitch: 11.647704
+  nether:
+    world: world_nether
+    x: -126.70844510962183
+    y: 58.0
+    z: 402.0356713579089
+    yaw: 2.2546635
+    pitch: 4.4693184
+  blazes:
+    world: world
+    x: 135.94506782787784
+    y: 6.0
+    z: 254.69999998807907
+    yaw: -179.35991
+    pitch: 0.046708677
+  ig:
+    world: world
+    x: 2314.137177888764
+    y: 64.0
+    z: -2421.300000011921
+    yaw: -103.086845
+    pitch: 13.257835
+socialspy: true

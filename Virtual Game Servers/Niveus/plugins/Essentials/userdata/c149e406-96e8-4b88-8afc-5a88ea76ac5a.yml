@@ -1,0 +1,32 @@
+lastAccountName: DeathbyCow
+timestamps:
+  login: 1556374676790
+  kits:
+    member: 1556318071523
+  lastteleport: 1555963586045
+  logout: 1556374797554
+ipAddress: 72.28.59.227
+geolocation: United States
+lastlocation:
+  world: world
+  x: 17.78225811243752
+  y: 83.0
+  z: -28.371806660780543
+  yaw: -226.30424
+  pitch: 17.840061
+logoutlocation:
+  world: world
+  x: -2641.5908100804045
+  y: 65.0
+  z: -2567.155067671224
+  yaw: -149.8659
+  pitch: 20.399897
+money: '410.4'
+homes:
+  home:
+    world: world
+    x: -184.1707087449701
+    y: 79.0
+    z: -16.967331293963465
+    yaw: 126.64553
+    pitch: 19.790056

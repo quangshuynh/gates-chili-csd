@@ -1,0 +1,9 @@
+forbidden-commands:
+- /calc
+- calc
+- evaluate
+- /evaluate
+- /solve
+- solve
+- calculator
+- /calculator

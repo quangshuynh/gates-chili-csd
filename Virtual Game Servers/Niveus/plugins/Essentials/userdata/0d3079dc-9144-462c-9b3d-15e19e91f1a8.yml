@@ -1,0 +1,20 @@
+lastAccountName: sueable
+timestamps:
+  login: 1556056814977
+  logout: 1556056843001
+ipAddress: 64.154.88.2
+geolocation: United States
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 0.5067300733935554
+  y: 84.0
+  z: 5.2553857008315275
+  yaw: -0.22058332
+  pitch: 4.3038416

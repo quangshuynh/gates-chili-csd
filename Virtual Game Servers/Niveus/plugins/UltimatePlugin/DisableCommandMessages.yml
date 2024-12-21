@@ -1,0 +1,5 @@
+Messages:
+  Command Deny Message: That Command is not allowed
+  Permission Deny Message: I'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error.
+  Already Forbidden Message: That command is already forbidden!
+  Not Forbiddien Message: That command is not forbidden!

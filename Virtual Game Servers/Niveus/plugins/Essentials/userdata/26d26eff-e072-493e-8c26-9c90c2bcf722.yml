@@ -1,0 +1,32 @@
+geolocation: United States
+lastAccountName: Levitate2
+timestamps:
+  login: 1555974227886
+  kits:
+    member: 1555937995231
+  logout: 1555974272589
+  lastteleport: 1555965577409
+ipAddress: 71.8.133.51
+lastlocation:
+  world: world
+  x: -232.68873462165215
+  y: 37.0
+  z: -22.779420227558553
+  yaw: 149.13672
+  pitch: 60.000023
+logoutlocation:
+  world: world
+  x: -2140.0880846430223
+  y: 79.0
+  z: -1630.487815117136
+  yaw: -87.51263
+  pitch: -17.85002
+money: '40745.34'
+homes:
+  home:
+    world: world
+    x: -2138.4957673701947
+    y: 77.0
+    z: -1626.8995802804209
+    yaw: 177.99231
+    pitch: 3.7500246

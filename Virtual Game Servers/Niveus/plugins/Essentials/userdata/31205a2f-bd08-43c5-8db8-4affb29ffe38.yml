@@ -1,0 +1,32 @@
+geolocation: Netherlands
+lastAccountName: YTStrawberryDude
+timestamps:
+  login: 1556017160493
+  kits:
+    member: 1555950914641
+  lastteleport: 1556021863207
+  logout: 1556021952002
+ipAddress: 80.56.228.232
+lastlocation:
+  world: world
+  x: -231.69999998807907
+  y: 44.0
+  z: 16.699999988079067
+  yaw: -123.619026
+  pitch: 50.134975
+money: '1171.80'
+logoutlocation:
+  world: world
+  x: -232.98515391400173
+  y: 46.08399768221156
+  z: 6.776497057319575
+  yaw: -1.0709229
+  pitch: 32.280937
+homes:
+  home:
+    world: world
+    x: -2453.903877364592
+    y: 124.0
+    z: -2456.457144543543
+    yaw: -37.839973
+    pitch: 24.383257

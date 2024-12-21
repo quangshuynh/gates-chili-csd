@@ -1,0 +1,22 @@
+lastAccountName: xMakex
+timestamps:
+  login: 1555966858926
+  lastteleport: 1555966875814
+  logout: 1555966903283
+ipAddress: 213.127.113.237
+geolocation: Netherlands
+lastlocation:
+  world: world
+  x: 5.38056993485575
+  y: 83.0
+  z: 23.73263986243042
+  yaw: -169.6044
+  pitch: 13.490048
+money: '0'
+logoutlocation:
+  world: world
+  x: 16.910211616976035
+  y: 83.0
+  z: 16.194531850513446
+  yaw: -232.45435
+  pitch: 22.340046

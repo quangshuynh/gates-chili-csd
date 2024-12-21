@@ -1,0 +1,29 @@
+geolocation: Egypt
+lastAccountName: VirtualChocolate
+timestamps:
+  login: 1555961478610
+  lastteleport: 1555962774048
+  logout: 1555963211831
+ipAddress: 45.247.178.154
+lastlocation:
+  world: world
+  x: -238.69425364276307
+  y: 43.0
+  z: -23.240016751627458
+  yaw: 245.06787
+  pitch: 86.400185
+homes:
+  home:
+    world: world
+    x: -231.949256538826
+    y: 43.0
+    z: -27.87339610352261
+    yaw: 43.46882
+    pitch: 19.050018
+logoutlocation:
+  world: world
+  x: -231.39900397353867
+  y: 43.0
+  z: -19.596307461725054
+  yaw: -71.43036
+  pitch: 23.099907

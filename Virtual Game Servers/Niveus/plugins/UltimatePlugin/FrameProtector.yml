@@ -1,0 +1,7 @@
+Messages:
+  Enable: true
+  Remove Frame Deny Message: You are not allowed to remove this ItemFrame!
+  Place Deny Message: You are not allowed to place this ItemFrame!
+  Rotate Deny Message: You are not allowed to rotate this ItemFrame!
+  Remove Item Deny Message: You are not allowed to remove items from this ItemFrame!
+  Command Deny Message: I'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error.

@@ -1,0 +1,23 @@
+geolocation: Greece
+lastAccountName: TheGreekGoat
+timestamps:
+  login: 1555949904657
+  kits:
+    member: 1555948721931
+  lastteleport: 1555948783062
+  logout: 1555950027244
+ipAddress: 79.129.211.196
+lastlocation:
+  world: world
+  x: -33.3943810715664
+  y: 83.0
+  z: 2.2049195977953957
+  yaw: 88.695656
+  pitch: 6.590051
+logoutlocation:
+  world: world
+  x: 1952.5
+  y: 72.0
+  z: 1828.5
+  yaw: 100.34998
+  pitch: 28.199982

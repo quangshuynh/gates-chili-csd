@@ -1,0 +1,46 @@
+Website:
+- '&1 Website'
+Donate:
+- '&2 Donate'
+Rules:
+- '&3 Rules'
+Staff:
+- '&4 Staff'
+Twitter:
+- '&6 Twitter'
+Facebook:
+- '&7 Facebook'
+Youtube:
+- '&8 Youtube'
+Extra:
+- '&9 Extra'
+Vote:
+- '&a Vote'
+Disabled Flight Worlds:
+  world: false
+  world_nether: false
+  world_the_end: false
+Disabled Creative Worlds:
+  world: false
+  world_nether: false
+  world_the_end: false
+Disabled Join Worlds:
+  world: false
+  world_nether: false
+  world_the_end: false
+Factions:
+  Safezone Flight: false
+  Enemy Flight: false
+  Neutral Flight: false
+  Truce Flight: false
+  Ally Flight: false
+  Wilderness Flight: false
+  Warzone Flight: false
+  No Safezone Damage: false
+Boss Message:
+  Color: RED
+  Text: Welcome to the Server!
+  Style: SOLID
+  Flag: DARKEN_SKY
+Blocktopofnetherbuilding: false
+Starter Kit: false

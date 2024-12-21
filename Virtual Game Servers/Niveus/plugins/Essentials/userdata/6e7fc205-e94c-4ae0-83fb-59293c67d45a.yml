@@ -1,0 +1,29 @@
+lastAccountName: Rocky_Wynter
+timestamps:
+  login: 1555816552814
+  logout: 1555816681314
+  lastteleport: 1555816678600
+ipAddress: 184.97.31.187
+geolocation: United States
+lastlocation:
+  world: world
+  x: -1830.2094489790795
+  y: 71.0
+  z: -1947.338002837322
+  yaw: 153.17657
+  pitch: 36.29977
+logoutlocation:
+  world: world
+  x: -1834.5
+  y: 71.0
+  z: -1946.5
+  yaw: 33.318054
+  pitch: 27.449228
+homes:
+  home:
+    world: world
+    x: -1834.8700430115957
+    y: 71.0
+    z: -1946.1382573441708
+    yaw: 33.318054
+    pitch: 27.449228

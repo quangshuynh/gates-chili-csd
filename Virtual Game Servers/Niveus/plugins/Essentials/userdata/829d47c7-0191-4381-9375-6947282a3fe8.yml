@@ -1,0 +1,21 @@
+geolocation: United Kingdom
+lastAccountName: RealNoncie
+timestamps:
+  login: 1556466492847
+  lastteleport: 1556025880177
+  logout: 1556466603286
+ipAddress: 77.101.90.171
+lastlocation:
+  world: world
+  x: 0.5
+  y: 84.0
+  z: 0.5
+  yaw: 0.045597423
+  pitch: -0.3099535
+logoutlocation:
+  world: world
+  x: 3999.53173417444
+  y: 61.875
+  z: -3999.699999988079
+  yaw: 169.5757
+  pitch: 50.063995

@@ -1,0 +1,23 @@
+geolocation: Greece
+lastAccountName: FreeGodset
+timestamps:
+  login: 1555851622953
+  kits:
+    member: 1555851653180
+  logout: 1555851725629
+ipAddress: 91.140.19.203
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+money: '0.0'
+logoutlocation:
+  world: world
+  x: -2270.6276371065787
+  y: 69.0
+  z: 160.3535839202911
+  yaw: 87.64831
+  pitch: 64.525955

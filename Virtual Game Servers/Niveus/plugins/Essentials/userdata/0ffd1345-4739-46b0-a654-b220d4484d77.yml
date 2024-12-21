@@ -1,0 +1,21 @@
+geolocation: United States
+lastAccountName: Danielabc123
+timestamps:
+  login: 1556116068958
+  logout: 1556116341918
+ipAddress: 91.132.137.220
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+money: '13500'
+logoutlocation:
+  world: world
+  x: 0.5
+  y: 71.0
+  z: 38.5
+  yaw: 0.045597423
+  pitch: -0.3099535

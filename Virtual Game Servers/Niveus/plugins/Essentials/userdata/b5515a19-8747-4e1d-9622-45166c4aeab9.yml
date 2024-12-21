@@ -1,0 +1,32 @@
+lastAccountName: ShortStudent
+timestamps:
+  login: 1556318124384
+  kits:
+    member: 1556318139407
+  lastteleport: 1556319689366
+  logout: 1556323854509
+ipAddress: 72.28.40.178
+geolocation: United States
+lastlocation:
+  world: world
+  x: -2647.927195313086
+  y: 66.0
+  z: -2560.3227454698317
+  yaw: 189.27454
+  pitch: 13.200022
+money: '7045.66'
+homes:
+  home:
+    world: world
+    x: -2637.4880728145845
+    y: 65.0
+    z: -2563.221130674468
+    yaw: 63.724915
+    pitch: 61.200016
+logoutlocation:
+  world: world
+  x: -2639.0826498428396
+  y: 65.0
+  z: -2571.6202767231903
+  yaw: 2.5255618
+  pitch: -1.6499714

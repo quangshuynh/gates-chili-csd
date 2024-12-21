@@ -1,0 +1,63 @@
+vault1:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":272,\"type\":\"DIAMOND_SPADE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :2},\"display-name\":\"\xa7aFrozen Rank Excavator\"}}"
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":14,\"type\":\"DIAMOND_SWORD\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Sword\"}}"
+  '3': '{"type":"BOW","==":"org.bukkit.inventory.ItemStack"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"SAND"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"SAND"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"LOG"}'
+  '11': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_PICKAXE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Icedrill\"}}"
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"ENDER_PEARL"}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":20,"type":"GOLDEN_APPLE"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"COOKED_BEEF"}'
+  '19': '{"type":"BOW","==":"org.bukkit.inventory.ItemStack"}'
+  '20': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"BUCKET"}'
+  '21': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '22': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"WOOL"}'
+  '23': '{"==":"org.bukkit.inventory.ItemStack","amount":4,"type":"MUTTON"}'
+  '24': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_PICKAXE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Icedrill\"}}"
+  '25': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SPADE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Excavator\"}}"
+  '26': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7oStandard\
+    \ issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\":\"\xa7\
+    fMember Wrench\"}}"
+  '27': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7oStandard\
+    \ issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\":\"\xa7\
+    fMember Wrench\"}}"
+  '29': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"STONE"}'
+  '30': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"SAND"}'
+  '31': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '32': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SPADE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Excavator\"}}"
+  '33': '{"==":"org.bukkit.inventory.ItemStack","amount":12,"type":"SAND"}'
+  '34': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":2,\"type\":\"DIAMOND_PICKAXE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :2},\"display-name\":\"\xa7aFrozen Rank Icedrill\"}}"
+  '36': '{"==":"org.bukkit.inventory.ItemStack","damage":10,"type":"BOW","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"ARROW_DAMAGE":1}}}'
+  '38': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :2},\"display-name\":\"\xa7aFrozen Rank Wrench\"}}"
+  '41': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"SANDSTONE"}'
+  '42': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"SAND"}'

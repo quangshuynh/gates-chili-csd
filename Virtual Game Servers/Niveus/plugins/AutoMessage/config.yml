@@ -1,0 +1,59 @@
+#  ----------------------------------------------------
+#  AutoMessage Configuration File
+#  ----------------------------------------------------
+#  Message Configuration:
+#     Messages are handled in lists to allow for advanced customization!
+#     Feel free to add color codes by using & in your messages!
+#     To split a message onto multiple lines use the \n delimiter!
+#     Lines starting with / will be run as a command!
+#     To add single apostrophes into a message use ''.
+#     For a complete tutorial go to http://dev.bukkit.org/server-mods/automessage.
+#     If you are unfamiliar with YAML use the in-game commands: /am help
+
+settings:
+  enabled: true
+  min-players: 0
+  log-to-console: false
+message-lists:
+  json:
+    enabled: true
+    interval: 450
+    expiry: -1
+    random: false
+    messages:
+    - |-
+      {
+        "text": "&8[&3&lNiveus&b&lBroadcaster&8] &eApproach &eour &estore, &eand &ehelp &eout &ethe &eserver, &ealong &ewith &eyourself! &8(&aClick Here&8)",
+        "clickEvent": {
+          "action": "open_url",
+          "value": "http://bit.ly/NiveusStore"
+        }
+      }
+    - |-
+      {
+        "text": "&8[&3&lNiveus&b&lBroadcaster&8] &eInteract &ewith &ethe &ecommunity &ethrough &eour &eforums. &8(&aClick Here&8)",
+        "clickEvent": {
+          "action": "open_url",
+          "value": "http://bit.ly/NiveusForums"
+        }
+      }
+    - |-
+      {
+        "text": "&8[&3&lNiveus&b&lBroadcaster&8] &eCome join our community &ediscord server. &8(&aClick Here&8)",
+        "clickEvent": {
+          "action": "open_url",
+          "value": "http://bit.ly/NiveusDiscord"
+        }
+      }
+  regular:
+    enabled: true
+    interval: 300
+    expiry: -1
+    random: false
+    messages:
+    - '&8[&3&lNiveus&b&lBroadcaster&8] &a/redeem &eallows you to retrieve your &3mcMMO
+      &epoints.'
+    - '&8[&3&lNiveus&b&lBroadcaster&8] &eYou can use /buy &eto purchase special ranks
+      and kits.'
+    - '&8[&3&lNiveus&b&lBroadcaster&8] &eUse &a/wild &eto &eteleport &eto &ea &erandom
+      &elocation.'

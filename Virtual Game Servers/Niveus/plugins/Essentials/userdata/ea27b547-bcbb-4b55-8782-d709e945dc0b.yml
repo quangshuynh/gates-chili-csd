@@ -1,0 +1,22 @@
+lastAccountName: petarkick
+timestamps:
+  login: 1555954730140
+  kits:
+    member: 1555952486716
+  logout: 1555954749813
+ipAddress: 5.71.57.105
+geolocation: United Kingdom
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 651.7113075427962
+  y: 51.0
+  z: 2338.495909008341
+  yaw: 96.453804
+  pitch: 21.899906

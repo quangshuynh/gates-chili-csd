@@ -1,0 +1,22 @@
+geolocation: Serbia
+lastAccountName: H1Hamster
+timestamps:
+  login: 1556198273613
+  kits:
+    member: 1555951592719
+  logout: 1556198291576
+ipAddress: 109.93.214.175
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 1023.8937599231432
+  y: 82.0
+  z: 2442.300000011921
+  yaw: 105.90018
+  pitch: 7.6499968

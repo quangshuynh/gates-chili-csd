@@ -1,0 +1,23 @@
+lastAccountName: S1V1G3
+timestamps:
+  login: 1555976044194
+  kits:
+    member: 1555974974306
+  logout: 1555976048049
+ipAddress: 162.195.101.47
+geolocation: United States
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+money: '0.0'
+logoutlocation:
+  world: world
+  x: -1108.7059703252453
+  y: 71.0
+  z: -179.85803391733745
+  yaw: 183.14838
+  pitch: 63.44999

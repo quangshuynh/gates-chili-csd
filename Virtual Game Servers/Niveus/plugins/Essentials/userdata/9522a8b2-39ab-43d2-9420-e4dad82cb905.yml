@@ -1,0 +1,21 @@
+lastAccountName: RoyalLucky
+timestamps:
+  login: 1556184811309
+  logout: 1556184914834
+ipAddress: 185.236.42.27
+geolocation: Sweden
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+money: '13500'
+logoutlocation:
+  world: world
+  x: 0.5
+  y: 84.0
+  z: 0.5
+  yaw: 0.045597423
+  pitch: -0.3099535

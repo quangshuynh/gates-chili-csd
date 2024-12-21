@@ -1,0 +1,20 @@
+lastAccountName: BrightWarp
+timestamps:
+  login: 1555937697862
+  logout: 1555938329534
+ipAddress: 173.66.12.253
+geolocation: United States
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -24.300000011920936
+  y: 84.0
+  z: -15.300000011920934
+  yaw: 294.36188
+  pitch: 62.458637

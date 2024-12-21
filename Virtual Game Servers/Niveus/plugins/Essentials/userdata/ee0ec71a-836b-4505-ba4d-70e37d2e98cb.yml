@@ -1,0 +1,20 @@
+geolocation: United States
+lastAccountName: Grap3vin3
+timestamps:
+  login: 1555786920253
+  logout: 1555787060414
+ipAddress: 71.229.50.211
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 97.20063205716183
+  y: 76.0
+  z: 385.53239480970893
+  yaw: 1.2423706
+  pitch: 27.14969

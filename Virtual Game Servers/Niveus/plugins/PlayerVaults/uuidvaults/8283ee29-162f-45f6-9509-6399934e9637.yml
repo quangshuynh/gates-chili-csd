@@ -1,0 +1,261 @@
+vault5:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":5,"type":"OBSIDIAN"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '49': '{"==":"org.bukkit.inventory.ItemStack","damage":4,"type":"BOW","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"ARROW_DAMAGE":1}}}'
+vault4:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"DIODE"}'
+  '1': '{"type":"WORKBENCH","==":"org.bukkit.inventory.ItemStack"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":22,"type":"FENCE_GATE"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"ENCHANTMENT_TABLE"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":35,"type":"TRAP_DOOR"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":60,"type":"OBSIDIAN"}'
+  '6': '{"type":"WATER_BUCKET","==":"org.bukkit.inventory.ItemStack"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":50,"type":"PISTON_STICKY_BASE"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":38,"type":"WOOD"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","damage":3,"amount":44,"type":"STAINED_GLASS"}'
+  '10': '{"type":"WATER_BUCKET","==":"org.bukkit.inventory.ItemStack"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":25,"type":"IRON_INGOT"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"REDSTONE"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":30,"type":"LOG_2"}'
+vault7:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :2},\"display-name\":\"\xa7aFrozen Rank Chestplate\"}}"
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_LEGGINGS\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :2},\"display-name\":\"\xa7aFrozen Rank Leggings\"}}"
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_BOOTS\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :2},\"display-name\":\"\xa7aFrozen Rank Boots\"}}"
+  '3': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HELMET\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :2},\"display-name\":\"\xa7aFrozen Rank Helmet\"}}"
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":22,\"type\":\"DIAMOND_SWORD\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DAMAGE_ALL\"\
+    :2},\"display-name\":\"\xa7aFrozen Rank Sword\"}}"
+  '5': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_BOOTS\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7e\xa7lNiveus Rank Boots\"}}"
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":44,"type":"GOLDEN_APPLE"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":37,"type":"COOKED_BEEF"}'
+  '8': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_LEGGINGS\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7e\xa7lNiveus Rank Leggings\"}}"
+  '9': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7e\xa7lNiveus Rank Chestplate\"}}"
+  '10': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HELMET\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7e\xa7lNiveus Rank Helmet\"}}"
+  '11': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SWORD\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"FIRE_ASPECT\":2,\"LOOT_BONUS_MOBS\":3,\"DAMAGE_ALL\":5},\"display-name\"\
+    :\"\xa7e\xa7lNiveus Rank Sword\"}}"
+  '12': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"DIG_SPEED\":5},\"display-name\":\"\xa7e\xa7lNiveus Rank Wrench\"}}"
+  '13': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_PICKAXE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"DIG_SPEED\":5},\"display-name\":\"\xa7e\xa7lNiveus Rank Icedrill\"}}"
+  '14': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOW\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"ARROW_DAMAGE\"\
+    :5,\"ARROW_FIRE\":1},\"display-name\":\"\xa7e\xa7lNiveus Rank Bow\"}}"
+  '15': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '17': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SPADE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :5},\"display-name\":\"\xa7e\xa7lNiveus Rank Excavator\"}}"
+vault8:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '20': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '21': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '22': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '23': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '24': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '25': '{"==":"org.bukkit.inventory.ItemStack","damage":16421,"type":"POTION"}'
+  '26': '{"==":"org.bukkit.inventory.ItemStack","damage":16389,"type":"POTION"}'
+vault2:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"GLASS"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"GOLDEN_APPLE"}'
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HELMET\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7e\xa7lNiveus Rank Helmet\"}}"
+  '3': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_LEGGINGS\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7e\xa7lNiveus Rank Leggings\"}}"
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_BOOTS\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7e\xa7lNiveus Rank Boots\"}}"
+  '6': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7e\xa7lNiveus Rank Chestplate\"}}"
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '8': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SPADE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :5},\"display-name\":\"\xa7e\xa7lNiveus Rank Excavator\"}}"
+  '9': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOW\",\"meta\":{\"==\"\
+    :\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"ARROW_DAMAGE\":5,\"\
+    ARROW_FIRE\":1},\"display-name\":\"\xa7e\xa7lNiveus Rank Bow\"}}"
+  '10': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '20': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '21': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '22': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '23': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '24': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '25': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '26': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '27': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":64,"type":"STONE"}'
+  '28': '{"==":"org.bukkit.inventory.ItemStack","amount":18,"type":"IRON_INGOT"}'
+  '29': '{"==":"org.bukkit.inventory.ItemStack","amount":4,"type":"FLINT"}'
+  '30': '{"==":"org.bukkit.inventory.ItemStack","amount":25,"type":"GRAVEL"}'
+  '31': '{"==":"org.bukkit.inventory.ItemStack","damage":5,"amount":64,"type":"STONE"}'
+  '32': '{"==":"org.bukkit.inventory.ItemStack","amount":29,"type":"LEAVES"}'
+  '33': '{"==":"org.bukkit.inventory.ItemStack","damage":3,"amount":52,"type":"STONE"}'
+  '34': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '35': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":47,"type":"LOG_2"}'
+  '36': '{"==":"org.bukkit.inventory.ItemStack","amount":9,"type":"OBSIDIAN"}'
+  '37': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":2,"type":"LEAVES_2"}'
+  '38': '{"==":"org.bukkit.inventory.ItemStack","amount":36,"type":"COAL"}'
+  '39': '{"==":"org.bukkit.inventory.ItemStack","amount":60,"type":"SANDSTONE"}'
+  '40': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"SAND"}'
+  '41': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '42': '{"==":"org.bukkit.inventory.ItemStack","amount":60,"type":"ARROW"}'
+vault3:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TRAP_DOOR"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":57,\"type\":\"DIAMOND_SPADE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :5},\"display-name\":\"\xa7e\xa7lNiveus Rank Excavator\"}}"
+  '3': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"DIG_SPEED\":5},\"display-name\":\"\xa7e\xa7lNiveus Rank Wrench\"}}"
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '6': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SPADE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :2},\"display-name\":\"\xa7aFrozen Rank Excavator\"}}"
+  '7': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_PICKAXE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :2},\"display-name\":\"\xa7aFrozen Rank Icedrill\"}}"
+  '8': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :2},\"display-name\":\"\xa7aFrozen Rank Wrench\"}}"
+  '10': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"COBBLE_WALL"}'
+  '13': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":4,\"type\":\"BOW\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"ARROW_DAMAGE\"\
+    :5,\"ARROW_FIRE\":1},\"display-name\":\"\xa7e\xa7lNiveus Rank Bow\"}}"
+  '14': '{"==":"org.bukkit.inventory.ItemStack","amount":59,"type":"ARROW"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"IRON_FENCE"}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"type":"SPONGE"}'
+vault10:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HELMET\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :5,\"DURABILITY\":3},\"lore\":[\"\xa76Commander V\",\"\xa76Implants V\",\"\xa7\
+    bGlowing I\",\"\xa7cEnlightened V\",\"\xa76Crafted for the Godess Khione herself.\"\
+    ],\"display-name\":\"\xa7c\xa7lHelmet of Khione\"}}"
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :5,\"DURABILITY\":3},\"lore\":[\"\xa7cSavior V\",\"\xa76Angel V\",\"\xa76SandStorm\
+    \ I\",\"\xa7cOverLoad III\",\"\xa7cEnlightened V\",\"\xa76Blizzard I\",\"\xa7\
+    6Crafted for the Godess Khione herself.\"],\"display-name\":\"\xa7c\xa7lChestplate\
+    \ of Khione\"}}"
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_LEGGINGS\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :5,\"DURABILITY\":3},\"lore\":[\"\xa7cEnlightened V\",\"\xa76BurnShield I\",\"\
+    \xa76Voodoo III\",\"\xa76Freeze II\",\"\xa76Crafted for the Godess Khione herself.\"\
+    ],\"display-name\":\"\xa76\xa7lLeggings of Khione\"}}"
+  '3': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_BOOTS\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :5,\"DURABILITY\":3},\"lore\":[\"\xa7bStormCaller V\",\"\xa76AntiGravity III\"\
+    ,\"\xa7cWings I\",\"\xa7cGears III\",\"\xa7bFortify III\",\"\xa7cEnlightened V\"\
+    ,\"\xa76Crafted for the Godess Khione herself.\"],\"display-name\":\"\xa76\xa7\
+    lBoots of Khione\"}}"
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SWORD\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"DAMAGE_ALL\":5},\"lore\":[\"\xa7cWither III\",\"\xa76Execute V\",\"\xa7cLifeSteal\
+    \ V\",\"\xa7cTrap II\",\"\xa76Drain III\",\"\xa7cRage III\",\"\xa7bLightWeight\
+    \ III\",\"\xa76Crafted for the Godess Khione herself.\"],\"display-name\":\"\xa7\
+    c\xa7lThe North-Wind\"}}"
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":52,"type":"GLOWSTONE"}'
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_PICKAXE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"DIG_SPEED\":5},\"lore\":[\"\xa7cBlast I\",\"\xa7bFurnace I\",\"\xa7bHaste\
+    \ III\",\"\xa7f\xa7lPROTECTED\"],\"display-name\":\"\xa7e\xa7lNiveus Rank Icedrill\"\
+    }}"
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"GLASS"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"IRON_FENCE"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","type":"DIAMOND_PICKAXE","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"SILK_TOUCH":1}}}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"BUCKET"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"STEP"}'
+  '9': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77your enemy poison.\",\"\xa76Ultimate Enchant\",\"\xa7\
+    a52% Success Rate\",\"\xa7413% Destroy Rate\"],\"display-name\":\"\xa76\xa7lVenom\
+    \ IV\"}}"
+  '10': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77your enemy slowness.\",\"\xa76Ultimate Enchant\",\"\
+    \xa7a99% Success Rate\",\"\xa7434% Destroy Rate\"],\"display-name\":\"\xa76\xa7\
+    lDrain II\"}}"
+  '11': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77While\
+    \ moving your hunger will\",\"\xa77start to go up while equipped.\",\"\xa76Ultimate\
+    \ Enchant\",\"\xa7a32% Success Rate\",\"\xa740% Destroy Rate\"],\"display-name\"\
+    :\"\xa76\xa7lImplants I\"}}"
+  '12': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77your enemy slowness.\",\"\xa76Ultimate Enchant\",\"\
+    \xa7a24% Success Rate\",\"\xa7494% Destroy Rate\"],\"display-name\":\"\xa76\xa7\
+    lIceFreeze I\"}}"
+  '13': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77your enemy poison.\",\"\xa76Ultimate Enchant\",\"\xa7\
+    a33% Success Rate\",\"\xa7475% Destroy Rate\"],\"display-name\":\"\xa76\xa7lViper\
+    \ III\"}}"
+  '14': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Gives\
+    \ speed and health boost\",\"\xa77when you put it on.\",\"\xa76Ultimate Enchant\"\
+    ,\"\xa7a71% Success Rate\",\"\xa7478% Destroy Rate\"],\"display-name\":\"\xa7\
+    6\xa7lNinja II\"}}"

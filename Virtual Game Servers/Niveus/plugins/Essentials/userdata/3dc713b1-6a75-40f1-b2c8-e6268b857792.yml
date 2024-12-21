@@ -1,0 +1,21 @@
+geolocation: Philippines
+lastAccountName: Amc33
+timestamps:
+  login: 1556009047225
+  lastteleport: 1556008795948
+  logout: 1556009321245
+ipAddress: 49.146.34.13
+lastlocation:
+  world: world
+  x: -0.6608378756222747
+  y: 67.0
+  z: 43.690681830743245
+  yaw: 177.94489
+  pitch: 2.5593913
+logoutlocation:
+  world: world
+  x: 2.3564507263916146
+  y: 83.0
+  z: -24.753877354313026
+  yaw: 62.48346
+  pitch: 4.6064205

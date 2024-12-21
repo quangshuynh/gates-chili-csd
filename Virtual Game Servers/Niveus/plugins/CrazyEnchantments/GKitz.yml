@@ -1,0 +1,103 @@
+Settings:
+  GUI-Size: 27 #Must be a factor of 9.
+  Inventory-Name: '&8List of all Niveus Gkits'
+  GUI-Customization: #This allows you to customize unclickable items into you GUI.
+    - 'Slot:1, Item:160:15, Name: '
+    - 'Slot:2, Item:160:15, Name: '
+    - 'Slot:3, Item:160:15, Name: '
+    - 'Slot:4, Item:160:15, Name: '
+    - 'Slot:5, Item:160:15, Name: '
+    - 'Slot:6, Item:160:15, Name: '
+    - 'Slot:7, Item:160:15, Name: '
+    - 'Slot:8, Item:160:15, Name: '
+    - 'Slot:9, Item:160:15, Name: '
+    - 'Slot:10, Item:160:15, Name: '
+    - 'Slot:11, Item:160:7, Name: Coming Soon'
+    - 'Slot:12, Item:160:7, Name: Coming Soon'
+    - 'Slot:16, Item:160:7, Name: Coming Soon'
+    - 'Slot:17, Item:160:7, Name: Coming Soon'
+    - 'Slot:18, Item:160:15, Name: '
+    - 'Slot:19, Item:160:15, Name: '
+    - 'Slot:20, Item:160:15, Name: '
+    - 'Slot:21, Item:160:15, Name: '
+    - 'Slot:22, Item:160:15, Name: '
+    - 'Slot:23, Item:160:15, Name: '
+    - 'Slot:24, Item:160:15, Name: '
+    - 'Slot:25, Item:160:15, Name: '
+    - 'Slot:26, Item:160:15, Name: '
+    - 'Slot:27, Item:160:15, Name: '
+###################################
+#             Items: Options
+# Item: <ID:MD> - You can choose the item with its id and meta data.
+# Amount: <Number> - Choose how many of the item you get.
+# Name: <Name> - The display name that goes on the item.
+# Lore: <Line 1>,<Line 2>,<Line 3>,<Line 4> - The lore that will go under the enchantments. Split lines with a ','
+# Enchantments:<Enchantment>:<Level> - Choose vanilla enchantments here. Split each enchantment with a ','
+# CustomEnchantments: <Custom Enchantment>:<Level> - Choose crazy/custom enchantments here. Split enchantments with a ','
+# To chose a random level for the crazy/custom enchantments use like this 'CustomEnchantments:<Custom Enchantment>:<Min Level>-<Max Level>'
+# Example of this is shows here.
+# CustomEnchantments:Overload:1-5,Hulk:1-5 << this will add Hulk and Overload and pick a random level from 1-5 and set it as the power.
+###################################
+GKitz: #GKit optons.
+  Khione: #Name of the GKit.
+    Display: #All the display option in the gui.
+      Slot: 14 #Slot the item is located at in the gui.
+      Item: '288' #The item that is displayed for the GKit.
+      Glowing: true #Toggle on or off if the item has an enchanted effect.
+      Name: '&0&k!!!&f&n&lNiveus&0&k!!!&r &f&lKhione Kit' #Display name of the GKit.
+      Lore: #The lore that goes on the display item.
+        - '&7The armor and sword'
+        - '&7of the north-wind.'
+        - ''
+        - '&7Cooldown: &b3 Days'
+        - '&7Available in: &b%Day%d, %Hour%h, %Minute%m, %Second%s'
+        - '&7&l(&b&l!&7&l) &7Right click to preview'
+    Auto-Equip: false #If armor is auto equipped onto the player if the slots are available.
+    Cooldown: '3d' #Cooldown for the GKit. Available options d - Day, h - Hour, m - Minute, s - Second
+    Items: #The items that are given the players. 
+      - 'Item:310, Amount:1, Name:&c&lHelmet of Khione, Enchantments:Protection:5,Unbreaking:3, CustomEnchantments:Enlightened:1-5,Glowing:1,Commander:1-5,Implants:1-5, Lore:&6Crafted for the Godess Khione herself.'
+      - 'Item:311, Amount:1, Name:&c&lChestplate of Khione, Enchantments:Protection:5,Unbreaking:3, CustomEnchantments:Enlightened:1-5,Angel:1-5,OverLoad:1-3,Savior:1-5,Blizzard:1,SandStorm:1, Lore:&6Crafted for the Godess Khione herself.'
+      - 'Item:312, Amount:1, Name:&6&lLeggings of Khione, Enchantments:Protection:5,Unbreaking:3, CustomEnchantments:Enlightened:1-5,BurnShield:1,Freeze:1-2,Voodoo:1-3, Lore:&6Crafted for the Godess Khione herself.'
+      - 'Item:313, Amount:1, Name:&6&lBoots of Khione, Enchantments:Protection:5,Unbreaking:3, CustomEnchantments:Enlightened:1-5,Gears:1-3,AntiGravity:1-3,StormCaller:1-4,Fortify:1-3, Lore:&6Crafted for the Godess Khione herself.'
+      - 'Item:276, Amount:1, Name:&c&lThe North-Wind, Enchantments:Sharpness:5,Unbreaking:3, CustomEnchantments:Rage:1-3,Trap:1-2,Wither:1-3,Execute:1-5,LightWeight:1-3,SlowMo:1-3,LifeSteal:1-5, Lore:&6Crafted for the Godess Khione herself.'
+    Commands: #Is used if you wish to use commands to give other things to players.
+      - ''
+  Grinder: #Name of the GKit.
+    Display: #All the display option in the gui.
+      Slot: 13 #Slot the item is located at in the gui.
+      Item: '369' #The item that is displayed for the GKit.
+      Glowing: true #Toggle on or off if the item has an enchanted effect.
+      Name: '&0&k!!!&f&n&lNiveus&0&k!!!&r &f&lGrinder Kit' #Display name of the GKit.
+      Lore: #The lore that goes on the display item.
+        - '&7A grinding sword'
+        - '&7forged by Vulcan.'
+        - ''
+        - '&7Cooldown: &b3 Days'
+        - '&7Available in: &b%Day%d, %Hour%h, %Minute%m, %Second%s'
+        - '&7&l(&b&l!&7&l) &7Right click to preview'
+    Auto-Equip: false #If armor is auto equipped onto the player if the slots are available.
+    Cooldown: '3d' #Cooldown for the GKit. Available options d - Day, h - Hour, m - Minute, s - Second
+    Items: #The items that are given the players. 
+      - 'Item:276, Amount:1, Name:&c&lLootfinder, Enchantments:Sharpness:5,Unbreaking:3,Looting:3, CustomEnchantments:Rage:1-3,Inquisitive:1-5,LightWeight:1-3,SkillSwipe:1-5,Nutrition:1-3, Lore:&6Rarer than the loot it finds.'
+    Commands: #Is used if you wish to use commands to give other things to players.
+      - 'ss give %Player% blaze 3'
+  ToolMaster: #Name of the GKit.
+    Display: #All the display option in the gui.
+      Slot: 15 #Slot the item is located at in the gui.
+      Item: '278' #The item that is displayed for the GKit.
+      Glowing: true #Toggle on or off if the item has an enchanted effect.
+      Name: '&0&k!!!&f&n&lNiveus&0&k!!!&r &f&lTool Master Kit' #Display name of the GKit.
+      Lore: #The lore that goes on the display item.
+        - '&7Tools that can break'
+        - '&7through the cosmos themselves.'
+        - ''
+        - '&7Cooldown: &b3 Days'
+        - '&7Available in: &b%Day%d, %Hour%h, %Minute%m, %Second%s'
+        - '&7&l(&b&l!&7&l) &7Right click to preview'
+    Auto-Equip: false #If armor is auto equipped onto the player if the slots are available.
+    Cooldown: '3d' #Cooldown for the GKit. Available options d - Day, h - Hour, m - Minute, s - Second
+    Items: #The items that are given the players. 
+      - 'Item:278, Amount:1, Name:&c&lEternal Icedrill, Enchantments:Efficiency:5,Unbreaking:3, CustomEnchantments:Blast:1-3,Experience:1-3,AutoSmelt,1-5,Haste:1-3,Telepathy:1, Lore:&6Diggy Diggy Down.'
+      - 'Item:277, Amount:1, Name:&c&lEternal Snowshovel, Enchantments:Efficiency:5,Unbreaking:3, CustomEnchantments:Haste:1-3,Telepathy:1, Lore:&6Diggy Diggy Down.'
+    Commands: #Is used if you wish to use commands to give other things to players.
+      - 'give %Player% 383:50 3'

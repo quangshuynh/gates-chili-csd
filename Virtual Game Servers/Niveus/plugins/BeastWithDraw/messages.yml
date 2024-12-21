@@ -1,0 +1,34 @@
+XpWithDraw:
+ NotEnough: "You only have %pxp%!"
+ Xpb:
+  - "&e/xpbottle <amount>"
+  - "&7Convert <amount> xp into bottle form."
+  - "&7Use &e/xp &7to view your current exp points."
+ XpTransferred: 
+  - "&aYour Xp is Transfered to bottle!"
+  - "&c-%takenxp% Xp"
+ FullInventory: "&cYour Inventory is full please make some space!"
+ MinXpMessage: "&cYou must withdraw at last %minxp% Xp points per bottle."
+ MaxXpMessage: "&cYou can put %maxxp% Xp to Bottle Max!"
+ CantFind: "&cCan t find %target%!"
+ BottleReceived: "&bPlayer has recive %xp%!"
+ NoPermission: "&4You don t have that permission."
+ NoNumber: "&4That is not a Number!"
+ AutoCollect: "&2&l+%xp% Xp"
+WithDraw:
+ NotEnough: "You only have %balance%!"
+ Cash:
+  - "&e/withdraw <amount>"
+  - "&7Deposit your money to paper."
+  - "&7Use &e/balance &7to view your current Cash."
+ CashTransferred: 
+  - "&aYou have successfully withdraw Cash!"
+  - "&c-$%takenCash%"
+ FullInventory: "&cYour Inventory is full please make some space!"
+ MinMessage: "&cYou must withdraw at last $%MinCash%!."
+ MaxMessage: "&cYou can withdraw max $%MaxCash%!"
+ CashDeposit: "&aYou deposit &f$%Cash%!"
+ CantFind: "&cCan t find %target%!"
+ CashReceived: "&bPlayer has recive %money%!"
+ NoPermission: "&4You don t have that permission."
+ NoNumber: "&4That is not a Number!"

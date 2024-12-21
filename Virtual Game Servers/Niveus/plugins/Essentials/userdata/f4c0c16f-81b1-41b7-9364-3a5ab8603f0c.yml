@@ -1,0 +1,22 @@
+geolocation: Latvia
+lastAccountName: 3rdGradeTeacher
+timestamps:
+  login: 1555957007603
+  logout: 1555957036162
+  kits:
+    member: 1555947058109
+ipAddress: 213.226.141.55
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 1991.7482576624532
+  y: 74.0
+  z: -72.49347110219495
+  yaw: 231.57483
+  pitch: 16.592894

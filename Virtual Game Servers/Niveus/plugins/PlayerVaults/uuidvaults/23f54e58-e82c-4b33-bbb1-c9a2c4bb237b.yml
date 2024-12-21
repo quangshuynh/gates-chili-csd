@@ -1,0 +1,33 @@
+vault1:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"QUARTZ\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77This scroll allows\
+    \ you to organize\",\"\xa77your enchantments and tell you how many\",\"\xa77enchantments\
+    \ you currently have on the item.\"],\"display-name\":\"\xa7dTransmog Scroll\"\
+    }}"
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"COOKED_BEEF"}'
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SPADE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7oStandard\
+    \ issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\":\"\xa7\
+    fMember Excavator\"}}"
+  '5': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7oStandard\
+    \ issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\":\"\xa7\
+    fMember Wrench\"}}"
+  '6': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_PICKAXE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Icedrill\"}}"
+  '7': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SWORD\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7oStandard\
+    \ issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\":\"\xa7\
+    fMember Sword\"}}"
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"GOLDEN_APPLE"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '13': '{"type":"ENDER_PEARL","==":"org.bukkit.inventory.ItemStack"}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"LOG"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"SAND"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"STONE"}'
+  '17': '{"type":"BUCKET","==":"org.bukkit.inventory.ItemStack"}'
+  '18': '{"type":"BOW","==":"org.bukkit.inventory.ItemStack"}'

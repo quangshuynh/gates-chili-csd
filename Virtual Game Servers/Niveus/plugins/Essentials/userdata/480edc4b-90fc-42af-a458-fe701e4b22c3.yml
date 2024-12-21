@@ -1,0 +1,51 @@
+lastAccountName: Pash06
+timestamps:
+  login: 1556477095405
+  kits:
+    blizzard: 1556189954511
+    member: 1556094462505
+    frozen: 1556097491677
+  logout: 1556467278771
+  lastteleport: 1556477367155
+  lastheal: 1556473079007
+ipAddress: 77.101.90.171
+geolocation: United Kingdom
+lastlocation:
+  world: world
+  x: 3996.4005875298703
+  y: 65.8005685868252
+  z: -3994.1171610238835
+  yaw: -165.88672
+  pitch: 27.945587
+money: '823230.1199999999996'
+logoutlocation:
+  world: world
+  x: 3999.053437508598
+  y: 61.0
+  z: -3996.2597072659246
+  yaw: -216.38232
+  pitch: 29.808022
+homes:
+  home:
+    world: world
+    x: 3978.5
+    y: 110.0
+    z: -3999.5
+    yaw: -0.075426295
+    pitch: 65.42398
+  deps:
+    world: world
+    x: 131.1921359212358
+    y: 63.0
+    z: 240.65581431670208
+    yaw: 267.69583
+    pitch: 11.725253
+  corner:
+    world: world
+    x: 121.40568242748994
+    y: 71.0
+    z: 265.54109371035344
+    yaw: 19.817383
+    pitch: -66.67201
+afk: false
+nickname: "\xa7bPashy\xa7dBoi"

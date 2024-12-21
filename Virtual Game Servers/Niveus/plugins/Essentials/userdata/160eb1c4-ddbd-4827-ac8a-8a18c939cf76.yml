@@ -1,0 +1,32 @@
+geolocation: Netherlands
+lastAccountName: EEm1R
+timestamps:
+  login: 1556017160515
+  kits:
+    member: 1555950831961
+  lastteleport: 1556021250848
+  logout: 1556022014751
+ipAddress: 213.127.113.237
+lastlocation:
+  world: world
+  x: 0.5065882671965503
+  y: 84.0
+  z: 0.5841624075881617
+  yaw: 108.19558
+  pitch: 20.090044
+homes:
+  home:
+    world: world
+    x: -2453.205849085475
+    y: 133.0
+    z: -2453.24252697477
+    yaw: -225.1505
+    pitch: 31.500006
+money: '39929.54'
+logoutlocation:
+  world: world
+  x: -213.30000001192093
+  y: 79.0
+  z: -40.165570213406994
+  yaw: 120.11333
+  pitch: 10.499968

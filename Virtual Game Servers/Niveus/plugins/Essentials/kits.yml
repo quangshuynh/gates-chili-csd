@@ -1,0 +1,108 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+# 
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  member:
+    delay: 86400
+    items:
+      - 310 1 protection:1 name:&fMember_Helmet lore:&7&oStandard_issue_arctic|&7&oexploration_equipment.
+      - 311 1 protection:1 name:&fMember_Chestplate lore:&7&oStandard_issue_arctic|&7&oexploration_equipment.
+      - 312 1 protection:1 name:&fMember_Leggings lore:&7&oStandard_issue_arctic|&7&oexploration_equipment.
+      - 313 1 protection:1 name:&fMember_Boots lore:&7&oStandard_issue_arctic|&7&oexploration_equipment.
+      - 276 1 name:&fMember_Sword lore:&7&oStandard_issue_arctic|&7&oexploration_equipment.
+      - 279 1 name:&fMember_Wrench lore:&7&oStandard_issue_arctic|&7&oexploration_equipment.
+      - 278 1 name:&fMember_Icedrill lore:&7&oStandard_issue_arctic|&7&oexploration_equipment.
+      - 277 1 name:&fMember_Excavator lore:&7&oStandard_issue_arctic|&7&oexploration_equipment.
+      - 364 16
+      - 322 8
+      - 50 64
+      - 50 64
+      - 368 1
+      - 17 32
+      - 12 32
+      - 1 32
+      - 325 1
+      - 261 1
+      - 262 64
+  frozen:
+    delay: 86400
+    items: 
+      - 310 1 protection:2 name:&aFrozen_Rank_Helmet
+      - 311 1 protection:2 name:&aFrozen_Rank_Chestplate
+      - 312 1 protection:2 name:&aFrozen_Rank_Leggings
+      - 313 1 protection:2 name:&aFrozen_Rank_Boots
+      - 276 1 sharpness:2 name:&aFrozen_Rank_Sword
+      - 279 1 efficiency:2 name:&aFrozen_Rank_Wrench
+      - 278 1 efficiency:2 name:&aFrozen_Rank_Icedrill
+      - 277 1 efficiency:2 name:&aFrozen_Rank_Excavator
+      - 261 1 power:1
+      - 262 64
+      - 262 64
+      - 322 4
+  blizzard:
+    delay: 86400
+    items: 
+      - 310 1 protection:3 unbreaking:1 name:&bBlizzard_Rank_Helmet
+      - 311 1 protection:3 unbreaking:1 name:&bBlizzard_Rank_Chestplate
+      - 312 1 protection:3 unbreaking:1 name:&bBlizzard_Rank_Leggings
+      - 313 1 protection:3 unbreaking:1 name:&bBlizzard_Rank_Boots
+      - 276 1 sharpness:3 unbreaking:1 name:&bBlizzard_Rank_Sword
+      - 279 1 efficiency:3 unbreaking:1 name:&bBlizzard_Rank_Wrench
+      - 278 1 efficiency:3 unbreaking:1 name:&bBlizzard_Rank_Icedrill
+      - 277 1 efficiency:3 name:&bBlizzard_Rank_Excavator
+      - 261 1 power:2 name:&bBlizzard_Rank_Bow
+      - 262 64
+      - 262 64
+      - 322 8
+  glacier:
+    delay: 86400
+    items: 
+      - 310 1 protection:4 unbreaking:2 name:&2Glacier_Rank_Helmet
+      - 311 1 protection:4 unbreaking:2 name:&2Glacier_Rank_Chestplate
+      - 312 1 protection:4 unbreaking:2 name:&2Glacier_Rank_Leggings
+      - 313 1 protection:4 unbreaking:2 name:&2Glacier_Rank_Boots
+      - 276 1 sharpness:3 unbreaking:2 looting:1 fireaspect:1 name:&2Glacier_Rank_Sword
+      - 279 1 efficiency:3 unbreaking:2 name:&2Glacier_Rank_Wrench
+      - 278 1 efficiency:3 unbreaking:2 name:&2Glacier_Rank_Icedrill
+      - 277 1 efficiency:3 name:&2Glacier_Rank_Excavator
+      - 261 1 power:3 name:&2Glacier_Rank_Bow
+      - 262 64
+      - 262 64
+      - 322 16
+  arctic:
+    delay: 86400
+    items: 
+      - 310 1 protection:4 unbreaking:3 name:&dArctic_Rank_Helmet
+      - 311 1 protection:4 unbreaking:3 name:&dArctic_Rank_Chestplate
+      - 312 1 protection:4 unbreaking:3 name:&dArctic_Rank_Leggings
+      - 313 1 protection:4 unbreaking:3 name:&dArctic_Rank_Boots
+      - 276 1 sharpness:4 unbreaking:3 looting:2 fireaspect:2 name:&dArctic_Rank_Sword
+      - 279 1 efficiency:4 unbreaking:3 name:&dArctic_Rank_Wrench
+      - 278 1 efficiency:4 unbreaking:3 name:&dArctic_Rank_Icedrill
+      - 277 1 efficiency:4 name:&dArctic_Rank_Excavator
+      - 261 1 power:4 flame:1 name:&dArctic_Rank_Bow
+      - 262 64
+      - 262 64
+      - 322 18
+  niveus:
+    delay: 86400
+    items: 
+      - 310 1 protection:4 unbreaking:3 name:&e&lNiveus_Rank_Helmet
+      - 311 1 protection:4 unbreaking:3 name:&e&lNiveus_Rank_Chestplate
+      - 312 1 protection:4 unbreaking:3 name:&e&lNiveus_Rank_Leggings
+      - 313 1 protection:4 unbreaking:3 name:&e&lNiveus_Rank_Boots
+      - 276 1 sharpness:5 unbreaking:3 looting:3 fireaspect:3 name:&e&lNiveus_Rank_Sword
+      - 279 1 efficiency:5 unbreaking:3 name:&e&lNiveus_Rank_Wrench
+      - 278 1 efficiency:5 unbreaking:3 name:&e&lNiveus_Rank_Icedrill
+      - 277 1 efficiency:5 name:&e&lNiveus_Rank_Excavator
+      - 261 1 power:5 flame:2 name:&e&lNiveus_Rank_Bow
+      - 262 64
+      - 262 64
+      - 322 22

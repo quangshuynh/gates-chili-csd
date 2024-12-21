@@ -1,0 +1,20 @@
+lastAccountName: NebeGo
+timestamps:
+  login: 1556199368986
+  logout: 1556199403423
+ipAddress: 89.101.48.238
+geolocation: Ireland
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 0.5485943689709529
+  y: 83.0
+  z: 30.50920290230769
+  yaw: 1.6118389
+  pitch: 5.4497757

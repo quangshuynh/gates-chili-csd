@@ -1,0 +1,51 @@
+lastAccountName: SirElbow420
+timestamps:
+  login: 1556392135683
+  logout: 1556394252685
+  lastteleport: 1556392308941
+  lastheal: 1555641313386
+  kits:
+    member: 1555943324914
+    niveus: 1555947379229
+ipAddress: 104.229.211.168
+geolocation: United States
+lastlocation:
+  world: world
+  x: -1.7051508730669964
+  y: 83.0
+  z: 12.166963479987242
+  yaw: 38.295605
+  pitch: 16.040031
+logoutlocation:
+  world: world_the_end
+  x: 10.5696273909745
+  y: 111.0
+  z: 30.424317612159815
+  yaw: -13.84173
+  pitch: 18.692364
+godmode: false
+homes:
+  farm:
+    world: world
+    x: 1953.699999988079
+    y: 70.0
+    z: 1701.7622278584765
+    yaw: 88.95028
+    pitch: 41.999973
+  base:
+    world: world
+    x: -239.69999998807907
+    y: 43.0
+    z: -19.50006816864196
+    yaw: -129.78123
+    pitch: 29.099953
+  corner:
+    world: world
+    x: 2508.1086425989283
+    y: 65.0
+    z: 2510.974033591449
+    yaw: -72.299904
+    pitch: 14.700013
+money: '2055500.05999999999997'
+afk: false
+nickname: "\xa74Sir\xa7aElbow\xa7c4\xa762\xa7e0"

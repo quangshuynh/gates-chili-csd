@@ -1,0 +1,20 @@
+geolocation: United States
+lastAccountName: Thomas9002
+timestamps:
+  login: 1555801576198
+  logout: 1555801593455
+ipAddress: 71.63.122.109
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -4.957878401920364
+  y: 83.0
+  z: 25.820502055757647
+  yaw: -2.1991377
+  pitch: -3.5609214

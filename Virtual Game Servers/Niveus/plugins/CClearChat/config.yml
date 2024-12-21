@@ -1,0 +1,12 @@
+# Main Config For CClearChat ~r0m3x 
+# VARIABLES #
+# %player% = Player that executed the command.
+EnableCAlias: false
+Metrics: true
+Prefix: '&a[&fCC&a] '
+Global_Chat_Message: '&9%player% has cleared the chat!'
+Own_Chat_Message: '&9You have cleared your chat!'
+Player_Chat_Message: '&9%player% has cleared your chat!'
+Lock_Chat_Message: '&9%player% has locked the chat!'
+Unlock_Chat_Message: '&9%player% has unlocked the chat!'
+Locked_Chat_Message: '&9You cant speak, The chat is locked!'

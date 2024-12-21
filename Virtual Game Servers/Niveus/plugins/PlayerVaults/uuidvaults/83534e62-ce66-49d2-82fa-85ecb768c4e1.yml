@@ -1,0 +1,59 @@
+vault1:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":58,\"type\":\"DIAMOND_PICKAXE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :1,\"DIG_SPEED\":3},\"display-name\":\"\xa7bBlizzard Rank Icedrill\"}}"
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HLPSUzOTC3yzixhAACwNYKWGgAAAA==\",\"lore\":[\"\xa77Use this book to\
+    \ obtain Glacier Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\"\
+    :\"\xa7bGlacier Kit \xa77(Right Click)\"}}"
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"RAW_BEEF"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":21,"type":"TORCH"}'
+  '4': '{"type":"IRON_INGOT","==":"org.bukkit.inventory.ItemStack"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":13,"type":"SULPHUR"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TNT"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"DIRT"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"LEATHER"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":40,"type":"RAW_BEEF"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","amount":45,"type":"LEATHER"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"BUCKET"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TNT"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","amount":50,"type":"STONE"}'
+  '14': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :1,\"DIG_SPEED\":3},\"display-name\":\"\xa7bBlizzard Rank Wrench\"}}"
+  '15': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"DIODE"}'
+  '16': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":14,\"type\":\"DIAMOND_SPADE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :3},\"display-name\":\"\xa7bBlizzard Rank Excavator\"}}"
+  '17': '{"==":"org.bukkit.inventory.ItemStack","amount":5,"type":"STEP"}'
+  '18': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SWORD\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :1,\"DAMAGE_ALL\":3},\"display-name\":\"\xa7bBlizzard Rank Sword\"}}"
+  '19': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOW\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"ARROW_DAMAGE\"\
+    :2},\"display-name\":\"\xa7bBlizzard Rank Bow\"}}"
+  '20': '{"type":"DISPENSER","==":"org.bukkit.inventory.ItemStack"}'
+  '21': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TNT"}'
+  '22': '{"==":"org.bukkit.inventory.ItemStack","amount":58,"type":"REDSTONE"}'
+  '23': '{"==":"org.bukkit.inventory.ItemStack","amount":29,"type":"TNT"}'
+  '24': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":13,\"type\":\"DIAMOND_BOOTS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :3,\"DURABILITY\":1},\"display-name\":\"\xa7bBlizzard Rank Boots\"}}"
+  '25': '{"==":"org.bukkit.inventory.ItemStack","damage":5,"type":"FLINT_AND_STEEL"}'
+  '26': '{"==":"org.bukkit.inventory.ItemStack","amount":5,"type":"COBBLESTONE"}'
+  '27': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"GOLDEN_APPLE"}'
+  '28': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"QUARTZ\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77This scroll allows\
+    \ you to organize\",\"\xa77your enchantments and tell you how many\",\"\xa77enchantments\
+    \ you currently have on the item.\"],\"display-name\":\"\xa7dTransmog Scroll\"\
+    }}"
+  '29': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":6,\"type\":\"DIAMOND_LEGGINGS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :3,\"DURABILITY\":1},\"display-name\":\"\xa7bBlizzard Rank Leggings\"}}"
+  '30': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":10,\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :3,\"DURABILITY\":1},\"display-name\":\"\xa7bBlizzard Rank Chestplate\"}}"
+  '31': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":9,\"type\":\"DIAMOND_HELMET\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :3,\"DURABILITY\":1},\"display-name\":\"\xa7bBlizzard Rank Helmet\"}}"

@@ -1,0 +1,1687 @@
+# [][][][][][][][][][][][][][][][][][][][][]
+#  CratesPlus V4.5.1 Config
+# [][][][][][][][][][][][][][][][][][][][][]
+# ------------------------------------------
+# There are many placeholders that can now be used withing the config and messages file, placeholders are as followed:
+# - %name% - Replaces with the players name, Example: "Notch".
+# - %displayname% - Replaces with the players display name, Example: "[Owner] Notch".
+# - %uuid% - Replaces with the players UUID.
+# - %crate% - The crate types name.
+# - %prize% - The name of the winning.
+# - %percentage% - Percentage of the winning, useful for "Chance Message".
+# - %rand;100;500% - Generates a random number between two numbers, example is between 100 and 500.
+# ------------------------------------------
+# Don't change the config version!
+
+Config Version: 6
+Update Checks: true
+Update Branch: spigot
+Metrics: true
+Default Opener: BasicGUI
+Default Cooldown: 3
+Crate Protection: false
+Disable Key Swapping: false
+Default Hologram Text:
+- '%crate%'
+Crates:
+  Heroic:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Hide Percentages: false
+    Block: ENDER_CHEST
+    Color: DARK_AQUA
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Percentage: 5
+        Name: '&eIron Golem &fSpawner'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eIron Golem \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9Uxh4wzJzchLTU4vc83NSc4FqeYIzc7KDCxLL81KLipkYOFIhKl0YkhkYAAov8TVNAAAA
+          blockMaterial: MOB_SPAWNER
+      '2':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Percentage: 7.5
+        Name: '&eBlaze &fSpawner'
+        Amount: 3
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eBlaze \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9UxhYnXISq1KBaniCM3OygwsSy/NSi4qZGDhSISpcGGwZGAD3ab8WRQAAAA==
+          blockMaterial: MOB_SPAWNER
+      '3':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Percentage: 7.5
+        Name: '&eCreeper &fSpawner'
+        Amount: 5
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eCreeper \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9UxjYnYtSUwtSi4CqeIIzc7KDCxLL81KLipkYOFIhalwYjBgYAKR4PzdHAAAA
+          blockMaterial: MOB_SPAWNER
+      '4':
+        Type: ITEM
+        Item Type: ENCHANTED_BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DEPTH_STRIDER: 3
+      '5':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 15
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $65000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $65000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2D4+4IBADNdE40TAAAA
+      '6':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 10
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $85000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $85000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2D04WAAAJ1dTa8TAAAA
+      '7':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 7.5
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $100000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $100000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2BsW8AAAOp4q1UTAAAA
+      '8':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 5
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $125000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $125000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2B84cEAACTnRYETAAAA
+      '9':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 7.5
+        Name: '&bGlacier Kit &7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Use this book to obtain Glacier Rank Kit"
+        - "\xa77One time use - be warned."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7bGlacier Kit \xa77(Right Click)"
+          lore:
+          - "\xa77Use this book to obtain Glacier Rank Kit"
+          - "\xa77One time use - be warned."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HLPSUzOTC3yzixhAACwNYKWGgAAAA==
+      '10':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: '&bArctic Kit &7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Use this book to obtain Arctic Rank Kit"
+        - "\xa77One time use - be warned."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7bArctic Kit \xa77(Right Click)"
+          lore:
+          - "\xa77Use this book to obtain Arctic Rank Kit"
+          - "\xa77One time use - be warned."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HQsSi7JTPbOLGEAAMht+wUZAAAA
+      '11':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: '&bNiveus Kit &7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Use this book to obtain Niveus Rank Kit"
+        - "\xa77One time use - be warned."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7bNiveus Kit \xa77(Right Click)"
+          lore:
+          - "\xa77Use this book to obtain Niveus Rank Kit"
+          - "\xa77One time use - be warned."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4PTLLEstLfbOLGEAAL4XYzsZAAAA
+      '12':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: '&b&lEnhanced &7Enchantment Book (Right Click)'
+        Amount: 9
+        Enchantments: []
+        Lore:
+        - "\xa77Uncover to revieve a random"
+        - "\xa77\xa7b\xa7lEnhanced \xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lEnhanced \xa77Enchantment Book (Right Click)"
+          lore:
+          - "\xa77Uncover to revieve a random"
+          - "\xa77\xa7b\xa7lEnhanced \xa77enchantment book."
+      '13':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: '&6&lUltimate &7Enchantment Book (Right Click)'
+        Amount: 5
+        Enchantments: []
+        Lore:
+        - "\xa77Uncover to revieve a random"
+        - "\xa77\xa76\xa7lUltimate \xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lUltimate \xa77Enchantment Book (Right Click)"
+          lore:
+          - "\xa77Uncover to revieve a random"
+          - "\xa77\xa76\xa7lUltimate \xa77enchantment book."
+      '14':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: '&c&lArcane &7Enchantment Book (Right Click)'
+        Amount: 3
+        Enchantments: []
+        Lore:
+        - "\xa77Uncover to revieve a random"
+        - "\xa77\xa7c\xa7lArcane \xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7c\xa7lArcane \xa77Enchantment Book (Right Click)"
+          lore:
+          - "\xa77Uncover to revieve a random"
+          - "\xa77\xa7c\xa7lArcane \xa77enchantment book."
+      '15':
+        Type: ITEM
+        Item Type: INK_SACK
+        Item Data: 0
+        Percentage: 2
+        Name: '&8Black Scroll'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Drag and drop this on an item with a custom enchantment"
+        - "\xa77and it will remove a random enchantment for you."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa78Black Scroll"
+          lore:
+          - "\xa77Drag and drop this on an item with a custom enchantment"
+          - "\xa77and it will remove a random enchantment for you."
+      '16':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 1
+        Name: '&b&lRANK "&fBlizzard&b&l"'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Right-click this item to unlock"
+        - "\xa77the Blizzard rank on factions."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lRANK \"\xa7fBlizzard\xa7b\xa7l\""
+          lore:
+          - "\xa77Right-click this item to unlock"
+          - "\xa77the Blizzard rank on factions."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HHKyayqSixKCUrMy2YAAPXgseUcAAAA
+      '17':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 1
+        Name: '&b&lRANK "&fGlacier&b&l"'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Right-click this item to unlock"
+        - "\xa77the Glacier rank on factions."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lRANK \"\xa7fGlacier\xa7b\xa7l\""
+          lore:
+          - "\xa77Right-click this item to unlock"
+          - "\xa77the Glacier rank on factions."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HbPSUzOTC0KSszLZgAAZ06f+xsAAAA=
+      '18':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 1
+        Name: '&3&lPERK "&f/fix&3&l"'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Right-click this item to unlock"
+        - "\xa77the fix command on factions."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa73\xa7lPERK \"\xa7f/fix\xa73\xa7l\""
+          lore:
+          - "\xa77Right-click this item to unlock"
+          - "\xa77the fix command on factions."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1iYHbLrGAAAHfEyRkTAAAA
+  Legendary:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: ENDER_CHEST
+    Color: DARK_AQUA
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&eIron Golem &fSpawner'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eIron Golem \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9Uxh4wzJzchLTU4vc83NSc4FqeYIzc7KDCxLL81KLipkYOFIhKl0YkhkYAAov8TVNAAAA
+          blockMaterial: MOB_SPAWNER
+      '2':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&eBlaze &fSpawner'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eBlaze \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9UxhYnXISq1KBaniCM3OygwsSy/NSi4qZGDhSISpcGGwZGAD3ab8WRQAAAA==
+          blockMaterial: MOB_SPAWNER
+      '3':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&eCreeper &fSpawner'
+        Amount: 3
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eCreeper \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9UxjYnYtSUwtSi4CqeIIzc7KDCxLL81KLipkYOFIhalwYjBgYAKR4PzdHAAAA
+          blockMaterial: MOB_SPAWNER
+      '4':
+        Type: ITEM
+        Item Type: HOPPER
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '5':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $35000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $35000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2Do2MEAANyqkmUTAAAA
+      '6':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $50000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $50000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2A4HMAAABmx+o8TAAAA
+      '7':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $75000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $75000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2BU+cEAALgmNf0TAAAA
+      '8':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $100000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $100000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2BsW8AAAOp4q1UTAAAA
+      '9':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&bGlacier Kit &7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Use this book to obtain Glacier Rank Kit"
+        - "\xa77One time use - be warned."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7bGlacier Kit \xa77(Right Click)"
+          lore:
+          - "\xa77Use this book to obtain Glacier Rank Kit"
+          - "\xa77One time use - be warned."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HLPSUzOTC3yzixhAACwNYKWGgAAAA==
+      '10':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&bArctic Kit &7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Use this book to obtain Arctic Rank Kit"
+        - "\xa77One time use - be warned."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7bArctic Kit \xa77(Right Click)"
+          lore:
+          - "\xa77Use this book to obtain Arctic Rank Kit"
+          - "\xa77One time use - be warned."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HQsSi7JTPbOLGEAAMht+wUZAAAA
+      '11':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&bNiveus Kit &7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Use this book to obtain Niveus Rank Kit"
+        - "\xa77One time use - be warned."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7bNiveus Kit \xa77(Right Click)"
+          lore:
+          - "\xa77Use this book to obtain Niveus Rank Kit"
+          - "\xa77One time use - be warned."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4PTLLEstLfbOLGEAAL4XYzsZAAAA
+      '12':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&b&lEnhanced &7Enchantment Book (Right Click)'
+        Amount: 7
+        Enchantments: []
+        Lore:
+        - "\xa77Uncover to revieve a random"
+        - "\xa77\xa7b\xa7lEnhanced \xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lEnhanced \xa77Enchantment Book (Right Click)"
+          lore:
+          - "\xa77Uncover to revieve a random"
+          - "\xa77\xa7b\xa7lEnhanced \xa77enchantment book."
+      '13':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&6&lUltimate &7Enchantment Book (Right Click)'
+        Amount: 3
+        Enchantments: []
+        Lore:
+        - "\xa77Uncover to revieve a random"
+        - "\xa77\xa76\xa7lUltimate \xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lUltimate \xa77Enchantment Book (Right Click)"
+          lore:
+          - "\xa77Uncover to revieve a random"
+          - "\xa77\xa76\xa7lUltimate \xa77enchantment book."
+      '14':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&c&lArcane &7Enchantment Book (Right Click)'
+        Amount: 2
+        Enchantments: []
+        Lore:
+        - "\xa77Uncover to revieve a random"
+        - "\xa77\xa7c\xa7lArcane \xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7c\xa7lArcane \xa77Enchantment Book (Right Click)"
+          lore:
+          - "\xa77Uncover to revieve a random"
+          - "\xa77\xa7c\xa7lArcane \xa77enchantment book."
+      '15':
+        Type: ITEM
+        Item Type: EMPTY_MAP
+        Item Data: 0
+        Name: '&eWhite Scroll'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Want to protect an item from a book's destroy rate?"
+        - "\xa77Drag and drop this on an enchant-able item"
+        - "\xa77and it will protect the item from the destroy rate."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eWhite Scroll"
+          lore:
+          - "\xa77Want to protect an item from a book's destroy rate?"
+          - "\xa77Drag and drop this on an enchant-able item"
+          - "\xa77and it will protect the item from the destroy rate."
+      '16':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&b&lRANK "&fFrozen&b&l"'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Right-click this item to unlock"
+        - "\xa77the Frozen rank on factions."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lRANK \"\xa7fFrozen\xa7b\xa7l\""
+          lore:
+          - "\xa77Right-click this item to unlock"
+          - "\xa77the Frozen rank on factions."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HIryq9KzQtKzMtmAABLSGGuGgAAAA==
+      '17':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&b&lRANK "&fBlizzard&b&l"'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Right-click this item to unlock"
+        - "\xa77the Blizzard rank on factions."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lRANK \"\xa7fBlizzard\xa7b\xa7l\""
+          lore:
+          - "\xa77Right-click this item to unlock"
+          - "\xa77the Blizzard rank on factions."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HHKyayqSixKCUrMy2YAAPXgseUcAAAA
+      '18':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&3&lPERK "&f/fix&3&l"'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Right-click this item to unlock"
+        - "\xa77the fix command on factions."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa73\xa7lPERK \"\xa7f/fix\xa73\xa7l\""
+          lore:
+          - "\xa77Right-click this item to unlock"
+          - "\xa77the fix command on factions."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1iYHbLrGAAAHfEyRkTAAAA
+  Niveus:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: ENDER_CHEST
+    Color: DARK_AQUA
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&eIron Golem &fSpawner'
+        Amount: 3
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eIron Golem \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9Uxh4wzJzchLTU4vc83NSc4FqeYIzc7KDCxLL81KLipkYOFIhKl0YkhkYAAov8TVNAAAA
+          blockMaterial: MOB_SPAWNER
+      '2':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&eBlaze &fSpawner'
+        Amount: 5
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eBlaze \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9UxhYnXISq1KBaniCM3OygwsSy/NSi4qZGDhSISpcGGwZGAD3ab8WRQAAAA==
+          blockMaterial: MOB_SPAWNER
+      '3':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&eCreeper &fSpawner'
+        Amount: 5
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eCreeper \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9UxjYnYtSUwtSi4CqeIIzc7KDCxLL81KLipkYOFIhalwYjBgYAKR4PzdHAAAA
+          blockMaterial: MOB_SPAWNER
+      '4':
+        Type: ITEM
+        Item Type: ENCHANTED_BOOK
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DEPTH_STRIDER: 3
+      '5':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $125000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $125000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2B84cEAACTnRYETAAAA
+      '6':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $250000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $250000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2C+MIEBAJDU1UgTAAAA
+      '7':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $500000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $500000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2BfqMAAABjvQXYTAAAA
+      '8':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $1000000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $1000000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ+B3cmAAAKnCrH0TAAAA
+      '9':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&bArctic Kit &7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Use this book to obtain Arctic Rank Kit"
+        - "\xa77One time use - be warned."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7bArctic Kit \xa77(Right Click)"
+          lore:
+          - "\xa77Use this book to obtain Arctic Rank Kit"
+          - "\xa77One time use - be warned."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HQsSi7JTPbOLGEAAMht+wUZAAAA
+      '10':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&bNiveus Kit &7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Use this book to obtain Niveus Rank Kit"
+        - "\xa77One time use - be warned."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7bNiveus Kit \xa77(Right Click)"
+          lore:
+          - "\xa77Use this book to obtain Niveus Rank Kit"
+          - "\xa77One time use - be warned."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4PTLLEstLfbOLGEAAL4XYzsZAAAA
+      '11':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&b&lEnhanced &7Enchantment Book (Right Click)'
+        Amount: 12
+        Enchantments: []
+        Lore:
+        - "\xa77Uncover to revieve a random"
+        - "\xa77\xa7b\xa7lEnhanced \xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lEnhanced \xa77Enchantment Book (Right Click)"
+          lore:
+          - "\xa77Uncover to revieve a random"
+          - "\xa77\xa7b\xa7lEnhanced \xa77enchantment book."
+      '12':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&6&lUltimate &7Enchantment Book (Right Click)'
+        Amount: 7
+        Enchantments: []
+        Lore:
+        - "\xa77Uncover to revieve a random"
+        - "\xa77\xa76\xa7lUltimate \xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lUltimate \xa77Enchantment Book (Right Click)"
+          lore:
+          - "\xa77Uncover to revieve a random"
+          - "\xa77\xa76\xa7lUltimate \xa77enchantment book."
+      '13':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&c&lArcane &7Enchantment Book (Right Click)'
+        Amount: 5
+        Enchantments: []
+        Lore:
+        - "\xa77Uncover to revieve a random"
+        - "\xa77\xa7c\xa7lArcane \xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7c\xa7lArcane \xa77Enchantment Book (Right Click)"
+          lore:
+          - "\xa77Uncover to revieve a random"
+          - "\xa77\xa7c\xa7lArcane \xa77enchantment book."
+      '14':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&b&lRANK "&fGlacier&b&l"'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Right-click this item to unlock"
+        - "\xa77the Glacier rank on factions."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lRANK \"\xa7fGlacier\xa7b\xa7l\""
+          lore:
+          - "\xa77Right-click this item to unlock"
+          - "\xa77the Glacier rank on factions."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HbPSUzOTC0KSszLZgAAZ06f+xsAAAA=
+      '15':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&b&lRANK "&fArctic&b&l"'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Right-click this item to unlock"
+        - "\xa77the Arctic rank on factions."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lRANK \"\xa7fArctic\xa7b\xa7l\""
+          lore:
+          - "\xa77Right-click this item to unlock"
+          - "\xa77the Arctic rank on factions."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HIsSi7JTA5KzMtmAABExdoPGgAAAA==
+      '16':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&b&lRANK "&fNiveus&b&l"'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Right-click this item to unlock"
+        - "\xa77the Niveus rank on factions."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lRANK \"\xa7fNiveus\xa7b\xa7l\""
+          lore:
+          - "\xa77Right-click this item to unlock"
+          - "\xa77the Niveus rank on factions."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4PLLLEstLQ5KzMtmAAA3iYK2GgAAAA==
+      '17':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&3&lPERK "&f/fix&3&l"'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Right-click this item to unlock"
+        - "\xa77the fix command on factions."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa73\xa7lPERK \"\xa7f/fix\xa73\xa7l\""
+          lore:
+          - "\xa77Right-click this item to unlock"
+          - "\xa77the fix command on factions."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1iYHbLrGAAAHfEyRkTAAAA
+      '18':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&3&lPERK "&f/fly&3&l"'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Right-click this item to unlock"
+        - "\xa77the fly command on factions."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa73\xa7lPERK \"\xa7f/fly\xa73\xa7l\""
+          lore:
+          - "\xa77Right-click this item to unlock"
+          - "\xa77the fly command on factions."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1iYHbLqWQAAN03GQYTAAAA
+  Rare:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: ENDER_CHEST
+    Color: DARK_AQUA
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Percentage: 5
+        Name: '&eBlaze &fSpawner'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eBlaze \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9UxhYnXISq1KBaniCM3OygwsSy/NSi4qZGDhSISpcGGwZGAD3ab8WRQAAAA==
+          blockMaterial: MOB_SPAWNER
+      '2':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Percentage: 7.5
+        Name: '&eCreeper &fSpawner'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eCreeper \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9UxjYnYtSUwtSi4CqeIIzc7KDCxLL81KLipkYOFIhalwYjBgYAKR4PzdHAAAA
+          blockMaterial: MOB_SPAWNER
+      '3':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Percentage: 7.5
+        Name: '&eCave Spider &fSpawner'
+        Amount: 3
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eCave Spider \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9Uxi4nBPLUoMLMlNSi4AKeYIzc7KDCxLL81KLipkYOFIhylwYrBkYAH2Ol6JKAAAA
+          blockMaterial: MOB_SPAWNER
+      '4':
+        Type: ITEM
+        Item Type: HOPPER
+        Item Data: 0
+        Percentage: 5
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '5':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 15
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $20000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $20000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2DwU2AAADxAKEkTAAAA
+      '6':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 10
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $30000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $30000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2AoNWAAABxY1CsTAAAA
+      '7':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 7.5
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $40000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $40000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2CY48AAAMXK2KITAAAA
+      '8':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 5
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $50000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $50000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2A4HMAAABmx+o8TAAAA
+      '9':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 7.5
+        Name: '&bBlizzard Kit &7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Use this book to obtain Blizzard Rank Kit"
+        - "\xa77One time use - be warned."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7bBlizzard Kit \xa77(Right Click)"
+          lore:
+          - "\xa77Use this book to obtain Blizzard Rank Kit"
+          - "\xa77One time use - be warned."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HbKyayqSixK8c4sYQAAFYUIXxsAAAA=
+      '10':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: '&bGlacier Kit &7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Use this book to obtain Glacier Rank Kit"
+        - "\xa77One time use - be warned."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7bGlacier Kit \xa77(Right Click)"
+          lore:
+          - "\xa77Use this book to obtain Glacier Rank Kit"
+          - "\xa77One time use - be warned."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HLPSUzOTC3yzixhAACwNYKWGgAAAA==
+      '11':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: '&bArctic Kit &7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Use this book to obtain Arctic Rank Kit"
+        - "\xa77One time use - be warned."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7bArctic Kit \xa77(Right Click)"
+          lore:
+          - "\xa77Use this book to obtain Arctic Rank Kit"
+          - "\xa77One time use - be warned."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HQsSi7JTPbOLGEAAMht+wUZAAAA
+      '12':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: '&b&lEnhanced &7Enchantment Book (Right Click)'
+        Amount: 5
+        Enchantments: []
+        Lore:
+        - "\xa77Uncover to revieve a random"
+        - "\xa77\xa7b\xa7lEnhanced \xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lEnhanced \xa77Enchantment Book (Right Click)"
+          lore:
+          - "\xa77Uncover to revieve a random"
+          - "\xa77\xa7b\xa7lEnhanced \xa77enchantment book."
+      '13':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: '&6&lUltimate &7Enchantment Book (Right Click)'
+        Amount: 3
+        Enchantments: []
+        Lore:
+        - "\xa77Uncover to revieve a random"
+        - "\xa77\xa76\xa7lUltimate \xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lUltimate \xa77Enchantment Book (Right Click)"
+          lore:
+          - "\xa77Uncover to revieve a random"
+          - "\xa77\xa76\xa7lUltimate \xa77enchantment book."
+      '14':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: '&c&lArcane &7Enchantment Book (Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Uncover to revieve a random"
+        - "\xa77\xa7c\xa7lArcane \xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7c\xa7lArcane \xa77Enchantment Book (Right Click)"
+          lore:
+          - "\xa77Uncover to revieve a random"
+          - "\xa77\xa7c\xa7lArcane \xa77enchantment book."
+      '15':
+        Type: ITEM
+        Item Type: QUARTZ
+        Item Data: 0
+        Percentage: 2
+        Name: '&dTransmog Scroll'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77This scroll allows you to organize"
+        - "\xa77your enchantments and tell you how many"
+        - "\xa77enchantments you currently have on the item."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7dTransmog Scroll"
+          lore:
+          - "\xa77This scroll allows you to organize"
+          - "\xa77your enchantments and tell you how many"
+          - "\xa77enchantments you currently have on the item."
+      '16':
+        Type: ITEM
+        Item Type: EMPTY_MAP
+        Item Data: 0
+        Percentage: 1
+        Name: '&eWhite Scroll'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Want to protect an item from a book's destroy rate?"
+        - "\xa77Drag and drop this on an enchant-able item"
+        - "\xa77and it will protect the item from the destroy rate."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eWhite Scroll"
+          lore:
+          - "\xa77Want to protect an item from a book's destroy rate?"
+          - "\xa77Drag and drop this on an enchant-able item"
+          - "\xa77and it will protect the item from the destroy rate."
+      '17':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 1
+        Name: '&3&lPERK "&f/fix&3&l"'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Right-click this item to unlock"
+        - "\xa77the fix command on factions."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa73\xa7lPERK \"\xa7f/fix\xa73\xa7l\""
+          lore:
+          - "\xa77Right-click this item to unlock"
+          - "\xa77the fix command on factions."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1iYHbLrGAAAHfEyRkTAAAA
+      '18':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 1
+        Name: '&b&lRANK "&fFrozen&b&l"'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Right-click this item to unlock"
+        - "\xa77the Frozen rank on factions."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lRANK \"\xa7fFrozen\xa7b\xa7l\""
+          lore:
+          - "\xa77Right-click this item to unlock"
+          - "\xa77the Frozen rank on factions."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HIryq9KzQtKzMtmAABLSGGuGgAAAA==
+  Vote:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: ENDER_CHEST
+    Color: DARK_AQUA
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Percentage: 5
+        Name: '&eCreeper &fSpawner'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eCreeper \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9UxjYnYtSUwtSi4CqeIIzc7KDCxLL81KLipkYOFIhalwYjBgYAKR4PzdHAAAA
+          blockMaterial: MOB_SPAWNER
+      '2':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Percentage: 7.5
+        Name: '&eCave Spider &fSpawner'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eCave Spider \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9Uxi4nBPLUoMLMlNSi4AKeYIzc7KDCxLL81KLipkYOFIhylwYrBkYAH2Ol6JKAAAA
+          blockMaterial: MOB_SPAWNER
+      '3':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Percentage: 7.5
+        Name: '&eCow &fSpawner'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: "\xa7eCow \xa7fSpawner"
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElM52DggLA9UxiYnfPLgSp4gjNzsoMLEsvzUouKmRg4UiHyLgwxDAwA3xw860MAAAA=
+          blockMaterial: MOB_SPAWNER
+      '4':
+        Type: ITEM
+        Item Type: HOPPER
+        Item Data: 0
+        Percentage: 5
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '5':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 5
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $25000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $25000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2BIXMEAAKJTY4kTAAAA
+      '6':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 7.5
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $20000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $20000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2DwU2AAADxAKEkTAAAA
+      '7':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 10
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $15000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $15000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2CwmsEAAACkzDYTAAAA
+      '8':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 15
+        Name: '&a&lNiveus Banknote &7(Right-Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Cash:\xa7r $10000"
+        - "\xa77Depositer: \xa7rAzift"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7a\xa7lNiveus Banknote \xa77(Right-Click)"
+          lore:
+          - "\xa77Cash:\xa7r $10000"
+          - "\xa77Depositer: \xa7rAzift"
+          internal: H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosZ2BQF2AAAGCGaNETAAAA
+      '9':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 7.5
+        Name: '&bFrozen Kit &7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Use this book to obtain Frozen Rank Kit"
+        - "\xa77One time use - be warned."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7bFrozen Kit \xa77(Right Click)"
+          lore:
+          - "\xa77Use this book to obtain Frozen Rank Kit"
+          - "\xa77One time use - be warned."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HQryq9KzfPOLGEAAGkc5W8ZAAAA
+      '10':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: '&bBlizzard Kit &7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Use this book to obtain Blizzard Rank Kit"
+        - "\xa77One time use - be warned."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7bBlizzard Kit \xa77(Right Click)"
+          lore:
+          - "\xa77Use this book to obtain Blizzard Rank Kit"
+          - "\xa77One time use - be warned."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HbKyayqSixK8c4sYQAAFYUIXxsAAAA=
+      '11':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: '&bGlacier Kit &7(Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Use this book to obtain Glacier Rank Kit"
+        - "\xa77One time use - be warned."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7bGlacier Kit \xa77(Right Click)"
+          lore:
+          - "\xa77Use this book to obtain Glacier Rank Kit"
+          - "\xa77One time use - be warned."
+          internal: H4sIAAAAAAAAAONiYOBgYC/LL03OSC1i4HLPSUzOTC3yzixhAACwNYKWGgAAAA==
+      '12':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: '&b&lEnhanced &7Enchantment Book (Right Click)'
+        Amount: 3
+        Enchantments: []
+        Lore:
+        - "\xa77Uncover to revieve a random"
+        - "\xa77\xa7b\xa7lEnhanced \xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lEnhanced \xa77Enchantment Book (Right Click)"
+          lore:
+          - "\xa77Uncover to revieve a random"
+          - "\xa77\xa7b\xa7lEnhanced \xa77enchantment book."
+      '13':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 5
+        Name: '&6&lUltimate &7Enchantment Book (Right Click)'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Uncover to revieve a random"
+        - "\xa77\xa76\xa7lUltimate \xa77enchantment book."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lUltimate \xa77Enchantment Book (Right Click)"
+          lore:
+          - "\xa77Uncover to revieve a random"
+          - "\xa77\xa76\xa7lUltimate \xa77enchantment book."
+      '14':
+        Type: ITEM
+        Item Type: QUARTZ
+        Item Data: 0
+        Percentage: 5
+        Name: '&dTransmog Scroll'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77This scroll allows you to organize"
+        - "\xa77your enchantments and tell you how many"
+        - "\xa77enchantments you currently have on the item."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7dTransmog Scroll"
+          lore:
+          - "\xa77This scroll allows you to organize"
+          - "\xa77your enchantments and tell you how many"
+          - "\xa77enchantments you currently have on the item."
+      '15':
+        Type: ITEM
+        Item Type: EMPTY_MAP
+        Item Data: 0
+        Percentage: 2
+        Name: '&eWhite Scroll'
+        Amount: 1
+        Enchantments: []
+        Lore:
+        - "\xa77Want to protect an item from a book's destroy rate?"
+        - "\xa77Drag and drop this on an enchant-able item"
+        - "\xa77and it will protect the item from the destroy rate."
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eWhite Scroll"
+          lore:
+          - "\xa77Want to protect an item from a book's destroy rate?"
+          - "\xa77Drag and drop this on an enchant-able item"
+          - "\xa77and it will protect the item from the destroy rate."
+      '16':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 1
+        Name: '&b&lFurnace I'
+        Amount: 1
+        Enchantments:
+        - LUCK-1
+        Lore:
+        - "\xa77Drag book and drop on Item."
+        - "\xa77Always smelts ores into"
+        - "\xa77items instead of blocks."
+        - "\xa7bEnhanced Enchant"
+        - "\xa7a100% Success Rate"
+        - "\xa740% Destroy Rate"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lFurnace I"
+          lore:
+          - "\xa77Drag book and drop on Item."
+          - "\xa77Always smelts ores into"
+          - "\xa77items instead of blocks."
+          - "\xa7bEnhanced Enchant"
+          - "\xa7a100% Success Rate"
+          - "\xa740% Destroy Rate"
+          enchants:
+            LUCK: 1
+          ItemFlags: !!set
+            HIDE_ENCHANTS: null
+      '17':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 1
+        Name: '&c&lBlast I'
+        Amount: 1
+        Enchantments:
+        - LUCK-1
+        Lore:
+        - "\xa77Drag book and drop on Item."
+        - "\xa77Breaks blocks in a 3 x level x 3 radius"
+        - "\xa77depending on the power of the enchantment."
+        - "\xa7cArcane Enchant"
+        - "\xa7a100% Success Rate"
+        - "\xa740% Destroy Rate"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7c\xa7lBlast I"
+          lore:
+          - "\xa77Drag book and drop on Item."
+          - "\xa77Breaks blocks in a 3 x level x 3 radius"
+          - "\xa77depending on the power of the enchantment."
+          - "\xa7cArcane Enchant"
+          - "\xa7a100% Success Rate"
+          - "\xa740% Destroy Rate"
+          enchants:
+            LUCK: 1
+          ItemFlags: !!set
+            HIDE_ENCHANTS: null
+      '18':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Percentage: 1
+        Name: '&6&lBurnShield I'
+        Amount: 1
+        Enchantments:
+        - LUCK-1
+        Lore:
+        - "\xa77Drag book and drop on Item."
+        - "\xa77Gives fire resistance"
+        - "\xa77when you put it on."
+        - "\xa76Ultimate Enchant"
+        - "\xa7a100% Success Rate"
+        - "\xa740% Destroy Rate"
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lBurnShield I"
+          lore:
+          - "\xa77Drag book and drop on Item."
+          - "\xa77Gives fire resistance"
+          - "\xa77when you put it on."
+          - "\xa76Ultimate Enchant"
+          - "\xa7a100% Success Rate"
+          - "\xa740% Destroy Rate"
+          enchants:
+            LUCK: 1
+          ItemFlags: !!set
+            HIDE_ENCHANTS: null

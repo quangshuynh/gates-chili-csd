@@ -1,0 +1,20 @@
+lastAccountName: Styleless
+timestamps:
+  login: 1555942016544
+  logout: 1555942354701
+ipAddress: 176.26.1.45
+geolocation: United Kingdom
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -15.530273352450495
+  y: 83.0
+  z: -7.332798778689496
+  yaw: 178.62329
+  pitch: 21.870207

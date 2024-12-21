@@ -1,0 +1,23 @@
+lastAccountName: Nixka
+timestamps:
+  login: 1555943621119
+  kits:
+    member: 1555943251202
+  lastteleport: 1555943284091
+  logout: 1555943634932
+ipAddress: 90.253.241.15
+geolocation: United Kingdom
+lastlocation:
+  world: world
+  x: -4.8248751096176505
+  y: 83.0
+  z: 34.35442577086343
+  yaw: 86.9376
+  pitch: 9.022484
+logoutlocation:
+  world: world
+  x: 0.28515365984816704
+  y: 83.0
+  z: 23.240804940641862
+  yaw: 10.010101
+  pitch: 3.3709636

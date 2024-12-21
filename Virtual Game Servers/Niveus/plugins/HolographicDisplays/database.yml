@@ -1,0 +1,54 @@
+niveus1:
+  location: world, 0.500, 88.000, 11.500
+  lines:
+  - '&7- &b&lNIVEUS MAP 1 &7-'
+  - '&fThe total FTOP prize for map 1 will be &a$300 Store Credit'
+  - '&fMap 1 will last &33 months&f and will stand as a &3beta&f map.'
+  - '&f'
+  - '&3FTOP#1 &8- &6$150 &7(Store Credit)'
+  - '&3FTOP#2 &8- &6$100 &7(Store Credit)'
+  - '&3FTOP#3 &8- &6$50 &7(Store Credit)'
+  - '&f'
+  - '&3Worldborder &78000x8000'
+  - '&325 &7Man Factions'
+  - '&3Custom &7Enchantments'
+  - '&3Weekly &7New Gkits'
+  - '&3Bi-Weekly &7Events'
+  - '&350 &7Player Maxpower'
+staffreq:
+  location: world, 7.245, 91.196, -6.494
+  lines:
+  - '&7- &b&lStaff Requirements &7-'
+  - '&fTo reduce the risk of abusive and unfair staff,'
+  - '&fWe have minimum requirements for members before they may apply.'
+  - '&f'
+  - '&8&l<&eModerator&8&l>&f Requirements'
+  - '&6- &7You must have a minimum of &310 hours &7playtime.'
+  - '&6- &7You must have a working &3microphone &7and access to our &3discord&7.'
+  - '&6- &7You must be able to &3record and upload &7video evidence for reports.'
+  - '&6- &7You must currently &3not be staff &7on another minecraft server.'
+  - '&6- &7You must be &3experienced&7, &3positive&7, and &3fun&7.'
+  - '&f'
+  - '&8&l<&cAdministrator&8&l>&f Requirements'
+  - '&6- &7You must have a minimum of &330 hours &7playtime.'
+  - '&6- &7You must have a working &3microphone &7and access to our &3discord&7.'
+  - '&6- &7You must be able to &3record and upload &7video evidence for reports.'
+  - '&6- &7You must currently &3not be staff &7on another minecraft server.'
+  - '&6- &7Deep understanding of &3factions&7, &3pvp&7, and &3spigot&7.'
+  - '&6- &7You must be &3experienced&7, &3positive&7, and &3fun&7.'
+  - '&6- &7You must have experience with one of the following:'
+  - '&6- &7Plugin Development'
+  - '&6- &7Community Management'
+  - '&6- &7Staff Management'
+koth:
+  location: world, -6.500, 89.200, -6.500
+  lines:
+  - '&7- &b&lKotH &7-'
+  - The King of the Hill will have Arcane Loot found with &a/koth loot
+  - Items such as &3ranks &fand &3gkits &fcan be obtained as prize.
+  - '&f'
+  - '&3Schedule &8- &6T/F'
+  - '&6Tuesday &8- &fNebula KotH: 5:30PM EST'
+  - '&6Friday &8- &fNebula KotH: 5:30PM EST'
+  - '&f'
+  - '&fCapture time is &35 Minutes'

@@ -1,0 +1,124 @@
+vault1:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":2,\"type\":\"MOB_SPAWNER\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxjYovJzkzJTgYp4gjNzsoMLEsvzUouKmRg4UiFKXBjMGBgA7WN2G0YAAAA=\"\
+    ,\"display-name\":\"\xa7eZombie \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"SUGAR\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa7a+1% Success Rate\"\
+    ,\"\xa77Apply to an Enchantment Book to\",\"\xa77Increase the Success Rate by\
+    \ \xa7e1%\"],\"display-name\":\"\xa7aMagical Angel Dust\"}}"
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"SUGAR\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa7a+3% Success Rate\"\
+    ,\"\xa77Apply to an Enchantment Book to\",\"\xa77Increase the Success Rate by\
+    \ \xa7e3%\"],\"display-name\":\"\xa7aMagical Angel Dust\"}}"
+  '3': '{"==":"org.bukkit.inventory.ItemStack","damage":106,"type":"DIAMOND_PICKAXE","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"SILK_TOUCH":1}}}'
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":55,\"type\":\"DIAMOND_HELMET\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :3,\"DURABILITY\":1},\"display-name\":\"\xa7bBlizzard Rank Helmet\"}}"
+  '5': '{"==":"org.bukkit.inventory.ItemStack","damage":15,"type":"DIAMOND_AXE","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":3},"display-name":"DIAMOND_AXE"}}'
+  '6': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SPADE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"KNOCKBACK\"\
+    :3},\"lore\":[\"\xa7bTelepathy I\",\"\xa7bHaste I\"],\"display-name\":\"DIAMOND_SPADE\"\
+    }}"
+  '7': '{"==":"org.bukkit.inventory.ItemStack","type":"DIAMOND_HOE","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1,"KNOCKBACK":4},"display-name":"DIAMOND_HOE"}}'
+  '9': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":5,\"type\":\"MOB_SPAWNER\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9Uxi4nBPLUoMLMlNSi4AKeYIzc7KDCxLL81KLipkYOFIhylwYrBkYAH2Ol6JKAAAA\"\
+    ,\"display-name\":\"\xa7eCave Spider \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '10': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":2,\"type\":\"SUGAR\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa7a+4%\
+    \ Success Rate\",\"\xa77Apply to an Enchantment Book to\",\"\xa77Increase the\
+    \ Success Rate by \xa7e4%\"],\"display-name\":\"\xa7aMagical Angel Dust\"}}"
+  '16': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SPADE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"KNOCKBACK\"\
+    :3},\"lore\":[\"\xa7bTelepathy I\",\"\xa7bHaste I\"],\"display-name\":\"DIAMOND_SPADE\"\
+    }}"
+  '18': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxjYggsyU1KLgIp4gjNzsoMLEsvzUouKmRg4UiFKXBhMGBgAhvaByEYAAAA=\"\
+    ,\"display-name\":\"\xa7eSpider \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '19': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":5,\"type\":\"SUGAR\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa7a+5%\
+    \ Success Rate\",\"\xa77Apply to an Enchantment Book to\",\"\xa77Increase the\
+    \ Success Rate by \xa7e5%\"],\"display-name\":\"\xa7aMagical Angel Dust\"}}"
+  '20': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":318,\"type\":\"DIAMOND_HELMET\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :5,\"DURABILITY\":3},\"lore\":[\"\xa76Commander V\",\"\xa76Implants I\",\"\xa7\
+    cEnlightened II\",\"\xa7bGlowing I\",\"\xa76Crafted for the Godess Khione herself.\"\
+    ],\"display-name\":\"\xa7c\xa7lHelmet of Khione\"}}"
+  '21': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :5,\"DURABILITY\":3},\"lore\":[\"\xa7cSavior V\",\"\xa76Angel III\",\"\xa76SandStorm\
+    \ I\",\"\xa7cOverLoad III\",\"\xa7cEnlightened III\",\"\xa76Blizzard I\",\"\xa7\
+    6Crafted for the Godess Khione herself.\"],\"display-name\":\"\xa7c\xa7lChestplate\
+    \ of Khione\"}}"
+  '27': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":2,\"type\":\"MOB_SPAWNER\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9Uxg4grNTc1JL8vOAyniCM3OygwsSy\\/NSi4qZGDhSIYpcGIwZGACidI6tSAAAAA==\"\
+    ,\"display-name\":\"\xa7eSkeleton \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '28': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOW\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"ARROW_DAMAGE\"\
+    :1},\"lore\":[\"\xa7bPull II\",\"\xa7bLightning I\",\"\xa7cPiercing III\"],\"\
+    display-name\":\"BOW\"}}"
+  '29': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":320,\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :5,\"DURABILITY\":3},\"lore\":[\"\xa7cSavior III\",\"\xa76Angel III\",\"\xa76SandStorm\
+    \ I\",\"\xa7cOverLoad I\",\"\xa7cEnlightened V\",\"\xa76Blizzard I\",\"\xa76Crafted\
+    \ for the Godess Khione herself.\"],\"display-name\":\"\xa7c\xa7lChestplate of\
+    \ Khione\"}}"
+  '30': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":32,\"type\":\"DIAMOND_SWORD\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"DAMAGE_ALL\":5},\"lore\":[\"\xa7cWither II\",\"\xa76Execute III\",\"\xa7\
+    cTrap I\",\"\xa7cLifeSteal III\",\"\xa76Drain I\",\"\xa7cRage I\",\"\xa7bLightWeight\
+    \ I\",\"\xa76Crafted for the Godess Khione herself.\"],\"display-name\":\"\xa7\
+    c\xa7lThe North-Wind\"}}"
+  '34': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":1029,\"type\":\"DIAMOND_SWORD\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"FIRE_ASPECT\":2,\"LOOT_BONUS_MOBS\":4,\"DAMAGE_ALL\":5},\"lore\":[\"\xa7\
+    cWither III\",\"\xa76Execute III\",\"\xa7cDoubleStrike II\",\"\xa76Paralyze I\"\
+    ,\"\xa7cLifeSteal IV\",\"\xa7cRage II\",\"\xa76Drain II\",\"\xa7bLightWeight I\"\
+    ],\"display-name\":\"clCircumcision 4oMachine \",\"repair-cost\":63}}"
+  '35': '{"==":"org.bukkit.inventory.ItemStack","damage":1094,"type":"DIAMOND_SWORD","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":3,"FIRE_ASPECT":2,"LOOT_BONUS_MOBS":3,"DAMAGE_ALL":5},"display-name":"elNiveus
+    Rank Sword","repair-cost":63}}'
+  '37': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOW\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"ARROW_DAMAGE\"\
+    :1},\"lore\":[\"\xa7bPull II\",\"\xa7bLightning I\",\"\xa7cPiercing III\"],\"\
+    display-name\":\"BOW\"}}"
+  '38': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":318,\"type\":\"DIAMOND_LEGGINGS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :5,\"DURABILITY\":3},\"lore\":[\"\xa7cEnlightened II\",\"\xa76BurnShield I\",\"\
+    \xa76Voodoo I\",\"\xa76Freeze II\",\"\xa76Crafted for the Godess Khione herself.\"\
+    ],\"display-name\":\"\xa76\xa7lLeggings of Khione\"}}"
+  '39': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"SUGAR_CANE"}'
+  '40': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :3},\"lore\":[\"\xa7bMolten II\",\"\xa7cValor II\",\"\xa76BurnShield I\"],\"display-name\"\
+    :\"DIAMOND_CHESTPLATE\"}}"
+  '47': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":302,\"type\":\"DIAMOND_BOOTS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :5,\"DURABILITY\":3},\"lore\":[\"\xa7bStormCaller III\",\"\xa76AntiGravity III\"\
+    ,\"\xa7cGears III\",\"\xa7cWings I\",\"\xa7bFortify II\",\"\xa7cEnlightened II\"\
+    ,\"\xa76Crafted for the Godess Khione herself.\"],\"display-name\":\"\xa76\xa7\
+    lBoots of Khione\"}}"
+  '48': '{"==":"org.bukkit.inventory.ItemStack","amount":14,"type":"SUGAR_CANE"}'
+  '49': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :3},\"lore\":[\"\xa7bMolten II\",\"\xa7cValor II\",\"\xa76BurnShield I\"],\"display-name\"\
+    :\"DIAMOND_CHESTPLATE\"}}"
+  '50': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_BOOTS\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :2},\"lore\":[\"\xa76AntiGravity I\",\"\xa7cGears III\",\"\xa76Rocket I\"],\"\
+    display-name\":\"DIAMOND_BOOTS\"}}"
+  '51': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"BOOK"}'
+  '52': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":49,\"type\":\"DIAMOND_SWORD\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DAMAGE_ALL\"\
+    :1},\"lore\":[\"\xa76Obliterate I\",\"\xa7cLifeSteal I\",\"\xa7bVampire III\"\
+    ,\"\xa7bLightWeight II\"],\"display-name\":\"DIAMOND_SWORD\"}}"
+  '53': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SWORD\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DAMAGE_ALL\"\
+    :5},\"lore\":[\"\xa76Nutrition II\",\"\xa7cTrap II\",\"\xa7bConfusion III\",\"\
+    \xa7bLightWeight I\"],\"display-name\":\"DIAMOND_SWORD\"}}"

@@ -1,0 +1,36 @@
+geolocation: United States
+lastAccountName: CooledIce
+timestamps:
+  login: 1556402856662
+  lastteleport: 1556320683296
+  kits:
+    blizzard: 1556366421970
+    member: 1556366436632
+    frozen: 1556366447045
+  lastheal: 1556366401151
+  logout: 1556402876846
+ipAddress: 72.28.59.227
+lastlocation:
+  world: world
+  x: -1.1156115323293
+  y: 83.0
+  z: -25.073241292337308
+  yaw: 29.83239
+  pitch: 18.877472
+money: '93828.6199999999999'
+homes:
+  home:
+    world: world
+    x: -2638.18073500295
+    y: 65.0
+    z: -2571.237500011921
+    yaw: 10.822198
+    pitch: 27.77503
+nickname: IceCooled
+logoutlocation:
+  world: world
+  x: -2643.471162093515
+  y: 66.0
+  z: -2562.8280876739545
+  yaw: 68.78006
+  pitch: 0.85358983

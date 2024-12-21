@@ -1,0 +1,22 @@
+lastAccountName: blueback96
+timestamps:
+  login: 1555872442083
+  lastteleport: 1555872496523
+  logout: 1555874378138
+ipAddress: 98.27.162.191
+geolocation: United States
+lastlocation:
+  world: world
+  x: 0.5
+  y: 84.0
+  z: 0.5
+  yaw: -0.25440258
+  pitch: -0.009953511
+money: '307824.0'
+logoutlocation:
+  world: world
+  x: -0.06839540970422396
+  y: 83.0
+  z: -27.137151088502875
+  yaw: -89.508125
+  pitch: 15.28963

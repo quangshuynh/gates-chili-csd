@@ -1,0 +1,34 @@
+vault1:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxiYnfPLgSp4gjNzsoMLEsvzUouKmRg4UiHyLgwxDAwA3xw860MAAAA=\"\
+    ,\"display-name\":\"\xa7eCow \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '1': '{"==":"org.bukkit.inventory.ItemStack","damage":4,"amount":8,"type":"INK_SACK"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"LOG"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"SAND"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"STONE"}'
+  '7': '{"type":"BUCKET","==":"org.bukkit.inventory.ItemStack"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","amount":13,"type":"DIAMOND"}'
+  '14': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SPADE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Excavator\"}}"
+  '15': '{"==":"org.bukkit.inventory.ItemStack","damage":3,"amount":11,"type":"STONE"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":4,"type":"COBBLESTONE"}'
+  '17': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":2,\"type\":\"MOB_SPAWNER\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9Uxi4nBPLUoMLMlNSi4AKeYIzc7KDCxLL81KLipkYOFIhylwYrBkYAH2Ol6JKAAAA\"\
+    ,\"display-name\":\"\xa7eCave Spider \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '18': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"FEATHER"}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","damage":18,"type":"FLINT_AND_STEEL"}'
+  '20': '{"==":"org.bukkit.inventory.ItemStack","amount":9,"type":"IRON_INGOT"}'
+  '21': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"SAPLING"}'
+  '22': '{"type":"GOLDEN_APPLE","==":"org.bukkit.inventory.ItemStack"}'
+  '23': '{"==":"org.bukkit.inventory.ItemStack","amount":14,"type":"SULPHUR"}'
+  '24': '{"==":"org.bukkit.inventory.ItemStack","damage":5,"amount":55,"type":"WOOD"}'
+  '25': '{"type":"GOLD_RECORD","==":"org.bukkit.inventory.ItemStack"}'

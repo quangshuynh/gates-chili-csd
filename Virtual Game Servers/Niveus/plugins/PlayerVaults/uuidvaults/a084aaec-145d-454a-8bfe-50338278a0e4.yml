@@ -1,0 +1,58 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"GOLDEN_APPLE"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '2': '{"type":"ENDER_PEARL","==":"org.bukkit.inventory.ItemStack"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"LOG"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '6': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SWORD\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7oStandard\
+    \ issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\":\"\xa7\
+    fMember Sword\"}}"
+  '7': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_PICKAXE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Icedrill\"}}"
+  '8': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7oStandard\
+    \ issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\":\"\xa7\
+    fMember Wrench\"}}"
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"COOKED_BEEF"}'
+  '10': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SPADE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Excavator\"}}"
+  '11': '{"type":"SEEDS","==":"org.bukkit.inventory.ItemStack"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"SAND"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","amount":20,"type":"WOOD"}'
+  '14': '{"type":"BUCKET","==":"org.bukkit.inventory.ItemStack"}'
+  '15': '{"type":"BOW","==":"org.bukkit.inventory.ItemStack"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"STONE"}'
+  '17': '{"type":"WORKBENCH","==":"org.bukkit.inventory.ItemStack"}'
+  '18': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HQryq9KzfPOLGEAAGkc5W8ZAAAA\",\"lore\":[\"\xa77Use this book to obtain\
+    \ Frozen Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\":\"\xa7\
+    bFrozen Kit \xa77(Right Click)\"}}"
+  '19': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HELMET\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Helmet\"}}"
+  '20': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_LEGGINGS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Leggings\"}}"
+  '21': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Chestplate\"}}"
+  '22': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_BOOTS\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Boots\"}}"
+  '23': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":2,\"type\":\"BOOK\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\"\
+    :1},\"ItemFlags\":[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\"\
+    ,\"\xa77Always smelts ores into\",\"\xa77items instead of blocks.\",\"\xa7bEnhanced\
+    \ Enchant\",\"\xa7a100% Success Rate\",\"\xa740% Destroy Rate\"],\"display-name\"\
+    :\"\xa7b\xa7lFurnace I\"}}"

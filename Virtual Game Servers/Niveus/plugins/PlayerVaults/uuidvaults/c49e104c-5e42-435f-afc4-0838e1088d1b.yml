@@ -1,0 +1,72 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":6,"type":"MUTTON"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":5,"type":"WOOL"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"GOLDEN_APPLE"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":36,"type":"OBSIDIAN"}'
+  '5': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to heal\",\"\xa77you when fighting.\",\"\xa7bEnhanced Enchant\",\"\xa7\
+    a9% Success Rate\",\"\xa745% Destroy Rate\"],\"display-name\":\"\xa7b\xa7lVampire\
+    \ V\"}}"
+  '6': '{"type":"ENDER_PEARL","==":"org.bukkit.inventory.ItemStack"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"LOG"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"SAND"}'
+  '9': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Gives\
+    \ fire resistance\",\"\xa77when you put it on.\",\"\xa76Ultimate Enchant\",\"\xa7\
+    a100% Success Rate\",\"\xa740% Destroy Rate\"],\"display-name\":\"\xa76\xa7lBurnShield\
+    \ I\"}}"
+  '10': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":4,\"type\":\"MOB_SPAWNER\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9Uxi4nBPLUoMLMlNSi4AKeYIzc7KDCxLL81KLipkYOFIhylwYrBkYAH2Ol6JKAAAA\"\
+    ,\"display-name\":\"\xa7eCave Spider \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"TRAPPED_CHEST"}'
+  '12': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Gives\
+    \ you water breathing\",\"\xa77when you put it on.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a58% Success Rate\",\"\xa7423% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lMermaid I\"}}"
+  '13': '{"type":"BUCKET","==":"org.bukkit.inventory.ItemStack"}'
+  '14': '{"type":"BOW","==":"org.bukkit.inventory.ItemStack"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"SEEDS"}'
+  '16': '{"type":"SULPHUR","==":"org.bukkit.inventory.ItemStack"}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"GOLD_ORE"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","amount":7,"type":"GRASS"}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","amount":4,"type":"FEATHER"}'
+  '20': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77your enemy mining fatigue.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a81% Success Rate\",\"\xa740% Destroy Rate\"],\"display-name\":\"\xa7b\xa7\
+    lCursed II\"}}"
+  '21': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxjYnYtSUwtSi4CqeIIzc7KDCxLL81KLipkYOFIhalwYjBgYAKR4PzdHAAAA\"\
+    ,\"display-name\":\"\xa7eCreeper \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '22': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HLPSUzOTC3yzixhAACwNYKWGgAAAA==\",\"lore\":[\"\xa77Use this book to\
+    \ obtain Glacier Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\"\
+    :\"\xa7bGlacier Kit \xa77(Right Click)\"}}"
+  '23': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxiYnfPLgSp4gjNzsoMLEsvzUouKmRg4UiHyLgwxDAwA3xw860MAAAA=\"\
+    ,\"display-name\":\"\xa7eCow \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '24': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"HOPPER"}'
+  '25': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HbKyayqSixK8c4sYQAAFYUIXxsAAAA=\",\"lore\":[\"\xa77Use this book to\
+    \ obtain Blizzard Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\"\
+    :\"\xa7bBlizzard Kit \xa77(Right Click)\"}}"
+  '26': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":2,\"type\":\"BOOK\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HQryq9KzfPOLGEAAGkc5W8ZAAAA\",\"lore\":[\"\xa77Use this book to obtain\
+    \ Frozen Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\":\"\xa7\
+    bFrozen Kit \xa77(Right Click)\"}}"

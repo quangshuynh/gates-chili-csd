@@ -1,0 +1,22 @@
+lastAccountName: moldypizza2
+timestamps:
+  login: 1556097472905
+  kits:
+    member: 1556096849490
+  logout: 1556097764687
+ipAddress: 77.101.90.171
+geolocation: United Kingdom
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 4.5
+  y: 84.0
+  z: 0.5
+  yaw: -45.0
+  pitch: 80.007515

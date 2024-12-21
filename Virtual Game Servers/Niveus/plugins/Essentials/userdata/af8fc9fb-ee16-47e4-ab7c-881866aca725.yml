@@ -1,0 +1,22 @@
+lastAccountName: Sogukta
+timestamps:
+  login: 1555997587400
+  kits:
+    member: 1555973783610
+  logout: 1555997596919
+ipAddress: 118.93.150.102
+geolocation: New Zealand
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 1.058690059871293
+  y: 83.0
+  z: -27.735454612980647
+  yaw: 175.63126
+  pitch: -11.8210125

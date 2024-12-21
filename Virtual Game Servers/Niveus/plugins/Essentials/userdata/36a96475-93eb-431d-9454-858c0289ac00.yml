@@ -1,0 +1,23 @@
+lastAccountName: Swijy
+timestamps:
+  login: 1556017452480
+  kits:
+    member: 1556017487752
+  lastteleport: 1556017571773
+  logout: 1556017581775
+ipAddress: 211.30.21.7
+geolocation: Australia
+lastlocation:
+  world: world
+  x: 0.25662937208809233
+  y: 84.0
+  z: 1.8724701312456649
+  yaw: 0.045597423
+  pitch: -0.3099535
+logoutlocation:
+  world: world
+  x: 0.5065882671965503
+  y: 84.0
+  z: 0.5841624075881617
+  yaw: 0.045597423
+  pitch: -0.3099535

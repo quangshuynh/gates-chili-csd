@@ -1,0 +1,32 @@
+lastAccountName: ibX02
+timestamps:
+  login: 1556348610838
+  kits:
+    member: 1555787092403
+  lastteleport: 1556348652175
+  logout: 1556349062921
+ipAddress: 174.222.151.86
+geolocation: United States
+lastlocation:
+  world: world
+  x: -1103.5568872237457
+  y: 78.0
+  z: 2129.314364563023
+  yaw: 311.7644
+  pitch: 17.623821
+money: '134540.339999999999998'
+logoutlocation:
+  world: world
+  x: 1250.8504113632916
+  y: 67.0
+  z: 260.6990661745115
+  yaw: 242.86292
+  pitch: 40.972385
+homes:
+  home:
+    world: world
+    x: -1099.300000011921
+    y: 71.0
+    z: 2131.7675434940625
+    yaw: 90.15335
+    pitch: 64.941154

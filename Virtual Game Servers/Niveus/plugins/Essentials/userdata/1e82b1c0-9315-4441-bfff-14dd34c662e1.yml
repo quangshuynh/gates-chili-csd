@@ -1,0 +1,32 @@
+lastAccountName: ThatGuyGilby
+timestamps:
+  login: 1555971519100
+  kits:
+    member: 1555970459999
+  lastteleport: 1555971880245
+  logout: 1555971969346
+ipAddress: 176.25.75.186
+geolocation: United Kingdom
+lastlocation:
+  world: world
+  x: 0.49875226039876
+  y: 84.0
+  z: 4.078379696017989
+  yaw: 0.045597423
+  pitch: -0.3099535
+homes:
+  home:
+    world: world
+    x: 522.3593654335874
+    y: 68.0
+    z: 764.8649688395996
+    yaw: 127.06744
+    pitch: 45.58557
+money: '5.0'
+logoutlocation:
+  world: world
+  x: 527.063570511204
+  y: 64.0
+  z: 762.9142257461855
+  yaw: -9.774145
+  pitch: 34.37927

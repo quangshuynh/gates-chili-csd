@@ -1,0 +1,22 @@
+lastAccountName: LiquidCapt
+timestamps:
+  login: 1556317260554
+  kits:
+    member: 1555952475991
+  logout: 1556317280929
+ipAddress: 73.152.120.162
+geolocation: United States
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -26.66867034237773
+  y: 66.0
+  z: 57.856682282384206
+  yaw: -200.42311
+  pitch: 18.00829

@@ -1,0 +1,48 @@
+vault1:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to damage\",\"\xa77the player that hits you.\",\"\xa76Ultimate Enchant\"\
+    ,\"\xa7a46% Success Rate\",\"\xa7456% Destroy Rate\"],\"display-name\":\"\xa7\
+    6\xa7lCactus II\"}}"
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SWORD\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7oStandard\
+    \ issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\":\"\xa7\
+    fMember Sword\"}}"
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '3': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Chestplate\"}}"
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HELMET\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Helmet\"}}"
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '10': '{"type":"BOW","==":"org.bukkit.inventory.ItemStack"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"SAND"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"LOG"}'
+  '13': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_LEGGINGS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Leggings\"}}"
+  '15': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '16': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_BOOTS\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Boots\"}}"
+  '17': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SPADE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Excavator\"}}"
+  '18': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_PICKAXE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Icedrill\"}}"
+  '19': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7oStandard\
+    \ issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\":\"\xa7\
+    fMember Wrench\"}}"
+  '20': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"STONE"}'
+  '21': '{"type":"BUCKET","==":"org.bukkit.inventory.ItemStack"}'

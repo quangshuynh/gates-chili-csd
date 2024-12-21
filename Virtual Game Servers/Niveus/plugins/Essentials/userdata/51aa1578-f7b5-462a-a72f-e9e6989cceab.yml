@@ -1,0 +1,20 @@
+lastAccountName: ChlckenNugget
+timestamps:
+  login: 1555965805463
+  logout: 1555966809805
+ipAddress: 99.132.116.180
+geolocation: United States
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -29.97730867793653
+  y: 83.0
+  z: 8.234741584997696
+  yaw: 45.56671
+  pitch: 19.848549

@@ -1,0 +1,101 @@
+vault1:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HOE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"display-name\":\"\xa7calaya\"\
+    }}"
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HOE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"display-name\":\"\xa7calaya\"\
+    }}"
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HOE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"display-name\":\"\xa7calaya\"\
+    }}"
+  '3': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HOE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"display-name\":\"\xa7calaya\"\
+    }}"
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HOE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"display-name\":\"\xa7calaya\"\
+    }}"
+  '5': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HOE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"display-name\":\"\xa7calaya\"\
+    }}"
+  '6': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HOE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"display-name\":\"\xa7calaya\"\
+    }}"
+  '7': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HOE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"display-name\":\"\xa7calaya\"\
+    }}"
+  '8': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HOE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"display-name\":\"\xa7calaya\"\
+    }}"
+  '9': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HOE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"display-name\":\"\xa7calaya\"\
+    }}"
+  '10': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HOE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"display-name\":\"\xa7calaya\"\
+    }}"
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","amount":43,"type":"OBSIDIAN"}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '20': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"APPLE"}'
+  '21': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":1,\"type\":\"DIAMOND_AXE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"DIG_SPEED\":4},\"display-name\":\"\xa7dArctic Rank Wrench\"}}"
+  '22': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":1,\"type\":\"BOW\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"ARROW_DAMAGE\"\
+    :4,\"ARROW_FIRE\":1},\"display-name\":\"\xa7dArctic Rank Bow\"}}"
+  '23': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_CHICKEN"}'
+  '24': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_FISH"}'
+  '25': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HOE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"display-name\":\"\xa7calaya\"\
+    }}"
+  '26': '{"==":"org.bukkit.inventory.ItemStack","amount":12,"type":"LOG"}'
+  '27': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '28': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"CARROT_ITEM"}'
+  '29': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"BREAD"}'
+  '30': '{"type":"DIAMOND_BLOCK","==":"org.bukkit.inventory.ItemStack"}'
+  '31': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"STICK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"display-name\":\"\xa7dDildo\"\
+    }}"
+  '32': '{"==":"org.bukkit.inventory.ItemStack","amount":19,"type":"COOKED_BEEF"}'
+  '33': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"CARROT_ITEM"}'
+  '34': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"BREAD"}'
+  '35': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"COOKED_FISH"}'
+  '36': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_LEGGINGS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7dArctic Rank Leggings\"}}"
+  '37': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"COOKED_CHICKEN"}'
+  '38': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HOE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"display-name\":\"\xa7calaya\"\
+    }}"
+  '39': '{"==":"org.bukkit.inventory.ItemStack","amount":6,"type":"LEATHER"}'
+  '40': '{"==":"org.bukkit.inventory.ItemStack","amount":18,"type":"GOLDEN_APPLE"}'
+  '41': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7dArctic Rank Chestplate\"}}"
+  '42': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":2,\"type\":\"DIAMOND_SWORD\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"FIRE_ASPECT\":2,\"LOOT_BONUS_MOBS\":2,\"DAMAGE_ALL\":4},\"display-name\"\
+    :\"\xa7dArctic Rank Sword\"}}"
+  '43': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SPADE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :4},\"display-name\":\"\xa7dArctic Rank Excavator\"}}"
+  '44': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"APPLE"}'
+  '45': '{"==":"org.bukkit.inventory.ItemStack","amount":63,"type":"ARROW"}'
+  '46': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HELMET\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7dArctic Rank Helmet\"}}"
+  '47': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":45,\"type\":\"GOLDEN_APPLE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77I\
+    \ am a yummy apple\",\"\xa77Make sure to savor my flavor.\"],\"display-name\"\
+    :\"\xa7dJuicy Golden Apple\"}}"
+  '48': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":6,\"type\":\"DIAMOND_PICKAXE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"DIG_SPEED\":4},\"display-name\":\"\xa7dArctic Rank Icedrill\"}}"
+  '49': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_BOOTS\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7dArctic Rank Boots\"}}"

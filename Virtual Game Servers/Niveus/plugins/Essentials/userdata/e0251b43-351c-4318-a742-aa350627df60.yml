@@ -1,0 +1,20 @@
+lastAccountName: FishiGames
+timestamps:
+  login: 1556050181520
+  logout: 1556050229599
+ipAddress: 188.23.103.93
+geolocation: Austria
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -10.962263723786826
+  y: 63.0
+  z: 65.99364416487693
+  yaw: 356.40762
+  pitch: 16.409258

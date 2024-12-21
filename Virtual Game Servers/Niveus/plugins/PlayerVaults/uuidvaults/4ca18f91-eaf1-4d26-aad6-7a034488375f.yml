@@ -1,0 +1,62 @@
+vault1:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":51,\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :3,\"DURABILITY\":1},\"display-name\":\"\xa7bBlizzard Rank Chestplate\"}}"
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":499,\"type\":\"DIAMOND_SPADE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Excavator\"}}"
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":54,\"type\":\"DIAMOND_HELMET\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :3,\"DURABILITY\":1},\"display-name\":\"\xa7bBlizzard Rank Helmet\"}}"
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":64,\"type\":\"DIAMOND_LEGGINGS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7dArctic Rank Leggings\"}}"
+  '12': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":12,\"type\":\"DIAMOND_PICKAXE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :2},\"display-name\":\"\xa7aFrozen Rank Icedrill\"}}"
+  '13': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":165,\"type\":\"DIAMOND_BOOTS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Boots\"}}"
+  '14': '{"==":"org.bukkit.inventory.ItemStack","damage":4,"type":"FLINT_AND_STEEL"}'
+  '15': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":4,\"type\":\"DIAMOND_PICKAXE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :1,\"DIG_SPEED\":3},\"display-name\":\"\xa7bBlizzard Rank Icedrill\"}}"
+  '16': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9Uxi4nBPLUoMLMlNSi4AKeYIzc7KDCxLL81KLipkYOFIhylwYrBkYAH2Ol6JKAAAA\"\
+    ,\"display-name\":\"\xa7eCave Spider \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '17': '{"==":"org.bukkit.inventory.ItemStack","amount":4,"type":"OBSIDIAN"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","amount":28,"type":"SAND"}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","amount":11,"type":"LEATHER"}'
+  '20': '{"==":"org.bukkit.inventory.ItemStack","amount":13,"type":"RAW_BEEF"}'
+  '21': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"LEVER"}'
+  '23': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":96,\"type\":\"DIAMOND_LEGGINGS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7dArctic Rank Leggings\"}}"
+  '24': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":54,\"type\":\"DIAMOND_BOOTS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :3,\"DURABILITY\":1},\"display-name\":\"\xa7bBlizzard Rank Boots\"}}"
+  '25': '{"==":"org.bukkit.inventory.ItemStack","amount":5,"type":"IRON_INGOT"}'
+  '26': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"type":"FLINT_AND_STEEL"}'
+  '27': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":12,\"type\":\"DIAMOND_AXE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Wrench\"}}"
+  '29': '{"==":"org.bukkit.inventory.ItemStack","damage":16341,"type":"POTION"}'
+  '30': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxiYnfPLgSp4gjNzsoMLEsvzUouKmRg4UiHyLgwxDAwA3xw860MAAAA=\"\
+    ,\"display-name\":\"\xa7eCow \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '31': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":7,\"type\":\"DIAMOND_SWORD\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :1,\"DAMAGE_ALL\":3},\"display-name\":\"\xa7bBlizzard Rank Sword\"}}"
+  '33': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"ARROW"}'
+  '34': '{"==":"org.bukkit.inventory.ItemStack","amount":57,"type":"TNT","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","display-name":"TNT"}}'
+  '35': '{"type":"IRON_ORE","==":"org.bukkit.inventory.ItemStack"}'
+  '36': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"GRILLED_PORK","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","display-name":"GRILLED_PORK"}}'
+  '37': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"TRAPPED_CHEST"}'
+  '38': '{"type":"DIRT","==":"org.bukkit.inventory.ItemStack"}'

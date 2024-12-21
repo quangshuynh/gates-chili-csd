@@ -1,0 +1,6 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"LADDER"}'
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"PAPER\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYGBm4AjPLMlwKUosB3JeMAAA6QNJMhMAAAA=\"\
+    ,\"lore\":[\"\xa77Cash:\xa7r $1000\",\"\xa77Depositer: \xa7rS1V1G3\"],\"display-name\"\
+    :\"\xa7a\xa7lNiveus Banknote \xa77(Right-Click)\"}}"

@@ -1,0 +1,21 @@
+geolocation: Italy
+lastAccountName: SkyWorder
+timestamps:
+  login: 1556010081031
+  lastteleport: 1555953834910
+  logout: 1556010184795
+ipAddress: 62.11.3.69
+lastlocation:
+  world: world
+  x: 0.4990905030426802
+  y: 84.0
+  z: 2.7783563231179063
+  yaw: 0.045597423
+  pitch: -0.6099535
+logoutlocation:
+  world: world
+  x: 29.27793740716623
+  y: 83.0
+  z: 17.166437988409804
+  yaw: -139.30441
+  pitch: 6.140042

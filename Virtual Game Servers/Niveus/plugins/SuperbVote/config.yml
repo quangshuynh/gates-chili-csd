@@ -1,0 +1,105 @@
+# SuperbVote configuration
+# A superb vote plugin made by Tux.
+#
+# https://minecraft.minimum.io/wiki/SuperbVote
+
+# Database configuration.
+# Currently supported: "json".
+storage:
+  database: json
+  json:
+    file: votes.json
+  mysql:
+    host: 127.0.0.1
+    username: root
+    password: topsecret
+    database: superbvote
+    table: votes
+    read-only: false
+
+# General vote configuration.
+votes:
+  # At least this many seconds need to pass before allowing another vote (per-service). This will apply per service.
+  # Default: 3600 seconds (1 hour)
+  cooldown-per-service: 3600
+
+# Rewards. This is the main section you will need to edit. Ordering is important.
+rewards:
+  # Example of matchers.
+  - if:
+      permission: superbvote.lucky
+      chance: 100
+    commands:
+    - crate key %player% vote 1
+    - eco give %player% 2500
+    - xp 1000 %player%
+    - enjin broadcast &8[&3&lNiveus&b&lVote&8]&f %player% has voted and was rewarded with &c$2,500 &fand a &aVote Key&f.
+    player-message: ""
+    broadcast-message: "&aSomeone got really lucky and was rewarded with 2 rare keys!"
+  # Default rewards are defined by having no preconditions. Place it at the bottom of the config.
+  - if: {}
+    commands:
+    - crate key %player% vote 1
+    - eco give %player% 2500
+    - xp 1000 %player%
+    - enjin broadcast &8[&3&lNiveus&b&lVote8]&f %player% has voted and was rewarded with &c$2,500 &fand a &aVote Key&f.
+    player-message: ""
+    broadcast-message: "&aSomeone has voted for us and was rewarded with a crate key, you can vote too with /vote!"
+
+# Whether or not players need to be online to vote. If set, offline player votes are queued for when the player next logs in.
+require-online: false
+
+# Broadcast settings:
+broadcast:
+  # Should we broadcast votes at all?
+  enabled: false
+
+  # Should we broadcast queued votes?
+  queued: true
+
+# Vote command.
+vote-command:
+  enabled: true
+  text: |-
+    &3&m--------------------------------------------------
+    &b                 Here are list of voting sites.
+    &b   Simply click a link and follow the instructions to vote and get your rewards.
+    &3&m--------------------------------------------------
+    &6#1 http://bit.ly/Niveus1
+    &6#2 http://bit.ly/Niveus2
+    &6#3 http://bit.ly/Niveus3
+    &6#4 http://bit.ly/Niveus4
+    &6#5 http://bit.ly/Niveus5
+    &6#6 http://bit.ly/Niveus6
+    &6#7 http://bit.ly/Niveus7
+    &a&m--------------------------------------------------
+
+# Vote reminder.
+vote-reminder:
+  message: "&8[&bNiveus&8] &fDon't forget to &cvote &ffor us&c! &fYou currently have &a%votes%&f votes."
+  on-join: true
+  repeat: 180
+
+# Controls the /sv <top/leaderboard> command.
+leaderboard:
+  # Supported: text, scoreboard
+  display: text
+
+  # The text format supports pagination.
+  text:
+    per-page: 10
+    header: "&c&m         &r&b Top Voters &r&c&m         &r"
+    entry: "&e%num%. &7%player% (&e%votes%&7 votes)"
+
+  # Control the scoreboard.
+  scoreboard:
+    title: Top voters
+    max: 10
+
+# Control top player signs.
+top-player-signs:
+  format:
+  - "#%num%"
+  - ""
+  - "%player%"
+  - "&l%votes% &rvotes"

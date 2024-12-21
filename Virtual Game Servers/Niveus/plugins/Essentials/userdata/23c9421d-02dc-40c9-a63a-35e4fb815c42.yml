@@ -1,0 +1,20 @@
+lastAccountName: Kelp
+timestamps:
+  login: 1555949784484
+  logout: 1555949791740
+ipAddress: 64.53.232.92
+geolocation: United States
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -0.7518340287178652
+  y: 84.0
+  z: -3.417861248172466
+  yaw: -10.254669
+  pitch: 18.755827

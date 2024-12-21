@@ -1,0 +1,20 @@
+lastAccountName: Karnx
+timestamps:
+  login: 1556393623913
+  logout: 1556393643215
+ipAddress: 72.222.226.25
+geolocation: United States
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 1.8873330908235852
+  y: 83.0
+  z: 23.764335705427598
+  yaw: 3.732286
+  pitch: -56.22036

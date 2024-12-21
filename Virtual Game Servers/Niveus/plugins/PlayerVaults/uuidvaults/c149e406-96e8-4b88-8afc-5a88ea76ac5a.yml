@@ -1,0 +1,10 @@
+vault1:
+  '0': '{"type":"BUCKET","==":"org.bukkit.inventory.ItemStack"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"STONE"}'
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxjYggsyU1KLgIp4gjNzsoMLEsvzUouKmRg4UiFKXBhMGBgAhvaByEYAAAA=\"\
+    ,\"display-name\":\"\xa7eSpider \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"SAND"}'

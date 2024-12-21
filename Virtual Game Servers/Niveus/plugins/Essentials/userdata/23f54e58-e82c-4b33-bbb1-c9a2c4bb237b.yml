@@ -1,0 +1,32 @@
+lastAccountName: PvPingEXE
+timestamps:
+  login: 1555961865495
+  kits:
+    member: 1555961914191
+  lastteleport: 1555962578729
+  logout: 1555962640649
+ipAddress: 176.21.102.153
+geolocation: Denmark
+lastlocation:
+  world: world
+  x: 1945.6625627932956
+  y: 70.0
+  z: 1704.1043730402262
+  yaw: 44.040432
+  pitch: 22.616594
+money: '33170.0'
+homes:
+  home:
+    world: world
+    x: -229.01170081030327
+    y: 43.0
+    z: -23.591596904079022
+    yaw: 102.504364
+    pitch: -8.776084
+logoutlocation:
+  world: world
+  x: -232.941154164034
+  y: 43.0
+  z: -28.557952026234165
+  yaw: 25.081543
+  pitch: 10.5548315

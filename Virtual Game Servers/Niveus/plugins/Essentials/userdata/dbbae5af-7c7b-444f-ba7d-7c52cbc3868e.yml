@@ -1,0 +1,22 @@
+geolocation: United States
+lastAccountName: 0r_
+timestamps:
+  login: 1555968491825
+  kits:
+    member: 1555968511352
+  logout: 1555968528506
+ipAddress: 73.107.221.190
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 0.8947821434548706
+  y: 83.0
+  z: 32.85671354068742
+  yaw: 0.93671995
+  pitch: 2.7267175

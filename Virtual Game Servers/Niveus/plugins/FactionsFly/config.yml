@@ -1,0 +1,16 @@
+Prefix: '&8&l[&a&lFactionsFly&8&l]'
+Fly On: '&eFlight has been enabled!'
+Fly Off: '&eFlight has been disabled!'
+EPearl Disable: true
+No EPearl: '&eYou may not enderpearl while flying'
+Enemy Near: '&eFlight has been disabled because an enemy is near!'
+AutoEnable Fly Msg: '&eYour flight has been auto enabled!'
+Radius Disable: true
+Radius: 50
+players:
+  480edc4b-90fc-42af-a458-fe701e4b22c3: true
+  8283ee29-162f-45f6-9509-6399934e9637: false
+  122f82d6-26f0-4dbb-a2d6-cb184db61653: false
+  1be7b794-3b4a-406d-99f7-b20a9f6217b2: false
+  d91918a4-49d0-4615-b6a5-2dae429a5e77: true
+  7ae6bba7-1d43-4bb4-81c4-970965996227: false

@@ -1,0 +1,22 @@
+lastAccountName: Purple_Key
+timestamps:
+  login: 1556097435568
+  kits:
+    member: 1556096849467
+  logout: 1556097764607
+ipAddress: 77.101.90.171
+geolocation: United Kingdom
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 3997.5
+  y: 60.0
+  z: -3997.5
+  yaw: -180.0
+  pitch: -0.0

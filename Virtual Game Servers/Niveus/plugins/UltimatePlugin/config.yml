@@ -1,0 +1,9 @@
+UltimatePlugin: '0.5'
+autoupdate: true
+Check Bukkit Compatibility: false
+Enabled Plugin Components:
+  Information: true
+  RecipeChanger: true
+  DisableEXP: true
+  FrameProtector: true
+  DisableCommands: true

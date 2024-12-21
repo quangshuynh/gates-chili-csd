@@ -1,0 +1,44 @@
+lastAccountName: CreeperZ585
+timestamps:
+  login: 1556477217173
+  lastteleport: 1556476627866
+  logout: 1556392115419
+  kits:
+    arctic: 1555639081663
+    member: 1555772101241
+    frozen: 1556061248327
+    niveus: 1555700156506
+    glacier: 1555639088449
+ipAddress: 104.229.211.168
+lastlocation:
+  world: world
+  x: -329.4391012937607
+  y: 88.74570969462317
+  z: 1421.6557174924947
+  yaw: 123.01434
+  pitch: 11.999986
+nickname: "\xa7dHymical"
+afk: false
+logoutlocation:
+  world: world_the_end
+  x: 7.169442064775125
+  y: 111.0625
+  z: 58.6879930173764
+  yaw: 173.42245
+  pitch: 40.269417
+money: '0'
+powertools:
+  stick:
+  - tphere spudgamer168
+  diamond_sword:
+  - heal
+  diamond_axe:
+  - fix all
+homes:
+  nebula_koth:
+    world: world_the_end
+    x: 7.468133434047267
+    y: 112.0
+    z: 37.60718528803071
+    yaw: -269.55096
+    pitch: 82.800095

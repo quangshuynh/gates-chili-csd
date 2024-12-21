@@ -1,0 +1,82 @@
+vault1:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"EMPTY_MAP\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77Want to protect\
+    \ an item from a book's destroy rate?\",\"\xa77Drag and drop this on an enchant-able\
+    \ item\",\"\xa77and it will protect the item from the destroy rate.\"],\"display-name\"\
+    :\"\xa7eWhite Scroll\"}}"
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give your\",\"\xa77enemy slowness and mining fatigue.\",\"\xa7cArcane\
+    \ Enchant\",\"\xa7a7% Success Rate\",\"\xa7497% Destroy Rate\"],\"display-name\"\
+    :\"\xa7c\xa7lSnare II\"}}"
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Your\
+    \ attacks are stronger when\",\"\xa77you have allies around you.\",\"\xa76Ultimate\
+    \ Enchant\",\"\xa7a20% Success Rate\",\"\xa7423% Destroy Rate\"],\"display-name\"\
+    :\"\xa76\xa7lLeadership III\"}}"
+  '3': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":10,\"type\":\"DIAMOND_SWORD\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"FIRE_ASPECT\":2,\"LOOT_BONUS_MOBS\":4,\"DAMAGE_ALL\":5},\"lore\":[\"\xa7\
+    cWither III\",\"\xa76Execute III\",\"\xa7cDoubleStrike II\",\"\xa76Paralyze I\"\
+    ,\"\xa7cInquisitive III\",\"\xa7cLifeSteal IV\",\"\xa7cRage II\",\"\xa76Drain\
+    \ II\",\"\xa7bLightWeight I\"],\"display-name\":\"penis slayer \"}}"
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Will\
+    \ double or more XP\",\"\xa77based on the enchantment level.\",\"\xa7cArcane Enchant\"\
+    ,\"\xa7a100% Success Rate\",\"\xa7432% Destroy Rate\"],\"display-name\":\"\xa7\
+    c\xa7lInquisitive III\"}}"
+  '5': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Allows\
+    \ you to fly in your\",\"\xa77own territory.\",\"\xa7cArcane Enchant\",\"\xa7\
+    a31% Success Rate\",\"\xa7468% Destroy Rate\"],\"display-name\":\"\xa7c\xa7lWings\
+    \ I\"}}"
+  '6': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to\",\"\xa77deal more damage.\",\"\xa7cArcane Enchant\",\"\xa7a98%\
+    \ Success Rate\",\"\xa7480% Destroy Rate\"],\"display-name\":\"\xa7c\xa7lEmpowered\
+    \ I\"}}"
+  '7': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77your enemy high wither.\",\"\xa7cArcane Enchant\"\
+    ,\"\xa7a39% Success Rate\",\"\xa748% Destroy Rate\"],\"display-name\":\"\xa7c\xa7\
+    lWither II\"}}"
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"BLAZE_ROD"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"BLAZE_ROD"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","amount":40,"type":"BLAZE_ROD"}'
+  '11': '{"type":"ENDER_PEARL","==":"org.bukkit.inventory.ItemStack"}'
+  '12': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":600,\"type\":\"DIAMOND_SWORD\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"FIRE_ASPECT\":2,\"LOOT_BONUS_MOBS\":4,\"DAMAGE_ALL\":5},\"lore\":[\"\xa7\
+    cRage II\"],\"display-name\":\"elNiveus Rank Sword\",\"repair-cost\":1}}"
+  '16': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":4,\"type\":\"SULPHUR\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77This\
+    \ dust has failed.\"],\"display-name\":\"\xa77Failed Dust\"}}"
+  '17': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":1,\"type\":\"DIAMOND_BOOTS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7dArctic Rank Boots\"}}"
+  '18': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":1,\"type\":\"DIAMOND_LEGGINGS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7dArctic Rank Leggings\"}}"
+  '19': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":1,\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7dArctic Rank Chestplate\"}}"
+  '20': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":1,\"type\":\"DIAMOND_HELMET\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":3},\"display-name\":\"\xa7e\xa7lNiveus Rank Helmet\"}}"
+  '21': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":779,\"type\":\"DIAMOND_SWORD\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :3,\"FIRE_ASPECT\":2,\"LOOT_BONUS_MOBS\":4,\"DAMAGE_ALL\":5},\"lore\":[\"\xa7\
+    cInquisitive III\",\"\xa7cRage II\"],\"display-name\":\"elNiveus Rank Sword\"\
+    ,\"repair-cost\":1}}"
+  '23': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"GOLDEN_APPLE"}'
+  '27': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '28': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"SUGAR\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa7a+16% Success Rate\"\
+    ,\"\xa77Apply to an Enchantment Book to\",\"\xa77Increase the Success Rate by\
+    \ \xa7e16%\"],\"display-name\":\"\xa7aMagical Angel Dust\"}}"

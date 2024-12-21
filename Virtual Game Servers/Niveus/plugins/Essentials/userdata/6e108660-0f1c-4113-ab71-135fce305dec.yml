@@ -1,0 +1,20 @@
+geolocation: United Kingdom
+lastAccountName: Jeeb
+timestamps:
+  login: 1555951645537
+  logout: 1555951657295
+ipAddress: 217.32.163.237
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 32.718976763285106
+  y: 83.5
+  z: -11.751771992851475
+  yaw: 151.84473
+  pitch: 27.740032

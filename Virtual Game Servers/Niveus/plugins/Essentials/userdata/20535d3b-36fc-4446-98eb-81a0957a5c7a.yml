@@ -1,0 +1,33 @@
+geolocation: Estonia
+lastAccountName: III_Dalton_III
+timestamps:
+  login: 1556443308437
+  kits:
+    member: 1556056456678
+  lastteleport: 1556465970353
+  logout: 1556472420198
+ipAddress: 88.196.193.203
+lastlocation:
+  world: world
+  x: -1.5327412330763246
+  y: 84.0625
+  z: -1.413732596184233
+  yaw: -37.095867
+  pitch: 4.5033503
+money: '114086.29749999999999'
+homes:
+  home:
+    world: world
+    x: -3986.912141394777
+    y: 63.0
+    z: -3986.8064183192905
+    yaw: -154.29904
+    pitch: 50.249992
+logoutlocation:
+  world: world
+  x: -3983.318963107615
+  y: 125.0
+  z: -3975.3414189167547
+  yaw: 1.5378413
+  pitch: 79.29575
+afk: false

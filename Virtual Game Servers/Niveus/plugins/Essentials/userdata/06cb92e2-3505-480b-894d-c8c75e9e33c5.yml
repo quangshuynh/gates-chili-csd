@@ -1,0 +1,22 @@
+lastAccountName: pepa_poutana
+timestamps:
+  login: 1556222128928
+  kits:
+    member: 1556017829924
+  logout: 1556222239588
+ipAddress: 94.69.37.248
+geolocation: Greece
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -57.129324788654685
+  y: 63.0
+  z: -26.058973641167235
+  yaw: -50.09662
+  pitch: 12.118974

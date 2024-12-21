@@ -1,0 +1,2 @@
+vault1:
+  '0': '{"type":"TRAP_DOOR","==":"org.bukkit.inventory.ItemStack"}'

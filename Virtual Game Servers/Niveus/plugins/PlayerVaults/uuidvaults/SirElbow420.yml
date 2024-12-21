@@ -1,0 +1,196 @@
+vault1:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":2,\"type\":\"MOB_SPAWNER\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxhYnXISq1KBaniCM3OygwsSy\\/NSi4qZGDhSISpcGGwZGAD3ab8WRQAAAA==\"\
+    ,\"display-name\":\"\xa7b\xa7lBlaze Spawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":6,\"type\":\"MOB_SPAWNER\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9Uxi4nBPLUoMLMlNSi4AKeYIzc7KDCxLL81KLipkYOFIhylwYrBkYAH2Ol6JKAAAA\"\
+    ,\"display-name\":\"\xa7eCave Spider \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"BUCKET"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"LOG"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"STONE"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"SAND"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":17,"type":"HOPPER"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"GOLDEN_APPLE"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"ENDER_PEARL"}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"GOLDEN_APPLE"}'
+  '19': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxjYnYtSUwtSi4CqeIIzc7KDCxLL81KLipkYOFIhalwYjBgYAKR4PzdHAAAA\"\
+    ,\"display-name\":\"\xa7b\xa7lCreeper Spawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '20': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxiYnfPLgSp4gjNzsoMLEsvzUouKmRg4UiHyLgwxDAwA3xw860MAAAA=\"\
+    ,\"display-name\":\"\xa7eCow \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '53': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"PAPER\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1iYHbLrGAAAHfEyRkTAAAA\",\"lore\":[\"\xa77Right-click this item to unlock\"\
+    ,\"\xa77the fix command on factions.\"],\"display-name\":\"\xa73\xa7lPERK \\\"\
+    \xa7f\\/fix\xa73\xa7l\\\"\"}}"
+vault3:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to set\",\"\xa77set your enemy on fire.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a31% Success Rate\",\"\xa7496% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lMolten I\"}}"
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77your enemy weakness.\",\"\xa76Ultimate Enchant\",\"\
+    \xa7a81% Success Rate\",\"\xa7485% Destroy Rate\"],\"display-name\":\"\xa76\xa7\
+    lVoodoo I\"}}"
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77When\
+    \ you kill a player\",\"\xa77you get absorption and regen.\",\"\xa76Ultimate Enchant\"\
+    ,\"\xa7a36% Success Rate\",\"\xa7417% Destroy Rate\"],\"display-name\":\"\xa7\
+    6\xa7lRecover I\"}}"
+  '3': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":2,\"type\":\"BOOK\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77Uncover\
+    \ to revieve a random\",\"\xa77\xa7b\xa7lEnhanced \xa77enchantment book.\"],\"\
+    display-name\":\"\xa7b\xa7lEnhanced \xa77Enchantment Book (Right Click)\"}}"
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":12,\"type\":\"BOOK\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77Uncover\
+    \ to revieve a random\",\"\xa77\xa76\xa7lUltimate \xa77enchantment book.\"],\"\
+    display-name\":\"\xa76\xa7lUltimate \xa77Enchantment Book (Right Click)\"}}"
+  '5': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Gives\
+    \ strength, mining fatigue,\",\"\xa77and slowness when put on.\",\"\xa7cArcane\
+    \ Enchant\",\"\xa7a80% Success Rate\",\"\xa7420% Destroy Rate\"],\"display-name\"\
+    :\"\xa7c\xa7lDrunk II\"}}"
+  '6': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Gives\
+    \ you night vision\",\"\xa77when you put it on.\",\"\xa7bEnhanced Enchant\",\"\
+    \xa7a11% Success Rate\",\"\xa7484% Destroy Rate\"],\"display-name\":\"\xa7b\xa7\
+    lGlowing I\"}}"
+  '7': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77your enemy weakness.\",\"\xa7bEnhanced Enchant\",\"\
+    \xa7a46% Success Rate\",\"\xa7432% Destroy Rate\"],\"display-name\":\"\xa7b\xa7\
+    lFortify III\"}}"
+  '8': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Will\
+    \ automatically send\",\"\xa77mined block to your inventory.\",\"\xa7bEnhanced\
+    \ Enchant\",\"\xa7a47% Success Rate\",\"\xa7481% Destroy Rate\"],\"display-name\"\
+    :\"\xa7b\xa7lTelepathy I\"}}"
+  '9': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to set\",\"\xa77set your enemy on fire.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a51% Success Rate\",\"\xa7438% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lMolten V\"}}"
+  '10': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to strike\",\"\xa77lightning where the arrow lands.\",\"\xa7bEnhanced\
+    \ Enchant\",\"\xa7a68% Success Rate\",\"\xa7420% Destroy Rate\"],\"display-name\"\
+    :\"\xa7b\xa7lLightning I\"}}"
+  '11': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to drop\",\"\xa77the player's head on death.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a80% Success Rate\",\"\xa7417% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lDecapitation IV\"}}"
+  '12': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77you haste when fighting.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a23% Success Rate\",\"\xa742% Destroy Rate\"],\"display-name\":\"\xa7b\xa7\
+    lLightWeight II\"}}"
+  '13': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to auto smelt\",\"\xa77ores and give more ingots.\",\"\xa7bEnhanced\
+    \ Enchant\",\"\xa7a11% Success Rate\",\"\xa7457% Destroy Rate\"],\"display-name\"\
+    :\"\xa7b\xa7lAutoSmelt II\"}}"
+  '14': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77your enemy mining fatigue.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a68% Success Rate\",\"\xa7462% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lCursed III\"}}"
+  '15': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to drop\",\"\xa77your enemy's head on death.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a56% Success Rate\",\"\xa7498% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lHeadless IV\"}}"
+  '16': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Gives\
+    \ enemies within 3\",\"\xa77blocks slowness for a short time.\",\"\xa76Ultimate\
+    \ Enchant\",\"\xa7a71% Success Rate\",\"\xa746% Destroy Rate\"],\"display-name\"\
+    :\"\xa76\xa7lBlizzard I\"}}"
+  '17': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to drop\",\"\xa77the player's head on death.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a93% Success Rate\",\"\xa7439% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lDecapitation I\"}}"
+  '18': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77your enemy weakness.\",\"\xa7bEnhanced Enchant\",\"\
+    \xa7a71% Success Rate\",\"\xa7474% Destroy Rate\"],\"display-name\":\"\xa7b\xa7\
+    lFortify I\"}}"
+  '19': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Always\
+    \ smelts ores into\",\"\xa77items instead of blocks.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a79% Success Rate\",\"\xa7417% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lFurnace I\"}}"
+  '20': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to drop\",\"\xa77your enemy's head on death.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a52% Success Rate\",\"\xa7443% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lHeadless IV\"}}"
+  '21': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77your enemy confusion.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a78% Success Rate\",\"\xa741% Destroy Rate\"],\"display-name\":\"\xa7b\xa7\
+    lConfusion III\"}}"
+  '22': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Gives\
+    \ you night vision\",\"\xa77when you put it on.\",\"\xa7bEnhanced Enchant\",\"\
+    \xa7a26% Success Rate\",\"\xa7456% Destroy Rate\"],\"display-name\":\"\xa7b\xa7\
+    lGlowing I\"}}"
+  '23': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77your enemy confusion.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a47% Success Rate\",\"\xa7437% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lDizzy I\"}}"
+  '24': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to heal\",\"\xa77you when fighting.\",\"\xa7bEnhanced Enchant\",\"\xa7\
+    a78% Success Rate\",\"\xa7489% Destroy Rate\"],\"display-name\":\"\xa7b\xa7lVampire\
+    \ III\"}}"
+  '25': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Gives\
+    \ you speed, strength and\",\"\xa77jump boost to take down your enemies.\",\"\xa7\
+    cArcane Enchant\",\"\xa7a59% Success Rate\",\"\xa7448% Destroy Rate\"],\"display-name\"\
+    :\"\xa7c\xa7lCyborg I\"}}"

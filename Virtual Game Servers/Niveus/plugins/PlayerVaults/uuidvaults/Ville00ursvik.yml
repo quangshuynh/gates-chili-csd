@@ -1,0 +1,39 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":4,"type":"DIRT"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","damage":3,"amount":2,"type":"STONE"}'
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HLPSUzOTC3yzixhAACwNYKWGgAAAA==\",\"lore\":[\"\xa77Use this book to\
+    \ obtain Glacier Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\"\
+    :\"\xa7bGlacier Kit \xa77(Right Click)\"}}"
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"SULPHUR"}'
+  '4': '{"type":"IRON_BARDING","==":"org.bukkit.inventory.ItemStack"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":6,"type":"LEATHER"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":9,"type":"RAW_BEEF"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":4,"type":"CACTUS"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":14,"type":"STRING"}'
+  '9': '{"type":"IRON_INGOT","==":"org.bukkit.inventory.ItemStack"}'
+  '10': '{"type":"GREEN_RECORD","==":"org.bukkit.inventory.ItemStack"}'
+  '11': '{"type":"ENDER_PEARL","==":"org.bukkit.inventory.ItemStack"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":10,"type":"PORK"}'
+  '13': '{"type":"IRON_BARDING","==":"org.bukkit.inventory.ItemStack"}'
+  '15': '{"type":"REDSTONE","==":"org.bukkit.inventory.ItemStack"}'
+  '16': '{"type":"BONE","==":"org.bukkit.inventory.ItemStack"}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","damage":2,"amount":7,"type":"LOG"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","amount":25,"type":"LOG"}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"GOLDEN_APPLE"}'
+  '20': '{"type":"RED_MUSHROOM","==":"org.bukkit.inventory.ItemStack"}'
+  '21': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"WOOD"}'
+  '22': '{"type":"BUCKET","==":"org.bukkit.inventory.ItemStack"}'
+  '24': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":3,\"type\":\"SULPHUR\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77This\
+    \ dust has failed.\"],\"display-name\":\"\xa77Failed Dust\"}}"
+  '25': '{"==":"org.bukkit.inventory.ItemStack","amount":27,"type":"SAND"}'
+  '26': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"SPIDER_EYE"}'
+  '27': '{"==":"org.bukkit.inventory.ItemStack","amount":40,"type":"TORCH"}'
+  '28': '{"==":"org.bukkit.inventory.ItemStack","damage":3,"type":"WOOD_PICKAXE"}'
+  '29': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"ARROW"}'
+  '30': '{"type":"SANDSTONE","==":"org.bukkit.inventory.ItemStack"}'
+  '31': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":5,"type":"STONE"}'
+  '32': '{"==":"org.bukkit.inventory.ItemStack","amount":10,"type":"STONE"}'
+  '33': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"COBBLESTONE"}'

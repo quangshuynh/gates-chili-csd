@@ -1,0 +1,5 @@
+vault1:
+  '1': '{"type":"ENDER_PEARL","==":"org.bukkit.inventory.ItemStack"}'
+  '2': '{"type":"SIGN","==":"org.bukkit.inventory.ItemStack"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":12,"type":"NETHER_BRICK"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"GLASS_BOTTLE"}'

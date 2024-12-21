@@ -1,0 +1,79 @@
+vault1:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9Uxi4nBPLUoMLMlNSi4AKeYIzc7KDCxLL81KLipkYOFIhylwYrBkYAH2Ol6JKAAAA\"\
+    ,\"display-name\":\"\xa7eCave Spider \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":5,\"type\":\"BOOK\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77Uncover\
+    \ to revieve a random\",\"\xa77\xa7b\xa7lEnhanced \xa77enchantment book.\"],\"\
+    display-name\":\"\xa7b\xa7lEnhanced \xa77Enchantment Book (Right Click)\"}}"
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":2,\"type\":\"BOOK\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77Uncover\
+    \ to revieve a random\",\"\xa77\xa7c\xa7lArcane \xa77enchantment book.\"],\"display-name\"\
+    :\"\xa7c\xa7lArcane \xa77Enchantment Book (Right Click)\"}}"
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"DIAMOND"}'
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HELMET\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Helmet\"}}"
+  '5': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Chestplate\"}}"
+  '6': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_LEGGINGS\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Leggings\"}}"
+  '7': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_BOOTS\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :1},\"lore\":[\"\xa77\xa7oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"\
+    ],\"display-name\":\"\xa7fMember Boots\"}}"
+  '8': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7oStandard\
+    \ issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\":\"\xa7\
+    fMember Wrench\"}}"
+  '9': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_PICKAXE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Icedrill\"}}"
+  '10': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SPADE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Excavator\"}}"
+  '11': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SWORD\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7\
+    oStandard issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\"\
+    :\"\xa7fMember Sword\"}}"
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"GOLDEN_APPLE"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"COOKED_BEEF"}'
+  '14': '{"type":"ENDER_PEARL","==":"org.bukkit.inventory.ItemStack"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"SAND"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"LOG"}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '21': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '22': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '23': '{"==":"org.bukkit.inventory.ItemStack","amount":58,"type":"COBBLESTONE"}'
+  '24': '{"==":"org.bukkit.inventory.ItemStack","damage":3,"type":"STONE"}'
+  '25': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '26': '{"type":"BOW","==":"org.bukkit.inventory.ItemStack"}'
+  '27': '{"==":"org.bukkit.inventory.ItemStack","amount":6,"type":"SEEDS"}'
+  '28': '{"==":"org.bukkit.inventory.ItemStack","damage":6,"type":"WOOD_PICKAXE"}'
+  '29': '{"==":"org.bukkit.inventory.ItemStack","amount":4,"type":"STICK"}'
+  '30': '{"==":"org.bukkit.inventory.ItemStack","amount":6,"type":"IRON_INGOT"}'
+  '31': '{"==":"org.bukkit.inventory.ItemStack","damage":60,"type":"STONE_PICKAXE"}'
+  '32': '{"==":"org.bukkit.inventory.ItemStack","amount":5,"type":"SAPLING"}'
+  '33': '{"==":"org.bukkit.inventory.ItemStack","amount":4,"type":"FURNACE"}'
+  '34': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '35': '{"==":"org.bukkit.inventory.ItemStack","amount":31,"type":"COAL"}'
+  '36': '{"==":"org.bukkit.inventory.ItemStack","amount":47,"type":"REDSTONE"}'
+  '37': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"internal\":\"H4sIAAAAAAAAAONiYOBgYC\\\
+    /LL03OSC1i4HbKyayqSixK8c4sYQAAFYUIXxsAAAA=\",\"lore\":[\"\xa77Use this book to\
+    \ obtain Blizzard Rank Kit\",\"\xa77One time use - be warned.\"],\"display-name\"\
+    :\"\xa7bBlizzard Kit \xa77(Right Click)\"}}"
+  '38': '{"==":"org.bukkit.inventory.ItemStack","amount":42,"type":"TORCH"}'
+  '41': '{"type":"DIRT","==":"org.bukkit.inventory.ItemStack"}'
+  '42': '{"==":"org.bukkit.inventory.ItemStack","damage":100,"type":"STONE_AXE"}'
+  '44': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"type":"STONE"}'

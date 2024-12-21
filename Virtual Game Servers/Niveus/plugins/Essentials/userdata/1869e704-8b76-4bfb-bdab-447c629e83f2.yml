@@ -1,0 +1,20 @@
+geolocation: Japan
+lastAccountName: Watikita
+timestamps:
+  login: 1555944583848
+  logout: 1555944663163
+ipAddress: 27.84.69.17
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 2.041404719942979
+  y: 84.0
+  z: 0.9255697763265462
+  yaw: -72.68041
+  pitch: 5.4159184

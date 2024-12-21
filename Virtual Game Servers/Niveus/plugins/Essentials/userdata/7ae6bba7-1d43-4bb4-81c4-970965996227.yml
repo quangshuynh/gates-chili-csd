@@ -1,0 +1,35 @@
+lastAccountName: SpudGamer168
+timestamps:
+  login: 1556476941890
+  logout: 1556476302926
+  lastteleport: 1555697646847
+  kits:
+    arctic: 1555691595382
+    member: 1556476972257
+  lastheal: 1555770823234
+ipAddress: 104.229.211.168
+lastlocation:
+  world: world
+  x: -1851.5
+  y: 64.0
+  z: 1127.5
+  yaw: -55.35
+  pitch: -39.899998
+godmode: false
+logoutlocation:
+  world: world
+  x: 1276.3962621209732
+  y: 75.27059868402932
+  z: 249.8489561019419
+  yaw: 205.94879
+  pitch: 66.600464
+homes:
+  home:
+    world: world
+    x: 7194.206860509793
+    y: 39.0
+    z: 4127.873432798469
+    yaw: 246.31201
+    pitch: -3.0001736
+money: '1000'
+geolocation: United States

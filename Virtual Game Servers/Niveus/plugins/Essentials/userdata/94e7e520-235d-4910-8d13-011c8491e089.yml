@@ -1,0 +1,22 @@
+lastAccountName: mackie4
+timestamps:
+  login: 1556372888621
+  kits:
+    member: 1556372900224
+  logout: 1556373039706
+ipAddress: 182.239.188.86
+geolocation: Australia
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 1081.699999988079
+  y: 57.0
+  z: -179.51935285860873
+  yaw: -21.749763
+  pitch: 90.0

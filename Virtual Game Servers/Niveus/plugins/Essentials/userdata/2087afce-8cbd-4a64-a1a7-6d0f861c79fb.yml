@@ -1,0 +1,23 @@
+lastAccountName: subxplorer
+timestamps:
+  login: 1555966675981
+  kits:
+    member: 1555966700891
+  lastteleport: 1555966738893
+  logout: 1555966798538
+ipAddress: 213.127.113.237
+geolocation: Netherlands
+lastlocation:
+  world: world
+  x: 6.132513445456544
+  y: 83.0
+  z: 9.776245385362188
+  yaw: -128.80437
+  pitch: 20.390047
+logoutlocation:
+  world: world
+  x: -1136.5686686062263
+  y: 70.0
+  z: 1384.6648024763467
+  yaw: 90.90001
+  pitch: 23.099995

@@ -1,0 +1,23 @@
+lastAccountName: skeletonking7
+timestamps:
+  login: 1555960169129
+  kits:
+    member: 1555960243700
+  lastteleport: 1555960255077
+  logout: 1555960266917
+ipAddress: 107.204.20.236
+geolocation: United States
+lastlocation:
+  world: world
+  x: -234.45436159225676
+  y: 42.5
+  z: -22.69375976522019
+  yaw: 131.08435
+  pitch: 1.2086484
+logoutlocation:
+  world: world
+  x: 4.476489261970527
+  y: 84.0
+  z: -0.9377194547240126
+  yaw: 218.47255
+  pitch: -1.1470413

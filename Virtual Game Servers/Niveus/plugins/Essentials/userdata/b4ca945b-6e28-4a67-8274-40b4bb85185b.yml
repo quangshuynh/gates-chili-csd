@@ -1,0 +1,32 @@
+lastAccountName: TheAlmightyPleb
+timestamps:
+  login: 1556017888227
+  kits:
+    member: 1555972756157
+  logout: 1556020376920
+  lastteleport: 1556019597510
+ipAddress: 86.157.117.26
+geolocation: United Kingdom
+lastlocation:
+  world: world
+  x: -1107.487500011921
+  y: 69.0
+  z: -180.30000001192093
+  yaw: 95.190216
+  pitch: 7.0501776
+logoutlocation:
+  world: world
+  x: 2488.906886947644
+  y: 63.0
+  z: 2467.687354966349
+  yaw: -222.40067
+  pitch: 17.418936
+money: '6.5'
+homes:
+  home:
+    world: world
+    x: 850.6695679306333
+    y: 64.0
+    z: 2524.3900901720663
+    yaw: -343.1496
+    pitch: 51.729126

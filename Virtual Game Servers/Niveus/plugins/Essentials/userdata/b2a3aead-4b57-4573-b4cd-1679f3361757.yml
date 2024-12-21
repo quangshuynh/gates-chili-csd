@@ -1,0 +1,20 @@
+geolocation: United Kingdom
+lastAccountName: DoctorHaddock
+timestamps:
+  login: 1555948469958
+  logout: 1555948474612
+ipAddress: 81.109.172.130
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 1.0893809838499888
+  y: 84.0
+  z: -1.59693399207443
+  yaw: 239.4472
+  pitch: -19.350008

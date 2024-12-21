@@ -1,0 +1,24 @@
+{
+  "Friday": [
+    {
+      "lootChest": "koth",
+      "captureTime": 5,
+      "maxRunTime": 30,
+      "koth": "Nebula",
+      "time": "530",
+      "lootAmount": 5,
+      "day": "Friday"
+    }
+  ],
+  "Tuesday": [
+    {
+      "lootChest": "koth",
+      "captureTime": 5,
+      "maxRunTime": 30,
+      "koth": "Nebula",
+      "time": "530",
+      "lootAmount": 5,
+      "day": "Tuesday"
+    }
+  ]
+}

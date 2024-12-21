@@ -1,0 +1,34 @@
+geolocation: Sweden
+lastAccountName: Ville00ursvik
+timestamps:
+  login: 1555953554094
+  kits:
+    member: 1555943153668
+  lastteleport: 1555954912896
+  logout: 1555955127535
+ipAddress: 213.67.34.15
+lastlocation:
+  world: world
+  x: 132.53357356896086
+  y: 6.0
+  z: 242.94714461112
+  yaw: 307.64514
+  pitch: 37.21872
+logoutlocation:
+  world: world
+  x: 137.3241895461124
+  y: 6.0
+  z: 242.57641899222648
+  yaw: 17.755684
+  pitch: 2.2848315
+homes:
+  home:
+    world: world
+    x: 2320.061730939399
+    y: 64.0
+    z: -2438.8119016136784
+    yaw: -283.5652
+    pitch: 27.749775
+money: '0'
+ignore:
+- iii_dalton_iii

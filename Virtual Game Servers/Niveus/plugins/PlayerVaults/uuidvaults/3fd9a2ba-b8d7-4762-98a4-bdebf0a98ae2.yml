@@ -1,0 +1,37 @@
+vault1:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77your enemy weakness.\",\"\xa7bEnhanced Enchant\",\"\
+    \xa7a5% Success Rate\",\"\xa7477% Destroy Rate\"],\"display-name\":\"\xa7b\xa7\
+    lFortify I\"}}"
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to drop\",\"\xa77your enemy's head on death.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a53% Success Rate\",\"\xa7455% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lHeadless III\"}}"
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Always\
+    \ smelts ores into\",\"\xa77items instead of blocks.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a100% Success Rate\",\"\xa740% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lFurnace I\"}}"
+  '3': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Gives\
+    \ you haste when\",\"\xa77holding the item in your hand.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a96% Success Rate\",\"\xa7418% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lHaste II\"}}"
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77your enemy confusion.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a78% Success Rate\",\"\xa7488% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lDizzy I\"}}"
+  '5': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Gives\
+    \ you haste when\",\"\xa77holding the item in your hand.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a7% Success Rate\",\"\xa7461% Destroy Rate\"],\"display-name\":\"\xa7b\xa7\
+    lHaste II\"}}"

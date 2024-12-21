@@ -1,0 +1,31 @@
+geolocation: South Africa
+lastAccountName: SwuzzyDuz
+timestamps:
+  login: 1556045682194
+  lastteleport: 1555958899369
+  kits:
+    member: 1555958101303
+  logout: 1556045979475
+ipAddress: 105.225.140.156
+lastlocation:
+  world: world
+  x: -518.6999999880791
+  y: 65.0
+  z: -158.30000001192093
+  yaw: 196.90483
+  pitch: -64.36952
+homes:
+  home:
+    world: world
+    x: -237.89423247875692
+    y: 43.0
+    z: -26.750676107277958
+    yaw: -10.144229
+    pitch: 9.403769
+logoutlocation:
+  world: world_nether
+  x: -32.02015187266254
+  y: 49.0
+  z: -1.7203901941697493
+  yaw: 359.4192
+  pitch: 40.21164

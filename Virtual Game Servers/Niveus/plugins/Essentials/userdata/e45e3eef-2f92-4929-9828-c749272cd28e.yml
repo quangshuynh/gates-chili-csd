@@ -1,0 +1,24 @@
+lastAccountName: Feorge
+timestamps:
+  login: 1555962167502
+  kits:
+    member: 1555958704688
+  lastteleport: 1555962236943
+  logout: 1555962532903
+ipAddress: 81.96.105.59
+geolocation: United Kingdom
+lastlocation:
+  world: world
+  x: 0.5
+  y: 84.0
+  z: 0.5
+  yaw: 345.74106
+  pitch: 8.161625
+money: '133500.0'
+logoutlocation:
+  world: world
+  x: -2458.5963860002394
+  y: 124.0
+  z: -2451.300000011921
+  yaw: -208.85556
+  pitch: 12.030748

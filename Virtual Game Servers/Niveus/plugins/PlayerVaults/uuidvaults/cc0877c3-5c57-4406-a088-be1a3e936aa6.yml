@@ -1,0 +1,2 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"LOG"}'

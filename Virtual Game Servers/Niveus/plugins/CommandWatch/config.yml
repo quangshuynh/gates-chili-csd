@@ -1,0 +1,14 @@
+# 
+# <player> = player
+# <command> = command
+Disable Message: '&b[CommandWatch] &7&l:: &f&lCommand Spy for all users has been disabled.'
+Command Message: '&b[CommandWatch] &a<player> &f: <command>'
+Prefix: '&7[&bCommandWatch&7] '
+AllowConsole: '&cYou can only enter the player!'
+CWEnable: '&fCommandWatch Enable'
+CWDisable: '&fCommandWatch Disable'
+CommandHelp1: '&f/cw enable -> CommandWatch Enable'
+CommandHelp2: '&f/cw disable -> CommandWatch Disable'
+CommandHelp3: '&f/cw reload -> CommandWatch Plugin Reload'
+NoPermission: '&cYou don''t have permission this command!'
+ConfigReload: '&aSuccessfully reloaded Config!'

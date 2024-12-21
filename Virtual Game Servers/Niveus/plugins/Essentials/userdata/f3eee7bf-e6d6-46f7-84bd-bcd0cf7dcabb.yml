@@ -1,0 +1,31 @@
+lastAccountName: WaanTaan
+timestamps:
+  login: 1556054227199
+  kits:
+    member: 1555890071135
+  logout: 1556054444660
+ipAddress: 174.70.79.124
+geolocation: United States
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+money: '57584.405'
+homes:
+  home:
+    world: world_nether
+    x: -206.94988962689175
+    y: 85.0
+    z: -363.451811380478
+    yaw: 52.50018
+    pitch: 5.2499127
+logoutlocation:
+  world: world_nether
+  x: -951.4246480911116
+  y: 61.0
+  z: -405.4124707030566
+  yaw: -177.1494
+  pitch: -8.549919

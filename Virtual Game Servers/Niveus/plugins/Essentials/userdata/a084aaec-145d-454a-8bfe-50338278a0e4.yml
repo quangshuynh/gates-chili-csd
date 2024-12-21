@@ -1,0 +1,24 @@
+lastAccountName: hiJackW
+timestamps:
+  login: 1555787674974
+  kits:
+    member: 1555786261806
+  lastteleport: 1555786929819
+  logout: 1555787940564
+ipAddress: 174.239.7.46
+lastlocation:
+  world: world
+  x: -2012.534556024739
+  y: 68.0
+  z: 2660.099829573872
+  yaw: -94.897644
+  pitch: 25.528605
+geolocation: United States
+logoutlocation:
+  world: world
+  x: 18.552472691367583
+  y: 83.5
+  z: 29.8978747014977
+  yaw: 12.293304
+  pitch: 22.320004
+money: '26000.0'

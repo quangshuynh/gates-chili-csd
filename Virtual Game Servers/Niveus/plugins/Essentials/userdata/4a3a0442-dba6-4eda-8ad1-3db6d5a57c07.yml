@@ -1,0 +1,24 @@
+geolocation: Romania
+lastAccountName: xXMine_StepXx
+timestamps:
+  login: 1556469665407
+  logout: 1556469665716
+  kits:
+    member: 1556452186308
+  lastteleport: 1556452176086
+ipAddress: 109.103.51.150
+lastlocation:
+  world: world
+  x: 240.04342544193793
+  y: 63.0
+  z: -7.333130404383746
+  yaw: 81.49315
+  pitch: 15.150026
+logoutlocation:
+  world: world
+  x: 1.1476745774972688
+  y: 83.0
+  z: 20.48268470042794
+  yaw: -18.4044
+  pitch: 9.590046
+money: '6000.0'

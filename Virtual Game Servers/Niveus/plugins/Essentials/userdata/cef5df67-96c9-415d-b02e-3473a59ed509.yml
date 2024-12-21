@@ -1,0 +1,20 @@
+lastAccountName: MiniBording
+timestamps:
+  login: 1556230037901
+  logout: 1556230077527
+ipAddress: 62.91.100.156
+geolocation: Germany
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -0.8194803085680313
+  y: 83.0
+  z: 19.76249998807907
+  yaw: 5.2692347
+  pitch: 0.0

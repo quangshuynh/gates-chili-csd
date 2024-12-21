@@ -1,0 +1,15 @@
+Permissions:
+  tnt-fill: CustomEnchants.TnTFill
+  tnt-fill-creative: CustomEnchants.TnTFill.creative
+Radius:
+  x: 6
+  y: 4
+  z: 6
+Messages:
+  tntfill:
+    console-sender: '&c&lTnTFill &aYou can''t run this command as console'
+    no-permission: '&c&lTnTFill &aYou don''t have permission to run this command'
+    no-dispensers-nearby: '&c&lTnTFill &aUnable to find nearby dispensers'
+    no-tnt-in-inventory: '&c&lTnTFill &aYou have no tnt in your inventory'
+    unable-to-fill: '&c&lTnTFill &aUnable to fill the dispensers'
+    filled: '&c&lTnTFill &aYou have filled the dispensers with tnt'

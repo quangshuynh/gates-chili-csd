@@ -1,0 +1,36 @@
+[
+  {
+    "lastWinner": {
+      "uniqueId": "13",
+      "capperType": "factionuuid"
+    },
+    "name": "Nebula",
+    "loot": {
+      "secondLootDirection": "NONE",
+      "name": "koth",
+      "position": {
+        "world": "world_the_end",
+        "x": 7,
+        "y": 112,
+        "z": 37
+      }
+    },
+    "areas": [
+      {
+        "loc2": {
+          "world": "world_the_end",
+          "x": 10,
+          "y": 114,
+          "z": 40
+        },
+        "loc1": {
+          "world": "world_the_end",
+          "x": 4,
+          "y": 110,
+          "z": 34
+        },
+        "name": "Nebula"
+      }
+    ]
+  }
+]

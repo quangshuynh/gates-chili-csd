@@ -1,0 +1,23 @@
+lastAccountName: ThirstyBlood
+timestamps:
+  login: 1556019223459
+  kits:
+    member: 1555933703884
+  logout: 1556019240261
+ipAddress: 185.194.187.141
+geolocation: Belgium
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+money: '0.0'
+logoutlocation:
+  world: world
+  x: 322.2308449004874
+  y: 67.0
+  z: -2486.7197462079757
+  yaw: -85.02091
+  pitch: 15.096761

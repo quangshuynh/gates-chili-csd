@@ -1,0 +1,33 @@
+lastAccountName: Robin10thepro
+timestamps:
+  login: 1556475504021
+  kits:
+    member: 1556472933029
+    frozen: 1556471508535
+  lastteleport: 1556473203897
+  logout: 1556475986150
+ipAddress: 62.11.3.69
+geolocation: Italy
+lastlocation:
+  world: world
+  x: 0.5054111212862173
+  y: 83.0
+  z: 7.509549341197387
+  yaw: 0.045597423
+  pitch: -0.3099535
+money: '40464.125'
+logoutlocation:
+  world: world
+  x: 86.69999998807907
+  y: 71.0
+  z: -26.365351104036314
+  yaw: 255.34547
+  pitch: 35.24003
+homes:
+  home:
+    world: world
+    x: 120.81211303580564
+    y: 69.0
+    z: 241.4566575675241
+    yaw: -154.30438
+    pitch: 26.090069

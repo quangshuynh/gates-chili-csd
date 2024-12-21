@@ -1,0 +1,56 @@
+Horse Armor:
+  Iron: false
+  Gold: false
+  Diamond: false
+Chain Armor:
+  Helmet: false
+  ChestPiece: false
+  Leggings: false
+  Boots: false
+Spawn Eggs:
+  Bat: false
+  Chicken: false
+  Cow: false
+  Horse: false
+  Mooshroom: false
+  Ocelot: false
+  Pig: false
+  Sheep: false
+  Squid: false
+  Wolf: false
+Music Discs:
+  stal: false
+  '11': false
+  far: false
+  ward: false
+  '13': false
+  cat: false
+  blocks: false
+  mellohi: false
+  chirp: false
+  strad: false
+  mall: false
+Misc:
+  Name Tag: false
+  Saddle: false
+  Grass Block: false
+  Obsidian: false
+  Grass: false
+  Ice: false
+  Fire: false
+  Bottle o Enchanting: false
+  Sponge: false
+  Bedrock: false
+  Dragon Egg: false
+  Gunpowder: false
+  Monster Spawner: false
+  Command Block: false
+  Podzol: false
+  Double Tallgrass: false
+  Packed Ice: false
+  Leather: false
+  Cocoa Beans: false
+  Shulker Shell: false
+Messages:
+  Permission Granted: You have permission to craft this item!
+  Permission Denied: I'm sorry, but you do not have permission to craft this item. Please contact the server administrators if you believe that this is in error.

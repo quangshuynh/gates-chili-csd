@@ -1,0 +1,32 @@
+geolocation: United States
+lastAccountName: Datisml
+timestamps:
+  login: 1555974929606
+  lastteleport: 1555975062423
+  kits:
+    member: 1555960232609
+  logout: 1555975447631
+ipAddress: 73.199.13.184
+lastlocation:
+  world: world
+  x: 1932.1454421814242
+  y: 68.0
+  z: 1675.544279773841
+  yaw: 198.85345
+  pitch: 18.456148
+money: '100737.0'
+homes:
+  home:
+    world: world
+    x: -238.58651147519726
+    y: 43.0
+    z: -19.982864747624934
+    yaw: 267.89148
+    pitch: 7.040589
+logoutlocation:
+  world: world
+  x: -221.30000001192093
+  y: 80.0
+  z: 81.30000001192091
+  yaw: 189.32294
+  pitch: 10.424048

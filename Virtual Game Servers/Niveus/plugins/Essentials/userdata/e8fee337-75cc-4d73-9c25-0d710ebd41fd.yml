@@ -1,0 +1,20 @@
+lastAccountName: DeadAndAlive
+timestamps:
+  login: 1555944000914
+  logout: 1555944064764
+ipAddress: 90.253.241.15
+geolocation: United Kingdom
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 35.05547384973955
+  y: 83.0
+  z: 2.2061019875898618
+  yaw: 61.87751
+  pitch: 5.118465

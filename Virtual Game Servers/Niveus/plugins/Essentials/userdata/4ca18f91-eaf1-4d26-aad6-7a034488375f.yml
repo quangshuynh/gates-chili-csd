@@ -1,0 +1,32 @@
+lastAccountName: BaconLove
+timestamps:
+  login: 1556167701917
+  kits:
+    member: 1555941423970
+  logout: 1556167730800
+  lastteleport: 1556167716284
+ipAddress: 49.146.34.13
+geolocation: Philippines
+lastlocation:
+  world: world
+  x: -12.160279656232113
+  y: 83.0
+  z: 18.522078505647308
+  yaw: 114.02106
+  pitch: 7.8566837
+logoutlocation:
+  world: world
+  x: 2311.293407797882
+  y: 63.0
+  z: -2420.321699743625
+  yaw: -99.319756
+  pitch: 27.8584
+money: '44639.56'
+homes:
+  home:
+    world: world
+    x: 2305.2349787563967
+    y: 63.0
+    z: -2427.9050398396125
+    yaw: 59.895447
+    pitch: 12.911128

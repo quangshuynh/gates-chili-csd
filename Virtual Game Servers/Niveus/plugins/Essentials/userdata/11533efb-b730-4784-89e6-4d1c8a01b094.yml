@@ -1,0 +1,32 @@
+lastAccountName: xXSlimy4444Xx
+timestamps:
+  login: 1555953642294
+  lastteleport: 1555952782391
+  logout: 1555953885916
+  kits:
+    member: 1555952504653
+ipAddress: 178.157.248.72
+geolocation: Denmark
+lastlocation:
+  world: world
+  x: 1.8461102924670123
+  y: 84.0
+  z: 1.3177609982005738
+  yaw: 329.89233
+  pitch: 4.0492673
+money: '13120.0'
+homes:
+  home:
+    world: world
+    x: 1603.908570400738
+    y: 69.0
+    z: -1319.2871380461474
+    yaw: 227.64511
+    pitch: 3.0002546
+logoutlocation:
+  world: world
+  x: 1603.908570400738
+  y: 69.0
+  z: -1319.2871380461474
+  yaw: 227.64511
+  pitch: 3.0002546

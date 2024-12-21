@@ -1,0 +1,22 @@
+lastAccountName: IVN_Squadin
+timestamps:
+  login: 1556017598018
+  kits:
+    member: 1556017779897
+  logout: 1556017853790
+ipAddress: 2.84.254.151
+geolocation: Greece
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 0.506573234186819
+  y: 84.0
+  z: 0.6037624022326844
+  yaw: 0.01492412
+  pitch: -0.29461685

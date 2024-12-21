@@ -1,0 +1,200 @@
+vault1:
+  '1': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":1,\"type\":\"BOW\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"ARROW_DAMAGE\"\
+    :2},\"lore\":[\"\xa7bSniper III\"],\"display-name\":\"\xa7bBlizzard Rank Bow\"\
+    }}"
+  '2': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77you haste when fighting.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a37% Success Rate\",\"\xa7470% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lLightWeight II\"}}"
+  '3': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to strike your enemy\",\"\xa77down with a lightning strike.\",\"\xa7\
+    bEnhanced Enchant\",\"\xa7a91% Success Rate\",\"\xa7428% Destroy Rate\"],\"display-name\"\
+    :\"\xa7b\xa7lStormCaller IV\"}}"
+  '4': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SPADE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :3},\"display-name\":\"\xa7bBlizzard Rank Excavator\"}}"
+  '5': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :2,\"DIG_SPEED\":3},\"display-name\":\"\xa72Glacier Rank Wrench\"}}"
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '7': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":23,\"type\":\"DIAMOND_SPADE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :3},\"display-name\":\"\xa72Glacier Rank Excavator\"}}"
+  '8': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":8,\"type\":\"DIAMOND_PICKAXE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :2,\"DIG_SPEED\":3},\"display-name\":\"\xa72Glacier Rank Icedrill\"}}"
+  '9': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SWORD\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :2,\"FIRE_ASPECT\":1,\"LOOT_BONUS_MOBS\":1,\"DAMAGE_ALL\":3},\"lore\":[\"\xa7\
+    cWither III\",\"\xa7cLifeSteal I\",\"\xa7bLightWeight III\"],\"display-name\"\
+    :\"\xa72Glacier Rank Sword\"}}"
+  '10': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOW\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"ARROW_DAMAGE\"\
+    :3},\"lore\":[\"\xa7bSniper II\"],\"display-name\":\"\xa72Glacier Rank Bow\"}}"
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"OBSIDIAN"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","amount":43,"type":"OBSIDIAN"}'
+  '19': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa77you haste when fighting.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a93% Success Rate\",\"\xa7496% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lLightWeight I\"}}"
+  '20': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to drop\",\"\xa77the player's head on death.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a2% Success Rate\",\"\xa7435% Destroy Rate\"],\"display-name\":\"\xa7b\xa7\
+    lDecapitation I\"}}"
+  '21': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa772x or more xp from ores.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a68% Success Rate\",\"\xa7418% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lExperience II\"}}"
+  '22': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa772x or more xp from ores.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a9% Success Rate\",\"\xa7442% Destroy Rate\"],\"display-name\":\"\xa7b\xa7\
+    lExperience II\"}}"
+  '23': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Always\
+    \ smelts ores into\",\"\xa77items instead of blocks.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a2% Success Rate\",\"\xa749% Destroy Rate\"],\"display-name\":\"\xa7b\xa7\
+    lFurnace I\"}}"
+  '24': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Will\
+    \ automatically send\",\"\xa77mined block to your inventory.\",\"\xa7bEnhanced\
+    \ Enchant\",\"\xa7a15% Success Rate\",\"\xa7427% Destroy Rate\"],\"display-name\"\
+    :\"\xa7b\xa7lTelepathy I\"}}"
+  '25': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to give\",\"\xa772x or more xp from ores.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a82% Success Rate\",\"\xa7426% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lExperience II\"}}"
+  '26': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Gives\
+    \ you water breathing\",\"\xa77when you put it on.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a38% Success Rate\",\"\xa7410% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lMermaid III\"}}"
+  '27': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":5,\"type\":\"MOB_SPAWNER\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxhYnXISq1KBaniCM3OygwsSy\\/NSi4qZGDhSISpcGGwZGAD3ab8WRQAAAA==\"\
+    ,\"display-name\":\"\xa7eBlaze \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '28': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SWORD\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :1,\"DAMAGE_ALL\":3},\"display-name\":\"\xa7bBlizzard Rank Sword\"}}"
+  '29': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_BOOTS\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :3,\"DURABILITY\":1},\"display-name\":\"\xa7bBlizzard Rank Boots\"}}"
+  '30': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_LEGGINGS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :3,\"DURABILITY\":1},\"display-name\":\"\xa7bBlizzard Rank Leggings\"}}"
+  '31': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_CHESTPLATE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :3,\"DURABILITY\":1},\"display-name\":\"\xa7bBlizzard Rank Chestplate\"}}"
+  '32': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":6,\"type\":\"MOB_SPAWNER\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxjYnYtSUwtSi4CqeIIzc7KDCxLL81KLipkYOFIhalwYjBgYAKR4PzdHAAAA\"\
+    ,\"display-name\":\"\xa7eCreeper \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '33': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SWORD\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :2,\"FIRE_ASPECT\":1,\"LOOT_BONUS_MOBS\":1,\"DAMAGE_ALL\":3},\"lore\":[\"\xa7\
+    cWither III\",\"\xa7cLifeSteal I\",\"\xa7bLightWeight III\"],\"display-name\"\
+    :\"\xa72Glacier Rank Sword\"}}"
+  '34': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SWORD\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :2,\"FIRE_ASPECT\":1,\"LOOT_BONUS_MOBS\":1,\"DAMAGE_ALL\":3},\"lore\":[\"\xa7\
+    cWither III\",\"\xa7cLifeSteal I\",\"\xa7bLightWeight III\"],\"display-name\"\
+    :\"\xa72Glacier Rank Sword\"}}"
+  '35': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SWORD\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :2,\"FIRE_ASPECT\":1,\"LOOT_BONUS_MOBS\":1,\"DAMAGE_ALL\":3},\"lore\":[\"\xa7\
+    cWither III\",\"\xa7cLifeSteal I\",\"\xa7bLightWeight III\"],\"display-name\"\
+    :\"\xa72Glacier Rank Sword\"}}"
+  '36': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_PICKAXE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :1,\"DIG_SPEED\":3},\"lore\":[\"\xa7bAutoSmelt I\"],\"display-name\":\"\xa7bBlizzard\
+    \ Rank Icedrill\"}}"
+  '37': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :1,\"DIG_SPEED\":3},\"display-name\":\"\xa7bBlizzard Rank Wrench\"}}"
+  '38': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Gives\
+    \ you haste when\",\"\xa77holding the item in your hand.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a61% Success Rate\",\"\xa7473% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lHaste I\"}}"
+  '39': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Gives\
+    \ you night vision\",\"\xa77when you put it on.\",\"\xa7bEnhanced Enchant\",\"\
+    \xa7a23% Success Rate\",\"\xa7446% Destroy Rate\"],\"display-name\":\"\xa7b\xa7\
+    lGlowing I\"}}"
+  '40': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_SWORD\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :2,\"FIRE_ASPECT\":1,\"LOOT_BONUS_MOBS\":1,\"DAMAGE_ALL\":3},\"lore\":[\"\xa7\
+    cWither III\",\"\xa7cLifeSteal I\",\"\xa7bLightWeight III\"],\"display-name\"\
+    :\"\xa72Glacier Rank Sword\"}}"
+  '41': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_PICKAXE\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :2,\"DIG_SPEED\":3},\"display-name\":\"\xa72Glacier Rank Icedrill\"}}"
+  '42': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Always\
+    \ smelts ores into\",\"\xa77items instead of blocks.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a53% Success Rate\",\"\xa7427% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lFurnace I\"}}"
+  '43': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :2,\"DIG_SPEED\":3},\"display-name\":\"\xa72Glacier Rank Wrench\"}}"
+  '44': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to drop\",\"\xa77the player's head on death.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a54% Success Rate\",\"\xa7462% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lDecapitation III\"}}"
+  '45': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HELMET\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":2},\"display-name\":\"\xa72Glacier Rank Helmet\"}}"
+  '46': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Has\
+    \ a chance to deal\",\"\xa77double damage to your enemy.\",\"\xa7cArcane Enchant\"\
+    ,\"\xa7a18% Success Rate\",\"\xa7496% Destroy Rate\"],\"display-name\":\"\xa7\
+    c\xa7lPiercing III\"}}"
+  '47': '{"==":"org.bukkit.inventory.ItemStack","amount":24,"type":"GOLDEN_APPLE"}'
+  '48': '{"==":"org.bukkit.inventory.ItemStack","amount":26,"type":"COBBLESTONE"}'
+  '49': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":1,\"type\":\"DIAMOND_BOOTS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":2},\"display-name\":\"\xa72Glacier Rank Boots\"}}"
+  '50': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_HELMET\",\"\
+    meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :3,\"DURABILITY\":1},\"display-name\":\"\xa7bBlizzard Rank Helmet\"}}"
+  '51': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOOK\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"LUCK\":1},\"ItemFlags\"\
+    :[\"HIDE_ENCHANTS\"],\"lore\":[\"\xa77Drag book and drop on Item.\",\"\xa77Gives\
+    \ you water breathing\",\"\xa77when you put it on.\",\"\xa7bEnhanced Enchant\"\
+    ,\"\xa7a42% Success Rate\",\"\xa7487% Destroy Rate\"],\"display-name\":\"\xa7\
+    b\xa7lMermaid III\"}}"
+  '52': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":2,\"type\":\"DIAMOND_LEGGINGS\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"PROTECTION_ENVIRONMENTAL\"\
+    :4,\"DURABILITY\":2},\"display-name\":\"\xa72Glacier Rank Leggings\"}}"
+  '53': '{"==":"org.bukkit.inventory.ItemStack","amount":21,"type":"DIRT"}'

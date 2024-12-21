@@ -1,0 +1,23 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"HOPPER"}'
+  '2': '{"type":"ENDER_PEARL","==":"org.bukkit.inventory.ItemStack"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"LOG"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"SAND"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"STONE"}'
+  '6': '{"type":"BUCKET","==":"org.bukkit.inventory.ItemStack"}'
+  '7': '{"type":"BOW","==":"org.bukkit.inventory.ItemStack"}'
+  '8': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"lore\":[\"\xa77\xa7oStandard\
+    \ issue arctic\",\"\xa77\xa7oexploration equipment.\"],\"display-name\":\"\xa7\
+    fMember Wrench\"}}"
+  '9': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"amount\":2,\"type\":\"MOB_SPAWNER\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxiYnfPLgSp4gjNzsoMLEsvzUouKmRg4UiHyLgwxDAwA3xw860MAAAA=\"\
+    ,\"display-name\":\"\xa7eCow \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"
+  '10': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"MOB_SPAWNER\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"TILE_ENTITY\",\"internal\":\"H4sIAAAAAAAAAONiYOBi4HPKyU\\\
+    /Ods0rySypDElM52DggLA9UxhYnXISq1KBaniCM3OygwsSy\\/NSi4qZGDhSISpcGGwZGAD3ab8WRQAAAA==\"\
+    ,\"display-name\":\"\xa7eBlaze \xa7fSpawner\",\"blockMaterial\":\"MOB_SPAWNER\"\
+    }}"

@@ -1,0 +1,8 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"GOLDEN_APPLE"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"LOG"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"SAND"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":32,"type":"STONE"}'
+  '4': '{"type":"BUCKET","==":"org.bukkit.inventory.ItemStack"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"TORCH"}'

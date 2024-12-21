@@ -1,0 +1,32 @@
+lastAccountName: ExterminatorPhil
+timestamps:
+  login: 1555964550897
+  kits:
+    member: 1555964331385
+  lastteleport: 1555965775410
+  logout: 1555965877368
+ipAddress: 66.112.190.44
+geolocation: Canada
+lastlocation:
+  world: world
+  x: -233.2881352067925
+  y: 37.0
+  z: -22.30000001192093
+  yaw: -121.79377
+  pitch: -20.07687
+homes:
+  home:
+    world: world
+    x: -228.7706174088465
+    y: 43.0
+    z: -24.35642857593931
+    yaw: 94.69948
+    pitch: -18.568527
+money: '76000.0'
+logoutlocation:
+  world: world
+  x: -225.30000001192093
+  y: 42.875
+  z: -14.699999988079071
+  yaw: -323.02676
+  pitch: 20.293814

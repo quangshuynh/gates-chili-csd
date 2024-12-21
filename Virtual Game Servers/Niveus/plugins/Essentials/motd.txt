@@ -1,0 +1,5 @@
+&8&m>-----------<&0&k!&b&lNiveus&0&k!&8&m>-----------<
+&7Welcome to &b&lNiveus&7, {PLAYER}&7!
+&7Type &b/help &7for a list of commands!
+&7There are &b{ONLINE} &7players online.
+&8&m>------------------------------<

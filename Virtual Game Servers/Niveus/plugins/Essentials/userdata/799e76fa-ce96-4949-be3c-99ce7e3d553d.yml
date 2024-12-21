@@ -1,0 +1,22 @@
+lastAccountName: NokiaPhone
+timestamps:
+  login: 1555938522202
+  kits:
+    member: 1555938530564
+  logout: 1555938601114
+ipAddress: 103.209.252.112
+geolocation: Australia
+lastlocation:
+  world: world
+  x: 0.0
+  y: 84.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 0.9874142114953224
+  y: 84.0
+  z: 4.766613793134706
+  yaw: 3.0928345
+  pitch: 22.695034

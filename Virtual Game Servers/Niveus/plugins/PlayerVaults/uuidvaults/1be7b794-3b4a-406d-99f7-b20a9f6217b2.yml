@@ -1,0 +1,13 @@
+vault1:
+  '0': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"damage\":159,\"type\":\"DIAMOND_SPADE\"\
+    ,\"meta\":{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DIG_SPEED\"\
+    :3},\"display-name\":\"\xa72Glacier Rank Excavator\"}}"
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"GOLDEN_APPLE"}'
+  '3': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"DIAMOND_AXE\",\"meta\"\
+    :{\"==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"DURABILITY\"\
+    :2,\"DIG_SPEED\":3},\"display-name\":\"\xa72Glacier Rank Wrench\"}}"
+  '10': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '13': "{\"==\":\"org.bukkit.inventory.ItemStack\",\"type\":\"BOW\",\"meta\":{\"\
+    ==\":\"ItemMeta\",\"meta-type\":\"UNSPECIFIC\",\"enchants\":{\"ARROW_DAMAGE\"\
+    :3},\"display-name\":\"\xa72Glacier Rank Bow\"}}"
