@@ -1,0 +1,29 @@
+class BankAccount {
+
+  String name, acctNumber, password;
+  double balance;
+
+  public BankAccount(String nameSent, String passSent, String acctNumSent, double 
+         balanceSent) {
+    name = nameSent;
+    password = passSent;
+    acctNumber = acctNumSent;
+    balance = balanceSent;
+  }
+
+public void setName(String nameSent) {
+  name = nameSent;
+}
+public void setPassword(String passSent) {
+  password = passSent;
+}
+public void setBalance(double balanceSent) {
+  balance = balanceSent;
+}
+public void deposit(double amount) {
+  balance =+ amount;
+}
+public void withdraw(double amount) {
+  balance -= amount;
+}
+}

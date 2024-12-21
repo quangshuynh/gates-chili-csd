@@ -1,0 +1,87 @@
+public class SuperHero {
+	
+	String firstName, lastName, nemesis;
+	int age, strength;
+	double height;
+	
+public SuperHero (String firstSent, String lastSent, String nemesisSent, int ageSent, int strengthSent, double heightSent) {
+	
+	firstName = firstSent;
+	lastName = lastSent;
+	nemesis = nemesisSent;
+	age = ageSent;
+	strength = strengthSent;
+	height = heightSent;
+}
+
+public SuperHero (String firstSent, String nemesisSent, int ageSent, int strengthSent) {
+	
+	firstName = firstSent;
+	nemesis = nemesisSent;
+	age = ageSent;
+	strength = strengthSent;
+}
+
+public SuperHero (String firstSent, String lastSent) {
+	
+	firstName = firstSent;
+	lastName = lastSent;
+
+}
+
+public String getFirstName() {
+	return firstName;
+}
+
+public String getLastName() {
+	return lastName;
+}
+
+public String getNemesis() {
+	return nemesis;
+}
+
+public int getAge() {
+	return age;
+}
+
+public int getStrength() {
+	return strength;
+}
+
+public double getHeight() {
+	return height;
+}
+
+public void setFirstName(String firstSent) {
+	firstName = firstSent;
+}
+
+public void setLasttName(String lastSent) {
+	lastName = lastSent;
+}
+
+public void setNemesis(String nemesisSent) {
+  nemesis = nemesisSent;
+}
+
+public void setAge(int ageSent) {
+	age = ageSent;
+}
+
+public void setHeight(double heightSent) {
+	height = heightSent;
+}
+
+public void setStrength(int strengthSent) {
+	strength = strengthSent;
+}
+
+public void injure() {
+	strength = strength - 1;
+}
+
+public void injure(int amountSent) {
+	strength = strength - amountSent;
+}
+}
