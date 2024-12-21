@@ -1,0 +1,10 @@
+autoBackup: true
+backupDelayInHours: 1
+maxBackupsBeforeErase: 3
+lastBackup: 1541543329796
+debug: false
+exemptFolders:
+- example/this/folder/wont/backup
+- example/folder
+- example/file.yml
+saveFolder: backups

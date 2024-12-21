@@ -1,0 +1,49 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - essentials.workbench
+    - modifyworld.*
+    - essentials.help
+    - essentials.msg
+    - essentials.warp
+    - essentials.warps
+    - essentials.warps.list
+    - essentials.warp.list
+    - essentials.warp.skyblock
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.list
+    - essentials.kit.list
+    - essentials.kits.starter
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.pay
+    - essentials.afk
+    - essentials.helpop
+    - essentials.ignore
+    - essentials.info
+    - essentials.list
+    - essentials.realname
+    - essentials.whois
+    - essentials.spawn
+    - essentials.back
+    - essentials.home
+    - essentials.sethome
+    - essentials.sethome.multiple.3
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warps.*
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.sethome.multiple
+    - essentials.sethome.bed
+    - essentials.sethome
+    - essentials.home
+    - essentials.home.bed
+    - lockette.user.create.*
+schema-version: 1
+users: {}

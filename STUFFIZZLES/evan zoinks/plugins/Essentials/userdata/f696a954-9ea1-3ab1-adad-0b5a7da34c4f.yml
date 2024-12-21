@@ -1,0 +1,20 @@
+geolocation: United States
+lastAccountName: CaptainWaffles42
+timestamps:
+  login: 1542154106574
+  logout: 1542154955391
+ipAddress: 172.101.147.149
+lastlocation:
+  world: world
+  x: 22.5
+  y: 67.0
+  z: 231.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 3.1288475792428407
+  y: 88.41850042230409
+  z: 266.2986701276943
+  yaw: 294.30008
+  pitch: 21.149912

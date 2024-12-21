@@ -1,0 +1,39 @@
+geolocation: N/A
+lastAccountName: CreeperZ585
+timestamps:
+  login: 1542156090368
+  logout: 1542156090208
+  lastteleport: 1542154021477
+ipAddress: 192.168.1.4
+logoutlocation:
+  world: world
+  x: 13.700475328367755
+  y: 69.0
+  z: 260.08670095164183
+  yaw: 32.099983
+  pitch: 30.299976
+afk: false
+lastlocation:
+  world: world
+  x: 16.513983510133663
+  y: 32.753951802199126
+  z: 309.1468447426979
+  yaw: 7.800006
+  pitch: -27.29999
+godmode: false
+homes:
+  home:
+    world: world
+    x: 35.923731447336976
+    y: 64.1875
+    z: 255.4708949906122
+    yaw: 1.3502197
+    pitch: 8.099946
+  mine:
+    world: world
+    x: 16.506844056542718
+    y: 12.0
+    z: 320.43931557104554
+    yaw: -0.2997914
+    pitch: 1.7999883
+powertools: {}
